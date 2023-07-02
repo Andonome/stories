@@ -39,7 +39,23 @@ Each magic sphere is really a Noun.
 
 (maybe 'manifest' instead of 'create'?)
 
-Spells to create things require 1 MP per Weight Rating of the created (minimum of 1).
+Unsure how to cost size.
+
+- Mages should be able to create monsters (*Make Sentient Flesh*)
+- But we can't have them making giant monsters easily.
+
+---
+
+*Perhaps some costing table like this would work.*
+
+| Cost | Size                                |
+|:----:|:------------------------------------|
+|  2   | Weightless (fire, air)              |
+|  3   | Small (swarm creatures)             |
+|  4   | Humanoid (strength equals ???)      |
+|  5+  | Each MP adds +1 Strength            |
+
+*Or perhaps there is an easier way to achieve this, without a table to look up - a single, simple, rule.*
 
 ### Alter
 
@@ -98,6 +114,8 @@ Each modifier is an adjective.
 - Creating solid bodies requires mana to be spent on each.
 - Created Attributes are set half the Mana Spent.
 - Created things require 1 MP per Weight rating.
+
+
 
 # Nouns
 
