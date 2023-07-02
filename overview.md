@@ -19,8 +19,8 @@ This is a check of every combination of noun-verb-adjective, to see if it makes 
         - Complex: Noxious Gas
         - Sentient: Sentient 
     * Detect
-        - Complex: 
-        - Sentient
+        - Complex: ??
+        - Sentient: 
     * Destroy
         - Complex
         - Sentient

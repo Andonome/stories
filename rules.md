@@ -3,16 +3,23 @@
 This magic system builds spells from words, and eventually forms a sentence.
 
 A magical sphere is a *Noun* of some kind, like 'Air', 'Fire', 'Desire', or 'Fate'.
-Mages with those spheres can alter these targets, by giving them one of the following adjectives:
+Mages with those spheres can alter these targets, by giving them one of the following verbs:
+
+- Alter
+- Detect
+- Create
+- Destroy
+
+...and then adding an adjective.
 
 - Wide (making the target big)
 - Ranged (giving the spell more range)
 - Complex (making aesthetic changes)
 - Sentient
 
-This basic formula then creates the spells.
+*Example: The caster wants to make someone's torch burn into an explosion, covering everyone around. He selects **Alter, Wide, Fire**, costing 2 MP. He rolls Charisma + Crafts, at TN 9 (that's 7 + 1 per MP spent)*. 
 
-## Sphere
+## Spheres
 
 Each magic sphere is really a Noun.
 
@@ -27,11 +34,6 @@ Each magic sphere is really a Noun.
 - Space
 
 ## Verbs
-
-- Alter
-- Detect
-- Create
-- Destroy
 
 ### Create
 
@@ -75,7 +77,7 @@ Each modifier is an adjective.
 0. Bugger all
 1. Animal sentience: a single task, followed by instinct.
 2. Basic self-awareness: the spell has -5 Intelligence and Charisma.
-3. Real intelligence: the spell has 
+3. Real intelligence: the spell has Intelligence and Charisma 0.
 4. Self-preservation: the spell will attempt to not go out.
 
 ### Complex
