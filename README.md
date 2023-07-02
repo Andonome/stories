@@ -19,6 +19,14 @@ Broadly, it should work like this:
 - A Fast-Casting Knack will be available to use Wits to cast even faster spells, allowing uncharismatic casters to exist.
 - A Ritual-Casting Knack knack will allow casters to use Intelligence, and to gain obscene amounts of Mana by casting long rituals (up to 10 MP).
 
+## Creations
+
+The new system replaces the Polymorph sphere with *Flesh*.
+Since mages can Create as well as alter, the system will allow mages to create monsters.
+
+The world will have to expect swarming little monsters, created from a mage's nightmares, or loyal homunculi which look all too human, but twisted by the creator's inability to get faces right.
+Fenestra should expect occasional colossal creatures, full of venomous spines, with living, clawing, vines grafted across its skin, or perpetually surrounded by a black, choking fog.
+
 ## Nura
 
 The new magic system cannot have nura as humanoids transformed and twisted.

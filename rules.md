@@ -43,6 +43,7 @@ Unsure how to cost size.
 
 - Mages should be able to create monsters (*Make Sentient Flesh*)
 - But we can't have them making giant monsters easily.
+- Massive swarms should be possible, and easier than large creatures.
 
 ---
 
