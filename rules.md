@@ -17,7 +17,7 @@ Mages with those spheres can alter these targets, by giving them one of the foll
 - Complex (making aesthetic changes)
 - Sentient
 
-*Example: The caster wants to make someone's torch burn into an explosion, covering everyone around. He selects **Alter, Wide, Fire**, costing 2 MP. He rolls Charisma + Crafts, at TN 9 (that's 7 + 1 per MP spent)*. 
+*Example: The caster wants to make someone's torch burn into an explosion, covering everyone around. He selects **Alter, Wide, Fire**, costing 2 MP. He rolls Charisma + Crafts, at TN 9 (that's 7 + 1 per MP spent).*
 
 ## Spheres
 

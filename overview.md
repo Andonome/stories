@@ -25,15 +25,15 @@ This is a check of every combination of noun-verb-adjective, to see if it makes 
         - Complex
         - Sentient
     * Create
-        - Complex
-        - Sentient
+        - Complex: blinding fog, noxious gasses.
+        - Sentient: air-bubble which follows the mage underwater.
 - Plant
     * Alter
-        - Complex
-        - Sentient
+        - Complex: Change appearance
+        - Sentient: Small movements
     * Detect
-        - Complex
-        - Sentient
+        - Complex: Purple ivy, thorny moss, mushrooms enchanted to send people to sleep.
+        - Sentient: 
     * Destroy
         - Complex
         - Sentient

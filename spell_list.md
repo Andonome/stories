@@ -29,13 +29,6 @@
 
 *The demonic fog envelopes the target, hugging it jealously. If they take a single breath, they receive a -3 penalty to all actions.*
 
-## Verbs
-
-## Detection & Alteration
-
-Standard spells alter their targets, but others might detect them.
-Neither cost any mana.
-
 ### Detect Fire
     (*Detect Fire*)
 **Sphere:** *Air*, **Mana:** 0, **Range:** 3 Steps
@@ -66,5 +59,11 @@ Adding the verbs
 **Sphere:** *Fire*, **Mana:** 1, **Range:** 4 Steps
 
 *The mage snuffs out a single fire.*
+
+### Nervous Camp Fire
+    (*Destroy Sentient Fire*)
+**Sphere:** *Fire*, **Mana:** 2, **Range:** 4 Steps
+
+*The mage tells the fire a scary story. If the fire sees anyone approach, it becomes spooked and puts itself out*
 
 
