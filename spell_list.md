@@ -1,65 +1,328 @@
-### Spell: Exploding Torch
-    (*Wide Fire*)
+# Fire
 
-**Sphere:** *Fire*, **Mana:** 2, **Skill:** Crafts, **Range:** 5 Steps, **Area:** 2 Steps, **TN:** 9
 
-*Make any torch burst into a massive flame, dealing 1D6+2 Damage to everyone within 2 Steps.*
+## Detect
 
-### Spell: Fireball
-    (*Create Wide Fire*)
-**Sphere:** *Fire*, **Mana:** 3, **Skill:** Projectiles, **Range:** 6 Steps, **Area:** 3 Steps, **TN:** 10
+*"Yip, that's fire."*
 
-*The caster summons a bonfire around targets in a 3 Step area, dealing 1D4+Skill Damage, and destroying every bow-string it tastes.*
+### Conjured
 
-### Whispering Wind
-    (*Ranged Sentient Air*)
-**Sphere:** *Air*, **Mana:** 2, **Skill:** Performance, **Range:** 8 Steps, **TN:** 9
+### Ranged
 
-*The caster whispers a secret to the wind, which then reveals the secret to some target within 8 Steps.*
+### Wide
 
-### Choking Fog
-    (*Alter Wide Air*)
-**Sphere:** *Air*, **Mana:** 2, **Skill:** Caving, **Range:** 5 Steps, **Area:** 3 Steps, **TN:** 9
+### Colourful
 
-*Anyone breathing the acrid air takes a -3 penalty to all actions.*
+#### Interrogate Flame
+    (*Detect Colourful Fire*)
 
-### Fog Demon
-    (*Sentient Complex Air*)
-**Sphere:** *Air*, **Mana:** 3, **Skill:** Combat, **Range:** 6 Steps, **TN:** 10
+**Sphere:** *Fire*, **Mana:** 2, **Skill:** Crafts, **Range:** 8 Steps, **TN:** 8
 
-*The demonic fog envelopes the target, hugging it jealously. If they take a single breath, they receive a -3 penalty to all actions.*
+The mage asks the flame a single question about its contents, and the flame grows brighter or dimmer to answer them.
 
-### Detect Fire
-    (*Detect Fire*)
-**Sphere:** *Air*, **Mana:** 0, **Skill:** Wyldcrafting, **Range:** 3 Steps, **TN:** 7
+- "Have you burnt any food?"
+- "Are you burning oak?"
 
-*The mage focuses on a nearby area and detects any fire.*
+The flame cannot answer questions pertaining to anything which it is not *currently* burning, unless the caster gives it a mind.
 
-That's not a particularly useful spell, but that's okay.
-It won't be written in any book - it's just a product of the system.
+### Enduring
 
-### Detect Assassin
-    (*Detect Wide Desire*)
-**Sphere:** *Desire*, **Mana:** 1, **Skill:** Empathy, **Range:** 3 Steps, **Area:** 1 Step, **TN:** 8
+## Alter
 
-*The mage focusses on a small group of people, and perceives any aggressive intent among them.*
 
-### Choking Fog
-    (*Create Wide Sentient Air*)
-**Sphere:** *Air*, **Mana:** 3, **Skill:** Athletics, **Range:** 6 Steps, **Area:** 3 Steps, **TN:** 10
 
-*The mage creates a bubble of breathable air underwater, which guards them from drowning. It becomes unbreathable by the end of the scene.*
+#### Flame Jump
+    (*Alter Fire*)
 
-### Destroy Fire
-    (*Destroy Fire*)
-**Sphere:** *Fire*, **Mana:** 1, **Skill:** Crafts, **Range:** 4 Steps, **TN:** 8
+**Sphere:** *Fire*, **Mana:** 1, **Skill:** Projectiles, **Range:** 6 Steps, **TN:** 7
 
-*The mage snuffs out a single fire.*
+A torch, candle, or bonfire jumps out to burn someone.
+Bonfires deal 1D6 + 1 Damage, but smaller flames deal less.
 
-### Nervous Camp Fire
-    (*Destroy Sentient Fire*)
-**Sphere:** *Fire*, **Mana:** 2, **Skill:** Crafts, **Range:** 4 Steps, **TN:** 9
+### Conjured
 
-*The mage tells the fire a scary story. If the fire sees anyone approach, it becomes spooked and puts itself out*
+
+
+### Ranged
+
+### Wide
+
+#### Fire-Freedom
+    (*Alter Wide Fire*)
+
+**Sphere:** *Fire*, **Mana:** 2, **Skill:** Projectiles, **Range:** 8 Steps, **Area:** Room, **TN:** 8
+
+A medium-sized fire (bonfire, or larger) erupts, filling an entire room, and dealing 1D6+2 Damage to everyone inside.
+The caster should ensure they are not in the room when this happens.
+
+Smaller fires, such as candles, or torches, still cover the room, but deal less Damage.
+
+### Colourful
+
+### Enduring
+
+- What the hell goes here?
+- *Wall of eternal flame*?
+
+However this works, it's important to remember one key part of the system: casters get more bang-per-buck (/ per MP) by casting low-level spells.
+So a 3MP spell might cause a boat-load of Damage (1D6+3), but three 1-MP spells cause *(1D6 + 1) x 3* Damage.
+
+# Air
+
+## Detect
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+
+## Alter
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+# Fate
+
+
+## Detect
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+
+## Alter
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+# Water
+
+## Detect
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+
+## Alter
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+
+# Earth
+
+## Detect
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+
+## Alter
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+
+---
+High Spheres
+---
+
+# Illusion
+(Air + Fire)
+
+## Detect
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+
+## Alter
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+
+# Death
+(Air + Fate)
+
+
+## Detect
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+## Alter
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+# Mind
+
+(Fate + Water)
+
+
+## Detect
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+## Alter
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+# Life
+
+(Water + Earth)
+
+
+## Detect
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+## Alter
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+# Force
+
+(Earth + Fire)
+
+## Detect
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
+
+## Alter
+
+### Conjured
+
+### Ranged
+
+### Wide
+
+### Colourful
+
+### Enduring
 
 
