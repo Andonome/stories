@@ -57,6 +57,47 @@ Maybe 'Subtle' needs to be cut?
 
 ## Principles
 
+### Range
+
+Standard spells have a range of 4 Steps plus double the spell's MP.
+*Ranged* spells increase this significantly.
+
+The caster can only limit the range *inside* the bounds of their current range.
+A *ranged fire* spell, cast with 3 MP, can target anywhere inside 'throwing distance', but cannot target anyone 10 Steps away.
+A ranged spell with 6 MP cannot target anywhere around the mage, or anywhere they can see - it only targets distant areas visible only with spells.
+
+2. 10 Steps.
+3. Throwing distance.
+4. Shouting distance.
+5. Line of sight.
+6. Anywhere the caster can detect with any sense, including magic.
+7. Anywhere the caster has once been.
+
+Spells which travel 'too far' usually fail, but sometimes find their own location to explode.
+
+### Detect
+
+Detect spells with more MP provide more information.
+The basic spell provides a 'yes/ no' answer.
+If the answer is 'it's complicated' then the GM flips a coin.
+
+2. Spell can say 'it's complicated'. The mage only knows the target lives somewhere in the area, not exactly where the target lies.
+3. The mage can ask one question about the properties of the target.
+    * "Does this fire have metal in it?"
+    * "Are any of the trees sick?"
+4. The mage learns any unusual properties of the target if they are present; and if they are far, they can pinpoint the cardinal direction of the target.
+    * "This creature's beak is unusually strong"
+    * "This mind is thinking about murder more than is healthy or normal."
+    * The target lies roughly East.
+5. The mage knows the exact direction of the target, if searching for them. If they already see the target, they can ask about the target's history.
+    * The mage knows the exact direction of the target.
+    * "This water came from Mt Arthur, where goblins have set up camp."
+6. ???
+
+#### Colourful Detect
+
+A 'colourful' Detect spell operates as an 'alteration' spell at the same time, where the alteration spell forces the target to give up information.
+
 ### Swarms
 
 Swarms occur when someone casts a 'conjure wide life' spell.
@@ -69,6 +110,7 @@ The 'ranged' enhancement adds +2 Speed.
 4. 6 creatures with -3 Strength each.
 5. 12 creatures with -2 Strength each.
 6. 24 creatures with -1 Strength each.
+7. 48 creatures with +0 Strength each.
 
 ### Conjured Life
 
@@ -87,13 +129,22 @@ The 'ranged' enhancement adds +2 Speed.
 
 This works with 'wide' spells to alter or detect things with limited or no weight.
 
-1. Person-sized
+Regular spells target any person-sized item.
+
 2. Big table, or four people standing together.
 3. Entire room, or copse of trees.
 4. Copse of trees, hamlet, stream.
 5. A village, stretch of river, inlet, or hill.
 6. A city, entire river, mineshaft, or catacomb.
 7. Entire mountain, a valley, or loch.
+
+### Flame Strength
+
+- Candle: 1 Damage
+- Torch: 2 Damage
+- Cooking fire: 3 Damage
+- Bonfire: 4 Damage
+- Smelting fire: 5 Damage
 
 ### Create Mind
 
