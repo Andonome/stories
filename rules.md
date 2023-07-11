@@ -28,11 +28,11 @@ Each magic sphere is really a Noun.
 
 By combining two low spheres, you can create a high sphere:
 
-- Mind
-- Life
-- Force
-- Illusion
-- Death
+- Mind (Fate + Water)
+- Life (Earth + Water)
+- Force (Earth + Fire)
+- Illusion (Fire + Air)
+- Death (Air + Fate)
 
 ## Enhancements
 
