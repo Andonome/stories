@@ -1,6 +1,6 @@
 # Fire
 
-#### Flame Jump
+### Flame Jump
     (*Alter Fire*)
 
 **Sphere:** *Fire*, **Mana:** 1, **Skill:** Projectiles, **Range:** 6 Steps, **TN:** 7
@@ -8,13 +8,13 @@
 A torch, candle, or bonfire jumps out to burn someone.
 Bonfires deal 1D6 + 1 Damage, but smaller flames deal less.
 
-### Conjured
+## Conjured
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-#### Fire-Freedom
+### Fire-Freedom
     (*Alter Wide Fire*)
 
 **Sphere:** *Fire*, **Mana:** 2, **Skill:** Projectiles, **Range:** 8 Steps, **Area:** Room, **TN:** 8
@@ -24,9 +24,9 @@ The caster should ensure they are not in the room when this happens.
 
 Smaller fires, such as candles, or torches, still cover the room, but deal less Damage.
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 - What the hell goes here?
 - *Wall of eternal flame*?
@@ -36,52 +36,52 @@ So a 3MP spell might cause a boat-load of Damage (1D6+3), but three 1-MP spells 
 
 # Air
 
-### Conjured
+## Conjured
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 # Fate
 
-### Conjured
+## Conjured
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 # Water
 
-### Conjured
+## Conjured
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 
 # Earth
 
-### Conjured
+## Conjured
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 
 ---
@@ -91,15 +91,15 @@ High Spheres
 # Illusion
 (Air + Fire)
 
-### Conjured
+## Conjured
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 
 # Death
@@ -107,13 +107,13 @@ High Spheres
 
 
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 # Mind
 
@@ -121,13 +121,13 @@ High Spheres
 
 
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 # Life
 
@@ -135,25 +135,25 @@ High Spheres
 
 
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 # Force
 
 (Earth + Fire)
 
 
-### Ranged
+## Ranged
 
-### Wide
+## Wide
 
-### Colourful
+## Colourful
 
-### Enduring
+## Enduring
 
 
