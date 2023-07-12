@@ -64,13 +64,35 @@ So a 3MP spell might cause a boat-load of Damage (1D6+3), but three 1-MP spells 
 
 ## Conjured
 
+### Air Bubble
+    (*Conjure Air*)
+
+**Sphere:** *Air*, **Mana:** 1, **Skill:** Seafaring, **Range:** 6 Steps, **TN:** 7
+
+A drowning mage can conjure an air bubble large enough to take a single, deep, breath.
+It immediately floats upwards, to join the natural resting space of air.
+
+
 ## Ranged
+
 
 ## Wide
 
 ## Colourful
 
+### Smog
+    (*Colourful Air*)
+
+**Sphere:** *Air*, **Mana:** 1, **Skill:** Seafaring, **Range:** 6 Steps, **TN:** 7
+
+The mage creates a murky patch of air, which the target cannot see through, without stepping aside.
+This spell works best when it targets doorways or windows.
+
+Aiming through the smog inflicts a -2 penalty.
+
 ## Enduring
+
+
 
 # Fate
 
