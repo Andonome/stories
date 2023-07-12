@@ -9,7 +9,11 @@ Broadly, it should work like this:
     * *Snuff out all the fire in a room*
 2. All spells should be created with an underlying spell-system.
     * Players who want to read all the rules should have a very clear idea of how to create spells on the fly.
-3. I have no idea how magical items are going to function, but the rules need to have fewer steps than the current system.
+3. Various items will count as one-use mana-tokens.
+    * Griffins feathers (properly prepared) might grant 1 Air.
+    * A woodspy's heart could grant 1 Earth.
+    * Items will soil, and go bad, quickly.
+4. I have no idea how magical items are going to function, but the rules need to have fewer steps than the current system.
 
 # Changes
 
@@ -19,33 +23,10 @@ Broadly, it should work like this:
 - A Fast-Casting Knack will be available to use Wits to cast even faster spells, allowing uncharismatic casters to exist.
 - A Ritual-Casting Knack knack will allow casters to use Intelligence, and to gain obscene amounts of Mana by casting long rituals (up to 10 MP).
 
-## Creations
-
-The new system replaces the Polymorph sphere with *Flesh*.
-Since mages can Create as well as alter, the system will allow mages to create monsters.
-
-The world will have to expect swarming little monsters, created from a mage's nightmares, or loyal homunculi which look all too human, but twisted by the creator's inability to get faces right.
-Fenestra should expect occasional colossal creatures, full of venomous spines, with living, clawing, vines grafted across its skin, or perpetually surrounded by a black, choking fog.
-
 ## Nura
 
 The new magic system cannot have nura as humanoids transformed and twisted.
 Instead, the nura will simply be their own people, who come from another realm.
-
-## Flesh
-
-Instead of polymorph, the generic Noun will be 'flesh'.
-Casters will alter, destroy, and create flesh.
-
-Fitting this into the current system will (unfortunately) mean that the system has healing magic.
-This will have to be heavily limited.
-Healing spells cast on someone will have the usual high TN, and they will not heal much - perhaps only a number of HP equal to the MP spent.
-
-## No Lights
-
-There is no 'light' sphere.
-Illusions will be made from almost any sphere when someone casts a 'complex' spell.
-Casters could summon light from fire, but it's not clear if the system will support long-term were-lights, floating about the place.
 
 # Structure
 
