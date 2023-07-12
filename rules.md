@@ -42,7 +42,19 @@ By combining two low spheres, you can create a high sphere:
     * Unsure what to do with 'enduring fire'.
     * If you make a spell too enduring then the consequences depend on the spell, but *some spells* probably won't be good.
 
-## Principles
+# Casting Rules
+
+The TN for spells is 6 + MP spent.
+
+Casters can spend a number of MP equal to the highest sphere they are using.
+They can power high spheres with any combination of mana.
+
+## Tiny Targets
+
+Targeting a bow's string, or a sword's mostly-hidden handle makes a spell difficult, and adds +1 to the TN.
+
+
+# Principles
 
 ### Range
 
