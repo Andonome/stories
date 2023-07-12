@@ -1,36 +1,5 @@
 # Fire
 
-
-## Detect
-
-*"Yip, that's fire."*
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-#### Interrogate Flame
-    (*Detect Colourful Fire*)
-
-**Sphere:** *Fire*, **Mana:** 2, **Skill:** Crafts, **Range:** 8 Steps, **TN:** 8
-
-The mage asks the flame a single question about its contents, and the flame grows brighter or dimmer to answer them.
-
-- "Have you burnt any food?"
-- "Are you burning oak?"
-
-The flame cannot answer questions pertaining to anything which it is not *currently* burning, unless the caster gives it a mind.
-
-### Enduring
-
-## Alter
-
-
-
 #### Flame Jump
     (*Alter Fire*)
 
@@ -40,8 +9,6 @@ A torch, candle, or bonfire jumps out to burn someone.
 Bonfires deal 1D6 + 1 Damage, but smaller flames deal less.
 
 ### Conjured
-
-
 
 ### Ranged
 
@@ -69,21 +36,6 @@ So a 3MP spell might cause a boat-load of Damage (1D6+3), but three 1-MP spells 
 
 # Air
 
-## Detect
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-### Enduring
-
-
-## Alter
-
 ### Conjured
 
 ### Ranged
@@ -95,22 +47,6 @@ So a 3MP spell might cause a boat-load of Damage (1D6+3), but three 1-MP spells 
 ### Enduring
 
 # Fate
-
-
-## Detect
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-### Enduring
-
-
-## Alter
 
 ### Conjured
 
@@ -124,21 +60,6 @@ So a 3MP spell might cause a boat-load of Damage (1D6+3), but three 1-MP spells 
 
 # Water
 
-## Detect
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-### Enduring
-
-
-## Alter
-
 ### Conjured
 
 ### Ranged
@@ -151,21 +72,6 @@ So a 3MP spell might cause a boat-load of Damage (1D6+3), but three 1-MP spells 
 
 
 # Earth
-
-## Detect
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-### Enduring
-
-
-## Alter
 
 ### Conjured
 
@@ -185,21 +91,6 @@ High Spheres
 # Illusion
 (Air + Fire)
 
-## Detect
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-### Enduring
-
-
-## Alter
-
 ### Conjured
 
 ### Ranged
@@ -215,21 +106,6 @@ High Spheres
 (Air + Fate)
 
 
-## Detect
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-### Enduring
-
-## Alter
-
-### Conjured
 
 ### Ranged
 
@@ -244,21 +120,6 @@ High Spheres
 (Fate + Water)
 
 
-## Detect
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-### Enduring
-
-## Alter
-
-### Conjured
 
 ### Ranged
 
@@ -273,21 +134,6 @@ High Spheres
 (Water + Earth)
 
 
-## Detect
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-### Enduring
-
-## Alter
-
-### Conjured
 
 ### Ranged
 
@@ -301,21 +147,6 @@ High Spheres
 
 (Earth + Fire)
 
-## Detect
-
-### Conjured
-
-### Ranged
-
-### Wide
-
-### Colourful
-
-### Enduring
-
-## Alter
-
-### Conjured
 
 ### Ranged
 

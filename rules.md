@@ -5,13 +5,6 @@ This magic system builds spells from words, and eventually forms a sentence.
 A magical sphere is a *Noun* of some kind, like 'Air', 'Fire', 'Desire', or 'Fate'.
 Mages with those spheres can alter these targets, and enhance spells with a number of modifiers, like 'wide' or 'subtle'.
 
-## Verbs
-
-- Detect
-- Alter
-
-*Example: The caster wants to make someone's torch burn into an explosion, covering everyone around. He selects **Alter, Wide, Fire**, costing 2 MP. He rolls Charisma + Crafts, at TN 9 (that's 7 + 1 per MP spent).*
-
 ## Spheres
 
 Each magic sphere is really a Noun.
@@ -69,28 +62,6 @@ A ranged spell with 6 MP cannot target anywhere around the mage, or anywhere the
 
 Spells which travel 'too far' usually fail, but sometimes find their own location to explode.
 
-### Detect
-
-Detect spells with more MP provide more information.
-The basic spell provides a 'yes/ no' answer.
-If the answer is 'it's complicated' then the GM flips a coin.
-
-2. Spell can say 'it's complicated'. The mage only knows the target lives somewhere in the area, not exactly where the target lies.
-3. The mage can ask one question about the properties of the target.
-    * "Does this fire have metal in it?"
-    * "Are any of the trees sick?"
-4. The mage learns any unusual properties of the target if they are present; and if they are far, they can pinpoint the cardinal direction of the target.
-    * "This creature's beak is unusually strong"
-    * "This mind is thinking about murder more than is healthy or normal."
-    * The target lies roughly East.
-5. The mage knows the exact direction of the target, if searching for them. If they already see the target, they can ask about the target's history.
-    * The mage knows the exact direction of the target.
-    * "This water came from Mt Arthur, where goblins have set up camp."
-6. ???
-
-#### Colourful Detect
-
-A 'colourful' Detect spell operates as an 'alteration' spell at the same time, where the alteration spell forces the target to give up information.
 
 ### Swarms
 
@@ -121,7 +92,7 @@ The 'ranged' enhancement adds +2 Speed.
 
 ### Area of Effect
 
-This works with 'wide' spells to alter or detect things with limited or no weight.
+This works with 'wide' spells to alter things with limited or no weight.
 
 Regular spells target any person-sized item.
 
@@ -179,9 +150,5 @@ When casters 'create mind', the amount of sentience depends on the total mana sp
     * "Your architectural plans are shoddy, and weak, because they use wood."
     * "I have devised a new type of home, built entirely from the metal of the swords of my enemies."
     * "Procure the following list for me, or I shall begin selling your secrets to king Alreth to procure them myself."
-
-
-
-
 
 
