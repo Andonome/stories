@@ -48,12 +48,6 @@ By combining two low spheres, you can create a high sphere:
 - Enduring? (spell lasts for a long time)
     * Unsure what to do with 'enduring fire'.
     * If you make a spell too enduring then the consequences depend on the spell, but *some spells* probably won't be good.
-- Subtle (so nobody knows you're casting a spell)
-    * This doesn't really fit the pattern.
-    * It doesn't get stronger with more mana.
-    * It doesn't provide some penalty when it's 'too big'.
-
-Maybe 'Subtle' needs to be cut?
 
 ## Principles
 
