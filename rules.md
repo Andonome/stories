@@ -74,6 +74,13 @@ A ranged spell with 6 MP cannot target anywhere around the mage, or anywhere the
 
 Spells which travel 'too far' usually fail, but sometimes find their own location to explode.
 
+### General Penalties
+
+Penalties to common things, like running or attacking convert 1 MP to a -1 penalty.
+
+### Specialized Penalties
+
+Specialized penalties, such as spells which inhibit aiming, speaking, or lying, inflict a -2 penalty per MP spent.
 
 ### Swarms
 
