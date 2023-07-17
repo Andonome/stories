@@ -29,22 +29,53 @@ By combining two low spheres, you can create a high sphere:
 
 ## Enhancements
 
-- Wide (making the target big)
-    * But if you cast too wide, the spell might hit unintended targets.
-- Ranged (giving the spell more range)
+Enhancements change the target in different ways.
+Each spell needs at least one enhancement.
+
+Enhancements also increase a spell's *Potency*.
+When you add another enhancement, each enhancement grows.
+
+- Colourful: making aesthetic changes
+    0. Limited detail, like a cloud which 'sort of looks like something'.
+    1. Reasonable detail, like a child's painting.
+    2. Full detail - could definitely fool someone.
+    3. Exceptional detail - 
+- Large: make the target big.
+    0. Small, person-sized -3
+    1. Person-sized: weight 7
+    2. Bulky: weight 8
+    3. Massive: weight 9
+- Twisted:
+    0. Nothing.
+    1. The item's basic nature contorts. Fire cools, minds think about unnatural acts, and fruit grow into the soil.
+    2. The item's basic nature takes a hit. Fire pours into a bowl, minds obsessively count objects, and fruit bleeds.
+    3. A single facet of the item's basic nature vanishes. Fire freezes items, minds cease to create new memories, and 
+- Conjured: Create the target ex nihilo.
+    * This has no levels
+    * It doesn't fit.
+
+## Metamagic
+
+Metamagic decreases a spell's Potency, but benefits the spell itself.
+
+- Distance: the spell targets something far away.
     * But if you cast too far away, the spell misses.
-- Colourful (making aesthetic changes)
-    * No penalties for massive spells - they just get more detailed.
-- Conjured
-    * Large spells don't have a penalty...*but*
-    * The amount of 'created' water will be smaller then the amount of water you can alter.
-- Enduring? (spell lasts for a long time)
+- Duration: the spell lasts for a long time
     * Unsure what to do with 'enduring fire'.
     * If you make a spell too enduring then the consequences depend on the spell, but *some spells* probably won't be good.
+- Dispersion ( / distribution?): the spell replicates many times.
+    * It hits as many targets as the total mana spent on the spell.
 
 # Casting Rules
 
-The TN for spells is 6 + MP spent.
+These problems for spellcasters raise the difficulty:
+
+- Creation (make the target, instead of altering it) (+1)
+- Fast-casting (+1)
+- Tiny target (+1)
+- Altering heavy targets (+HP)
+
+The TN for spells is 6 + challenges + MP spent.
 
 Casters can spend a number of MP equal to the highest sphere they are using.
 They can power high spheres with any combination of mana.
@@ -53,59 +84,27 @@ They can power high spheres with any combination of mana.
 
 Targeting a bow's string, or a sword's mostly-hidden handle makes a spell difficult, and adds +1 to the TN.
 
-
-# Principles
-
 ### Range
 
 Standard spells have a range of 4 Steps plus double the spell's MP.
-*Ranged* spells increase this significantly.
+*Distant* spells increase this significantly.
 
 The caster can only limit the range *inside* the bounds of their current range.
 A *ranged fire* spell, cast with 3 MP, can target anywhere inside 'throwing distance', but cannot target anyone 10 Steps away.
 A ranged spell with 6 MP cannot target anywhere around the mage, or anywhere they can see - it only targets distant areas visible only with spells.
 
-2. 10 Steps.
-3. Throwing distance.
-4. Shouting distance.
-5. Line of sight.
-6. Anywhere the caster can detect with any sense, including magic.
-7. Anywhere the caster has once been.
+0. 5 Steps + MP spent.
+1. Throwing distance.
+2. Shouting distance.
+3. Line of sight.
 
 Spells which travel 'too far' usually fail, but sometimes find their own location to explode.
+
+# Principles
 
 ### General Penalties
 
 Penalties to common things, like running or attacking convert 1 MP to a -1 penalty.
-
-### Specialized Penalties
-
-Specialized penalties, such as spells which inhibit aiming, speaking, or lying, inflict a -2 penalty per MP spent.
-
-### Swarms
-
-Swarms occur when someone casts a 'conjure wide life' spell.
-
-The creature's Speed and Dexterity are both -2.
-The 'colourful' and 'enduring' enhancements each add +1 Dexterity.
-The 'ranged' enhancement adds +2 Speed.
-
-3. 3 creatures with -4 Strength each.
-4. 6 creatures with -3 Strength each.
-5. 12 creatures with -2 Strength each.
-6. 24 creatures with -1 Strength each.
-7. 48 creatures with +0 Strength each.
-
-### Conjured Life
-
-'Heavy things' include creating animals, rock, or ice.
-'Heavy things' cannot be made 'wide', or they will split apart (see 'swarms' above).
-
-2. Weight 4, -2 Strength.
-3. Weight 6, +0 Strength.
-4. Weight 8, +2 Strength.
-5. Weight 10, +4 Strength.
-6. Weight 12, +6 Strength.
 
 ### Alter Life
 
