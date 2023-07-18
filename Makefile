@@ -1,6 +1,6 @@
 output: main.pdf
 book: main.pdf
-	mv main.pdf BIND.pdf
+	mv main.pdf stories.pdf
 
 global: config/bind.sty .switch-gls
 .switch-gls:
