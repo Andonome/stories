@@ -7,20 +7,81 @@
 If players prefer, they can design their own characters by simply setting all Attributes to 0, then applying the racial modifiers.
 They can choose to take a single -1 penalty to any Attribute of their choice in return for an additional 5 \gls{xp}.
 
-\subsection{Decisions}
-\label{CCDecisions}
+\begin{enumerate}
+  \item\label{sumCCrace}
+  Select a race.
+  \item\label{sumCCatt}
+  Set each of your Attributes to 0, then apply the racial bonuses and penalties (\autopageref{raceRoll}).
+  \item\label{sumCCconcept}
+  Write down a concept and background culture from your campaign.
+  \item\label{sumCCcode}
+  Select a Code to follow, so you can gain \glspl{xp} (\autopageref{codes}).
+  \item\label{sumCCxp}
+  Spend 50 \gls{xp} on Attributes, Skills, and Knacks (\autopageref{xp}).
+  \item\label{sumCCequip}
+  Take 1 item per Skill level your character has from the list of starting equipment.
+  \item\label{sumCCcoin}
+  Starting money is $(3D6-5)\times 2^S$\gls{cp}, where S = combined levels in all Skills.
+  \item
+  Fill in the derived stats.
+  \begin{itemize}
 
-To forge your own path into the guard, wander through the rest of the book, stopping at the following places.
+    \item
+    \glspl{hp} are equal to 6 plus your Strength.
+    \item
+    \glspl{fp} are equal to base \glspl{fp} plus Charisma.
+    \item
+    \glspl{mp} are equal to the number of spheres you have times 3, plus your Wits Bonus.
 
-\subsection{\nameref{gods_codes} \& Background}
+  \end{itemize}
+\end{enumerate}
 
-Select a Code of belief from \autoref{gods_codes}, then write down where your character comes from.
-  Ask your \gls{gm} which areas and background cultures exist in that world.
+\index{Character Concept}
+\subsection{Concept}
 
-\subsection{\Glsentrylongpl{xp}}
+Have a look at your character's Attributes and consider what kind of person they are.
+Strength might indicate working on a farm.
+A good Charisma may indicate a creative past, such as poetry, or working with the public, trading or selling items.
+Intelligent characters may have required to plan a lot -- perhaps working as a seneschal for a town master, or planning a safe route for a travelling circus.
+Low intelligence means never having to think, so they may come from a noble family, or always worked in a stonemason's guild, where someone else could plan their day for them.
+Dexterous characters could have been an expert weaver, before joining the \gls{guard}; or perhaps they lived in a major city and stole money from others.
 
-Over in \autoref{coreRules}: \nameref{coreRules}, \nameref{xp}, you can spend \glspl{xp} to build up your character's other Traits, such as Skills.
-Then select some items from \autoref{goods}.
+How did you end up in the \gls{guard}?
+Did you naively sign up for a thrilling adventure, and now regret it?
+What happened to your farm?
+Torched by goblins, or did too many men leave the village?
+Most join simply because they did not inherit their parents' land, so they hope to make some money, and perhaps be rewarded with land.
+Some stole or robbed from people, and managed to plead to a judge to let them join the \gls{guard} instead of hanging.
+
+Take your character's history, and condense it into two words.
+
+\begin{multicols}{2}
+\begin{itemize}
+  \item
+  Betrayed Guildsman
+  \item
+  Clairvoyant Herder
+  \item
+  Crypto Zoologist
+  \item
+  Dispossessed Farmer
+  \item
+  Dishonoured Alchemist
+  \item
+  Dauntless Youth
+  \item
+  Failed Priest
+  \item
+  Lazy Thief
+  \item
+  Lost Writer
+  \item
+  Reformed Bandit
+  \item
+  Zealous Guildsman
+\end{itemize}
+\end{multicols}
+
 
 \subsection{Starting Equipment}
 \label{start_equipment}
@@ -67,71 +128,26 @@ For example, a character with Empathy 1 and Tactics 1 might roll a total of 7.
 $7\times2\times2 = 28$, so the character starts out with 28 \glspl{cp}.
 
 
-\index{Character Concept}
-\subsection{Concept}
-
-Have a look at your character's Attributes and consider what kind of person they are.
-Strength might indicate working on a farm.
-A good Charisma may indicate a creative past, such as poetry, or working with the public, trading or selling items.
-Intelligent characters may have required to plan a lot -- perhaps working as a seneschal for a town master, or planning a safe route for a travelling circus.
-Low intelligence means never having to think, so they may come from a noble family, or always worked in a stonemason's guild, where someone else could plan their day for them.
-Dexterous characters could have been an expert weaver, before joining the \gls{guard}; or perhaps they lived in a major city and stole money from others.
-
-How did you end up in the \gls{guard}?
-Did you naively sign up for a thrilling adventure, and now regret it?
-What happened to your farm?
-Torched by goblins, or did too many men leave the village?
-Most join simply because they did not inherit their parents' land, so they hope to make some money, and perhaps be rewarded with land.
-Some stole or robbed from people, and managed to plead to a judge to let them join the \gls{guard} instead of hanging.
-
-Take your character's history, and condense it into two words.
-
-\begin{itemize}
-  \item
-  Betrayed Guildsman
-  \item
-  Clairvoyant Herder
-  \item
-  Crypto Zoologist
-  \item
-  Dispossessed Farmer
-  \item
-  Dishonoured Alchemist
-  \item
-  Dauntless Youth
-  \item
-  Failed Priest
-  \item
-  Lazy Thief
-  \item
-  Lost Writer
-  \item
-  Reformed Bandit
-  \item
-  Zealous Guildsman
-\end{itemize}
-
 \end{multicols}
 
 \renewcommand\csComments{
-    \commentary{[xshift=10,yshift=-7em]TCBPOSTER@title.north}{-2em,2em}{{\huge\ref{sumCCrace}}: Write down your name and roll a random race (\autopageref{raceRoll}).}
+    \commentary{[xshift=22,yshift=-9em]TCBPOSTER@title.north}{-2em,2em}{{\huge\ref{sumCCrace}} Select a race}
 
-    \commentary{[xshift=4em,yshift=-6em]TCBPOSTER@attributes.south east}{-4.1em,2.8em}{{\huge\ref{sumCCatt}:} Roll to determine each of your Attributes, then apply the racial modifier (\autopageref{randomAttributes}). The large `\statDot' represents a Bonus of `0'.}
+    \commentary{[xshift=4em,yshift=-6em]TCBPOSTER@attributes.south east}{-4.1em,2.8em}{{\huge\ref{sumCCatt}:} Fill in Attributes.}
 
-    \commentary{[xshift=13em,yshift=-6em]TCBPOSTER@title.west}{-2em,2em}{{\huge\ref{sumCCconcept}:} Concept and Name: write two words to summarize the character, and a name.}
+    \commentary{[xshift=13em,yshift=-6em]TCBPOSTER@title.west}{-2em,2em}{{\huge\ref{sumCCconcept}:} Write a concept and name.}
 
     \commentary{[xshift=4em,yshift=-1em]TCBPOSTER@gumption.west}{-20em,9em}{}
     \commentary{[xshift=4em,yshift=0em]TCBPOSTER@gumption.west}{1em,-28em}{}
     \commentary{[xshift=4em,yshift=0em]TCBPOSTER@gumption.west}{-4em,6.5em}{{\huge\ref{sumCCxp}:} Spend 50 \glspl{xp} to purchase Attributes, Skills, and Knacks (\autopageref{xp}).}
 
-    \commentary{[xshift=3em,yshift=-1em]TCBPOSTER@gumption.south}{.4em,5em}{\small Place coins in the circles to keep track of the current score.}
+
+    \commentary{[xshift=-7em,yshift=-4em]TCBPOSTER@title.east}{-2em,1em}{{\huge\ref{sumCCcode}:} Select a Code (\autopageref{gods_codes}) and culture.}
 
     \commentary{[xshift=3em,yshift=2em]TCBPOSTER@spheres.south}{3em,2em}{\small Place a coin on the \glspl{ap} tracker to keep track of your \glspl{ap} during combat.}
 
-    \commentary{[xshift=-7em,yshift=-4em]TCBPOSTER@title.east}{-2em,1em}{{\huge\ref{sumCCcode}:} Select a Code (\autopageref{gods_codes}) and write down a culture.}
-
     \commentary{[xshift=5em,yshift=5em]TCBPOSTER@armoury.north west}{4em,-25em}{}
-    \commentary{[xshift=5em,yshift=5em]TCBPOSTER@armoury.north west}{-1em,-2.5em}{{\huge\ref{sumCCequip}:} Check your reaons for enlisting, and take your starting equipment (\autopageref{enlistment_equipment}).}
+    \commentary{[xshift=5em,yshift=5em]TCBPOSTER@armoury.north west}{-1em,-2.5em}{{\huge\ref{sumCCequip}:} Place any weapons and armour, then fill in their stats.  The rest go in the box below.}
 }
 
 
