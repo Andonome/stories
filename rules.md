@@ -84,7 +84,7 @@ Metamagic decreases a spell's Potency, but benefits the spell itself.
 
 - Penalties to common things, like running or attacking, inflict a -1 penalty per potence.
 - Penalties to highly specific things, such as 'waking up', give a -2 penalty per potence.
-- Enhanced Traits are set to the number of MP spend (*not* increased by potence)
+- Enhanced Traits are set to the potence (*not* increased by potence).
 - Damage equals 4 plus potence.
 - DR equals 1 + 1 per potence.
 - When performing or resisting actions, spells have a total score equal to the potence x 2.
