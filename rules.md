@@ -5,6 +5,13 @@ This magic system builds spells from words, and eventually forms a sentence.
 A magical sphere is a *Noun* of some kind, like 'Air', 'Fire', 'Desire', or 'Fate'.
 Mages with those spheres can alter these targets, and enhance spells with a number of modifiers, like 'wide' or 'subtle'.
 
+### Summary
+
+1. The caster can spend a number of MP equal to the highest sphere they want to use.
+1. Each MP can be spent on a different enhancement or metamagic.
+1. The spell's potence equals the MP spent on enhancements minus MP spent on metamagic.
+1. Spells with less than a potence of 0 fail.
+
 ## Spheres
 
 Each magic sphere is really a Noun.
@@ -52,7 +59,7 @@ When you add another enhancement, each enhancement grows.
     1. The item's basic nature contorts. Fire becomes sticky, minds think about unnatural acts, and fruit grow into the soil.
     2. The item's basic nature takes a hit. Fire pours into a bowl, minds obsessively count objects, and fruit bleeds.
     3. A single facet of the item's basic nature vanishes or reverses. Fire freezes items, minds cease to create new memories, and 
-    4. Turn a person into another element. A unicorn turns into sea-foam, a farmer becomes a song.
+    4. Turn the target into another element (which must be chained). A unicorn turns into sea-foam, a farmer becomes a song.
 - Chained: The spell includes another element, and all the same effects apply. The GM gains full control over interpretation.
 
 ## Metamagic
