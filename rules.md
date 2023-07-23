@@ -77,6 +77,15 @@ Metamagic decreases a spell's Potency, but benefits the spell itself.
     * It creates a total number equal to MP^T, where 'T' is 'targets'.
     * If there are no valid targets, it creates one.
 
+## Principles
+
+- Penalties to common things, like running or attacking, inflict a -1 penalty per potence.
+- Penalties to highly specific things, such as 'waking up', give a -2 penalty per potence.
+- Enhanced Traits are set to the number of MP spend (*not* increased by potence)
+- Damage equals 4 plus potence.
+- DR equals 1 + 1 per potence.
+- When performing or resisting actions, spells have a total score equal to the potence x 2.
+
 # Casting Rules
 
 These problems for spellcasters raise the difficulty:
@@ -109,12 +118,6 @@ A ranged spell with 6 MP cannot target anywhere around the mage, or anywhere the
 3. Line of sight.
 
 Spells which travel 'too far' usually fail, but sometimes find their own location to explode.
-
-# Principles
-
-### General Penalties
-
-Penalties to common things, like running or attacking convert 1 MP to a -1 penalty.
 
 ### Alter Life
 
