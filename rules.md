@@ -10,7 +10,10 @@ Mages with those spheres can alter these targets, and enhance spells with a numb
 1. The caster can spend a number of MP equal to the highest sphere they want to use.
 1. Each MP can be spent on a different enhancement or metamagic.
 1. The spell's potence equals the MP spent on enhancements minus MP spent on metamagic.
-1. Spells with less than a potence of 0 fail.
+    - Spells with less than a potence of 0 fail.
+1. Spells use Charisma + some Skill.
+    - The Skill depends on what the caster is attempting.
+1. The TN equals 6 + MP spent.
 
 ## Spheres
 
@@ -86,7 +89,9 @@ Metamagic decreases a spell's Potency, but benefits the spell itself.
 - DR equals 1 + 1 per potence.
 - When performing or resisting actions, spells have a total score equal to the potence x 2.
 
-# Casting Rules
+## Complications
+
+### Small Targets
 
 These problems for spellcasters raise the difficulty:
 
@@ -98,10 +103,6 @@ The TN for spells is 6 + challenges + MP spent.
 
 Casters can spend a number of MP equal to the highest sphere they are using.
 They can power high spheres with any combination of mana.
-
-## Tiny Targets
-
-Targeting a bow's string, or a sword's mostly-hidden handle makes a spell difficult, and adds +1 to the TN.
 
 ### Range
 
