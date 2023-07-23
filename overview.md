@@ -9,6 +9,7 @@ Enhancements should each come with their own problems when cast too high.
     * Too much fire or ice will target the wrong people, or make a monstrous animal. Too much desire in a rat makes it intelligent, and too much bear in a person will turn them into a bear.
 - Twisted
     * Too much twisting will stop the item serving the same purpose as its basic nature turns to something else.
+- Twisted: 
 
 # Spheres
 
@@ -49,11 +50,6 @@ Enhancements should each come with their own problems when cast too high.
 - Twisted: make arrows fall, or empty space resistant, and slow.
 
 ## Death
-
-
-
-
-
 
 
 

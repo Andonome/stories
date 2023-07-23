@@ -40,8 +40,10 @@ When you add another enhancement, each enhancement grows.
     1. Reasonable detail, like a child's painting.
     2. Full detail - could definitely fool someone.
     3. Exceptional detail - 
-- Large: make the target big.
-    0. Small, person-sized -3
+- Big: make the target big.
+    -3. Tiny, and impish: weight 3.
+    -2. Smol: weight 4.
+    -1. 
     1. Person-sized: weight 7
     2. Bulky: weight 8
     3. Massive: weight 9
@@ -50,9 +52,7 @@ When you add another enhancement, each enhancement grows.
     1. The item's basic nature contorts. Fire cools, minds think about unnatural acts, and fruit grow into the soil.
     2. The item's basic nature takes a hit. Fire pours into a bowl, minds obsessively count objects, and fruit bleeds.
     3. A single facet of the item's basic nature vanishes. Fire freezes items, minds cease to create new memories, and 
-- Conjured: Create the target ex nihilo.
-    * This has no levels
-    * It doesn't fit.
+- Chained: The spell includes another element, and all the same effects apply.
 
 ## Metamagic
 
@@ -63,8 +63,11 @@ Metamagic decreases a spell's Potency, but benefits the spell itself.
 - Duration: the spell lasts for a long time
     * Unsure what to do with 'enduring fire'.
     * If you make a spell too enduring then the consequences depend on the spell, but *some spells* probably won't be good.
-- Dispersion ( / distribution?): the spell replicates many times.
+- Duplication: the spell replicates many times.
     * It hits as many targets as the total mana spent on the spell.
+    * The spell targets existing instances.
+    * It creates a total number equal to MP^T, where 'T' is 'targets'.
+    * If there are no valid targets, it creates one.
 
 # Casting Rules
 
