@@ -35,24 +35,25 @@ Each spell needs at least one enhancement.
 Enhancements also increase a spell's *Potency*.
 When you add another enhancement, each enhancement grows.
 
-- Colourful: making aesthetic changes
+- Colourful: making aesthetic changes. Texture does not change.
     0. Limited detail, like a cloud which 'sort of looks like something'.
-    1. Reasonable detail, like a child's painting.
-    2. Full detail - could definitely fool someone.
-    3. Exceptional detail - 
-- Big: make the target big.
-    -3. Tiny, and impish: weight 3.
-    -2. Smol: weight 4.
-    -1. 
-    1. Person-sized: weight 7
+    1. Very recognizable, like a child's painting.
+    2. Full detail - illusions could definitely fool someone not looking hard.
+    3. Quality details - illusions will fool anyone not looking for details.
+    4. Near-perfect quality.
+- Big: make the target grow.
+    0. Basic: weight 4.
+    1. Person-sized: weight 6
     2. Bulky: weight 8
-    3. Massive: weight 9
+    3. Massive: weight 10
+    4. Massive: weight 14
 - Twisted:
-    0. Nothing.
-    1. The item's basic nature contorts. Fire cools, minds think about unnatural acts, and fruit grow into the soil.
+    0. Change in natural form - water to ice, work changes to sleep.
+    1. The item's basic nature contorts. Fire becomes sticky, minds think about unnatural acts, and fruit grow into the soil.
     2. The item's basic nature takes a hit. Fire pours into a bowl, minds obsessively count objects, and fruit bleeds.
-    3. A single facet of the item's basic nature vanishes. Fire freezes items, minds cease to create new memories, and 
-- Chained: The spell includes another element, and all the same effects apply.
+    3. A single facet of the item's basic nature vanishes or reverses. Fire freezes items, minds cease to create new memories, and 
+    4. Turn a person into another element. A unicorn turns into sea-foam, a farmer becomes a song.
+- Chained: The spell includes another element, and all the same effects apply. The GM gains full control over interpretation.
 
 ## Metamagic
 
@@ -60,7 +61,7 @@ Metamagic decreases a spell's Potency, but benefits the spell itself.
 
 - Distance: the spell targets something far away.
     * But if you cast too far away, the spell misses.
-- Duration: the spell lasts for a long time
+- Duration: the spell lasts for a long time (but the material can still disappear).
     * Unsure what to do with 'enduring fire'.
     * If you make a spell too enduring then the consequences depend on the spell, but *some spells* probably won't be good.
 - Duplication: the spell replicates many times.
@@ -74,7 +75,6 @@ Metamagic decreases a spell's Potency, but benefits the spell itself.
 These problems for spellcasters raise the difficulty:
 
 - Creation (make the target, instead of altering it) (+1)
-- Fast-casting (+1)
 - Tiny target (+1)
 - Altering heavy targets (+HP)
 
