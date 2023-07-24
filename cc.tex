@@ -35,9 +35,8 @@ Grab $2D6$.
 It's time you build some character.
 Specifically, you will build your \gls{pc}.
 
-\sidebox[18]{
-  \attributeChart
-}
+\attributeChart
+
 \noindent
 Roll $2D6$ six times -- once for each Attribute -- and write down your result on the character sheet.
 If you roll `3, 8, 9', then you have `Strength -2, Dexterity +0, Speed +1'.
@@ -58,55 +57,6 @@ Check your lowest Attribute to see their failure, then look under your highest A
 If multiple Attributes compete for lowest or highest, stop at the first.
 
 Write down the concepts, stats and equipment.
-
-\end{multicols}
-
-\setcounter{str}{1}
-\setcounter{dex}{0}
-\setcounter{spd}{0}
-\setcounter{int}{0}
-\setcounter{wts}{-1}
-\setcounter{cha}{1}
-
-\renewcommand\concept{Knightly Poet}
-\renewcommand\race{Human}
-\renewcommand\culture{Quennome}
-\renewcommand\name{Sean}
-\renewcommand\code{Experience}
-
-\setcounter{Academics}{1}
-\setcounter{Athletics}{0}
-\setcounter{Caving}{0}
-\setcounter{Crafts}{0}
-\setcounter{Deceit}{0}
-\setcounter{Empathy}{1}
-\setcounter{Medicine}{0}
-\setcounter{Performance}{1}
-\setcounter{Larceny}{0}
-\setcounter{Seafaring}{0}
-\setcounter{Stealth}{0}
-\setcounter{Tactics}{0}
-\setcounter{Vigilance}{0}
-\setcounter{Wyldcrafting}{0}
-\setcounter{Combat}{2}
-\setcounter{Projectiles}{0}
-
-\setcounter{fp}{5}
-
-\renewcommand\characterWeapons{\longsword}
-\renewcommand\characterArmour{Chain Mail & 4 & P & 1}
-\renewcommand\characterEquipment{\Gls{adventure} Equipment \Repeat{3}{{\Large\sqn} }}
-\setcounter{gold}{288}
-
-\settoggle{examplecharacter}{true}
-\settoggle{bestiarychapter}{true}
-\input{config/CS.tex}
-\settoggle{bestiarychapter}{false}
-\settoggle{examplecharacter}{false}
-\renewcommand\csComments{}
-\clearpage
-
-\begin{multicols}{2}
 
 \paragraph{Strength Failure}
 
@@ -220,6 +170,10 @@ Write down the concepts, stats and equipment.
   Begin play with a broken sword, once-complete (now partial) leather armour, 3 \glspl{sp}, and some helpful advice for the player to your left.
 
 \end{itemize}
+
+\end{multicols}
+\exampleRandomCharacter % in charts.tex
+\begin{multicols}{2}
 
 \paragraph{Speed Failure}
 
