@@ -17,7 +17,7 @@ Mages with those spheres can alter these targets, and enhance spells with a numb
 
 ## Spheres
 
-Each magic sphere is really a Noun.
+Mages can affect things governed by their magic spheres.
 
 ### Low Spheres
 
@@ -113,27 +113,25 @@ The caster can only limit the range *inside* the bounds of their current range.
 A *ranged fire* spell, cast with 3 MP, can target anywhere inside 'throwing distance', but cannot target anyone 10 Steps away.
 A ranged spell with 6 MP cannot target anywhere around the mage, or anywhere they can see - it only targets distant areas visible only with spells.
 
-0. 5 Steps + MP spent.
+Standard range = 5 Steps + MP spent.
+
+0. 20 steps + MP spent.
 1. Throwing distance.
 2. Shouting distance.
 3. Line of sight.
 
-Spells which travel 'too far' usually fail, but sometimes find their own location to explode.
+Spells which travel 'too far' usually fail, but sometimes find a target on their own.
+
+### Duration
+
+The standard duration is 1 Scene.
+
+0. Remainder of Season
+1. Cycle (3 years)
+2. Full Chronicle.
+3. Permanent.
 
 ### Alter Life
-
-### Area of Effect
-
-This works with 'wide' spells to alter things with limited or no weight.
-
-Regular spells target any person-sized item.
-
-2. Big table, or four people standing together.
-3. Entire room, or copse of trees.
-4. Copse of trees, hamlet, stream.
-5. A village, stretch of river, inlet, or hill.
-6. A city, entire river, mineshaft, or catacomb.
-7. Entire mountain, a valley, or loch.
 
 ### Flame Strength
 
