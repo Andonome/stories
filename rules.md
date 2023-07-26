@@ -180,5 +180,29 @@ Weapons with long, wooden handles (such as glaives or spears) become unstable, a
 3. Make the target forget something, or replace a belief.
 4. Target believes they are a chicken.
 
+## Force
+
+### Colourful
+
+0. The affected area flickers subtly, with visual distortions, like looking at a pond.
+2. The effect distorts the area obviously, making anyone who sees it understand the magic is afoot.
+3. The effect can be seen, like a flickering force-field.
+4. The visual effect takes on a ghostly form, such as a hand lifting up a floating object, or a fist crushing someone down.
+
+### Big
+
+0. The target feels gravity distort around them...if they focus enough.
+1. Standard forces become more solid, making water hard to the touch, or making an area of air feel solid.
+2. A wall of unmoving air can become a harsh barrier, difficult for anyone or anything to move beyond.
+
+### Twisted
+
+0. Arrows descend faster than normal, missing the caster.
+1. Targets feel their weight increase, becoming heavier, and unable to run or fly properly.
+2. Targets float, becoming weightless.
+3. Gravity crawls along walls, allowing the target to wander across any surface.
+4. Distance disappears, opening a rift in space - a portal to anywhere within range.
+
+
 
 
