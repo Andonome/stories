@@ -113,9 +113,14 @@ The TN for spells is 6 + challenges + MP spent.
 Casters can spend a number of MP equal to the highest sphere they are using.
 They can power high spheres with any combination of mana.
 
-### Alter Life
+# Spheres
+
+## Fire
 
 ### Flame Strength
+
+The basic strength of a flame depends on its source.
+If created out of nothing, the fire has all the strength of a candle.
 
 - Candle: 1 Damage
 - Torch: 2 Damage
@@ -123,30 +128,34 @@ They can power high spheres with any combination of mana.
 - Bonfire: 4 Damage
 - Smelting fire: 5 Damage
 
-### Create Mind
+### Durable
 
-When casters 'create mind', the amount of sentience depends on the total mana spent.
+Most magically created or enhanced fires return to their normal state quickly afterwards.
+A *Big Fire* might explode across a table, then vanish.
 
-- Colourful: give a particular personality, or 'Code' to the imbued mind.
-- Wide: Many things (of the same type) become sentient.
+However, a *durable fire* will burn easily-flammable material, and continue burning.
+It can burn clothing, destroys all hair, and starts on any nearby wood.
 
-2. Does one simple thing. (Wits -4)
+Weapons with long, wooden handles (such as glaives or spears) become unstable, and break any time they deal >7 Damage.
+
+
+## Enchantment
+
+### Big
+
+1. Does one simple thing. (Wits -4)
     * "Kill jester"
     * "Defend against this dragon"
     * Does not understand categories (like 'bandits', or 'goblins').
-3. Does two-part missions (but no 'if-then' statements, or anything equivalent, has Wits -2)
+2. Does two-part missions (but no 'if-then' statements, or anything equivalent, has Wits -2)
     * "Find John and whisper this message to him."
     * "Approach the king, then explode."
     * "Enter the village, then report back."
     * Can distinguish people at a glance.
-4. Does one complex task. (Intelligence -2, Wits -2, Charisma -2 and 4 points to spend among Mental Attributes)
-    * Understands if-then statements.
-    * Thinks about its own future.
-    * Can make real judgements about people's mood or actions.
-    * Tends to become obsessed with its first mission ("Ah, the good old days, when I was protecting against goblins. I should go find more goblins...")
-    * Will attempt to suicide if it gets bored.
-5. Does any complex tasks asked of it. (Intelligence -2, Wits -2, Charisma -2 and 5 points to spend among Mental Attributes)
+3. Does any complex tasks asked of it. (Intelligence -2, Wits -2, Charisma -2 and 5 points to spend among Mental Attributes)
     * Has the same Code as the caster (if none is specified).
+    * Will attempt to suicide if it gets bored.
+    * Tends to become obsessed with its first mission ("Ah, the good old days, when I was protecting against goblins. I should go find more goblins...")
     * Can make subtle distinctions.
     * "Kill any elves who look like they're spying for King Alreth"
     * Debates the definitions of tasks with the caster ("When you say 'men', do you mean all humans? Or all males? Or human males? And do you mean specifically adults?").
@@ -155,12 +164,21 @@ When casters 'create mind', the amount of sentience depends on the total mana sp
     * Knows all the basic concepts the mage knows (people, places, et c.)
     * Wants to be treated as an equal.
     * Has 1 sphere of magic.
-6. Does any tasks asked of it...initially (Intelligence -2, Wits -2, Charisma -2 and 6 points to spend among Mental Attributes)
+4. Does any tasks asked of it...initially (Intelligence -2, Wits -2, Charisma -2 and 6 points to spend among Mental Attributes)
     * Has 2 levels of magic spheres.
     * Knows half the mind of the mage.
     * "Bow, mortal, before the god of crafting abodes."
     * "Your architectural plans are shoddy, and weak, because they use wood."
     * "I have devised a new type of home, built entirely from the metal of the swords of my enemies."
     * "Procure the following list for me, or I shall begin selling your secrets to king Alreth to procure them myself."
+
+### Twisted
+
+0. Tired people become sleepy.
+1. Give someone a random idea.
+2. Limit someone's ability to think about anything but one thing (penalty to all mental actions not concerned with the mission)
+3. Make the target forget something, or replace a belief.
+4. Target believes they are a chicken.
+
 
 
