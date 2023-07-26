@@ -59,26 +59,37 @@ When you add another enhancement, each enhancement grows.
     4. Massive: weight 14
 - Twisted:
     0. Change in natural form - water to ice, work changes to sleep.
-    1. The item's basic nature contorts. Fire becomes sticky, minds think about unnatural acts, and fruit grow into the soil.
-    2. The item's basic nature takes a hit. Fire pours into a bowl, minds obsessively count objects, and fruit bleeds.
-    3. A single facet of the item's basic nature vanishes or reverses. Fire freezes items, minds cease to create new memories, and 
+    1. The item's basic nature contorts. Fire becomes sticky, minds think about unnatural acts, and plants grow in a single scene.
+    2. The item's basic nature takes a hit. Fire pours into a bowl, minds obsessively count objects, and fruit grows down into the soil.
+    3. A single facet of the item's basic nature vanishes or reverses. Fire freezes items, minds cease to create new memories, and fruit bleeds and begins to grow one step per round.
     4. Turn the target into another element (which must be chained). A unicorn turns into sea-foam, a farmer becomes a song.
 - Chained: The spell includes another element, and all the same effects apply. The GM gains full control over interpretation.
 
 ## Metamagic
 
-Metamagic decreases a spell's Potency, but benefits the spell itself.
+Each metamagic part added decreases the spell's Potency by 1.
 
-- Distance: the spell targets something far away.
-    * But if you cast too far away, the spell misses.
-- Duration: the spell lasts for a long time (but the material can still disappear).
-    * Unsure what to do with 'enduring fire'.
-    * If you make a spell too enduring then the consequences depend on the spell, but *some spells* probably won't be good.
+- Distance: the spell targets something far away.  Standard range = 5 Steps + MP spent.  Distance is both a maximum and a minimum.
+    0. 20 steps + MP spent.
+    1. Throwing distance.
+    2. Shouting distance.
+    3. Line of sight.
+- Duration: the spell lasts for a long time (but the material can still disappear).  The standard duration is 1 Scene.
+    0. Remainder of Season
+    1. Cycle (3 years)
+    2. Full Chronicle.
+    3. Permanent.
 - Duplication: the spell replicates many times.
-    * It hits as many targets as the total mana spent on the spell.
-    * The spell targets existing instances.
-    * It creates a total number equal to MP^T, where 'T' is 'targets'.
-    * If there are no valid targets, it creates one.
+    * If the caster is making new targets, the spell creates a number of targets equal to the Potency.
+    * If the spell targets existing targets, the spell affects a number of targets equal to total 'MP!'.
+
+| MP Spent | Targets |
+|:--------:|:-------:|
+|   2      |	2    |
+|   3      |	6    |
+|   4      |	24   |
+|   5      |	120  |
+|   6      |	720  |
 
 ## Principles
 
@@ -95,41 +106,12 @@ Metamagic decreases a spell's Potency, but benefits the spell itself.
 
 These problems for spellcasters raise the difficulty:
 
-- Creation (make the target, instead of altering it) (+1)
 - Tiny target (+1)
-- Altering heavy targets (+HP)
 
 The TN for spells is 6 + challenges + MP spent.
 
 Casters can spend a number of MP equal to the highest sphere they are using.
 They can power high spheres with any combination of mana.
-
-### Range
-
-Standard spells have a range of 4 Steps plus double the spell's MP.
-*Distant* spells increase this significantly.
-
-The caster can only limit the range *inside* the bounds of their current range.
-A *ranged fire* spell, cast with 3 MP, can target anywhere inside 'throwing distance', but cannot target anyone 10 Steps away.
-A ranged spell with 6 MP cannot target anywhere around the mage, or anywhere they can see - it only targets distant areas visible only with spells.
-
-Standard range = 5 Steps + MP spent.
-
-0. 20 steps + MP spent.
-1. Throwing distance.
-2. Shouting distance.
-3. Line of sight.
-
-Spells which travel 'too far' usually fail, but sometimes find a target on their own.
-
-### Duration
-
-The standard duration is 1 Scene.
-
-0. Remainder of Season
-1. Cycle (3 years)
-2. Full Chronicle.
-3. Permanent.
 
 ### Alter Life
 
@@ -150,8 +132,8 @@ When casters 'create mind', the amount of sentience depends on the total mana sp
 
 2. Does one simple thing. (Wits -4)
     * "Kill jester"
-    * "Defend against the dragon"
-    * Cannot identify anyone except 'creator', 'moving things', 'not moving things'
+    * "Defend against this dragon"
+    * Does not understand categories (like 'bandits', or 'goblins').
 3. Does two-part missions (but no 'if-then' statements, or anything equivalent, has Wits -2)
     * "Find John and whisper this message to him."
     * "Approach the king, then explode."
