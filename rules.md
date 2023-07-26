@@ -80,7 +80,7 @@ Each metamagic part added decreases the spell's Potency by 1.
     2. Full Chronicle.
     3. Permanent.
 - Duplication: the spell replicates many times.
-    * If the caster is making new targets, the spell creates a number of targets equal to the Potency.
+    * If the caster is making new targets, the spell creates a number of targets equal to the MP spent.
     * If the spell targets existing targets, the spell affects a number of targets equal to total 'MP!'.
 
 | MP Spent | Targets |
