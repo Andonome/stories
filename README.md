@@ -21,7 +21,7 @@ Broadly, it should work like this:
 
 - Standard magic will use Charisma as the base stat. Spellcasters will coax plants, by speaking to them sweetly, or demand a fire banish itself.
 - A Fast-Casting Knack will be available to use Wits to cast even faster spells, allowing uncharismatic casters to exist.
-- A Ritual-Casting Knack knack will allow casters to use Intelligence, and to gain obscene amounts of Mana by casting long rituals (up to 10 MP).
+- A Ritual-Casting Knack knack will allow casters to use Intelligence, and to gain larger amounts of Mana.
 
 ## Nura
 
@@ -35,4 +35,3 @@ For now, we have
 
 - [The basic rules](rules.md)
 - [A list of spells](spell_list.md)
-- [A list of basic every basic combination, to check they all make sense](overview.md) (wip)
