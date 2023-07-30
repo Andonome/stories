@@ -78,7 +78,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 ------------------------------------------------**Air**
 
-**Bizzare**
+**Bizarre**
 
 Air gains unnatural properties.
 
@@ -156,7 +156,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 ------------------------------------------------**Water**
 
-**Bizzare**
+**Bizarre**
 
 Water gains unnatural properties.
 

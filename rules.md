@@ -45,7 +45,7 @@ Each spell needs at least one enhancement.
 Enhancements also increase a spell's *Potency*.
 When you add another enhancement, each enhancement grows.
 
-- Colourful: making aesthetic changes. Texture does not change.
+- Beautiful: making aesthetic changes. Texture does not change.
     0. Limited detail, like a cloud which 'sort of looks like something'.
     1. Very recognizable, like a child's painting.
     2. Full detail - illusions could definitely fool someone not looking hard.
@@ -57,13 +57,13 @@ When you add another enhancement, each enhancement grows.
     2. Bulky: weight 8
     3. Massive: weight 10
     4. Massive: weight 14
-- Twisted:
+- Bizarre:
     0. Change in natural form - water to ice, work changes to sleep.
     1. The item's basic nature contorts. Fire becomes sticky, minds think about unnatural acts, and plants grow in a single scene.
     2. The item's basic nature takes a hit. Fire pours into a bowl, minds obsessively count objects, and fruit grows down into the soil.
     3. A single facet of the item's basic nature vanishes or reverses. Fire freezes items, minds cease to create new memories, and fruit bleeds and begins to grow one step per round.
     4. Turn the target into another element (which must be chained). A unicorn turns into sea-foam, a farmer becomes a song.
-- Chained: The spell includes another element, and all the same effects apply. The GM gains full control over interpretation.
+- Bonded: The spell includes another element, and all the same effects apply. The GM gains full control over interpretation.
 
 ## Metamagic
 
@@ -74,12 +74,12 @@ Each metamagic part added decreases the spell's Potency by 1.
     1. Throwing distance.
     2. Shouting distance.
     3. Line of sight.
-- Duration: the spell lasts for a long time (but the material can still disappear).  The standard duration is 1 Scene.
+- Durable: the spell lasts for a long time (but the material can still disappear).  The standard duration is 1 Scene.
     0. Remainder of Season
     1. Cycle (3 years)
     2. Full Chronicle.
     3. Permanent.
-- Duplication: the spell replicates many times.
+- Duplicated: the spell replicates many times.
     * If the caster is making new targets, the spell creates a number of targets equal to the MP spent.
     * If the spell targets existing targets, the spell affects a number of targets equal to total 'MP!'.
 
@@ -172,7 +172,7 @@ Weapons with long, wooden handles (such as glaives or spears) become unstable, a
     * "I have devised a new type of home, built entirely from the metal of the swords of my enemies."
     * "Procure the following list for me, or I shall begin selling your secrets to king Alreth to procure them myself."
 
-### Twisted
+### Bizarre
 
 0. Tired people become sleepy.
 1. Give someone a random idea.
@@ -182,12 +182,13 @@ Weapons with long, wooden handles (such as glaives or spears) become unstable, a
 
 ## Force
 
-### Colourful
+### Beautiful
 
 0. The affected area flickers subtly, with visual distortions, like looking at a pond.
-2. The effect distorts the area obviously, making anyone who sees it understand the magic is afoot.
-3. The effect can be seen, like a flickering force-field.
-4. The visual effect takes on a ghostly form, such as a hand lifting up a floating object, or a fist crushing someone down.
+1. The effect distorts the area obviously, making anyone who sees it understand the magic is afoot.
+2. The effect can be seen, like a flickering force-field.
+3. The visual effect takes on a ghostly form, such as a hand lifting up a floating object, or a fist crushing someone down.
+4. The spell takes on a solid form, and looks exactly as the target wishes, except for some vague oddities (flickers and a shine) which show it to be an apparition.
 
 ### Big
 
@@ -195,7 +196,7 @@ Weapons with long, wooden handles (such as glaives or spears) become unstable, a
 1. Standard forces become more solid, making water hard to the touch, or making an area of air feel solid.
 2. A wall of unmoving air can become a harsh barrier, difficult for anyone or anything to move beyond.
 
-### Twisted
+### Bizarre
 
 0. Arrows descend faster than normal, missing the caster.
 1. Targets feel their weight increase, becoming heavier, and unable to run or fly properly.
