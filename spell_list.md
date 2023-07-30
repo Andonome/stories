@@ -1,6 +1,6 @@
-#----------------Fire#
+#----------------Fire
 
-##Bizzare##
+##Bizzare
 Fire gains unnatural properties.
 
 - 0 - Flame doesn't produce light. Instead, it absobs it, creating darkness
@@ -9,7 +9,7 @@ Fire gains unnatural properties.
 - 3 - Flame becomes liquid, spilling from torches, spreading over ground
 - 4 - Flame starts burning inflammable materials, like rocks or water, but stops burning flammable ones, like wood and oil
 
-##Big##
+##Big
 Changes the size of flame, according to Potency.
 
 - 0 - Flame the size of a candle        - 1 damage
@@ -18,7 +18,7 @@ Changes the size of flame, according to Potency.
 - 3 - Flame the size of a bonfire       - 4 damage
 - 4 - Flame the size of a large tree    - 5 damage
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -27,7 +27,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Potency increases how close the result is to desired image. Inferior effect to Illusions.
 
 - 0 - Child's drawing.       Fools no one, but evokes the desired image. If you tilt your head a bit, to look at a right angle
@@ -36,7 +36,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 - 3 - Almost it.             +3 to fool anyone not looking carefully
 - 4 - Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -44,7 +44,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -52,7 +52,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Flame created fits in the plam of your hand.
 
 - 0 - 2 targets, 2 things created or 2 copies replicated
@@ -60,7 +60,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 24 things created or 24 copies replicated
 - 3 - 120 targets, 120 things created or 120 copies replicated
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
@@ -68,9 +68,9 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-#----------------Air#
+#----------------Air
 
-##Bizzare##
+##Bizzare
 Air gains unnatural properties.
 
 - 0 - Air becomes unbreathable
@@ -79,7 +79,7 @@ Air gains unnatural properties.
 - 3 - 
 - 4 - 
 
-##Big##
+##Big
 Changes the size of a mass of air. Higher Potency can increase the pressure in the room, or create gusts of wind, as air expands.
 
 - 0 - Air mass that fits on your palm
@@ -88,7 +88,7 @@ Changes the size of a mass of air. Higher Potency can increase the pressure in t
 - 3 - Air mass the size of a house, or a field, or a grand hall. Enough wind to knock anyone nearby off their feet
 - 4 - Air mass that fills an entire street, or most of the forest. Temporary wind speeds equal to a hurricane
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -97,7 +97,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Potency increases how close the result is to desired image. Inferior effect to Illusions.
 
 - 0 - Child's drawing.       Fools no one, but evokes the desired image. If you tilt your head a bit, to look at a right angle
@@ -106,7 +106,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 - 3 - Almost it.             +3 to fool anyone not looking carefully
 - 4 - Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -114,7 +114,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -122,7 +122,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Air created fits in the plam of your hand.
 
 - 0 - 2 targets, 2 things created or 2 copies replicated
@@ -130,7 +130,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 24 things created or 24 copies replicated
 - 3 - 120 targets, 120 things created or 120 copies replicated
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
@@ -138,9 +138,9 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-#----------------Water#
+#----------------Water
 
-##Bizzare##
+##Bizzare
 Water gains unnatural properties.
 
 - 0 - Water evaporates
@@ -149,7 +149,7 @@ Water gains unnatural properties.
 - 3 - 
 - 4 - 
 
-##Big##
+##Big
 Description here
 
 - 0 - Weight of 4
@@ -158,7 +158,7 @@ Description here
 - 3 - Weight of 10
 - 4 - Weight of 14
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -167,7 +167,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Potency increases how close the result is to desired image. Inferior effect to Illusions.
 
 - 0 - Child's drawing.       Fools no one, but evokes the desired image. If you tilt your head a bit, to look at a right angle
@@ -176,7 +176,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 - 3 - Almost it.             +3 to fool anyone not looking carefully
 - 4 - Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -184,7 +184,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -192,7 +192,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Water created fits in the plam of your hand.
 
 - 0 - 2 targets, 2 things created or 2 copies replicated
@@ -200,7 +200,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 24 things created or 24 copies replicated
 - 3 - 120 targets, 120 things created or 120 copies replicated
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
@@ -208,9 +208,9 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-#----------------Earth#
+#----------------Earth
 
-##Bizzare##
+##Bizzare
 Earth gains unnatural properties.
 
 - 0 - Earth turns liquid
@@ -219,7 +219,7 @@ Earth gains unnatural properties.
 - 3 - 
 - 4 - 
 
-##Big##
+##Big
 Description here
 
 - 0 - Weight of 4
@@ -228,7 +228,7 @@ Description here
 - 3 - Weight of 10
 - 4 - Weight of 14
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -237,7 +237,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Potency increases how close the result is to desired image. Inferior effect to Illusions.
 
 - 0 - Child's drawing.       Fools no one, but evokes the desired image. If you tilt your head a bit, to look at a right angle
@@ -246,7 +246,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 - 3 - Almost it.             +3 to fool anyone not looking carefully
 - 4 - Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -254,7 +254,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -262,7 +262,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Earth created fits in the plam of your hand.
 
 - 0 - 2 targets, 2 things created or 2 copies replicated
@@ -270,7 +270,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 24 things created or 24 copies replicated
 - 3 - 120 targets, 120 things created or 120 copies replicated
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
@@ -278,9 +278,9 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-#----------------Fate#
+#----------------Fate
 
-##Bizzare##
+##Bizzare
 Fate gains unnatural properties.
 
 - 0 - Instead of increasing FP, it gets reduced
@@ -289,7 +289,7 @@ Fate gains unnatural properties.
 - 3 - 
 - 4 - 
 
-##Big##
+##Big
 Increases targets FP total
 
 - 0 - FP total increases by 4
@@ -298,7 +298,7 @@ Increases targets FP total
 - 3 - FP total increases by 10
 - 4 - FP total increases by 12
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -307,7 +307,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Description here
 
 - 0 - 
@@ -316,7 +316,7 @@ Description here
 - 3 - 
 - 4 - 
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -324,7 +324,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -332,7 +332,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Restores FP, or copies targets current FP on someone else.
 
 - 0 - 2 targets, 4 FP restored or FP replicated on 2 other targets
@@ -340,7 +340,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 8 FP restored or FP replicated on 24 other targets
 - 3 - 120 targets, 10 FP restored or FP replicated on 120 other targets
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
@@ -348,9 +348,9 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-#----------------Mind#
+#----------------Mind
 
-##Bizzare##
+##Bizzare
 Target creature will act opposite to its core beliefs. Resist with Wits + Empathy vs Int/Wts/Cha + Potency
 
 - 0 - 
@@ -359,7 +359,7 @@ Target creature will act opposite to its core beliefs. Resist with Wits + Empath
 - 3 - 
 - 4 - 
 
-##Big##
+##Big
 An existing idea becomes bigger, to the point of obsession. Target creature has to resist with Wits + Empathy vs Int/Wts/Cha + Potency, or it cannot stop thinking about this idea.
 
 - 0 - -1 penalty for creature to notice or work on anything unrelated to the affected idea
@@ -368,7 +368,7 @@ An existing idea becomes bigger, to the point of obsession. Target creature has 
 - 3 - -4 penalty for creature to notice or work on anything unrelated to the affected idea
 - 4 - -5 penalty for creature to notice or work on anything unrelated to the affected idea
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -377,7 +377,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Description here
 
 - 0 - 
@@ -386,7 +386,7 @@ Description here
 - 3 - 
 - 4 - 
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -394,7 +394,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -402,7 +402,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Gives a mind to something, or replicates an existing mind.
 
 - 0 - 2 targets, 2 things created or 2 copies replicated
@@ -410,7 +410,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 24 things created or 24 copies replicated
 - 3 - 120 targets, 120 things created or 120 copies replicated
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
@@ -418,9 +418,9 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-#----------------Life#
+#----------------Life
 
-##Bizzare##
+##Bizzare
 Life gains unnatural properties.
 
 - 0 - 
@@ -429,7 +429,7 @@ Life gains unnatural properties.
 - 3 - 
 - 4 - 
 
-##Big##
+##Big
 Increases the size of a creature, based on Potency.
 
 - 0 - 
@@ -438,7 +438,7 @@ Increases the size of a creature, based on Potency.
 - 3 - 
 - 4 - 
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -447,7 +447,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Potency increases how close the result is to desired image. Inferior effect to Illusions.
 
 - 0 - Child's drawing.       Fools no one, but evokes the desired image. If you tilt your head a bit, to look at a right angle
@@ -456,7 +456,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 - 3 - Almost it.             +3 to fool anyone not looking carefully
 - 4 - Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -464,7 +464,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -472,7 +472,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creations are always living creatures, but never sentient. Can replicate features from other living creatures, like wings from birds, or gills from fish.
 
 - 0 - 2 targets, 2 things created or 2 copies replicated
@@ -480,7 +480,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 24 things created or 24 copies replicated
 - 3 - 120 targets, 120 things created or 120 copies replicated
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
@@ -488,9 +488,9 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-#----------------Force#
+#----------------Force
 
-##Bizzare##
+##Bizzare
 Force gains unnatural properties. Namely telepots.
 
 - 0 - 
@@ -499,7 +499,7 @@ Force gains unnatural properties. Namely telepots.
 - 3 - 
 - 4 - 
 
-##Big##
+##Big
 Description here
 
 - 0 - 
@@ -508,7 +508,7 @@ Description here
 - 3 - 
 - 4 - 
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -517,7 +517,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Potency increases how close the result is to desired image. Inferior effect to Illusions.
 
 - 0 - Child's drawing.       Fools no one, but evokes the desired image. If you tilt your head a bit, to look at a right angle
@@ -526,7 +526,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 - 3 - Almost it.             +3 to fool anyone not looking carefully
 - 4 - Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -534,7 +534,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -542,7 +542,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency.
 
 - 0 - 2 targets, 2 things created or 2 copies replicated
@@ -550,7 +550,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 24 things created or 24 copies replicated
 - 3 - 120 targets, 120 things created or 120 copies replicated
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
@@ -558,9 +558,9 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-#----------------Illusion#
+#----------------Illusion
 
-##Bizzare##
+##Bizzare
 Illusions gain unnatural properties. Whatever is 'unnatural' for an illusion.
 
 - 0 - 
@@ -569,7 +569,7 @@ Illusions gain unnatural properties. Whatever is 'unnatural' for an illusion.
 - 3 - 
 - 4 - The most unnatural thing for an illusion is for it to be real
 
-##Big##
+##Big
 Increases the size of an illusion. Does this mean all illusions start as small shadows?
 
 - 0 - 
@@ -578,7 +578,7 @@ Increases the size of an illusion. Does this mean all illusions start as small s
 - 3 - 
 - 4 - 
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -587,7 +587,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Potency increases how close the result is to desired image.
 
 - 0 - Child's drawing.       +1 to fool somebody that this is the real thing
@@ -596,7 +596,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 - 3 - Almost it.             +6 to fool
 - 4 - Near-perfect likeness  +8 to fool
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -604,7 +604,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -612,7 +612,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Can replicate the appearance of something or somebody.
 
 - 0 - 2 targets, 2 things created or 2 copies replicated
@@ -620,7 +620,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 24 things created or 24 copies replicated
 - 3 - 120 targets, 120 things created or 120 copies replicated
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
@@ -628,9 +628,9 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-#----------------Death#
+#----------------Death
 
-##Bizzare##
+##Bizzare
 Death gains unnatural properties.
 
 - 0 - 
@@ -639,7 +639,7 @@ Death gains unnatural properties.
 - 3 - 
 - 4 - 
 
-##Big##
+##Big
 Expand the wounds. Accelerate the disease. More Fatigue. If the target is wounded or fatigued, it loses 1 more HP, and/or gains one more Fatigue, per level of Potency. If the target is deseased, the illness progresses to the next stage, as if number of days equal to Potency have passed.
 
 - 0 - 
@@ -648,7 +648,7 @@ Expand the wounds. Accelerate the disease. More Fatigue. If the target is wounde
 - 3 - 
 - 4 - 
 
-##Bonded##
+##Bonded
 Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 - 0 - 
@@ -657,7 +657,7 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 - 3 - 
 - 4 - 
 
-##Beautiful##
+##Beautiful
 Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Potency increases how close the result is to desired image. Inferior effect to Illusions. Affects only wounds, deseases and generally unhealthy appearance.
 
 - 0 - Child's drawing.       Fools no one, but evokes the desired image. If you tilt your head a bit, to look at a right angle
@@ -666,7 +666,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 - 3 - Almost it.             +3 to fool anyone not looking carefully
 - 4 - Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
 
-##Distant##
+##Distant
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
 - 0 - 20 steps + Potency
@@ -674,7 +674,7 @@ Changes the range at which spell can affect the target. The spell misses if the 
 - 2 - Shouting distance
 - 3 - Line of sight
 
-##Durable##
+##Durable
 How long does the spell's effect last, determined by Potency.
 
 - 0 - Remainder of Season
@@ -682,7 +682,7 @@ How long does the spell's effect last, determined by Potency.
 - 2 - Full Chronicle
 - 3 - Permanent
 
-##Duplicated##
+##Duplicated
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creates deseases, wounds and Fatigue, or spreads them on others.
 
 - 0 - 2 targets, 2 things created or 2 copies replicated
@@ -690,7 +690,7 @@ Creates new things, or replicates existing ones. Allows spells to have more than
 - 2 - 24 targets, 24 things created or 24 copies replicated
 - 3 - 120 targets, 120 things created or 120 copies replicated
 
-##Discreet##
+##Discreet
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
 - 0 - no penalty
