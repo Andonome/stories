@@ -1,4 +1,4 @@
-----------------**Fire**
+------------------------------------------------**Fire**
 
 **Bizzare**
 
@@ -76,7 +76,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-----------------**Air**
+------------------------------------------------**Air**
 
 **Bizzare**
 
@@ -154,7 +154,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-----------------**Water**
+------------------------------------------------**Water**
 
 **Bizzare**
 
@@ -232,7 +232,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-----------------**Earth**
+------------------------------------------------**Earth**
 
 **Bizzare**
 
@@ -310,7 +310,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-----------------**Fate**
+------------------------------------------------**Fate**
 
 **Bizzare**
 
@@ -388,7 +388,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-----------------**Mind**
+------------------------------------------------**Mind**
 
 **Bizzare**
 
@@ -466,7 +466,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-----------------**Life**
+------------------------------------------------**Life**
 
 **Bizzare**
 
@@ -544,7 +544,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-----------------**Force**
+------------------------------------------------**Force**
 
 **Bizzare**
 
@@ -622,7 +622,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-----------------**Illusion**
+------------------------------------------------**Illusion**
 
 **Bizzare**
 
@@ -700,7 +700,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 - 2 - -2 penalty
 - 3 - -3 penalty
 
-----------------**Death**
+------------------------------------------------**Death**
 
 **Bizzare**
 
