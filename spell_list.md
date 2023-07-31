@@ -4,11 +4,11 @@
 
 Fire gains unnatural properties.
 
-0. Flame doesn't produce light. Instead, it absorbs it, creating darkness
-1. Flame becomes solid, like a crystal
-1. Flame becomes cold. The hotter it was before, the colder it is now
+0. The flame starts moving in flow motion.
+1. The flame stands extremely still.
+1. The flame becomes lightning, and arcs through any nearby water or living things.
 1. Flame becomes liquid, spilling from torches, spreading over ground
-1. Flame starts burning inflammable materials, like rocks or water, but stops burning flammable ones, like wood and oil
+1. Flame starts burning inflammable materials, like rocks or water, but stops burning flammable ones, like wood and oil.
 
 ## Big
 
@@ -20,25 +20,15 @@ Changes the size of flame, according to Potency.
 1. Flame the size of a bonfire       - 4 damage
 1. Flame the size of a large tree    - 5 damage
 
-## Bonded
-
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
-
-0. 
-1. 
-1. 
-1. 
-1. 
-
 ## Beautiful
 
 Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Potency increases how close the result is to desired image. Inferior effect to Illusions.
 
-0. Child's drawing.       Fools no one, but evokes the desired image. If you tilt your head a bit, to look at a right angle
-1. Kinda looks like it.   +1 to fool someone with poor eye sight, on a dark night, at a distance, while being distracted
-1. Detailed likeness .    +2 to fool someone who's not paying attention
-1. Almost it.             +3 to fool anyone not looking carefully
-1. Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
+0. The flame flickers to the caster's tune, dancing to music, or changing size to match a story.
+1. The flame takes on the feint likeness of a face, or a silhouette.
+1. Detailed likeness - the fire actually looks like someone.
+1. The fire looks like a full person, or drawing, or map.
+1. The fire very nearly looks like the object in question were covered in burning oil.
 
 ## Distant
 
