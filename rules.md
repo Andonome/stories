@@ -2,22 +2,21 @@
 
 This magic system builds spells from words, and eventually forms a sentence.
 
-A magical sphere is a *Noun* of some kind, like 'Air', 'Fire', 'Desire', or 'Fate'.
-Mages with those spheres can alter these targets, and enhance spells with a number of modifiers, like 'wide' or 'subtle'.
+Mages become skilled in low-level spheres, such as Fire, Fate, or Air, then combine them to work with high-level spheres, such as Light, Death, and Force.
 
 ### Summary
 
 1. The caster can spend a number of MP equal to the highest sphere they want to use.
-1. Each MP can be spent on a different enhancement or metamagic.
-1. The spell's potence equals the MP spent on enhancements minus MP spent on metamagic.
-    - Spells with less than a potence of 0 fail.
-1. Spells use Charisma + some Skill.
+1. MP spent on enhancements increase the potency of every enhancement.
+1. MP spent on metamagics decrease the spell's potency, but add effects to the spell itself.
+    - Spells with less than a Potence of 0 fail.
+1. Casters roll Charisma + some Skill against a TN of 6 + MP spent.
     - The Skill depends on what the caster is attempting.
-1. The TN equals 6 + MP spent.
+    - When others resist the spell, it has two TNs.
 
 ## Spheres
 
-Mages can affect things governed by their magic spheres.
+Mages can only target their spheres directly, but can use these spheres to target others.
 
 ### Low Spheres
 
@@ -34,7 +33,7 @@ By combining two low spheres, you can create a high sphere:
 - Mind (Fate + Water)
 - Life (Earth + Water)
 - Force (Earth + Fire)
-- Illusion (Fire + Air)
+- Light (Fire + Air)
 - Death (Air + Fate)
 
 ## Enhancements
@@ -203,7 +202,4 @@ Weapons with long, wooden handles (such as glaives or spears) become unstable, a
 2. Targets float, becoming weightless.
 3. Gravity crawls along walls, allowing the target to wander across any surface.
 4. Distance disappears, opening a rift in space - a portal to anywhere within range.
-
-
-
 
