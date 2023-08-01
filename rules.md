@@ -101,6 +101,7 @@ Each metamagic added decreases the spell's Potency by 1.
 - Damage equals 4 plus potence.
 - DR equals 1 + 1 per potence.
 - When performing or resisting actions, spells have a total score equal to the potence x 2.
+- Spells which use their large size sometimes gain a bonus equal to total MP spent. For example, wind-blast spells become more powerful when the wind howls across a distance, or covers a wide area (with the Duplicated Metamagic), or becomes enduring.
 
 ## Complications
 
