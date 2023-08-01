@@ -88,7 +88,7 @@ When PCs hear the spell, the Judge should tell the players some words which rhym
 While anyone can see the mage casting a spell, they will not hear the words to be whispered simply from the casting.
 
 ### Secret Whispers
-    (*Beautiful, Discrete, Air*)
+    (*Beautiful, Discreet, Air*)
     **Spheres**: Air, **Skill**: Performance, **TN**: 8, **Cost**: 2, **Range**: 7 Steps
 
 As with Whispering Wind, but none can see the mage casting the spell without a Wits + Vigilance roll, resisted by the caster's Dexterity + Larceny.
