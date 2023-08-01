@@ -81,7 +81,7 @@ Each metamagic added decreases the spell's Potency by 1.
 - Duplicated: the spell replicates many times.
     * If the caster is making new targets, the spell creates a number of targets equal to the MP spent.
     * If the spell targets existing targets, the spell affects a number of targets equal to total 'MP!'.
-- Discrete
+- Discreet
     * Others won't easily see the caster is casting a spell.
     * They can roll Wits + Vigilance at TN 7 + caster's Dexterity + Larceny - spell's Potence.
 
