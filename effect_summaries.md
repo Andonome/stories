@@ -35,7 +35,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
@@ -105,7 +105,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
@@ -183,7 +183,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
@@ -261,7 +261,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
@@ -339,7 +339,7 @@ Description here
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
@@ -417,7 +417,7 @@ Description here
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
@@ -453,23 +453,23 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 ## Bizzare
 
-Life gains unnatural properties.
+Life gains unnatural properties. Each level of Potency reduces Charisma by 1. Charisma cannot go lower than -5.
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Target gains wings. Flight is possible only if Dexterity is higher than Strength
+1. Target gains gills. They can breathe underwater, but any exertion on air incurs +1 Fatigue
+1. Target gains claws. They deal HP damage with unarmed attacks, and can grapple and attack in the same move. +1 bonus for climbing, -1 penalty for using any tools that require Dexterity, including weapons
+1. Target can move as a quadruped, with increased speed. Both hands must be free. Speed has -1 penalty whenever target is moving on two legs
+1. Target gains DR 3. -1 Dexterity penalty
 
 ## Big
 
-Increases the size of a creature, based on Potency.
+Increases the size and Strength of a creature, based on Potency. Only the highest bonus of multiple castings counts
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. +1 Strength
+1. +2 Strength
+1. +3 Strength
+1. +4 Strength
+1. +5 Strength
 
 ## Bonded
 
@@ -495,7 +495,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
@@ -531,7 +531,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 ## Bizzare
 
-Force gains unnatural properties. Namely telepots.
+Force gains unnatural properties. Namely teleports.
 
 0. 
 1. 
@@ -573,7 +573,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
@@ -651,7 +651,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
@@ -729,7 +729,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 
 Changes the range at which spell can affect the target. The spell misses if the range is not exact.
 
-0. 20 steps + Potency
+0. 10 steps x MP spent
 1. Throwing distance
 1. Shouting distance
 1. Line of sight
