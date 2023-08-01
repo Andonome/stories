@@ -1,13 +1,14 @@
 # Fire
 
+
 ## Bizzare
 
 Fire gains unnatural properties.
 
 0. The flame starts moving in flow motion.
-1. The flame stands extremely still.
+1. The flame stands extremely still, or burns incredibly fast.
 1. The flame becomes lightning, and arcs through any nearby water or living things.
-1. Flame becomes liquid, spilling from torches, spreading over ground
+1. Flame becomes liquid, spilling from torches, spreading over ground; or else it burns in an instant, turning its own fuel into ash in a second.
 1. Flame starts burning inflammable materials, like rocks or water, but stops burning flammable ones, like wood and oil.
 
 ## Big
@@ -41,7 +42,9 @@ Changes the range at which spell can affect the target. The spell misses if the 
 
 ## Durable
 
-How long does the spell's effect last, determined by Potency.
+Fire spells may become Durable, but that won't help the fire itself become durable.
+This metamagic rarely has any effect on Fire spells, but on the rare occasions when a fire spreads and burns for a long time, whatever effects it had remain.
+A fire which looks like a raging, red, bull, would normally return to a normal fire once it spreads across a town, but a *Durable, Beautiful, Fire* spell would continue looking like a beast storming across the entire town for as long as the fire lasts.
 
 0. Remainder of Season
 1. 1 Cycle (3 years)
