@@ -85,21 +85,11 @@ Air gains unnatural properties.
 
 Changes the size of a mass of air. Higher Potency can increase the pressure in the room, or create gusts of wind, as air expands.
 
-0. Air mass that fits on your palm
-1. Air mass the size of a person. Creates a slight breeze
-1. Air mass the size of a room, or a large tree, or a very large beast. Creates a gust of wind that can stagger lesser creatures, blow the (not locked or barred) door of the room open, or disperse fog
-1. Air mass the size of a house, or a field, or a grand hall. Enough wind to knock anyone nearby off their feet
-1. Air mass that fills an entire street, or most of the forest. Temporary wind speeds equal to a hurricane
-
-## Bonded
-
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
-
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Air whips hair around, like a Raphaelite painting.
+1. Air mass the size of a person, making movement difficult.
+1. Air mass the size of a room, or a large tree, or a very large beast. Creates a gust of wind that can stagger lesser creatures, blow the (not locked or barred) door of the room open, or disperse fog.
+1. Air mass the size of a house, or a field, or a grand hall. Enough wind to knock anyone nearby off their feet.
+1. Air mass that fills an entire street, or most of the forest. Temporary wind speeds equal to a hurricane.
 
 ## Beautiful
 
