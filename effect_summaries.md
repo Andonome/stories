@@ -99,7 +99,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 1. Kinda looks like it.   +1 to fool someone with poor eye sight, on a dark night, at a distance, while being distracted
 1. Detailed likeness .    +2 to fool someone who's not paying attention
 1. Almost it.             +3 to fool anyone not looking carefully
-1. Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
+1. Near-perfect likeness  +4 to fool anyone who fails to notice the texture is wrong
 
 ## Distant
 
@@ -177,7 +177,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 1. Kinda looks like it.   +1 to fool someone with poor eye sight, on a dark night, at a distance, while being distracted
 1. Detailed likeness .    +2 to fool someone who's not paying attention
 1. Almost it.             +3 to fool anyone not looking carefully
-1. Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
+1. Near-perfect likeness  +4 to fool anyone who fails to notice the texture is wrong
 
 ## Distant
 
@@ -255,7 +255,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 1. Kinda looks like it.   +1 to fool someone with poor eye sight, on a dark night, at a distance, while being distracted
 1. Detailed likeness .    +2 to fool someone who's not paying attention
 1. Almost it.             +3 to fool anyone not looking carefully
-1. Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
+1. Near-perfect likeness  +4 to fool anyone who fails to notice the texture is wrong
 
 ## Distant
 
@@ -489,7 +489,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 1. Kinda looks like it.   +1 to fool someone with poor eye sight, on a dark night, at a distance, while being distracted
 1. Detailed likeness .    +2 to fool someone who's not paying attention
 1. Almost it.             +3 to fool anyone not looking carefully
-1. Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
+1. Near-perfect likeness  +4 to fool anyone who fails to notice the texture is wrong
 
 ## Distant
 
@@ -567,7 +567,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 1. Kinda looks like it.   +1 to fool someone with poor eye sight, on a dark night, at a distance, while being distracted
 1. Detailed likeness .    +2 to fool someone who's not paying attention
 1. Almost it.             +3 to fool anyone not looking carefully
-1. Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
+1. Near-perfect likeness  +4 to fool anyone who fails to notice the texture is wrong
 
 ## Distant
 
@@ -723,7 +723,7 @@ Aesthetic changes to colour, sound, taste, smell, and shape. Each level of Poten
 1. Kinda looks like it.   +1 to fool someone with poor eye sight, on a dark night, at a distance, while being distracted
 1. Detailed likeness .    +2 to fool someone who's not paying attention
 1. Almost it.             +3 to fool anyone not looking carefully
-1. Near-perfect likeness  +4 to fool anynoe who fails to notice the texture is wrong
+1. Near-perfect likeness  +4 to fool anyone who fails to notice the texture is wrong
 
 ## Distant
 
