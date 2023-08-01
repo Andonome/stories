@@ -51,3 +51,55 @@ A great bird, made of fire, appears and spreads its wings across a 2 step area (
 Any bows caught in the fire have their strings snap, and all people suffer 1D6-1 Damage.
 
 Anyone who would be caught in the spell's wings can attempt to evade by using Speed + Athletics.
+
+# Air
+
+## Level 1
+
+### Wind Blast
+    (*Big Air*)
+    **Spheres**: Air, **Skill**: Seafaring, **TN**: 7, **Cost**: 1, **Range**: 6 Steps
+
+The spell blasts the target back with air.
+They then lose 1 AP.
+
+
+### Mystery Door
+    (*Bizarre Air*)
+    **Spheres**: Air, **Skill**: Seafaring, **TN**: 7, **Cost**: 1, **Range**: 6 Steps
+
+A nearby patch of air turns into mist.
+Mages typically use this spell to block doorways or windows.
+
+Aiming arrows or spells at the feint shapes beyond suffers a -2 penalty.
+
+## Level 2
+
+### Whispering Wind
+    (*Beautiful, Distant, Air*)
+    **Spheres**: Air, **Skill**: Performance, **TN**: 8, **Cost**: 2, **Range**: 20 Steps
+
+The caster gives a message to the wind, which then whispers the message to someone within range.
+The message is so indistinct and garbled that the recipient won't hear much.
+
+When NPCs hear the spell, the Judge should roll their Wits + Vigilance (TN 7) to pick up some basic meaning.
+When PCs hear the spell, the Judge should tell the players some words which rhyme with the intended message.
+
+While anyone can see the mage casting a spell, they will not hear the words to be whispered simply from the casting.
+
+### Secret Whispers
+    (*Beautiful, Discrete, Air*)
+    **Spheres**: Air, **Skill**: Performance, **TN**: 8, **Cost**: 2, **Range**: 7 Steps
+
+As with Whispering Wind, but none can see the mage casting the spell without a Wits + Vigilance roll, resisted by the caster's Dexterity + Larceny.
+
+
+## Level 3
+
+### Storm Blast
+    (*Big, Beautiful, Duplicated, Air*)
+    **Spheres**: Air, **Skill**: Performance, **TN**: 8, **Cost**: 2, **Range**: 8 Steps
+
+The mage spins a massive cone of wind around 6 targets.
+Each loses 3 AP.
+
