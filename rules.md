@@ -68,8 +68,8 @@ When you add another enhancement, each enhancement grows.
 
 Each metamagic added decreases the spell's Potency by 1.
 
-- Distance: the spell targets something far away.  Standard range = 5 Steps + MP spent.  Distance is both a maximum and a minimum.
-    0. 20 steps + MP spent.
+- Distant: the spell targets something far away.  Standard range = 5 Steps + MP spent.  Distance is both a maximum and a minimum.
+    0. 10 steps x MP spent.
     1. Throwing distance.
     2. Shouting distance.
     3. Line of sight.
@@ -108,7 +108,7 @@ Each metamagic added decreases the spell's Potency by 1.
 
 These problems for spellcasters raise the difficulty:
 
-- Tiny target (+1)
+- Tiny target (+2)
 
 The TN for spells is 6 + challenges + MP spent.
 
