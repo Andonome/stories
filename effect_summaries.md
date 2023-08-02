@@ -455,11 +455,11 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 Life gains unnatural properties. Each level of Potency reduces Charisma by 1. Charisma cannot go lower than -5.
 
-0. Target gains wings. Flight is possible only if Dexterity is higher than Strength
-1. Target gains gills. They can breathe underwater, but any exertion on air incurs +1 Fatigue
-1. Target gains claws. They deal HP damage with unarmed attacks, and can grapple and attack in the same move. +1 bonus for climbing, -1 penalty for using any tools that require Dexterity, including weapons
-1. Target can move as a quadruped, with increased speed. Both hands must be free. Speed has -1 penalty whenever target is moving on two legs
+0. Target gains claws. They deal HP damage with unarmed attacks, and can grapple and attack in the same move. +1 bonus for climbing, -1 penalty for using any tools that require Dexterity, including weapons
+1. Target can move as a quadruped, at double their normal movement. Both hands must be free. Speed has -1 penalty whenever target is moving on two legs
 1. Target gains DR 3. -1 Dexterity penalty
+1. Target gains gills. They can breathe underwater, but any exertion on air incurs +1 Fatigue.
+1. Target gains wings. Flight is possible only if Speed is higher than Strength + DR.
 
 ## Big
 
