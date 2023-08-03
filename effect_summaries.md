@@ -453,23 +453,23 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 ## Bizzare
 
-Life gains unnatural properties. Each level of Potency reduces Charisma by 1. Charisma cannot go lower than -5.
+Life gains unnatural properties. Each level of Potency reduces targets Charisma by 1. Charisma cannot go lower than -5.
 
-0. Target gains claws. They deal HP damage with unarmed attacks, and can grapple and attack in the same move. +1 bonus for climbing, -1 penalty for using any tools that require Dexterity, including weapons
-1. Target can move as a quadruped, at double their normal movement. Both hands must be free. Speed has -1 penalty whenever target is moving on two legs
-1. Target gains DR 3. -1 Dexterity penalty
-1. Target gains gills. They can breathe underwater, but any exertion on air incurs +1 Fatigue.
-1. Target gains wings. Flight is possible only if Speed is higher than Strength + DR.
+0. Target creature gains claws. They deal HP damage with unarmed attacks, and can grapple and attack in the same move. +1 bonus for climbing, -1 penalty for using any tools that require Dexterity, including weapons. Plants become poisonous, 1D6+2 Fatigue if ingested.
+1. Target creature can move as a quadruped, at double their normal movement. Both hands must be free. Speed has -1 penalty whenever target is moving on two legs. Plants gain thorns, 1D6-2 damage.
+1. Target creature gains DR 3. -1 Dexterity penalty. Plants can uproot and move, gaining total Speed of 0.
+1. Target creature gains gills. They can breathe underwater, but any exertion on air incurs +1 Fatigue. Plants grow fast, 1 step per interval. Sorrounding ground is quickly drained of any nutrients to sustain this growth, even corpses and other plants are absorbed. Growth stops when there is nothing left to consume, but resumes as soon as new sustenance becomes available.
+1. Target creature gains wings. Flight is possible only if Speed is higher than Strength + DR. The Plants become hostile to all life, and fast (for a plant). They gain total Strength, Dexterity and Speed of -1, and deal 1D6 (+ Strength) damage by smashing anything nearby with their branches.
 
 ## Big
 
 Increases the size and Strength of a creature, based on Potency. Only the highest bonus of multiple castings counts
 
 0. +1 Strength
-1. +2 Strength
-1. +3 Strength
-1. +4 Strength
-1. +5 Strength
+1. +2 Strength, -1 Dexterity
+1. +3 Strength, -1 Dexterity and Speed
+1. +4 Strength, -1 Dexterity, Speed and Charisma
+1. +5 Strength, -1 Dexterity, Speed and Charisma, and +1 Fatigue whenever target gains Fatigue.
 
 ## Bonded
 
@@ -511,12 +511,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creations are always living creatures, but never sentient. Can replicate features from other living creatures, like wings from birds, or gills from fish.
+Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creations are always living creatures, but never sentient. Can replicate features from other living creatures, like wings from birds, or gills from fish. Each creature created starts with -5 Strength, Dexterity and Speed, plus some bonus points to distribute, based on Potency.
 
-0. 2 targets, 2 things created or 2 copies replicated
-1. 6 targets, 6 things created or 6 copies replicated
-1. 24 targets, 24 things created or 24 copies replicated
-1. 120 targets, 120 things created or 120 copies replicated
+0. 2 targets, 2 things created or 2 copies replicated. 20 bonus points to distribute among Strength, Dexterity and Speed.
+1. 6 targets, 6 things created or 6 copies replicated. 15 bonus points to distribute among Strength, Dexterity and Speed.
+1. 24 targets, 24 things created or 24 copies replicated. 10 bonus points to distribute among Strength, Dexterity and Speed.
+1. 120 targets, 120 things created or 120 copies replicated. 5 bonus points to distribute among Strength, Dexterity and Speed.
 
 ## Discreet
 
