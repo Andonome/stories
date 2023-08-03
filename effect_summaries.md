@@ -299,11 +299,11 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 Fate gains unnatural properties.
 
-0. Instead of increasing FP, it gets reduced
+0. Instead of increasing FP, it gets reduced.
 1. 
 1. 
 1. 
-1. 
+1. Target gets +1 on their next roll.
 
 ## Big
 
@@ -327,13 +327,13 @@ Adds another sphere to the spell. Judge determines the effects. Has no scaling.
 
 ## Beautiful
 
-Description here
+Fate is not perceivable by most mortals. Instead, Beautiful Fate is meant to please the Gods. Pass a Int/Wit/Cha + Empathy vs Targets Cha + Potency to grant the target FP above even their maximum total. Failure results in caster losing the same amount of FP instead. FP regenerates only if below maximum total. Only the highest of multiple castings applies.
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Target gains 5 FP.
+1. Target gains 7 FP.
+1. Target gains 9 FP.
+1. Target gains 11 FP.
+1. Target gains 13 FP.
 
 ## Distant
 
@@ -457,9 +457,9 @@ Life gains unnatural properties. Each level of Potency reduces targets Charisma 
 
 0. Target creature gains claws. They deal HP damage with unarmed attacks, and can grapple and attack in the same move. +1 bonus for climbing, -1 penalty for using any tools that require Dexterity, including weapons. Plants become poisonous, 1D6+2 Fatigue if ingested.
 1. Target creature can move as a quadruped, at double their normal movement. Both hands must be free. Speed has -1 penalty whenever target is moving on two legs. Plants gain thorns, 1D6-2 damage.
-1. Target creature gains DR 3. -1 Dexterity penalty. Plants can uproot and move, gaining total Speed of 0.
-1. Target creature gains gills. They can breathe underwater, but any exertion on air incurs +1 Fatigue. Plants grow fast, 1 step per interval. Sorrounding ground is quickly drained of any nutrients to sustain this growth, even corpses and other plants are absorbed. Growth stops when there is nothing left to consume, but resumes as soon as new sustenance becomes available.
-1. Target creature gains wings. Flight is possible only if Speed is higher than Strength + DR. The Plants become hostile to all life, and fast (for a plant). They gain total Strength, Dexterity and Speed of -1, and deal 1D6 (+ Strength) damage by smashing anything nearby with their branches.
+1. Target creature gains gills. They can breathe underwater, but any exertion on air incurs +1 Fatigue. Plants can uproot and move, gaining total Speed of 0.
+1. Target creature gains wings. Flight is possible only if Speed is higher than Strength + DR. Plants grow fast, 1 step per interval. Sorrounding ground is quickly drained of any nutrients to sustain this growth, even corpses and other plants are absorbed. Growth stops when there is nothing left to consume, but resumes as soon as new sustenance becomes available.
+1. Target creature gains DR 3. -1 Dexterity penalty. The Plants become hostile to all life, and fast (for a plant). They gain total Strength, Dexterity and Speed of -1, and deal 1D6 (+ Strength) damage by smashing anything nearby with their branches.
 
 ## Big
 
@@ -513,10 +513,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creations are always living creatures, but never sentient. Can replicate features from other living creatures, like wings from birds, or gills from fish. Each creature created starts with -5 Strength, Dexterity and Speed, plus some bonus points to distribute, based on Potency.
 
-0. 2 targets, 2 things created or 2 copies replicated. 20 bonus points to distribute among Strength, Dexterity and Speed.
-1. 6 targets, 6 things created or 6 copies replicated. 15 bonus points to distribute among Strength, Dexterity and Speed.
-1. 24 targets, 24 things created or 24 copies replicated. 10 bonus points to distribute among Strength, Dexterity and Speed.
-1. 120 targets, 120 things created or 120 copies replicated. 5 bonus points to distribute among Strength, Dexterity and Speed.
+0. 2 targets, 2 things created or 2 copies replicated. 9 bonus points to distribute among Strength, Dexterity and Speed.
+1. 6 targets, 6 things created or 6 copies replicated. 7 bonus points to distribute among Strength, Dexterity and Speed.
+1. 24 targets, 24 things created or 24 copies replicated. 5 bonus points to distribute among Strength, Dexterity and Speed.
+1. 120 targets, 120 things created or 120 copies replicated. 3 bonus points to distribute among Strength, Dexterity and Speed.
 
 ## Discreet
 
@@ -619,13 +619,13 @@ Illusions gain unnatural properties. Whatever is 'unnatural' for an illusion.
 
 ## Big
 
-Increases the size of an illusion. Does this mean all illusions start as small shadows?
+Increases the size of an illusion. Size of the illusion based on Potency.
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Illusion fits on the palm of your hand.
+1. Illusion is the size of person.
+1. Illusion is the size of a large beast.
+1. Illusion is the size of a house.
+1. Illusion it the size of a large city square, or a small forest.
 
 ## Bonded
 
@@ -693,17 +693,17 @@ Death gains unnatural properties.
 1. 
 1. 
 1. 
-1. 
+1. Target stops ageing.
 
 ## Big
 
-Expand the wounds. Accelerate the disease. More Fatigue. If the target is wounded or fatigued, it loses 1 more HP, and/or gains one more Fatigue, per level of Potency. If the target is deseased, the illness progresses to the next stage, as if number of days equal to Potency have passed.
+Expand the wounds. Accelerate the disease. More Fatigue. If the target is wounded or fatigued, it loses 1 more HP, and/or gains one more Fatigue, per level of Potency. If the target is deseased or poisoned, the condition progresses to the next stage, as if number of intervals equal to Potency have passed.
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Target loses 1HP if wounded, gains 1 Fatigue if Fatigued. Deseases and poisons progress by 1 interval.
+1. Target loses 2HP if wounded, gains 2 Fatigue if Fatigued. Deseases and poisons progress by 2 intervals.
+1. Target loses 3HP if wounded, gains 3 Fatigue if Fatigued. Deseases and poisons progress by 3 intervals.
+1. Target loses 4HP if wounded, gains 4 Fatigue if Fatigued. Deseases and poisons progress by 4 intervals.
+1. Target loses 5HP if wounded, gains 5 Fatigue if Fatigued. Deseases and poisons progress by 5 intervals.
 
 ## Bonded
 
@@ -747,10 +747,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creates deseases, wounds and Fatigue, or spreads them on others.
 
-0. 2 targets, 2 things created or 2 copies replicated
-1. 6 targets, 6 things created or 6 copies replicated
-1. 24 targets, 24 things created or 24 copies replicated
-1. 120 targets, 120 things created or 120 copies replicated
+0. 2 targets, 2 things created or 2 copies replicated. Creates 4HP wound, or 8 Fatigue Points.
+1. 6 targets, 6 things created or 6 copies replicated. Creates 3HP wound, or 6 Fatigue Points.
+1. 24 targets, 24 things created or 24 copies replicated. Creates 2HP wound, or 4 Fatigue Points.
+1. 120 targets, 120 things created or 120 copies replicated. Creates 1HP wound, or 2 Fatigue Points.
 
 ## Discreet
 
