@@ -65,10 +65,10 @@ A fire which looks like a raging, red, bull, would normally return to a normal f
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Flame created fits in the plam of your hand.
 
-0. 2 targets, 2 things created or 2 copies replicated
-1. 6 targets, 6 things created or 6 copies replicated
-1. 24 targets, 24 things created or 24 copies replicated
-1. 120 targets, 120 things created or 120 copies replicated
+0. 2 targets, 1 thing created or 2 copies replicated
+1. 6 targets, 3 things created or 6 copies replicated
+1. 24 targets, 12 things created or 24 copies replicated
+1. 120 targets, 60 things created or 120 copies replicated
 
 ## Discreet
 
@@ -143,10 +143,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Air created fits in the plam of your hand.
 
-0. 2 targets, 2 things created or 2 copies replicated
-1. 6 targets, 6 things created or 6 copies replicated
-1. 24 targets, 24 things created or 24 copies replicated
-1. 120 targets, 120 things created or 120 copies replicated
+0. 2 targets, 1 thing created or 2 copies replicated
+1. 6 targets, 3 things created or 6 copies replicated
+1. 24 targets, 12 things created or 24 copies replicated
+1. 120 targets, 60 things created or 120 copies replicated
 
 ## Discreet
 
@@ -221,10 +221,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Water created fits in the plam of your hand.
 
-0. 2 targets, 2 things created or 2 copies replicated
-1. 6 targets, 6 things created or 6 copies replicated
-1. 24 targets, 24 things created or 24 copies replicated
-1. 120 targets, 120 things created or 120 copies replicated
+0. 2 targets, 1 thing created or 2 copies replicated
+1. 6 targets, 3 things created or 6 copies replicated
+1. 24 targets, 12 things created or 24 copies replicated
+1. 120 targets, 60 things created or 120 copies replicated
 
 ## Discreet
 
@@ -299,10 +299,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Earth created fits in the plam of your hand.
 
-0. 2 targets, 2 things created or 2 copies replicated
-1. 6 targets, 6 things created or 6 copies replicated
-1. 24 targets, 24 things created or 24 copies replicated
-1. 120 targets, 120 things created or 120 copies replicated
+0. 2 targets, 1 thing created or 2 copies replicated
+1. 6 targets, 3 things created or 6 copies replicated
+1. 24 targets, 12 things created or 24 copies replicated
+1. 120 targets, 60 things created or 120 copies replicated
 
 ## Discreet
 
@@ -455,10 +455,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Gives a mind to something, or replicates an existing mind.
 
-0. 2 targets, 2 things created or 2 copies replicated
-1. 6 targets, 6 things created or 6 copies replicated
-1. 24 targets, 24 things created or 24 copies replicated
-1. 120 targets, 120 things created or 120 copies replicated
+0. 2 targets, 1 thing created or 2 copies replicated
+1. 6 targets, 3 things created or 6 copies replicated
+1. 24 targets, 12 things created or 24 copies replicated
+1. 120 targets, 60 things created or 120 copies replicated
 
 ## Discreet
 
@@ -533,10 +533,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creations are always living creatures, but never sentient. Can replicate features from other living creatures, like wings from birds, or gills from fish. Each creature created starts with -5 Strength, Dexterity and Speed, plus some bonus points to distribute, based on Potency.
 
-0. 2 targets, 2 things created or 2 copies replicated. 9 bonus points to distribute among Strength, Dexterity and Speed.
-1. 6 targets, 6 things created or 6 copies replicated. 7 bonus points to distribute among Strength, Dexterity and Speed.
-1. 24 targets, 24 things created or 24 copies replicated. 5 bonus points to distribute among Strength, Dexterity and Speed.
-1. 120 targets, 120 things created or 120 copies replicated. 3 bonus points to distribute among Strength, Dexterity and Speed.
+0. 2 targets, 1 thing created or 2 copies replicated. 9 bonus points to distribute among Strength, Dexterity and Speed.
+1. 6 targets, 3 things created or 6 copies replicated. 7 bonus points to distribute among Strength, Dexterity and Speed.
+1. 24 targets, 12 things created or 24 copies replicated. 5 bonus points to distribute among Strength, Dexterity and Speed.
+1. 120 targets, 60 things created or 120 copies replicated. 3 bonus points to distribute among Strength, Dexterity and Speed.
 
 ## Discreet
 
@@ -611,10 +611,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency.
 
-0. 2 targets, 2 things created or 2 copies replicated
-1. 6 targets, 6 things created or 6 copies replicated
-1. 24 targets, 24 things created or 24 copies replicated
-1. 120 targets, 120 things created or 120 copies replicated
+0. 2 targets, 1 thing created or 2 copies replicated
+1. 6 targets, 3 things created or 6 copies replicated
+1. 24 targets, 12 things created or 24 copies replicated
+1. 120 targets, 60 things created or 120 copies replicated
 
 ## Discreet
 
@@ -689,10 +689,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Can replicate the appearance of something or somebody.
 
-0. 2 targets, 2 things created or 2 copies replicated
-1. 6 targets, 6 things created or 6 copies replicated
-1. 24 targets, 24 things created or 24 copies replicated
-1. 120 targets, 120 things created or 120 copies replicated
+0. 2 targets, 1 thing created or 2 copies replicated
+1. 6 targets, 3 things created or 6 copies replicated
+1. 24 targets, 12 things created or 24 copies replicated
+1. 120 targets, 60 things created or 120 copies replicated
 
 ## Discreet
 
@@ -767,10 +767,10 @@ How long does the spell's effect last, determined by Potency.
 
 Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creates deseases, wounds and Fatigue, or spreads them on others.
 
-0. 2 targets, 2 things created or 2 copies replicated. Creates 4HP wound, or 8 Fatigue Points.
-1. 6 targets, 6 things created or 6 copies replicated. Creates 3HP wound, or 6 Fatigue Points.
-1. 24 targets, 24 things created or 24 copies replicated. Creates 2HP wound, or 4 Fatigue Points.
-1. 120 targets, 120 things created or 120 copies replicated. Creates 1HP wound, or 2 Fatigue Points.
+0. 2 targets, 1 thing created or 2 copies replicated. Creates 4HP wound, or 8 Fatigue Points.
+1. 6 targets, 3 things created or 6 copies replicated. Creates 3HP wound, or 6 Fatigue Points.
+1. 24 targets, 12 things created or 24 copies replicated. Creates 2HP wound, or 4 Fatigue Points.
+1. 120 targets, 60 things created or 120 copies replicated. Creates 1HP wound, or 2 Fatigue Points.
 
 ## Discreet
 
