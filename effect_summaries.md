@@ -1,7 +1,7 @@
 # Fire
 
 
-## Bizzare
+## Bizarre
 
 Fire gains unnatural properties.
 
@@ -20,6 +20,16 @@ Changes the size of flame, according to Potency.
 1. Flame the size of a cooking fire  - 3 damage
 1. Flame the size of a bonfire       - 4 damage
 1. Flame the size of a large tree    - 5 damage
+
+## Bonded
+
+Adds another sphere to the spell. Judge determines the effects. Has no scaling.
+
+0. 
+1. 
+1. 
+1. 
+1. 
 
 ## Beautiful
 
@@ -90,6 +100,16 @@ Changes the size of a mass of air. Higher Potency can increase the pressure in t
 1. Air mass the size of a room, or a large tree, or a very large beast. Creates a gust of wind that can stagger lesser creatures, blow the (not locked or barred) door of the room open, or disperse fog.
 1. Air mass the size of a house, or a field, or a grand hall. Enough wind to knock anyone nearby off their feet.
 1. Air mass that fills an entire street, or most of the forest. Temporary wind speeds equal to a hurricane.
+
+## Bonded
+
+Adds another sphere to the spell. Judge determines the effects. Has no scaling.
+
+0. 
+1. 
+1. 
+1. 
+1. 
 
 ## Beautiful
 
@@ -217,7 +237,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 # Earth
 
-## Bizzare
+## Bizarre
 
 Earth gains unnatural properties.
 
@@ -295,7 +315,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 # Fate
 
-## Bizzare
+## Bizarre
 
 Fate gains unnatural properties.
 
@@ -373,7 +393,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 # Mind
 
-## Bizzare
+## Bizarre
 
 Target creature will act opposite to its core beliefs. Resist with Wits + Empathy vs Int/Wts/Cha + Potency
 
@@ -451,7 +471,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 # Life
 
-## Bizzare
+## Bizarre
 
 Life gains unnatural properties. Each level of Potency reduces targets Charisma by 1. Charisma cannot go lower than -5.
 
@@ -529,7 +549,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 # Force
 
-## Bizzare
+## Bizarre
 
 Force gains unnatural properties. Namely teleports.
 
@@ -541,13 +561,13 @@ Force gains unnatural properties. Namely teleports.
 
 ## Big
 
-Description here
+Increases target's momentum.
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Any moving object moves 1 square faster. Weapons deal +1 damage, but require 1 more AP to use.
+1. Any moving object moves 2 squares faster. Weapons deal +2 damage, but require 2 more AP to use.
+1. Any moving object moves 3 squares faster. Weapons deal +3 damage, but require 3 more AP to use.
+1. Any moving object moves 4 squares faster. Weapons deal +4 damage, but require 4 more AP to use.
+1. Any moving object moves 5 squares faster. Weapons deal +5 damage, but require 5 more AP to use.
 
 ## Bonded
 
@@ -607,7 +627,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 # Illusion
 
-## Bizzare
+## Bizarre
 
 Illusions gain unnatural properties. Whatever is 'unnatural' for an illusion.
 
@@ -692,8 +712,8 @@ Death gains unnatural properties.
 0. 
 1. 
 1. 
-1. 
 1. Target stops ageing.
+1. 
 
 ## Big
 
