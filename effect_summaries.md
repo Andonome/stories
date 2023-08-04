@@ -321,7 +321,7 @@ Fate gains unnatural properties.
 
 0. Instead of increasing FP, it gets reduced.
 1. 
-1. 
+1. Instead of MP, caster spends FP.
 1. 
 1. Target gets +1 on their next roll.
 
