@@ -95,11 +95,11 @@ Air gains unnatural properties.
 
 Changes the size of a mass of air. Higher Potency can increase the pressure in the room, or create gusts of wind, as air expands.
 
-0. Air whips hair around, like a Raphaelite painting.
-1. Air mass the size of a person, making movement difficult.
-1. Air mass the size of a room, or a large tree, or a very large beast. Creates a gust of wind that can stagger lesser creatures, blow the (not locked or barred) door of the room open, or disperse fog.
-1. Air mass the size of a house, or a field, or a grand hall. Enough wind to knock anyone nearby off their feet.
-1. Air mass that fills an entire street, or most of the forest. Temporary wind speeds equal to a hurricane.
+0. Air whips hair around, like a Raphaelite painting. Affected creatures lose 1 AP, minus thier Strength, and are pushed back for the same number of steps.
+1. Air mass the size of a person, making movement difficult. Affected creatures lose 3 AP, minus thier Strength, and are pushed back for the same number of steps.
+1. Air mass the size of a room, or a large tree, or a very large beast. Creates a gust of wind that can stagger lesser creatures, blow the (not locked or barred) door of the room open, or disperse fog. Affected creatures lose 5 AP, minus thier Strength, and are pushed back for the same number of steps.
+1. Air mass the size of a house, or a field, or a grand hall. Enough wind to knock anyone nearby off their feet. Affected creatures lose 7 AP, minus thier Strength, and are pushed back for the same number of steps.
+1. Air mass that fills an entire street, or most of the forest. Temporary wind speeds equal to a hurricane. Affected creatures lose 9 AP, minus thier Strength, and are pushed back for the same number of steps.
 
 ## Bonded
 
@@ -631,11 +631,11 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 Illusions gain unnatural properties. Whatever is 'unnatural' for an illusion.
 
-0. 
-1. 
-1. 
-1. 
-1. The most unnatural thing for an illusion is for it to be real
+0. The illusion is just sound, taste and/or smell.
+1. The illusion has no appearance. Its target, or the illusion itself, is invisible. Or soundless. Or odourless. Or tasteless. Only one applies.
+1. Otherwise fragile, an illusion can now survive any disturbance. Once.
+1. Any sound, smell and taste illusion produces is extremely amplified. If it's normally sickening, now it also induces +3 Fatigue.
+1. The illusion's appearance is not definite. It can change any number of times, but the characteristics of the spell are the same as when it was cast.
 
 ## Big
 
