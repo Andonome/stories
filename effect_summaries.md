@@ -554,10 +554,10 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 Force gains unnatural properties. Namely teleports.
 
 0. 
+1. Target loses all momentum. It remains completely motionless until something moves it. Living creatures, and anything that moves of its own volition can can break free by spending 2 AP. Gravity is ignored.
 1. 
-1. 
-1. 
-1. 
+1. Mage uses incredible force to rip a chunk of space and place it elsewhere. Connect two locations with a teleport.
+1. Target is unaffected by gravity.
 
 ## Big
 
@@ -709,11 +709,11 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 Death gains unnatural properties.
 
-0. 
-1. 
-1. 
-1. Target stops ageing.
-1. 
+0. Target loses 2 Fatigue.
+1. Target stops all ageing and rotting.
+1. Target suffers no Fatigue penalties, but can still gain Fatigue.
+1. Target gains DR equal to their Fatigue penalty.
+1. Target falls dead. They revive as soon as the spell ends.
 
 ## Big
 
