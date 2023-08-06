@@ -85,8 +85,8 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 Air gains unnatural properties.
 
-0. Air becomes subtly reflective, like the shimmer on water.
-1. Air becomes opaque, stopping anyone seeing through it.
+0. Air becomes subtly reflective, like the shimmer on water. Seeing through it comes with a -1 penalty.
+1. Air becomes opaque. Any roll to see through the air receives a -3 penalty.
 1. Air becomes unbreathable, inflicting Fatigue Points on anyone inhaling it.
 1. Air stifles sound.
 1. Air becomes dense, and moving through it is like moving through thick molasses.

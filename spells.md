@@ -61,7 +61,7 @@ Anyone who would be caught in the spell's wings can attempt to evade by using Sp
     **Spheres**: Air, **Skill**: Seafaring, **TN**: 7, **Cost**: 1, **Range**: 6 Steps
 
 The spell blasts the target back with air.
-They then lose 1 AP.
+They then lose 3 AP minus their Strength.
 
 
 ### Mystery Door
@@ -71,7 +71,7 @@ They then lose 1 AP.
 A nearby patch of air turns into mist.
 Mages typically use this spell to block doorways or windows.
 
-Aiming arrows or spells at the feint shapes beyond suffers a -2 penalty.
+Aiming arrows or spells at the feint shapes beyond suffers a -3 penalty.
 
 ## Level 2
 
@@ -98,7 +98,7 @@ As with Whispering Wind, but none can see the mage casting the spell without a W
 
 ### Storm Blast
     (*Big, Beautiful, Duplicated, Air*)
-    **Spheres**: Air, **Skill**: Performance, **TN**: 8, **Cost**: 2, **Range**: 8 Steps
+    **Spheres**: Air, **Skill**: Performance, **TN**: 8, **Cost**: 3, **Range**: 8 Steps
 
 The mage spins a massive cone of wind around 6 targets.
 Each loses 3 AP.
