@@ -551,10 +551,10 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 ## Bizarre
 
-Force gains unnatural properties. Namely teleports.
+Force gains unnatural properties.
 
 0. 
-1. Target loses all momentum. It remains completely motionless until something moves it. Living creatures, and anything that moves of its own volition can can break free by spending 2 AP. Gravity is ignored.
+1. Target loses all momentum. It remains completely motionless until something moves it. Living creatures, and anything that moves of its own volition can break free by spending 1 AP. Gravity is ignored.
 1. 
 1. Mage uses incredible force to rip a chunk of space and place it elsewhere. Connect two locations with a teleport.
 1. Target is unaffected by gravity.
@@ -629,13 +629,13 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 ## Bizarre
 
-Illusions gain unnatural properties. Whatever is 'unnatural' for an illusion.
+Illusions gain unnatural properties.
 
 0. The illusion is just sound, taste and/or smell.
 1. The illusion has no appearance. Its target, or the illusion itself, is invisible. Or soundless. Or odourless. Or tasteless. Only one applies.
 1. Otherwise fragile, an illusion can now survive any disturbance. Once.
-1. Any sound, smell and taste illusion produces is extremely amplified. If it's normally sickening, now it also induces +3 Fatigue.
-1. The illusion's appearance is not definite. It can change any number of times, but the characteristics of the spell are the same as when it was cast.
+1. The illusion's appearance is not definite. It can change any number of times, but the Enhancements, Metamagics and Potency of the spell are the same as when it was cast.
+1. Any sound, smell and taste illusion produces is extremely amplified. If it's normally sickening, now it also induces +1 Fatigue.
 
 ## Big
 
@@ -710,10 +710,10 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 Death gains unnatural properties.
 
 0. Target loses 2 Fatigue.
-1. Target stops all ageing and rotting.
-1. Target suffers no Fatigue penalties, but can still gain Fatigue.
+1. Target ignores Fatigue penalties, but can still gain Fatigue.
 1. Target gains DR equal to their Fatigue penalty.
-1. Target falls dead. They revive as soon as the spell ends.
+1. Target stops all ageing and rotting.
+1. Target falls dead. They revive at the start of next round.
 
 ## Big
 
