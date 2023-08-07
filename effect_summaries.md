@@ -319,11 +319,11 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 Fate gains unnatural properties.
 
-0. Instead of increasing FP, it gets reduced.
-1. 
-1. Instead of MP, caster spends FP.
-1. 
-1. Target gets +1 on their next roll.
+0. The next time the target rolls doubles on the dice (two of the same number), they gain a +1 to that Skill (not cumulative with other Fate spells).
+1. The next time the target uses any Skill, they gain a +1 to that Skill, which remains as long as the spell.
+1. All MP in the area flock to the target (and none other until their MP is full).
+1. The next encounter with a creature is ignored (bandits, traders, woodspies - all gone).
+1. Target gets +1 to any 4 rolls (because the Potency is 4). This is cumulative with other Fate spells.
 
 ## Big
 
