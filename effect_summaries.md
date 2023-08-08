@@ -21,7 +21,7 @@ Changes the size of flame, according to Potency.
 1. Flame the size of a bonfire       - 4 damage
 1. Flame the size of a large tree    - 5 damage
 
-## Fast
+## Boosted
 
 0. Flame burns twice the natural speed.
 1. Flame burns up very fast, roaring away, and burning anyone nearby.
@@ -99,7 +99,7 @@ Changes the size of a mass of air. Higher Potency can increase the pressure in t
 1. Target smoke grows to fill a full village. Normal air still does nothing.
 1. Air-pressure increases to the point of giving anyone around a headache.
 
-## Fast
+## Boosted
 
 0. Air whips hair around, like a Raphaelite painting. Affected creatures lose 1 AP, minus thier Strength, and are pushed back for the same number of steps.
 1. Air mass the size of a person, making movement difficult. Affected creatures lose 3 AP, minus thier Strength, and are pushed back for the same number of steps.
@@ -176,7 +176,7 @@ Description here
 1. Weight of 10
 1. Weight of 14
 
-## Fast
+## Boosted
 
 0. Water rushes upwards, prompting a Seafaring check from swimmers.
 1. Water pushes up fast enough to affect a rowing-boat.
@@ -252,7 +252,7 @@ The earth slowly builds up, creating a 'mole-hill' effect.
 1. Weight of 10
 1. Weight of 14
 
-## Fast
+## Boosted
 
 0. Earth pushes up slowly, over the course of the interval.
 1. Earth pushes up quickly, toppling anyone on top of it (check balance, at TN 8)
@@ -328,7 +328,7 @@ Increases target's maximum FP, so someone with 5 FP affected by Level 1 could ho
 1. FP total increases by 6
 1. FP total increases by 8
 
-## Fast
+## Boosted
 
 Target gains FP.
 
@@ -337,7 +337,6 @@ Target gains FP.
 1. Target gains 4 FP
 1. Target gains 6 FP
 1. Target gains 8 FP
-
 
 ## Beautiful
 
@@ -407,6 +406,16 @@ An existing idea becomes bigger, to the point of obsession. Target creature has 
 1. -4 penalty for creature to notice or work on anything unrelated to the affected idea
 1. -5 penalty for creature to notice or work on anything unrelated to the affected idea
 
+## Boosted
+
+Intelligence, Wits or Charisma are boosted, to the detriment of other two attributes. Boosted Intelligence grants extreme focus, but the character is unaware of its sorroundings and other people, suffering a penalty to Wits and Charisma. Boosted Wits grants extremely fast thinking, but the character has trouble focusing on a single idea, penalizing Intelligence, and talks too fast for other people to follow, penalizing Charisma. Boosted Charisma grants fast adaptability to any social situation, but the character becomes too self-absorbed to notice other people, or think about anything other than their social standing, penalizing Wits and Intelligence.
+
+0. +1 bonus, no penalty
+1. +2 bonus, -1 penalty
+1. +3 bonus, -2 penalty
+1. +4 bonus, -3 penalty
+1. +5 bonus, -4 penalty
+
 ## Beautiful
 
 Description here
@@ -475,7 +484,7 @@ Increases the size and Strength of a creature, based on Potency. Only the highes
 1. +4 Strength, -1 Dexterity, Speed and Charisma
 1. +5 Strength, -1 Dexterity, Speed and Charisma, and +1 Fatigue whenever target gains Fatigue.
 
-## Fast
+## Boosted
 
 Affects Speed.
 
@@ -553,7 +562,7 @@ Increases target's momentum.
 1. Any moving object moves 4 squares faster. Weapons deal +4 damage, but require 4 more AP to use.
 1. Any moving object moves 5 squares faster. Weapons deal +5 damage, but require 5 more AP to use.
 
-## Fast
+## Boosted
 
 Makes things go fast!
 
@@ -631,7 +640,7 @@ Increases the size of an illusion. Size of the illusion based on Potency.
 1. Illusion is the size of a house.
 1. Illusion it the size of a large city square, or a small forest.
 
-## Fast
+## Boosted
 
 Illusion can now move about properly.
 (basic Speed is -5, plus Potency x 2)
@@ -710,7 +719,7 @@ Expand the wounds. Accelerate the disease. More Fatigue. If the target is wounde
 1. Target loses 4HP if wounded, gains 4 Fatigue if Fatigued. Deseases and poisons progress by 4 intervals.
 1. Target loses 5HP if wounded, gains 5 Fatigue if Fatigued. Deseases and poisons progress by 5 intervals.
 
-## Fast
+## Boosted
 
 Fatigue Point loss speeds up, but only if they suffer Fatigue Points.
 
