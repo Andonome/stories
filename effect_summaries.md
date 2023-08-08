@@ -408,7 +408,7 @@ An existing idea becomes bigger, to the point of obsession. Target creature has 
 
 ## Boosted
 
-Intelligence, Wits or Charisma are boosted, to the detriment of other two attributes. Boosted Intelligence grants extreme focus, but the character is unaware of its sorroundings and other people, suffering a penalty to Wits and Charisma. Boosted Wits grants extremely fast thinking, but the character has trouble focusing on a single idea, penalizing Intelligence, and talks too fast for other people to follow, penalizing Charisma. Boosted Charisma grants fast adaptability to any social situation, but the character becomes too self-absorbed to notice other people, or think about anything other than their social standing, penalizing Wits and Intelligence.
+Only for the purpose of using Skills, Intelligence, Wits or Charisma are boosted, to the detriment of other two attributes. Boosted Intelligence grants extreme focus, but the character is unaware of its sorroundings and other people, suffering a penalty to Wits and Charisma. Boosted Wits grants extremely fast thinking, but the character has trouble focusing on a single idea, penalizing Intelligence, and talks too fast for other people to follow, penalizing Charisma. Boosted Charisma grants fast adaptability to any social situation, but the character becomes too self-absorbed to notice other people, or think about anything other than their social standing, penalizing Wits and Intelligence.
 
 0. +1 bonus, no penalty
 1. +2 bonus, -1 penalty
