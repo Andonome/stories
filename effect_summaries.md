@@ -1,6 +1,5 @@
 # Fire
 
-
 ## Bizarre
 
 Fire gains unnatural properties.
@@ -13,13 +12,13 @@ Fire gains unnatural properties.
 
 ## Big
 
-Changes the size of flame, according to Potency.
+Makes flame larger.
 
-0. Flame the size of a candle        - 1 damage
-1. Flame the size of a torch         - 2 damage
-1. Flame the size of a cooking fire  - 3 damage
-1. Flame the size of a bonfire       - 4 damage
-1. Flame the size of a large tree    - 5 damage
+0. Flame increases by a torchfire size.
+1. Flame increases by the size of a cooking fire.
+1. Flame increases by the size of a large bonfire.
+1. Flame increases by the size of a burning tree.
+1. Flame increases by the size of a hose on fire.
 
 ## Boosted
 
@@ -61,12 +60,12 @@ A fire which looks like a raging, red, bull, would normally return to a normal f
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Flame created fits in the plam of your hand.
+Allows spells to have more than one target.
 
-0. 2 targets, 1 thing created or 2 copies replicated
-1. 6 targets, 3 things created or 6 copies replicated
-1. 24 targets, 12 things created or 24 copies replicated
-1. 120 targets, 60 things created or 120 copies replicated
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -76,6 +75,15 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -1 penalty
 1. -2 penalty
 1. -3 penalty
+
+## Delivered
+
+Creates Fire.
+
+0. Create a single bright flame, the size of a torch, or 3 dim candle flames.
+1. Create a single bright flame, the size of a fireplace, or 5 dim candle flames.
+1. Create a single bright flame, the size of a large bonfire, or 7 dim candle flames.
+1. Create a single bright flame, the size of a burning tree, or 9 dim candle flames.
 
 # Air
 
@@ -87,7 +95,7 @@ Air gains unnatural properties.
 1. Air becomes opaque. Any roll to see through the air receives a -3 penalty.
 1. Air becomes unbreathable, inflicting Fatigue Points on anyone inhaling it.
 1. Air stifles sound.
-1. Air becomes dense, and moving through it is like moving through thick molasses.
+1. Air becomes dense, and moving through it is like moving through thick molasses. -3 Speed for anyone moving thorugh. All projectiles are stuck.
 
 ## Big
 
@@ -101,11 +109,13 @@ Changes the size of a mass of air. Higher Potency can increase the pressure in t
 
 ## Boosted
 
+Increase the speed of winds.
+
 0. Air whips hair around, like a Raphaelite painting. Affected creatures lose 1 AP, minus thier Strength, and are pushed back for the same number of steps.
-1. Air mass the size of a person, making movement difficult. Affected creatures lose 3 AP, minus thier Strength, and are pushed back for the same number of steps.
-1. Air mass the size of a room, or a large tree, or a very large beast. Creates a gust of wind that can stagger lesser creatures, blow the (not locked or barred) door of the room open, or disperse fog. Affected creatures lose 5 AP, minus thier Strength, and are pushed back for the same number of steps.
-1. Air mass the size of a house, or a field, or a grand hall. Enough wind to knock anyone nearby off their feet. Affected creatures lose 7 AP, minus thier Strength, and are pushed back for the same number of steps.
-1. Air mass that fills an entire street, or most of the forest. Temporary wind speeds equal to a hurricane. Affected creatures lose 9 AP, minus thier Strength, and are pushed back for the same number of steps.
+1. Strong winds blow, lifting all the dust and leaves up in the air. Affected creatures lose 3 AP, minus thier Strength, and are pushed back for the same number of steps.
+1. Storm gale that can stagger lesser creatures, blow the (not locked or barred) door of the room open, or disperse fog. Affected creatures lose 5 AP, minus thier Strength, and are pushed back for the same number of steps.
+1. Mighty tempest strong enough to knock anyone nearby off their feet. Affected creatures lose 7 AP, minus thier Strength, and are pushed back for the same number of steps.
+1. Temporary wind speeds equal to a hurricane. Affected creatures lose 9 AP, minus thier Strength, and are pushed back for the same number of steps.
 
 
 ## Beautiful
@@ -138,12 +148,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Air created fits in the plam of your hand.
+Allows spells to have more than one target.
 
-0. 2 targets, 1 thing created or 2 copies replicated
-1. 6 targets, 3 things created or 6 copies replicated
-1. 24 targets, 12 things created or 24 copies replicated
-1. 120 targets, 60 things created or 120 copies replicated
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -153,6 +163,15 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -1 penalty
 1. -2 penalty
 1. -3 penalty
+
+## Delivered
+
+Creates Air.
+
+0. Fill your lungs with a single breath of air.
+1. Exhale a single gust of air, blowing all candles and smoke in front of you.
+1. You slowly exhale, filling a small room with air.
+1. Over the rest of the round, you breathe out enough air to fill the entire street.
 
 # Water
 
@@ -168,13 +187,13 @@ Water gains unnatural properties.
 
 ## Big
 
-Description here
+Increse the amount of water.
 
-0. Weight of 4
-1. Weight of 6
-1. Weight of 8
-1. Weight of 10
-1. Weight of 14
+0. By a bucketfull.
+1. By a whole bathtub.
+1. By an amount that could fill a small room.
+1. By a small pond.
+1. By a whole lake.
 
 ## Boosted
 
@@ -214,12 +233,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Water created fits in the plam of your hand.
+Allows spells to have more than one target.
 
-0. 2 targets, 1 thing created or 2 copies replicated
-1. 6 targets, 3 things created or 6 copies replicated
-1. 24 targets, 12 things created or 24 copies replicated
-1. 120 targets, 60 things created or 120 copies replicated
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -230,6 +249,15 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -2 penalty
 1. -3 penalty
 
+## Delivered
+
+Creates Water.
+
+0. Your palm sweats out a cup of pure water.
+1. A swing of your arm sweats out enought water to soak a person.
+1. A burst of water splashes everything around you.
+1. You flood the whole room, as water cascades down your body.
+
 # Earth
 
 ## Bizarre
@@ -238,7 +266,7 @@ Earth gains unnatural properties.
 
 0. Earth turns liquid
 1. Solid materials crumble like sand, while sand and dirt become solid as rock
-1. 
+1. Earth is bouncy and elastic.
 1. 
 1. 
 
@@ -290,12 +318,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Earth created fits in the plam of your hand.
+Allows spells to have more than one target.
 
-0. 2 targets, 1 thing created or 2 copies replicated
-1. 6 targets, 3 things created or 6 copies replicated
-1. 24 targets, 12 things created or 24 copies replicated
-1. 120 targets, 60 things created or 120 copies replicated
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -305,6 +333,15 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -1 penalty
 1. -2 penalty
 1. -3 penalty
+
+## Delivered
+
+Creates Earth.
+
+0. Create a single 3 weight rock, or 3 tiny 1 weight pebbles.
+1. Create a single 5 weight rock, or 5 tiny 1 weight pebbles.
+1. Create a single 7 weight rock, or 7 tiny 1 weight pebbles.
+1. Create a single 9 weight rock, or 9 tiny 1 weight pebbles.
 
 # Fate
 
@@ -368,12 +405,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Restores FP, or copies targets current FP on someone else.
+Allows spells to have more than one target.
 
-0. 2 targets, 4 FP restored or FP replicated on 2 other targets
-1. 6 targets, 6 FP restored or FP replicated on 6 other targets
-1. 24 targets, 8 FP restored or FP replicated on 24 other targets
-1. 120 targets, 10 FP restored or FP replicated on 120 other targets
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -383,6 +420,15 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -1 penalty
 1. -2 penalty
 1. -3 penalty
+
+## Delivered
+
+Creates Fate.
+
+0. 
+1. 
+1. 
+1. 
 
 # Mind
 
@@ -446,12 +492,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Gives a mind to something, or replicates an existing mind.
+Allows spells to have more than one target.
 
-0. 2 targets, 1 thing created or 2 copies replicated
-1. 6 targets, 3 things created or 6 copies replicated
-1. 24 targets, 12 things created or 24 copies replicated
-1. 120 targets, 60 things created or 120 copies replicated
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -461,6 +507,15 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -1 penalty
 1. -2 penalty
 1. -3 penalty
+
+## Delivered
+
+Creates sentience in a non-sentient object.
+
+0. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 3 items, with -5 penalty to all stats.
+1. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 5 items, with -5 penalty to all stats.
+1. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 7 items, with -5 penalty to all stats.
+1. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 9 items, with -5 penalty to all stats.
 
 # Life
 
@@ -524,12 +579,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creations are always living creatures, but never sentient. Can replicate features from other living creatures, like wings from birds, or gills from fish. Each creature created starts with -5 Strength, Dexterity and Speed, plus some bonus points to distribute, based on Potency.
+Allows spells to have more than one target.
 
-0. 2 targets, 1 thing created or 2 copies replicated. 9 bonus points to distribute among Strength, Dexterity and Speed.
-1. 6 targets, 3 things created or 6 copies replicated. 7 bonus points to distribute among Strength, Dexterity and Speed.
-1. 24 targets, 12 things created or 24 copies replicated. 5 bonus points to distribute among Strength, Dexterity and Speed.
-1. 120 targets, 60 things created or 120 copies replicated. 3 bonus points to distribute among Strength, Dexterity and Speed.
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -539,6 +594,15 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -1 penalty
 1. -2 penalty
 1. -3 penalty
+
+## Delivered
+
+Creates a plant, or a comatose homunculus.
+
+0. Create a single homunculus the size of a dog, Strenght/Dexterity/Speed equal to Potency, or 3 rat sized homunculi, with -5 penalty to all stats. Create a bush that can barely hide a person, or 3 tiny green sprouts.
+1. Create a single homunculus the size of a dog, Strenght/Dexterity/Speed equal to Potency, or 5 rat sized homunculi, with -5 penalty to all stats. Create a small tree, or 5 tiny green sprouts.
+1. Create a single homunculus the size of a dog, Strenght/Dexterity/Speed equal to Potency, or 7 rat sized homunculi, with -5 penalty to all stats. Create a large tree, taller than a house, or 7 tiny green sprouts.
+1. Create a single homunculus the size of a dog, Strenght/Dexterity/Speed equal to Potency, or 9 rat sized homunculi, with -5 penalty to all stats. Create a tallest tree in a forest, or 9 tiny green sprouts.
 
 # Force
 
@@ -554,13 +618,13 @@ Force gains unnatural properties.
 
 ## Big
 
-Increases target's momentum.
+Gravity tightens it's grip.
 
-0. Any moving object moves 1 square faster. Weapons deal +1 damage, but require 1 more AP to use.
-1. Any moving object moves 2 squares faster. Weapons deal +2 damage, but require 2 more AP to use.
-1. Any moving object moves 3 squares faster. Weapons deal +3 damage, but require 3 more AP to use.
-1. Any moving object moves 4 squares faster. Weapons deal +4 damage, but require 4 more AP to use.
-1. Any moving object moves 5 squares faster. Weapons deal +5 damage, but require 5 more AP to use.
+0. Target is treated as if having weight increased by 1. All movement and all attempts to lift something suffer a -1 penalty.
+1. Target is treated as if having weight increased by 2. All movement and all attempts to lift something suffer a -2 penalty.
+1. Target is treated as if having weight increased by 3. All movement and all attempts to lift something suffer a -3 penalty.
+1. Target is treated as if having weight increased by 4. All movement and all attempts to lift something suffer a -4 penalty.
+1. Target is treated as if having weight increased by 5. All movement and all attempts to lift something suffer a -5 penalty.
 
 ## Boosted
 
@@ -602,12 +666,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency.
+Allows spells to have more than one target.
 
-0. 2 targets, 1 thing created or 2 copies replicated
-1. 6 targets, 3 things created or 6 copies replicated
-1. 24 targets, 12 things created or 24 copies replicated
-1. 120 targets, 60 things created or 120 copies replicated
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -617,6 +681,15 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -1 penalty
 1. -2 penalty
 1. -3 penalty
+
+## Delivered
+
+Continually creates momentum, moving the object as caster sees fit. Caster spends the AP needed to move each individual object, unless the object has a mind of its own.
+
+0. Move a single 1 weight item, or 3  0 weight items.
+1. Move a single 2 weight item, or 5  0 weight items.
+1. Move a single 3 weight item, or 7  0 weight items.
+1. Move a single 4 weight item, or 9  0 weight items.
 
 # Illusion
 
@@ -681,12 +754,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Can replicate the appearance of something or somebody.
+Allows spells to have more than one target.
 
-0. 2 targets, 1 thing created or 2 copies replicated
-1. 6 targets, 3 things created or 6 copies replicated
-1. 24 targets, 12 things created or 24 copies replicated
-1. 120 targets, 60 things created or 120 copies replicated
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -696,6 +769,15 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -1 penalty
 1. -2 penalty
 1. -3 penalty
+
+## Delivered
+
+Creates an illusion, a formless cloud of inky darkness.
+
+0. Create 1 illusion.
+1. Create 3 illusinos.
+1. Create 5 illusions.
+1. Create 7 illusions.
 
 # Death
 
@@ -759,12 +841,12 @@ How long does the spell's effect last, determined by Potency.
 
 ## Duplicated
 
-Creates new things, or replicates existing ones. Allows spells to have more than one target. Number of targets, replicas and creations are based on Potency. Creates deseases, wounds and Fatigue, or spreads them on others.
+Allows spells to have more than one target.
 
-0. 2 targets, 1 thing created or 2 copies replicated. Creates 4HP wound, or 8 Fatigue Points.
-1. 6 targets, 3 things created or 6 copies replicated. Creates 3HP wound, or 6 Fatigue Points.
-1. 24 targets, 12 things created or 24 copies replicated. Creates 2HP wound, or 4 Fatigue Points.
-1. 120 targets, 60 things created or 120 copies replicated. Creates 1HP wound, or 2 Fatigue Points.
+0. 2 targets.
+1. 6 targets.
+1. 24 targets.
+1. 120 targets.
 
 ## Discreet
 
@@ -774,3 +856,12 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 1. -1 penalty
 1. -2 penalty
 1. -3 penalty
+
+## Delivered
+
+Makes someone sick.
+
+0. 
+1. 
+1. 
+1. 
