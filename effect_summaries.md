@@ -21,15 +21,13 @@ Changes the size of flame, according to Potency.
 1. Flame the size of a bonfire       - 4 damage
 1. Flame the size of a large tree    - 5 damage
 
-## Bonded
+## Fast
 
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
-
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Flame burns twice the natural speed.
+1. Flame burns up very fast, roaring away, and burning anyone nearby.
+1. Flame reaches incredible temperatures.
+1. Flame instantly atomizes its own fuel, sparking in all directions.
+1. Flame disappears instantly, but too fast to go anywhere new.
 
 ## Beautiful
 
@@ -95,21 +93,20 @@ Air gains unnatural properties.
 
 Changes the size of a mass of air. Higher Potency can increase the pressure in the room, or create gusts of wind, as air expands.
 
+0. Air increases in volume, slightly increasing air-pressure for a moment. Created air becomes the size of a human head.
+1. Air-bubbles underwater increase in size, becoming massive.
+1. Smoke grows big enough to cover a room.
+1. Target smoke grows to fill a full village. Normal air still does nothing.
+1. Air-pressure increases to the point of giving anyone around a headache.
+
+## Fast
+
 0. Air whips hair around, like a Raphaelite painting. Affected creatures lose 1 AP, minus thier Strength, and are pushed back for the same number of steps.
 1. Air mass the size of a person, making movement difficult. Affected creatures lose 3 AP, minus thier Strength, and are pushed back for the same number of steps.
 1. Air mass the size of a room, or a large tree, or a very large beast. Creates a gust of wind that can stagger lesser creatures, blow the (not locked or barred) door of the room open, or disperse fog. Affected creatures lose 5 AP, minus thier Strength, and are pushed back for the same number of steps.
 1. Air mass the size of a house, or a field, or a grand hall. Enough wind to knock anyone nearby off their feet. Affected creatures lose 7 AP, minus thier Strength, and are pushed back for the same number of steps.
 1. Air mass that fills an entire street, or most of the forest. Temporary wind speeds equal to a hurricane. Affected creatures lose 9 AP, minus thier Strength, and are pushed back for the same number of steps.
 
-## Bonded
-
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
-
-0. 
-1. 
-1. 
-1. 
-1. 
 
 ## Beautiful
 
@@ -179,15 +176,13 @@ Description here
 1. Weight of 10
 1. Weight of 14
 
-## Bonded
+## Fast
 
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
-
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Water rushes upwards, prompting a Seafaring check from swimmers.
+1. Water pushes up fast enough to affect a rowing-boat.
+1. Water pushes up and round, fast enough to affect a sailing boat.
+1. Water pushes up and round, fast enough to affect a galleon.
+1. Water pushes up and round, creating a tidal-wave (we assume it's also big at this point)
 
 ## Beautiful
 
@@ -249,7 +244,7 @@ Earth gains unnatural properties.
 
 ## Big
 
-Description here
+The earth slowly builds up, creating a 'mole-hill' effect.
 
 0. Weight of 4
 1. Weight of 6
@@ -257,15 +252,13 @@ Description here
 1. Weight of 10
 1. Weight of 14
 
-## Bonded
+## Fast
 
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
-
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Earth pushes up slowly, over the course of the interval.
+1. Earth pushes up quickly, toppling anyone on top of it (check balance, at TN 8)
+1. Earth pushes up quickly, toppling anyone on top of it (check balance, at TN 9)
+1. Earth pushes up quickly, toppling buildings and people on top of it (check balance, at TN 10)
+1. Earth pushes up quickly, toppling anything on top of it and possibly toppling a building (check balance, at TN 11)
 
 ## Beautiful
 
@@ -327,23 +320,24 @@ Fate gains unnatural properties.
 
 ## Big
 
-Increases targets FP total
+Increases target's maximum FP, so someone with 5 FP affected by Level 1 could hold 7 FP at maximum.
 
-0. FP total increases by 4
+0. FP total increases by 1
+1. FP total increases by 2
+1. FP total increases by 4
 1. FP total increases by 6
 1. FP total increases by 8
-1. FP total increases by 10
-1. FP total increases by 12
 
-## Bonded
+## Fast
 
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
+Target gains FP.
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Target gains 1 FP
+1. Target gains 2 FP
+1. Target gains 4 FP
+1. Target gains 6 FP
+1. Target gains 8 FP
+
 
 ## Beautiful
 
@@ -413,16 +407,6 @@ An existing idea becomes bigger, to the point of obsession. Target creature has 
 1. -4 penalty for creature to notice or work on anything unrelated to the affected idea
 1. -5 penalty for creature to notice or work on anything unrelated to the affected idea
 
-## Bonded
-
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
-
-0. 
-1. 
-1. 
-1. 
-1. 
-
 ## Beautiful
 
 Description here
@@ -491,15 +475,15 @@ Increases the size and Strength of a creature, based on Potency. Only the highes
 1. +4 Strength, -1 Dexterity, Speed and Charisma
 1. +5 Strength, -1 Dexterity, Speed and Charisma, and +1 Fatigue whenever target gains Fatigue.
 
-## Bonded
+## Fast
 
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
+Affects Speed.
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. +1 Speed
+1. +2 Speed, -1 Dexterity
+1. +3 Speed, -1 Dexterity and Strength
+1. +4 Speed, -1 Dexterity, Strength and Charisma
+1. +5 Speed, -1 Dexterity, Strength and Charisma, and +1 Fatigue whenever target gains Fatigue.
 
 ## Beautiful
 
@@ -569,15 +553,15 @@ Increases target's momentum.
 1. Any moving object moves 4 squares faster. Weapons deal +4 damage, but require 4 more AP to use.
 1. Any moving object moves 5 squares faster. Weapons deal +5 damage, but require 5 more AP to use.
 
-## Bonded
+## Fast
 
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
+Makes things go fast!
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Target moves with effective Speed Bonus of 0.
+1. Target moves with effective Speed Bonus of 1.
+1. Target moves with effective Speed Bonus of 2.
+1. Target moves with effective Speed Bonus of 3.
+1. Target moves with effective Speed Bonus of 4.
 
 ## Beautiful
 
@@ -647,15 +631,16 @@ Increases the size of an illusion. Size of the illusion based on Potency.
 1. Illusion is the size of a house.
 1. Illusion it the size of a large city square, or a small forest.
 
-## Bonded
+## Fast
 
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
+Illusion can now move about properly.
+(basic Speed is -5, plus Potency x 2)
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Like a tortoise: Speed -5
+1. Like a gnome: Speed -3
+1. Like a dwarf: Speed -1
+1. Like a gnoll: Speed +1
+1. Like a sprinter: Speed +3
 
 ## Beautiful
 
@@ -725,15 +710,15 @@ Expand the wounds. Accelerate the disease. More Fatigue. If the target is wounde
 1. Target loses 4HP if wounded, gains 4 Fatigue if Fatigued. Deseases and poisons progress by 4 intervals.
 1. Target loses 5HP if wounded, gains 5 Fatigue if Fatigued. Deseases and poisons progress by 5 intervals.
 
-## Bonded
+## Fast
 
-Adds another sphere to the spell. Judge determines the effects. Has no scaling.
+Fatigue Point loss speeds up, but only if they suffer Fatigue Points.
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. Target loses 1 more Fatigue Point than usual each scene
+1. Target loses 2 more Fatigue Points than usual each scene
+1. Target loses 3 more Fatigue Points than usual each scene
+1. Target loses 4 more Fatigue Points than usual each scene
+1. Target loses 5 more Fatigue Points than usual each scene
 
 ## Beautiful
 
