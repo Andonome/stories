@@ -25,9 +25,11 @@
 ### Fate
 
 - While dreaming (must be cast as discrete spell, targeting is your problem)
+- While the stars are aligned (each alignment could govern a different code)
 
 ## Items
 
+Items are to be made into a powder and thrown at the point of casting.
 
 ### Death
 
@@ -44,6 +46,7 @@
 ### Illusion
 
 - Woodspy-eye
+- Frozen frogspawn (select species only)
 
 ### Force
 
