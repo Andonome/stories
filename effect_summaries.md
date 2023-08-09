@@ -18,7 +18,7 @@ Makes flame larger.
 1. Flame increases by the size of a cooking fire.
 1. Flame increases by the size of a large bonfire.
 1. Flame increases by the size of a burning tree.
-1. Flame increases by the size of a hose on fire.
+1. Flame increases by the size of a house on fire.
 
 ## Boosted
 
@@ -99,9 +99,9 @@ Air gains unnatural properties.
 
 ## Big
 
-Changes the size of a mass of air. Higher Potency can increase the pressure in the room, or create gusts of wind, as air expands.
+Changes the size of a mass of air. Higher Potency can increase the pressure in the room.
 
-0. Air increases in volume, slightly increasing air-pressure for a moment. Created air becomes the size of a human head.
+0. Air increases in volume, roughly by the size of a human head.
 1. Air-bubbles underwater increase in size, becoming massive.
 1. Smoke grows big enough to cover a room.
 1. Target smoke grows to fill a full village. Normal air still does nothing.
@@ -179,10 +179,10 @@ Creates Air.
 
 Water gains unnatural properties.
 
-0. Water evaporates
-1. Water freezes
-1. Water is breathable
-1. 
+0. Water evaporates.
+1. Water freezes.
+1. Water is breathable.
+1. Everything floats in water. Bottom of the lake floats to the surface.
 1. 
 
 ## Big
@@ -193,7 +193,7 @@ Increse the amount of water.
 1. By a whole bathtub.
 1. By an amount that could fill a small room.
 1. By a small pond.
-1. By a whole lake.
+1. By a whole lake. Floods a whole village.
 
 ## Boosted
 
@@ -274,11 +274,11 @@ Earth gains unnatural properties.
 
 The earth slowly builds up, creating a 'mole-hill' effect.
 
-0. Weight of 4
-1. Weight of 6
-1. Weight of 8
-1. Weight of 10
-1. Weight of 14
+0. Weight icreases by 1.
+1. Weight icreases by 2.
+1. Weight icreases by 4.
+1. Weight icreases by 6.
+1. Weight icreases by 8.
 
 ## Boosted
 
@@ -527,7 +527,7 @@ Life gains unnatural properties. Each level of Potency reduces targets Charisma 
 1. Target creature can move as a quadruped, at double their normal movement. Both hands must be free. Speed has -1 penalty whenever target is moving on two legs. Plants gain thorns, 1D6-2 damage.
 1. Target creature gains gills. They can breathe underwater, but any exertion on air incurs +1 Fatigue. Plants can uproot and move, gaining total Speed of 0.
 1. Target creature gains wings. Flight is possible only if Speed is higher than Strength + DR. Plants grow fast, 1 step per interval. Sorrounding ground is quickly drained of any nutrients to sustain this growth, even corpses and other plants are absorbed. Growth stops when there is nothing left to consume, but resumes as soon as new sustenance becomes available.
-1. Target creature gains DR 3. -1 Dexterity penalty. The Plants become hostile to all life, and fast (for a plant). They gain total Strength, Dexterity and Speed of -1, and deal 1D6 (+ Strength) damage by smashing anything nearby with their branches.
+1. Target creature gains DR 3. -1 Dexterity penalty. Plants become hostile to all life, and fast (for a plant). They gain total Strength, Dexterity and Speed of -1, and deal 1D6 (+ Strength) damage by smashing anything nearby with their branches.
 
 ## Big
 
@@ -705,13 +705,13 @@ Illusions gain unnatural properties.
 
 ## Big
 
-Increases the size of an illusion. Size of the illusion based on Potency.
+Increases the size of an illusion.
 
-0. Illusion fits on the palm of your hand.
-1. Illusion is the size of person.
-1. Illusion is the size of a large beast.
-1. Illusion is the size of a house.
-1. Illusion it the size of a large city square, or a small forest.
+0. Illusion is larger by the size of a dog.
+1. Illusion increases by the size of person.
+1. Illusion increases by the size of a large beast.
+1. Illusion increases by the size of a house.
+1. Illusion increases by the size of a large city square, or a small forest.
 
 ## Boosted
 
@@ -772,7 +772,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 ## Delivered
 
-Creates an illusion, a formless cloud of inky darkness.
+Creates an illusion, a formless cloud of inky darkness, fitting in the plam of your hand.
 
 0. Create 1 illusion.
 1. Create 3 illusinos.
