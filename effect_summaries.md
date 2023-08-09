@@ -369,11 +369,11 @@ Increases target's maximum FP, so someone with 5 FP affected by Level 1 could ho
 
 Target gains FP.
 
-0. Target gains 1 FP
-1. Target gains 2 FP
-1. Target gains 4 FP
-1. Target gains 6 FP
-1. Target gains 8 FP
+0. 
+1. 
+1. 
+1. 
+1. 
 
 ## Beautiful
 
@@ -416,25 +416,25 @@ Allows spells to have more than one target.
 
 Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits + Academics
 
-0. no penalty
-1. -1 penalty
-1. -2 penalty
-1. -3 penalty
+0. no penalty.
+1. -1 penalty.
+1. -2 penalty.
+1. -3 penalty.
 
 ## Delivered
 
 Creates Fate.
 
-0. 
-1. 
-1. 
-1. 
+0. Target gains 1 FP.
+1. Target gains 2 FP.
+1. Target gains 4 FP.
+1. Target gains 6 FP.
 
 # Mind
 
 ## Bizarre
 
-Target creature will act opposite to its core beliefs. Resist with Wits + Empathy vs Int/Wts/Cha + Potency
+Target creature will act opposite to its core beliefs. Resist with Wits + Empathy vs Int/Wts/Cha + Potency.
 
 0. 
 1. 
@@ -512,10 +512,10 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 Creates sentience in a non-sentient object.
 
-0. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 3 items, with -5 penalty to all stats.
-1. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 5 items, with -5 penalty to all stats.
-1. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 7 items, with -5 penalty to all stats.
-1. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 9 items, with -5 penalty to all stats.
+0. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 3 items, with all stats at -5.
+1. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 5 items, with all stats at -5.
+1. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 7 items, with all stats at -5.
+1. Instills a single item with sentience, with Intelligence/Wits/Charisma equal to Potency. Or 9 items, with all stats at -5.
 
 # Life
 
