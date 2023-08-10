@@ -367,13 +367,13 @@ Increases target's maximum FP, so someone with 5 FP affected by Level 1 could ho
 
 ## Boosted
 
-Target gains FP.
+Target rushes towars their destiny.
 
-0. 
-1. 
-1. 
-1. 
-1. 
+0. When regenerating FP at the end of the interval, increase the amount gained by 1.
+1. When regenerating FP at the end of the interval, increase the amount gained by 2. For every encounter character has, roll another encounter and then combine them.
+1. When regenerating FP at the end of the interval, increase the amount gained by 4. For every encounter character has, roll another two encounters and then combine them.
+1. When regenerating FP at the end of the interval, increase the amount gained by 6. For every encounter character has, roll another three encounters and then combine them.
+1. When regenerating FP at the end of the interval, regenerate all FP. For every encounter character has, roll another three encounters and then combine them.
 
 ## Beautiful
 
@@ -630,11 +630,11 @@ Gravity tightens it's grip.
 
 Makes things go fast!
 
-0. Target moves with effective Speed Bonus of 0.
-1. Target moves with effective Speed Bonus of 1.
-1. Target moves with effective Speed Bonus of 2.
-1. Target moves with effective Speed Bonus of 3.
-1. Target moves with effective Speed Bonus of 4.
+0. Target moves as if their Speed was higher by 1.
+1. Target moves as if their Speed was higher by 2.
+1. Target moves as if their Speed was higher by 3.
+1. Target moves as if their Speed was higher by 4.
+1. Target moves as if their Speed was higher by 5.
 
 ## Beautiful
 
