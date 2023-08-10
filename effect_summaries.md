@@ -349,11 +349,11 @@ Creates Earth.
 
 Fate gains unnatural properties.
 
-0. The next time the target rolls doubles on the dice (two of the same number), they gain a +1 to that Skill (not cumulative with other Fate spells).
-1. The next time the target uses any Skill, they gain a +1 to that Skill, which remains as long as the spell.
-1. All MP in the area flock to the target (and none other until their MP is full).
+0. The next time the target uses any Skill, gains +1 to it whenever the dice roll an even number.
+1. The next time the target uses any Skill, gains +1 to it (not cumulative with the above).
+1. All MP in the area flock to the target (and none other until their MP is full). At the end of the interval, they regenerate MP, and anything else which stores MP regains mana only if the target regenerates fully.
 1. The next encounter with a creature is ignored (bandits, traders, woodspies - all gone).
-1. Target gets +1 to any 4 rolls (because the Potency is 4). This is cumulative with other Fate spells.
+1. Target gets +1 to any 4 rolls (because the Potency is 4). The bonuses must be declared before rolling. This is cumulative with other Fate spells.
 
 ## Big
 
