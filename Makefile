@@ -23,6 +23,8 @@ all: $(BOOK).pdf
 clean:
 	rm -fr *.aux *.sls *.slo *.slg *.toc *.acn *.log *.out *.idx *.ist *.glo *.glg *.gls *.acr *.alg \
 	*.pdf \
+	*.ilg \
+	*.ind \
 	svg-inkscape \
 	*.fdb_latexmk \
 	*.fls
