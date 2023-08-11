@@ -861,7 +861,7 @@ Makes casting of the spell hard to spot. Dexterity + Deceit - Potency  vs  Wits 
 
 Makes someone sick.
 
-0. 
-1. 
-1. 
-1. 
+0. Target contracts a disease of caster's choice.
+1. Target contracts 2 diseases of caster's choice.
+1. Target contracts 3 diseases of caster's choice.
+1. Target contracts 4 diseases of caster's choice.
