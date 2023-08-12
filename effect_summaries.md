@@ -526,7 +526,7 @@ Life gains unnatural properties. Each level of Potency reduces targets Charisma 
 0. Target creature gains claws. They deal HP damage with unarmed attacks, and can grapple and attack in the same move. +1 bonus for climbing, -1 penalty for using any tools that require Dexterity, including weapons. Plants become poisonous, 1D6+2 Fatigue if ingested.
 1. Target creature can move as a quadruped, at double their normal movement. Both hands must be free. Speed has -1 penalty whenever target is moving on two legs. Plants gain thorns, 1D6-2 damage.
 1. Target creature gains gills. They can breathe underwater, but any exertion on air incurs +1 Fatigue. Plants can uproot and move, gaining total Speed of 0.
-1. Target creature gains wings. Flight is possible only if Speed is higher than Strength + DR. Plants grow fast, 1 step per interval. Sorrounding ground is quickly drained of any nutrients to sustain this growth, even corpses and other plants are absorbed. Growth stops when there is nothing left to consume, but resumes as soon as new sustenance becomes available.
+1. Target creature gains wings. Flight is possible only if Speed + Dexterity are higher than Strength + DR. Plants grow fast, 1 step per interval. Sorrounding ground is quickly drained of any nutrients to sustain this growth, even corpses and other plants are absorbed. Growth stops when there is nothing left to consume, but resumes as soon as new sustenance becomes available.
 1. Target creature gains DR 3. -1 Dexterity penalty. Plants become hostile to all life, and fast (for a plant). They gain total Strength, Dexterity and Speed of -1, and deal 1D6 (+ Strength) damage by smashing anything nearby with their branches.
 
 ## Big
