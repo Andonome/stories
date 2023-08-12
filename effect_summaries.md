@@ -618,13 +618,13 @@ Force gains unnatural properties.
 
 ## Big
 
-Gravity tightens it's grip.
+Gravity varies wildly.
 
-0. Target is treated as if having weight increased by 1. All movement and all attempts to lift something suffer a -1 penalty.
-1. Target is treated as if having weight increased by 2. All movement and all attempts to lift something suffer a -2 penalty.
-1. Target is treated as if having weight increased by 3. All movement and all attempts to lift something suffer a -3 penalty.
-1. Target is treated as if having weight increased by 4. All movement and all attempts to lift something suffer a -4 penalty.
-1. Target is treated as if having weight increased by 5. All movement and all attempts to lift something suffer a -5 penalty.
+0. Target is treated as if having weight increased or decreased by 1.
+1. Target is treated as if having weight increased or decreased by 2.
+1. Target is treated as if having weight increased or decreased by 3.
+1. Target is treated as if having weight increased or decreased by 4.
+1. Target is treated as if having weight increased or decreased by 5.
 
 ## Boosted
 
