@@ -62,7 +62,8 @@ When you add another enhancement, each enhancement grows.
     2. The item's basic nature takes a hit. Fire pours into a bowl, minds obsessively count objects, and fruit grows down into the soil.
     3. A single facet of the item's basic nature vanishes or reverses. Fire freezes items, minds cease to create new memories, and fruit bleeds and begins to grow one step per round.
     4. Turn the target into another element (which must be chained). A unicorn turns into sea-foam, a farmer becomes a song.
-- Bonded: The spell includes another element, and all the same effects apply. The GM gains full control over interpretation.
+- Brisk: Target speeds up its natural motions.
+    0. Plants grow faster.
 
 ## Metamagic
 
