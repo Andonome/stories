@@ -57,11 +57,12 @@ When you add another enhancement, each enhancement grows.
     3. Massive: weight 10
     4. Massive: weight 14
 - Bizarre:
-    0. Change in natural form - water to ice, work changes to sleep.
-    1. The item's basic nature contorts. Fire becomes sticky, minds think about unnatural acts, and plants grow in a single scene.
-    2. The item's basic nature takes a hit. Fire pours into a bowl, minds obsessively count objects, and fruit grows down into the soil.
+    0. Remove a small facet; fire stops flickering, light stops reflecting.
+    1. Add a new facet; earth becomes springy, minds focus on unnatural past-times (like eating dirt), plants grow hair.
+    2. Remove a primary facet; fire stop burning, creature loses their mouth.
     3. A single facet of the item's basic nature vanishes or reverses. Fire freezes items, minds cease to create new memories, and fruit bleeds and begins to grow one step per round.
-    4. Turn the target into another element (which must be chained). A unicorn turns into sea-foam, a farmer becomes a song.
+        - If the spell is chained, the first element turns into the second; the living become dead spirits, the 
+    4. Remove a fundamental property
 - Brisk: Target speeds up its natural motions.
     0. Plants grow faster.
 
