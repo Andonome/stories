@@ -41,6 +41,12 @@ Keywords={TTRPG,RPG,roleplaying}
 
 \include{races.tex}
 
+\iftoggle{core}{}{
+  \startappendix
+
+  \include{rules.tex}
+}
+
 \begin{minipage}{\textwidth}
   \printglossary[
     type=\acronymtype,
@@ -55,6 +61,7 @@ Keywords={TTRPG,RPG,roleplaying}
 \printglossary
 
 \printindex
+
 \end{minipage}
 
 \backmatter
