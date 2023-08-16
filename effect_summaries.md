@@ -434,12 +434,12 @@ Creates Fate.
 
 ## Bizarre
 
-Target creature will act opposite to its core beliefs. Resist with Wits + Empathy vs Int/Wts/Cha + Potency.
+Mind gains bizarre properties.
 
 0. 
 1. 
 1. 
-1. 
+1. Caster copies their mind into target. If already sentient, targets resits new mind with highest mental score + Empathy, vs same for invading mind.
 1. 
 
 ## Big
