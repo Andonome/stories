@@ -65,12 +65,12 @@ Dwarven names show to their position in society, and generally relate to their m
 \begin{nametable}[l|XYY]{Dwarf Names}
 
 \textbf{Roll} & \textbf{Prefix} & \textbf{Suffix (M)} & \textbf{Suffix (F)} \\\hline
-1 & Th   & --alin   & --oshell    \\
-2 & D    & --urg    & --ragsi     \\
-3 & M    & --eel    & --well      \\
-4 & G    & --imlen  & --itten     \\
-5 & B    & --enlak  & --lot       \\
-6 & K    & --rindal & --lasi      \\
+\dicef{1} & Th   & --alin   & --oshell    \\
+\dicef{2} & D    & --urg    & --ragsi     \\
+\dicef{3} & M    & --eel    & --well      \\
+\dicef{4} & G    & --imlen  & --itten     \\
+\dicef{5} & B    & --enlak  & --lot       \\
+\dicef{6} & K    & --rindal & --lasi      \\
 
 \end{nametable}
 
@@ -84,15 +84,15 @@ The stress goes on the last syllable of the prefix.
 
 \begin{nametable}[l|lYY]{Elf Names}
   & \textbf{Prefix} & \textbf{Suffix (F)}   & \textbf{Suffix (M)} \\\hline
-1 & Sind    & --\"e    & --on      \\
-2 & Atar    & --ink\"e & --inkon   \\
-3 & Ciry    & --inw\"e & --iel     \\
-4 & Tarin   & --\'ote  & --or      \\
-5 & Fin     & --uin    & --acil    \\
+\dicef{1} & Sind    & --\"e    & --on      \\
+\dicef{2} & Atar    & --ink\"e & --inkon   \\
+\dicef{3} & Ciry    & --inw\"e & --iel     \\
+\dicef{4} & Tarin   & --\'ote  & --or      \\
+\dicef{5} & Fin     & --uin    & --acil    \\
 \ifodd\value{r3}
-6 & It\'ar    & --w\"e   & --il      \\
+  \dicef{6} & It\'ar    & --w\"e   & --il      \\
 \else
-6 & Itar    & --il     & --ill\"e  \\
+  \dicef{6} & Itar    & --il     & --ill\"e  \\
 \fi
 \end{nametable}
 
@@ -137,12 +137,12 @@ The meanings generally relate to the gnoll's primary joy, such as `hunting', or 
 
 \begin{nametable}[c|lY]{Gnoll Names}
 \textbf{Roll} & \textbf{Prefix} & \textbf{Suffix} \\\hline
-1  & Ksha & --dz  \\
-2  & Ko   & --g   \\
-3  & Sya  & --h   \\
-4  & Tso  & --d   \\
-5  & Yo   & --sh  \\
-6  & Riye & --tse \\
+\dicef{1}  & Ksha & --dz  \\
+\dicef{2}  & Ko   & --g   \\
+\dicef{3}  & Sya  & --h   \\
+\dicef{4}  & Tso  & --d   \\
+\dicef{5}  & Yo   & --sh  \\
+\dicef{6}  & Riye & --tse \\
 \end{nametable}
 
 \end{multicols}
@@ -153,28 +153,27 @@ Human names remain static throughout their lives, so they never have any relatio
 \begin{nametable}[c|YY]{Human Names}
 \textbf{Roll} & \textbf{Prefix} & \textbf{Suffix} \\\hline
 \ifodd\value{r4}
-1 & Lex    & --ograf \\
+  \dicef{1} & Lex    & --ograf \\
 \else
-1 & Gla    & --dun   \\
+  \dicef{1} & Gla    & --dun   \\
 \fi
-2 & Steer  & --kuff  \\
+\dicef{2} & Steer  & --kuff  \\
 \ifodd\value{r3}
-3 & Choir  & --nail  \\
-4 & Flick  & --bor   \\
+  \dicef{3} & Choir  & --nail  \\
+  \dicef{4} & Flick  & --bor   \\
 \else
-3 & Pros   & --flay  \\
-4 & Cart   & --pike  \\
+  \dicef{3} & Pros   & --flay  \\
+  \dicef{4} & Cart   & --pike  \\
 \fi
 \ifodd\value{page}
-5 & Gors  & --meen  \\
+  \dicef{5} & Gors  & --meen  \\
 \else
-5 & Keel   & --frak  \\
+  \dicef{5} & Keel   & --frak  \\
 \fi
-6 & Moc    & --drag  \\
+\dicef{6} & Moc    & --drag  \\
 \end{nametable}
 
 \end{multicols}
-\thispagestyle{empty}
 \exampleRandomCharacter % in charts.tex
 \begin{multicols}{2}
 
