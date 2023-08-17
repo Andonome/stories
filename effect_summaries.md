@@ -610,7 +610,7 @@ Creates a plant, or a comatose homunculus.
 
 Force gains unnatural properties.
 
-0. 
+0. All forces affecting the target now work at a 90 degree angle. Weapons are unwieldy, creatures woalk on walls.
 1. Target loses all momentum. It remains completely motionless until something moves it. Living creatures, and anything that moves of its own volition can break free by spending 1 AP. Gravity is ignored.
 1. 
 1. Mage uses incredible force to rip a chunk of space and place it elsewhere. Connect two locations with a teleport.
