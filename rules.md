@@ -134,8 +134,8 @@ They can power high spheres with any combination of mana.
             5. Magical ability
     * Large: X^2 targets.
 # Enchantment
-- Create: Big-mind obsession (uses Wits to do one thing)
-    * Complex: the obsession takes on a voice, which has an accent.
+- Create: Big-mind obsession, which uses Wits to have Mental contests. Wits = AP.
+    * Complex: the obsession takes on a voice, which has an accent. It takes gains an Intelligence Bonus equal to AP.
     * Large: X^3 targets.
 - Destroy: Forgetfulness, confusion, fear.
     * Complex: target becomes confused about particular events.
