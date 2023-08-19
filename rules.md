@@ -148,7 +148,7 @@ They can power high spheres with any combination of mana.
     * Complex: target swings, or spins towards a target.
     * Large: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
 - Destroy: Force-Field
-    * Complex: target swings, or spins towards a target.
+    * Complex: +X to hit, +x AP to use.
     * Large: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
 - Twisted: Teleportation, maximum Weight of X^2. Energy can be redirected, but the TN increases by the weapon's Damage.
     * Complex: Doorway opens in a solid surface. Maximum Weight which can fit through is X.
