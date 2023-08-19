@@ -157,8 +157,8 @@ They can power high spheres with any combination of mana.
 - Create: inflict X Fatigue (1D6-3).
     * Complex: target suffers X HP Damage instead of Fatigue.
     * Large: X^3 targets.
-- Destroy: Ignore Fatigue, and also gain no more.
-    * Complex: Ignore up to X Fatigue.
+- Destroy: Slows natural entropy. Fatigue. deseases, poisons take X times longer to manifest.
+    * Complex: Fatigue. deseases, poisons and rot are completely stopped.
     * Large: X^3 targets.
 - Twisted: Torpor. Target gains 2 DR, ignores all Fatigue, and cannot heal (including MP).
     * Complex: sight of the dead, normal vision is swapped out for the vision of the dead, plus standard Torpor.
