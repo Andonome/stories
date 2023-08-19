@@ -13,14 +13,15 @@
 
 ### Earth
 
+- Earthquake
 - Double full moon (also no idea)
-- Unmoving air (must be underground, and no movement or breathing for a day)
 - As a cat gives birth
 
 ### Water
 
 - Staring into full-body, up-close reflections (illusions don't count).
 - Calm before a storm
+- Unmoving air (must be underground, and no movement or breathing for a day)
 
 ### Fate
 
