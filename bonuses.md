@@ -45,7 +45,7 @@ Items are to be made into a powder and thrown at the point of casting.
 - Five-toed rabbit's foot
 - Human blood
 
-### Illusion
+### Light
 
 - Woodspy-eye
 - Frozen frogspawn (select species only)
@@ -58,7 +58,7 @@ Items are to be made into a powder and thrown at the point of casting.
 - Basilisk hide
 - 3 kilograms of Dwarven beard
 
-### Enchantment
+### Mind
 
 - Embalmed finger of a monarch
 - Large oyster pearls

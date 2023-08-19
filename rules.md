@@ -144,7 +144,7 @@ It can burn clothing, destroys all hair, and starts on any nearby wood.
 Weapons with long, wooden handles (such as glaives or spears) become unstable, and break any time they deal >7 Damage.
 
 
-## Enchantment
+## Mind
 
 ### Big
 
