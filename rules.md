@@ -145,10 +145,10 @@ They can power high spheres with any combination of mana.
     * Large: X^3 targets.
 # Force
 - Create: Increase momentum (+X Damage, +X AP to use )
-    * Complex: +X to hit, +x AP to use.
+    * Complex: +X to hit, +X AP to use.
     * Large: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
-- Destroy: Force-Field
-    * Complex: +X to hit, +x AP to use.
+- Destroy: Target loses all current momentum, and gravity is permanently ignored. Target remains completely motionless until something moves it. Living creatures, and anything that moves of its own volition can break free by spending 1 AP.
+    * Complex: The effect takes shape of a force field, absorbing more momentum. X^2 damage to break.
     * Large: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
 - Twisted: Teleportation, maximum Weight of X^2. Energy can be redirected, but the TN increases by the weapon's Damage.
     * Complex: Doorway opens in a solid surface. Maximum Weight which can fit through is X.
