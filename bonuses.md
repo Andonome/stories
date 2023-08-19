@@ -1,6 +1,5 @@
 ## Situations
 
-
 ### Air
 
 - Falling (cast fast!)
@@ -38,26 +37,30 @@ Items are to be made into a powder and thrown at the point of casting.
 - 20 Bear teeth on a necklace
 - The last air of a drowning victim, sealed in a jar
 - Ashes of a full dragon wing
+- Gnoll teeth
 
 ### Life
 
 - Dragon eggs
 - Five-toed rabbit's foot
+- Human blood
 
 ### Illusion
 
 - Woodspy-eye
 - Frozen frogspawn (select species only)
+- Ashes of a gnome
 
 ### Force
 
 - Chitincrawler eggs
 - Griffin feathers
-- 3 kilograms of Dwarven beard
 - Basilisk hide
+- 3 kilograms of Dwarven beard
 
 ### Enchantment
 
 - Embalmed finger of a monarch
 - Large oyster pearls
 - Dragon's heart
+- Elven tears
