@@ -123,12 +123,15 @@ They can power high spheres with any combination of mana.
     * Complex: twisted limbs take on unnatural appearance.
     * Large: X^2 targets.
 - Twisted: Wings/ teeth/ gills (remove FP?).
+            1. Teeth
+            2. Wings
+            3. DR
+            4. Quadruped
     * Complex: bat-wings, shark-teeth, et c.
-            2. Teeth
-            3. Wings
-            4. DR
-            5. ??
-            6. Magical ability
+            2. Venom
+            3. Tentacles
+            4. Stench
+            5. Magical ability
     * Large: X^2 targets.
 # Enchantment
 - Create: Big-mind obsession (uses Wits to do one thing)
