@@ -43,6 +43,11 @@ When you add another enhancement, each enhancement grows.
 - Large
 - Chained
 - Ranged
+    - (standard) 6 + MP squares
+    2. Throwing distance
+    3. Shouting distance
+    4. Horizon
+    5. Line of sight
 
 ## Complications
 
