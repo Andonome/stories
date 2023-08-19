@@ -1,18 +1,13 @@
 # Underlying Logic
 
-This magic system builds spells from words, and eventually forms a sentence.
+This magic system builds spells from 3 actions and 4 optional enhancements.
 
 Mages become skilled in low-level spheres, such as Fire, Fate, or Air, then combine them to work with high-level spheres, such as Light, Death, and Force.
 
 ### Summary
 
-1. The caster can spend a number of MP equal to the highest sphere they want to use.
-1. MP spent on enhancements increase the potency of every enhancement.
-1. MP spent on metamagics decrease the spell's potency, but add effects to the spell itself.
-    - Spells with less than a Potence of 0 fail.
-1. Casters roll Charisma + some Skill against a TN of 6 + MP spent.
-    - The Skill depends on what the caster is attempting.
-    - When others resist the spell, it has two TNs.
+- The caster can spend a number of MP equal to the highest sphere they want to use.
+- MP spent on enhancements increase the potency of every enhancement.
 
 ## Spheres
 
@@ -44,66 +39,15 @@ Each spell needs at least one enhancement.
 Enhancements also increase a spell's *Potency*.
 When you add another enhancement, each enhancement grows.
 
-- Beautiful: making aesthetic changes. Texture does not change.
-    0. Limited detail, like a cloud which 'sort of looks like something'.
-    1. Very recognizable, like a child's painting.
-    2. Full detail - illusions could definitely fool someone not looking hard.
-    3. Quality details - illusions will fool anyone not looking for details.
-    4. Near-perfect quality.
-- Big: make the target grow.
-    0. Basic: weight 4.
-    1. Person-sized: weight 6
-    2. Bulky: weight 8
-    3. Massive: weight 10
-    4. Massive: weight 14
-- Bizarre:
-    0. Remove a small facet; fire stops flickering, light stops reflecting.
-    1. Add a new facet; earth becomes springy, minds focus on unnatural past-times (like eating dirt), plants grow hair.
-    2. Remove a primary facet; fire stop burning, creature loses their mouth.
-    3. A single facet of the item's basic nature vanishes or reverses. Fire freezes items, minds cease to create new memories, and fruit bleeds and begins to grow one step per round.
-        - If the spell is chained, the first element turns into the second; the living become dead spirits, the 
-    4. Remove a fundamental property
-- Brisk: Target speeds up its natural motions.
-    0. Plants grow faster.
-
-## Metamagic
-
-Each metamagic added decreases the spell's Potency by 1.
-
-- Distant: the spell targets something far away.  Standard range = 5 Steps + MP spent.  Distance is both a maximum and a minimum.
-    0. 10 steps x MP spent.
-    1. Throwing distance.
-    2. Shouting distance.
-    3. Line of sight.
-- Durable: the spell lasts for a long time (but the material can still disappear).  The standard duration is 1 Scene.
-    0. Remainder of Season
-    1. Cycle (3 years)
-    2. Full Chronicle.
-    3. Permanent.
-- Duplicated: the spell replicates many times.
-    * If the caster is making new targets, the spell creates a number of targets equal to the MP spent.
-    * If the spell targets existing targets, the spell affects a number of targets equal to total 'MP!'.
-- Discreet
-    * Others won't easily see the caster is casting a spell.
-    * They can roll Wits + Vigilance at TN 7 + caster's Dexterity + Larceny - spell's Potence.
-
-| MP Spent | Targets |
-|:--------:|:-------:|
-|   2      |	2    |
-|   3      |	6    |
-|   4      |	24   |
-|   5      |	120  |
-|   6      |	720  |
-
-## Principles
-
-- Penalties to common things, like running or attacking, inflict a -1 penalty per potence.
-- Penalties to highly specific things, such as 'waking up', give a -2 penalty per potence.
-- Enhanced Traits are set to the potence (*not* increased by potence).
-- Damage equals 4 plus potence.
-- DR equals 1 + 1 per potence.
-- When performing or resisting actions, spells have a total score equal to the potence x 2.
-- Spells which use their large size sometimes gain a bonus equal to total MP spent. For example, wind-blast spells become more powerful when the wind howls across a distance, or covers a wide area (with the Duplicated Metamagic), or becomes enduring.
+- Complex
+- Large
+- Chained
+- Ranged
+    - (standard) 6 + MP squares
+    2. Throwing distance
+    3. Shouting distance
+    4. Horizon
+    5. Line of sight
 
 ## Complications
 
@@ -120,33 +64,120 @@ They can power high spheres with any combination of mana.
 
 # Spheres
 
-## Fire
 
-### Flame Strength
+# Fate
+- Create: Add X FP.
+    * Complex: Gain X rolls with a +1 Bonus, applied to a particular Skill.
+    * Large: X^2 targets.
+- Destroy: Remove X FP from target.
+    * Complex: Gain X rolls with a -1 Bonus, applied to a particular Skill.
+    * Large: X^2 targets.
+- Twisted: Target gains +X monster encounters, 1 per interval (useless unless made durable).
+    * Complex: Particular meetings on the road destined.
+    * Large: X^2 targets.
+# Earth
+- Create: harden sand, earth, or the rest into a solid form. Total Weight equal to X^3.
+    * Complex: Shape into statue.
+    * Large: X^2 statues.
+- Destroy: soften/ quake the earth.
+    * Complex: Degrade stone, leaving a face.
+    * Large: X^2 Weight (1 to 25).
+- Twisted: Target becomes brittle. +X TN to move it, but a single point of Damage destroys it.
+    * Complex: resulting rock looks like shining gems.
+    * Large: X^2 Weight (1 to 25).
+# Fire
+- Create: X Damage (1D6-3+X Damage).
+    * Complex: colourful phoenix fire.
+    * Large: X^2 squares covered
+- Destroy: Nearby fires go out. 1 for a candle, 2 for a torch.
+    * Complex: candle goes out with a bang or pop, and lots of weird smoke.
+    * Large: X^2 squares covered
+- Twisted: harmless
+    * Complex: Colourful phoenix fire.
+    * Large: X^2 squares covered
+# Air
+- Create: Wind blast (-X AP when facing wind, -1/2 AP with back to wind.)
+    * Complex: shape in the wind.
+    * Large: X^3 squares covered
+- Destroy: Putrid
+    * Complex: shape in the putrid wind.
+    * Large: X^3 squares covered.
+- Twisted: Bubble
+    * Complex: shape the bubble (like an underwater castle, or woodspy-shaped bubble)
+    * Large: X^2 squares covered.
+# Water
+- Encourage: sploosh!
+    * Complex: colourful wave, shaped like a naiad.
+    * Large: X^2 squares covered
+- Destroy: Mist
+    * Complex: mist forms image.
+    * Large: X^2 of water disappear, X^5 squares covered in mist.
+- Twisted: Acidic gloup (X Damage per round of full-body contact, minus Covering)
+    * Complex: acid gloup forms into a creature's shape, like a jelly.
+    * Large: X^2 of water transformed.
+# Life
+- Create: (Dam/ HP), Metabolism+ (AP) (removes all ground nutrients)
+    * Complex: appearance changes.
+    * Large: X^2 targets.
+- Destroy: -Attributes
+    * Complex: twisted limbs take on unnatural appearance.
+    * Large: X^2 targets.
+- Twisted: Wings/ teeth/ gills (remove FP?).
+            1. Teeth
+            2. Wings
+            3. DR
+            4. Quadruped
+    * Complex: bat-wings, shark-teeth, et c.
+            2. Venom
+            3. Tentacles
+            4. Stench
+            5. Magical ability
+    * Large: X^2 targets.
+# Enchantment
+- Create: Big-mind obsession (uses Wits to do one thing)
+    * Complex: the obsession takes on a voice, which has an accent.
+    * Large: X^3 targets.
+- Destroy: Forgetfulness, confusion, fear.
+    * Complex: target becomes confused about particular events.
+    * Large: X^2 targets.
+- Twisted: replace X Code rewards with another.
+    * Complex: replace X Code rewards with anything.
+    * Large: X^3 targets.
+# Force
+- Create: Increase momentum (+X Damage, +X AP to use )
+    * Complex: +X to hit, +x AP to use.
+    * Large: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
+- Destroy: Force-Field
+    * Complex: +X to hit, +x AP to use.
+    * Large: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
+- Twisted: Teleportation, maximum Weight of X^2. Energy can be redirected, but the TN increases by the weapon's Damage.
+    * Complex: Doorway opens in a solid surface. Maximum Weight which can fit through is X.
+    * Large: maximum Weight increases to X^2.
+# Death
+- Create: inflict X Fatigue (1D6-3).
+    * Complex: target suffers X HP Damage instead of Fatigue.
+    * Large: X^3 targets.
+- Destroy: Slows natural entropy. Fatigue. deseases, poisons take X times longer to manifest.
+    * Complex: Fatigue. deseases, poisons and rot are completely stopped.
+    * Large: X^3 targets.
+- Twisted: Torpor. Target gains 2 DR, ignores all Fatigue, and cannot heal (including MP).
+    * Complex: sight of the dead, normal vision is swapped out for the vision of the dead, plus standard Torpor.
+    * Large: X^3 targets.
+# Light
+* Create: Light
+    * Complex: create shining shape, such as square, or griffin.
+    * Large: '(5 + X)!' squares covered (but who's counting?).
+* Destroy: Shadow - cover X squares.
+    * Complex: shadow which looks like a particular thing.
+    * Large: X^3 squares covered.
+* Twisted: 
+    * Complex: illusion.
+    * Large: X^3 squares covered.
 
-The basic strength of a flame depends on its source.
-If created out of nothing, the fire has all the strength of a candle.
 
-- Candle: 1 Damage
-- Torch: 2 Damage
-- Cooking fire: 3 Damage
-- Bonfire: 4 Damage
-- Smelting fire: 5 Damage
-
-### Durable
-
-Most magically created or enhanced fires return to their normal state quickly afterwards.
-A *Big Fire* might explode across a table, then vanish.
-
-However, a *durable fire* will burn easily-flammable material, and continue burning.
-It can burn clothing, destroys all hair, and starts on any nearby wood.
-
-Weapons with long, wooden handles (such as glaives or spears) become unstable, and break any time they deal >7 Damage.
-
+# Further Details
 
 ## Mind
-
-### Big
 
 1. Does one simple thing. (Wits -4)
     * "Kill jester"
@@ -176,36 +207,3 @@ Weapons with long, wooden handles (such as glaives or spears) become unstable, a
     * "Your architectural plans are shoddy, and weak, because they use wood."
     * "I have devised a new type of home, built entirely from the metal of the swords of my enemies."
     * "Procure the following list for me, or I shall begin selling your secrets to king Alreth to procure them myself."
-
-### Bizarre
-
-0. Tired people become sleepy.
-1. Give someone a random idea.
-2. Limit someone's ability to think about anything but one thing (penalty to all mental actions not concerned with the mission)
-3. Make the target forget something, or replace a belief.
-4. Target believes they are a chicken.
-
-## Force
-
-### Beautiful
-
-0. The affected area flickers subtly, with visual distortions, like looking at a pond.
-1. The effect distorts the area obviously, making anyone who sees it understand the magic is afoot.
-2. The effect can be seen, like a flickering force-field.
-3. The visual effect takes on a ghostly form, such as a hand lifting up a floating object, or a fist crushing someone down.
-4. The spell takes on a solid form, and looks exactly as the target wishes, except for some vague oddities (flickers and a shine) which show it to be an apparition.
-
-### Big
-
-0. The target feels gravity distort around them...if they focus enough.
-1. Standard forces become more solid, making water hard to the touch, or making an area of air feel solid.
-2. A wall of unmoving air can become a harsh barrier, difficult for anyone or anything to move beyond.
-
-### Bizarre
-
-0. Arrows descend faster than normal, missing the caster.
-1. Targets feel their weight increase, becoming heavier, and unable to run or fly properly.
-2. Targets float, becoming weightless.
-3. Gravity crawls along walls, allowing the target to wander across any surface.
-4. Distance disappears, opening a rift in space - a portal to anywhere within range.
-
