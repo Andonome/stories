@@ -144,7 +144,7 @@ They can power high spheres with any combination of mana.
     * Complex: replace X Code rewards with anything.
     * Large: X^3 targets.
 # Force
-- Create: Increase momentum (+X Damage, spell must start when other action starts, )
+- Create: Increase momentum (+X Damage, +X AP to use )
     * Complex: target swings, or spins towards a target.
     * Large: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
 - Destroy: Force-Field
