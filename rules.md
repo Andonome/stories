@@ -138,7 +138,7 @@ They can power high spheres with any combination of mana.
     * Duplicated: X^3 targets.
 - Wane: Forgetfulness, confusion, fear.
     * Detailed: target becomes confused about particular events.
-    * Duplicated: X^2 targets.
+    * Duplicated: X^3 targets.
 - Warp: replace X Code rewards with another.
     * Detailed: replace X Code rewards with anything.
     * Duplicated: X^3 targets.
