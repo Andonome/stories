@@ -1,8 +1,73 @@
+\section{First Level Spells}
 
-\spell{Quake}% Name
-  {Earth}% Spheres
-  {iii}% Enhancements
-  {5}% Cost
-  {Caving}% Skill
-  {GrrrrrrrrglllllllllllbrrrrrrrrrrrrrrBBBBBBB}% Description
+\begin{multicols}{2}
 
+\subsection{Fate}
+
+\spell{Blessing}% Name
+  {Fate}% Spheres
+  {Wax}% Action
+  {}% Enhancements
+  {Empathy}% Skill
+  {Target gains \arabic{spelllevel} \glspl{fp}}% Description
+
+\spell{Curse}% Name
+  {Fate}% Spheres
+  {Wane}% Action
+  {}% Enhancements
+  {Deceit}% Skill
+  {Target loses \arabic{spelllevel} \glspl{fp}}% Description
+
+\subsection{Air}
+
+\spell{Wind Chill}% Name
+  {Air}% Spheres
+  {Wax}% Action
+  {}% Enhancements
+  {Seafaring}% Skill
+  {Target loses \arabic{spelllevel} \gls{ap}}% Description
+
+The mage blasts the target with chilled wind, draining them of \arabic{spelllevel} \gls{ap}.
+In close-range combat, the spell nullifies an enemy's attack against the caster.
+
+\end{multicols}
+
+\section{Second Level Spells}
+
+\begin{multicols}{2}
+
+\subsection{Fate}
+
+\spell{Mass Blessing}% Name
+  {Fate}% Spheres
+  {Wax}% Action
+  {\duplicated}% Enhancements
+  {Empathy}% Skill
+  {\arabic{spellArea} targets gain \arabic{spelllevel} \glspl{fp}}% Description
+
+\spell{Mass Curse}% Name
+  {Fate}% Spheres
+  {Wane}% Action
+  {\duplicated}% Enhancements
+  {Deceit}% Skill
+  {\arabic{spellArea} targets lose \arabic{spelllevel} \glspl{fp}}% Description
+
+\spell{Hateful Cry}% Name
+  {Fate}% Spheres
+  {Wane}% Action
+  {\distant}% Enhancements
+  {Deceit}% Skill
+  {Targets loses \arabic{spelllevel} \glspl{fp}}% Description
+
+One target at \spellRange{} loses \dmg{spelllevel}~\glspl{fp}.
+
+\subsection{Air}
+
+\spell{Wind Blast}% Name
+  {Air}% Spheres
+  {Wax}% Action
+  {\duplicated}% Enhancements
+  {Seafaring}% Skill
+  {\arabic{spellArea} targets lose \arabic{spelllevel} \gls{ap}}% Description
+
+\end{multicols}
