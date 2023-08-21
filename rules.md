@@ -111,8 +111,8 @@ They can power high spheres with any combination of mana.
 - Wane: Mist
     * Detailed: mist forms image.
     * Duplicated: X^2 of water disappear, X^5 squares covered in mist.
-- Warp: Acidic gloup (X Damage per round of full-body contact, minus Covering)
-    * Detailed: acid gloup forms into a creature's shape, like a jelly.
+- Warp: Acidic gloop (X Damage per round of full-body contact, minus Covering)
+    * Detailed: acid gloop forms into a creature's shape, like a jelly.
     * Duplicated: X^2 of water transformed.
 ## Life
 - Wax: (Dam/ HP), Metabolism+ (AP) (removes all ground nutrients)
@@ -156,8 +156,8 @@ They can power high spheres with any combination of mana.
 - Wax: inflict X Fatigue (1D6-3).
     * Detailed: target suffers X HP Damage instead of Fatigue.
     * Duplicated: X^3 targets.
-- Wane: Slows natural entropy. Fatigue. deseases, poisons take X times longer to manifest.
-    * Detailed: Fatigue. deseases, poisons and rot are completely stopped.
+- Wane: Slows natural entropy; fatigue, diseases, poisons.  Take X times longer to manifest.
+    * Detailed: Fatigue, diseases, poisons and rot are completely stopped.
     * Duplicated: X^3 targets.
 - Warp: Torpor. Target gains 2 DR, ignores all Fatigue, and cannot heal (including MP).
     * Detailed: sight of the dead, normal vision is swapped out for the vision of the dead, plus standard Torpor.
