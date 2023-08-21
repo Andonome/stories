@@ -169,10 +169,9 @@ They can power high spheres with any combination of mana.
 * Wane: Shadow - cover X squares.
     * Detailed: shadow which looks like a particular thing.
     * Duplicated: X^3 squares covered.
-* Warp: 
-    * Detailed: illusion.
+* Warp: Contort the flow of light.
+    * Detailed: persistent size-illusion.
     * Duplicated: X^3 squares covered.
-
 
 # Further Details
 
