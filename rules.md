@@ -146,8 +146,8 @@ They can power high spheres with any combination of mana.
 - Wax: Increase momentum (+X Damage, +X AP to use )
     * Detailed: +X to hit, +x AP to use.
     * Duplicated: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
-- Wane: Force-Field
-    * Detailed: +X to hit, +x AP to use.
+- Wane: Target loses all current momentum, and gravity is permanently ignored. Target remains completely motionless until something moves it. Living creatures, and anything that moves of its own volition can break free by spending 1 AP.
+    * Detailed: The effect takes shape of a force field, absorbing more momentum. X^2 damage to break.
     * Duplicated: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
 - Warp: Teleportation, maximum Weight of X^2. Energy can be redirected, but the TN increases by the weapon's Damage.
     * Detailed: Doorway opens in a solid surface. Maximum Weight which can fit through is X.
@@ -172,6 +172,7 @@ They can power high spheres with any combination of mana.
 * Warp: Contort the flow of light.
     * Detailed: persistent size-illusion.
     * Duplicated: X^3 squares covered.
+
 
 # Further Details
 
