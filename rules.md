@@ -43,7 +43,7 @@ When you add another enhancement, each enhancement grows.
 - Duplicated
 - Divergent
 - Distant
-    - (standard) 6 + MP squares
+    - (standard) 6 + MP steps
     2. Throwing distance
     3. Shouting distance
     4. Horizon
@@ -71,9 +71,12 @@ They can power high spheres with any combination of mana.
 - Wane: Remove X FP from target.
     * Detailed: Gain X rolls with a -1 Bonus, applied to a particular Skill.
     * Duplicated: X^2 targets.
-- Warp: Target gains +X monster encounters, 1 per interval (useless unless made durable).
+- Warp: Target gains +X monster encounters, 1 per interval.
     * Detailed: Particular meetings on the road destined.
     * Duplicated: X^2 targets.
+- Witness: Caster knows if the target has FP, or not.
+    * Detailed: 
+    * Duplicated: 
 ## Earth
 - Wax: harden sand, earth, or the rest into a solid form. Total Weight equal to X^3.
     * Detailed: Shape into statue.
@@ -84,36 +87,48 @@ They can power high spheres with any combination of mana.
 - Warp: Target becomes brittle. +X TN to move it, but a single point of Damage destroys it.
     * Detailed: resulting rock looks like shining gems.
     * Duplicated: X^2 Weight (1 to 25).
+- Witness: 
+    * Detailed: 
+    * Duplicated: 
 ## Fire
-- Wax: X Damage (1D6-3+X Damage).
+- Wax: Target fire grows rapidly dealing 1D6-4+X damage to anyone nearby. Damage increases by 0 for a candle, 1 for a torch, 2 for a hearth, 3 or more for a bonfire.
     * Detailed: colourful phoenix fire.
-    * Duplicated: X^2 squares covered
-- Wane: Nearby fires go out. 1 for a candle, 2 for a torch.
+    * Duplicated: X^2 steps covered
+- Wane: Nearby fires go out. TN increases by 0 for a candle, 1 for a torch, 2 for a hearth, 3 or more for a bonfire.
     * Detailed: candle goes out with a bang or pop, and lots of weird smoke.
-    * Duplicated: X^2 squares covered
+    * Duplicated: X^2 steps covered
 - Warp: harmless
     * Detailed: Colourful phoenix fire.
-    * Duplicated: X^2 squares covered
+    * Duplicated: X^2 steps covered
+- Witness: 
+    * Detailed: 
+    * Duplicated: 
 ## Air
 - Wax: Wind blast (-X AP when facing wind, -1/2 AP with back to wind.)
     * Detailed: shape in the wind.
-    * Duplicated: X^3 squares covered
+    * Duplicated: X^3 steps covered
 - Wane: Putrid
     * Detailed: shape in the putrid wind.
-    * Duplicated: X^3 squares covered.
+    * Duplicated: X^3 steps covered.
 - Warp: Bubble
     * Detailed: shape the bubble (like an underwater castle, or woodspy-shaped bubble)
-    * Duplicated: X^2 squares covered.
+    * Duplicated: X^2 steps covered.
+- Witness: 
+    * Detailed: 
+    * Duplicated: 
 ## Water
 - Encourage: sploosh!
     * Detailed: colourful wave, shaped like a naiad.
-    * Duplicated: X^2 squares covered
+    * Duplicated: X^2 steps covered
 - Wane: Mist
     * Detailed: mist forms image.
-    * Duplicated: X^2 of water disappear, X^5 squares covered in mist.
+    * Duplicated: X^2 of water disappear, X^5 steps covered in mist.
 - Warp: Acidic gloop (X Damage per round of full-body contact, minus Covering)
     * Detailed: acid gloop forms into a creature's shape, like a jelly.
     * Duplicated: X^2 of water transformed.
+- Witness: 
+    * Detailed: 
+    * Duplicated: 
 ## Life
 - Wax: (Dam/ HP), Metabolism+ (AP) (removes all ground nutrients)
     * Detailed: appearance changes.
@@ -132,6 +147,9 @@ They can power high spheres with any combination of mana.
             4. Stench
             5. Magical ability
     * Duplicated: X^2 targets.
+- Witness: 
+    * Detailed: 
+    * Duplicated: 
 ## Mind
 - Wax: Big-mind obsession, which uses Wits to have Mental contests. Wits = AP.
     * Detailed: the obsession takes on a voice, which has an accent. It takes gains an Intelligence Bonus equal to AP.
@@ -142,16 +160,22 @@ They can power high spheres with any combination of mana.
 - Warp: replace X Code rewards with another.
     * Detailed: replace X Code rewards with anything.
     * Duplicated: X^3 targets.
+- Witness: 
+    * Detailed: 
+    * Duplicated: 
 ## Force
 - Wax: Increase momentum (+X Damage, +X AP to use )
     * Detailed: +X to hit, +x AP to use.
-    * Duplicated: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
+    * Duplicated: X^2 steps covered (but targeting so many arrows or swords makes a challenge)
 - Wane: Target loses all current momentum, and gravity is permanently ignored. Target remains completely motionless until something moves it. Living creatures, and anything that moves of its own volition can break free by spending 1 AP.
     * Detailed: The effect takes shape of a force field, absorbing more momentum. X^2 damage to break.
-    * Duplicated: X^2 squares covered (but targeting so many arrows or swords makes a challenge)
+    * Duplicated: X^2 steps covered (but targeting so many arrows or swords makes a challenge)
 - Warp: Teleportation, maximum Weight of X^2. Energy can be redirected, but the TN increases by the weapon's Damage.
     * Detailed: Doorway opens in a solid surface. Maximum Weight which can fit through is X.
     * Duplicated: maximum Weight increases to X^2.
+- Witness: 
+    * Detailed: 
+    * Duplicated: 
 ## Death
 - Wax: inflict X Fatigue (1D6-3).
     * Detailed: target suffers X HP Damage instead of Fatigue.
@@ -162,16 +186,22 @@ They can power high spheres with any combination of mana.
 - Warp: Torpor. Target gains 2 DR, ignores all Fatigue, and cannot heal (including MP).
     * Detailed: sight of the dead, normal vision is swapped out for the vision of the dead, plus standard Torpor.
     * Duplicated: X^3 targets.
+- Witness: 
+    * Detailed: 
+    * Duplicated: 
 ## Light
 * Wax: Light
     * Detailed: create shining shape, such as square, or griffin.
-    * Duplicated: '(5 + X)!' squares covered (but who's counting?).
-* Wane: Shadow - cover X squares.
+    * Duplicated: '(5 + X)!' steps covered (but who's counting?).
+* Wane: Shadow - cover X steps.
     * Detailed: shadow which looks like a particular thing.
-    * Duplicated: X^3 squares covered.
+    * Duplicated: X^3 steps covered.
 * Warp: Contort the flow of light.
     * Detailed: persistent size-illusion.
-    * Duplicated: X^3 squares covered.
+    * Duplicated: X^3 steps covered.
+- Witness: 
+    * Detailed: 
+    * Duplicated: 
 
 
 # Further Details
