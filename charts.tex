@@ -108,12 +108,12 @@
 
 
 \newcommand\exampleRandomCharacter{
-  \setcounter{str}{0}
-  \setcounter{dex}{-1}
-  \setcounter{spd}{0}
-  \setcounter{int}{1}
-  \setcounter{wts}{0}
-  \setcounter{cha}{1}
+  \setcounter{Strength}{0}
+  \setcounter{Dexterity}{-1}
+  \setcounter{Speed}{0}
+  \setcounter{Intelligence}{1}
+  \setcounter{Wits}{0}
+  \setcounter{Charisma}{1}
 
   \renewcommand\concept{Loner}
   \renewcommand\race{Human}
@@ -148,9 +148,9 @@
   \setcounter{gold}{0}
 
   \settoggle{examplecharacter}{true}
-  \settoggle{bestiarychapter}{true}
+  \settoggle{genExamples}{true}
   \input{config/CS.tex}
-  \settoggle{bestiarychapter}{false}
+  \settoggle{genExamples}{false}
   \settoggle{examplecharacter}{false}
   \renewcommand\csComments{}
   \clearpage
