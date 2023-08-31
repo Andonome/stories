@@ -91,13 +91,13 @@ They can power high spheres with any combination of mana.
     * Detailed: 
     * Duplicated: 
 ## Fire
-- Wax: Target fire grows rapidly dealing 1D6-4+X damage to anyone nearby. Damage increases by 0 for a candle, 1 for a torch, 2 for a hearth, 3 or more for a bonfire.
+- Wax: Target fire grows rapidly dealing damage to anyone nearby. Damage increases by 0 for a candle, 1 for a torch, 2 for a hearth, 3 or more for a bonfire.
     * Detailed: colourful phoenix fire.
     * Duplicated: X^2 steps covered
 - Wane: Nearby fires go out. TN increases by 0 for a candle, 1 for a torch, 2 for a hearth, 3 or more for a bonfire.
     * Detailed: candle goes out with a bang or pop, and lots of weird smoke.
     * Duplicated: X^2 steps covered
-- Warp: harmless
+- Warp: Caster designates one type of material, and target fire doesn't burn it anymore.
     * Detailed: Colourful phoenix fire.
     * Duplicated: X^2 steps covered
 - Witness: 
@@ -120,7 +120,7 @@ They can power high spheres with any combination of mana.
 - Encourage: sploosh!
     * Detailed: colourful wave, shaped like a naiad.
     * Duplicated: X^2 steps covered
-- Wane: Mist
+- Wane: Turns water into mist. Things get soggy, as humidity rises.
     * Detailed: mist forms image.
     * Duplicated: X^2 of water disappear, X^5 steps covered in mist.
 - Warp: Acidic gloop (X Damage per round of full-body contact, minus Covering)
@@ -151,10 +151,10 @@ They can power high spheres with any combination of mana.
     * Detailed: 
     * Duplicated: 
 ## Mind
-- Wax: Big-mind obsession, which uses Wits to have Mental contests. Wits = AP.
+- Wax: Target is focused on thir current task, resists with Wits + Academics. Task has to be summed up in a single word.
     * Detailed: the obsession takes on a voice, which has an accent. It takes gains an Intelligence Bonus equal to AP.
     * Duplicated: X^3 targets.
-- Wane: Forgetfulness, confusion, fear.
+- Wane: Forgetfulness, confusion, fear. -X penalty to all actions using Mental Attributes, and a -X AP penalty during combat.
     * Detailed: target becomes confused about particular events.
     * Duplicated: X^3 targets.
 - Warp: replace X Code rewards with another.
