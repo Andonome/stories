@@ -117,7 +117,7 @@ They can power high spheres with any combination of mana.
     * Detailed: 
     * Duplicated: 
 ## Water
-- Encourage: sploosh!
+- Wax: sploosh!
     * Detailed: colourful wave, shaped like a naiad.
     * Duplicated: X^2 steps covered
 - Wane: Turns water into mist. Things get soggy, as humidity rises.
