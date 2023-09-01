@@ -180,23 +180,23 @@ They can power high spheres with any combination of mana.
 - Wax: inflict X Fatigue (1D6-3).
     * Detailed: target suffers X HP Damage instead of Fatigue.
     * Duplicated: X^3 targets.
-- Wane: Slows natural entropy; fatigue, diseases, poisons.  Take X times longer to manifest.
+- Wane: Slows natural entropy; fatigue, diseases, poisons.  Taget doesn't suffer any penalties from Fatigue.
     * Detailed: Fatigue, diseases, poisons and rot are completely stopped.
     * Duplicated: X^3 targets.
-- Warp: Torpor. Target gains 2 DR, ignores all Fatigue, and cannot heal (including MP).
-    * Detailed: sight of the dead, normal vision is swapped out for the vision of the dead, plus standard Torpor.
+- Warp: Torpor. Target gains +1DR, and doesn't bleed.
+    * Detailed: sight of the dead, normal vision is swapped out for the vision of the dead. Cannot regenerate Fatigue Points, MP, or HP.
     * Duplicated: X^3 targets.
 - Witness: 
     * Detailed: 
     * Duplicated: 
 ## Light
-* Wax: Light
+* Wax: Makes target light brighter.
     * Detailed: create shining shape, such as square, or griffin.
     * Duplicated: '(5 + X)!' steps covered (but who's counting?).
-* Wane: Shadow - cover X steps.
+* Wane: Creates a shadow - cover X steps.
     * Detailed: shadow which looks like a particular thing.
     * Duplicated: X^3 steps covered.
-* Warp: Contort the flow of light.
+* Warp: Makes target appear larger or smaller. Ranged attacks (including spells) have -1 penalty per every 5 steps.
     * Detailed: persistent size-illusion.
     * Duplicated: X^3 steps covered.
 - Witness: 
