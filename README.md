@@ -1,4 +1,3 @@
-
 This repository will slowly become the rules for magic.
 
 Broadly, it should work like this:
@@ -14,6 +13,8 @@ Broadly, it should work like this:
     * A woodspy's heart could grant 1 Earth.
     * Items will soil, and go bad, quickly.
 4. I have no idea how magical items are going to function, but the rules need to have fewer steps than the current system.
+
+[Download WiP Version][download]
 
 # Changes
 
@@ -35,3 +36,5 @@ For now, we have
 
 - [The basic rules](rules.md)
 - [A list of spells](spell_list.md)
+
+[download]: https://gitlab.com/bindrpg/magic/-/jobs/artifacts/master/raw/magic.pdf?job=compile_pdf
