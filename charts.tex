@@ -1,5 +1,30 @@
 \makeindex[name=spells,title={Spell Summaries},columns=2]
 
+\newcommand\namesOfHumans{
+  \begin{nametable}[c|YY]{Human Names}
+  \textbf{Roll} & \textbf{Prefix} & \textbf{Suffix} \\\hline
+  \ifodd\value{r4}
+    \dicef{1} & Rex    & --head \\
+  \else
+    \dicef{1} & Scour    & --dun   \\
+  \fi
+  \dicef{2} & Steer  & --kuff  \\
+  \ifodd\value{r3}
+    \dicef{3} & Glum  & --nail  \\
+    \dicef{4} & Flic   & --rash   \\
+  \else
+    \dicef{3} & Pros   & --flay  \\
+    \dicef{4} & Cart   & --pike  \\
+  \fi
+  \ifodd\value{page}
+    \dicef{5} & Gors  &  --filch \\
+  \else
+    \dicef{5} & Keel   & --frak  \\
+  \fi
+  \dicef{6} & Moc    & --drag  \\
+  \end{nametable}
+}
+
 % for CS callout boxes
 
 \newcommand\commentary[3]{
