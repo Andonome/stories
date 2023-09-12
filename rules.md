@@ -175,7 +175,6 @@ They can power high spheres with any combination of mana.
     * Duplicated: maximum Weight increases to X^2.
 - Witness: 
     * Detailed: 
-    * Duplicated: 
 ## Death
 - Wax: inflict X Fatigue (1D6-3).
     * Detailed: target suffers X HP Damage instead of Fatigue.
