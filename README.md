@@ -14,5 +14,5 @@ Inside, players can find:
 - [Issues Board][issues]
 
 [core]: https://gitlab.com/bindrpg/core
-[download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/stories.pdf?job=compile_pdf
+[download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/stories.pdf?job=build
 [issues]: https://gitlab.com/bindrpg/aif
