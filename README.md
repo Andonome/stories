@@ -11,8 +11,6 @@ Inside, players can find:
 
 - [Download][download]
 - [The Core Rules][core]
-- [Issues Board][issues]
 
 [core]: https://gitlab.com/bindrpg/core
 [download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/stories.pdf?job=build
-[issues]: https://gitlab.com/bindrpg/aif
