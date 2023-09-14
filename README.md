@@ -37,4 +37,4 @@ For now, we have
 - [The basic rules](rules.md)
 - [A list of spells](spell_list.md)
 
-[download]: https://gitlab.com/bindrpg/magic/-/jobs/artifacts/master/raw/magic.pdf?job=compile_pdf
+[download]: https://gitlab.com/bindrpg/magic/-/jobs/artifacts/master/raw/magic.pdf?job=build
