@@ -1,44 +1,140 @@
-% This should probably live in the config project once done.
-
 \chapter{Casting Rules}
 
+\section{Spheres of Magic}
+\index{Spheres of Magic}
+
 \begin{multicols}{2}
+
+\subsection{Casting Spells}
 
 \begin{itemize}
   \item
   Casters roll Charisma + Sphere at \tn[7].
 
   \textit{For example, a caster with Charisma +1 and Air +2, casting a first level Air spell would roll with a +3 Bonus.}
-  \item
-  Various things can increase the \gls{tn} -- especially when the spell's target resists!
+  \begin{itemize}
+    \item
+    Various things can increase the \gls{tn}.
+    Living creatures make a resisted action as usual, and inanimate things resist in their own ways.
+    \item
+    The Snap Caster Knack allows casters to use their Wits Attribute instead of Charisma.
+    Similarly, the Ritual Caster Knack allows a caster to use Intelligence.%
+    \exRef{core}{Core Rules}{ritualCaster}
+  \end{itemize}
   \item
   Casters can gain bonuses to their low-spheres from rare ingredients, when properly prepared.
   These bonuses count as if the caster had that higher level.
-
-  Situations can also grant a bonus to high-spheres.
+  \item
+  Special situations can also grant a bonus to high-spheres (see below).
 \end{itemize}
 
-\subsection{Building spells}
+\subsection{Elemental Spheres}
+\index{Elemental Spheres}
+
+\Gls{fenestra} has no need for philosophers to debate the fundamentals of the world.
+Spellcasters can alter five basic building-blocks -- Air, Earth, Fate, Fire, and Water -- so they have first-hand knowledge of the world's essential nature.
+
+\subsubsection{Modes}
+\index{Modes}
+Each sphere a character gains gives them access to four modes of casting -- four ways to affect the element.
+
+\begin{description}
+  \item[Waxing]
+  spells encourage the element, making it \emph{more} like what it is.
+  \item[Waning]
+  magic does the opposite -- it reduces the element's nature, and often destroys the target.
+  \item[Warping]
+  an element alters some fundamental aspect, promoting strange behaviour and effects from the target.
+  \item[Witnessing]
+  means to find out whether or not the element exists.
+  These spells let the caster know if the element lies nearby.
+\end{description}
+
+\subsubsection{Air}
+\hint{wind, smoke, steam, fog, mist, cloud}
+
+\begin{description}
+  \item[Wax]
+  spells increase the air's motion, making even a still room fast enough to push someone back.
+  \item[Wane]
+  spells put fires out.
+  Miracle workers who truly understand fire can often do more damage through darkness than damage.
+  \item[Warp]
+  spells can reshape air into a more solid `bubble'.
+  \item[Witness]
+  air spells don't come up very often, but the spell remains, nevertheless.
+\end{description}
+
+\subsubsection{Earth}
+\hint{dirt, ice, snow, sand, ash}
+
+\begin{description}
+  \item[Wax]
+  spells harden sand into stone, or bind snow into ice.
+  \item[Wane]
+  softens earth, melts ice, turns dirt to mud, and calms magma.
+  \item[Warp]
+  spells twist earth in unnatural ways, making it brittle.
+  These spells can increase the \gls{tn} to damage a wall or door, but if they receive a single point of Damage, the brittle mass may shatter.
+\end{description}
+
+\subsubsection{Fate}
+\hint{luck, curses, prophecy}
+
+\begin{description}
+  \item[Wax]
+  fate spells grant 2 \glspl{fp} plus the spell's level.
+  The \glspl{fp} convert to dice, just like Damage, so a level 1 \textit{Wax Fate} spell would grant $1D6-1$ \glspl{fp}.
+  \item[Wane]
+  spells inflict curses, removing the same number of \glspl{fp}.
+  \item[Warp]
+  fate spells inflict \emph{encounters} on a target.
+  Each level adds one encounter per interval.%
+  \iftoggle{judgement}{%
+    \footnote{\Glspl{gm} looking for encounter ideas can find a system in \textit{Judgement}: \nameref{encounters}, \autopageref{encounters}.}%
+  }{}
+  \item[Witness]
+  spells tell a caster if someone has \glspl{fp}.
+  Witches once informed people when they had found `the chosen one', but so many fated for great things end up eaten by the forest that nowadays nobody puts much stock in someone with an aura of luck.
+\end{description}
+
+\subsubsection{Fire}
+\hint{flame, lightning, magma, furnaces}
+
+\begin{description}
+  \item[Wax]
+  spells make fires flare up and burn through their fuel in an explosive instance.
+  \item[Wane]
+  spells put fires out.
+  Miracle workers who truly understand fire can often do more damage through darkness than damage.
+  \item[Warp]
+  spells can remove a fire's light, make them flicker downwards rather than up, or alter the colours.
+\end{description}
+
+\subsubsection{Water}
+\hint{rivers, rain, ale, magma}
+
+\begin{description}
+  \item[Wax]
+  spells make rivers flow faster, rain fall harder and purify any liquid, from ales to straight-up poisons.
+  \item[Wane]
+  encourages water's natural evaporation.
+  Small-scale spells might encourage a cup of water to evaporate, while greater magics could turn a river into steam.
+  \item[Warp]
+  spells freeze liquids, or encourage any mildly impure substance to become putrid, or even acidic.
+\end{description}
+
+\end{multicols}
+
+\section{Building spells}
+
+\begin{multicols}{2}
 
 \begin{enumerate}
   \item
   Every spell starts by selecting one or more spheres.
   \item
-  The caster then selects one of the four actions to apply to the element:
-  \begin{description}
-    \item[Wax]
-    increases the target's potency, making water ripple and fires flare.
-    \item[Wane]
-    does the opposite, making the target diminish its basic nature.
-    \item[Warp]
-    twists the target's fundamental nature, making life take on unnatural forms, or bending space into solid item.
-    \item[Witness]
-    allows a single `yes/no' question about the target sphere.
-  \end{description}
-  These spells so far cost 1 \gls{mp}, but casters can add enhancements.
-  \item
-  Each Enhancement the casters add both increases its potency, and alters how the spell works.
-  \begin{description}
+  The caster then selects one of the four \textit{modes} to apply to the element:
     \item[Detailed]
     spells change appearance, or grant more information.
 
@@ -56,3 +152,4 @@
 \end{enumerate}
 
 \end{multicols}
+
