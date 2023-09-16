@@ -124,6 +124,38 @@ Each sphere a character gains gives them access to four modes of casting -- four
   spells freeze liquids, or encourage any mildly impure substance to become putrid, or even acidic.
 \end{description}
 
+\subsection{High Spheres}
+
+High spheres combine two of the lower, elemental spheres to produce something new.
+If someone can cast both of the lower spheres they need, then they can also cast from that high sphere at a level equal to the lowest of the constituents.
+
+\begin{exampletext}
+  For example, a miracle worker with Water 2, and Fate 1 can automatically cast spells from the Mind sphere at level 1.
+  If they gain the Earth sphere at level 2, they could then combine Water and Earth magic to make Life magic, also at level 2.
+\end{exampletext}
+
+\subsubsection{Force}
+\hint{momentum, portals, teleportation}
+
+
+\textbf{Elements:}
+\roll{Fire}{Earth}
+
+\begin{description}
+  \item[Wax]
+  force means a heavy force, often used in combat.
+  These spells let anything deal Damage equal the spell's $level + 3$, but the spell must be cast at \emph{exactly} the same time as the target weapon hits something.
+  In mechanical terms, the caster must release the spell when they have exactly the same number of \glspl{ap} as the attack they want to aid.
+
+  \begin{exampletext}
+    An alchemist has Fire 2 and Earth 1, which implies access to the Force sphere at level 1.
+    He wants to aid his companion's arrows, with a \textit{Wax Force} spell.
+    Unfortunately they already deal $1D6+3$ Damage, 
+  \end{exampletext}
+  \item[Wane]
+  \item[Warp]
+  \item[Witness]
+\end{description}
 \end{multicols}
 
 \section{Building spells}
@@ -135,6 +167,7 @@ Each sphere a character gains gives them access to four modes of casting -- four
   Every spell starts by selecting one or more spheres.
   \item
   The caster then selects one of the four \textit{modes} to apply to the element:
+  \begin{description}
     \item[Detailed]
     spells change appearance, or grant more information.
 
