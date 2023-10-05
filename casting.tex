@@ -34,7 +34,7 @@ And all spells might be resisted by simply stabbing the spellcaster.
 
 \vspace{1em}
 \begin{exampletext}
-  An archer draws back his bow, intent on hitting the witch. At the same time, she speaks a curse, hoping to make him fumble, and miss his shot, while depleting his FP.
+  An archer draws back his bow, intent on hitting the witch. At the same time, she speaks a curse, hoping to make him fumble, and miss his shot, while depleting his \glspl{fp}.
   The \gls{tn} is 7 plus the archer's \roll{Dexterity}{Projectiles}.
 \end{exampletext}
 
@@ -45,6 +45,19 @@ And all spells might be resisted by simply stabbing the spellcaster.
 \begin{exampletext}
   The enchanter wants to control the elf's mind. He can't fight well, but his mind is strong. Instead of attacking the caster, he guards his mind, and resists with \roll{Wits}{Vigilance}.
 \end{exampletext}
+
+\subsubsection{Casting Range}
+gets shorter as spells become more powerful.
+A basic spell has a range of 20 steps, minus 5 steps per level.
+
+\begin{boxtable}[YL]
+  \textbf{Level} & \textbf{Range} \\
+  \hline
+  1 & 15 steps \\
+  2 & 10 steps \\
+  3 & 5 steps \\
+  4 & touch \\
+\end{boxtable}
 
 \subsubsection{Magical Ingredients}
 
@@ -60,6 +73,50 @@ Someone with no magical abilities can use these items.
 However, the use of items can only grant plus \emph{one} to any sphere, never more.
 
 For more on these ingredients, see \autopageref{magicIngredients}.
+
+\subsection{Enhancements}
+
+Enhancements bolster some aspect of a spell, while adding to a spell's level.
+Duplicated spells affects more targets, depending on the spell's level, and Detailed spells add subtlety, which also increase the spell's level.
+
+Higher-level spells have bigger effects, so each enhancement not only increases that aspect of the spell, but makes a spell more powerful in every way.
+
+\subsubsection{Detailed}
+
+Detailed spells let the caster select how the spell appears.
+Instead of making a bonfire simply explode, the caster can make it explode while looking like a mythical bird, or ice can melt into water while taking on the form of humans writing in pain.
+The caster can also make spells more particular about targets, so that fire spell attacks only enemies, or a Mind spell might make someone forget what they wanted to do about that one things\ldots{} what was it again?
+
+\subsubsection{Distant}
+
+Standard spells reach out only a few steps, but \textit{distant} spells can reach across worlds.
+They also give spells a \emph{minimum} distance; casting a spell at `throwing distance' means the spell must fly beyond the standard maximum of a spell's distance (15 steps).
+Similarly, spells with a range of `shouting distance' \emph{must} find a target beyond throwing distance.
+
+\sidebox[3]{
+  \begin{boxtable}[Yl]
+    \textbf{Level} & \textbf{Range} \\
+    \hline
+    2 & Throwing distance \\
+    3 & Shouting distance \\
+    4 & Horizon \\
+    5 & Line of Sight \\
+  \end{boxtable}
+}
+
+If the caster misjudges the range while weaving a spell, the spell will find some other target inside the proper range.
+
+Spells targeting the \gls{ainumar} result in the caster's instant death from a responding spell.
+Nobody knows why, but they assume a god or gods are responsible.
+
+\settoggle{distant}{true}
+\setcounter{spelllevel}{1}
+
+\spellRange
+
+\stepcounter{spelllevel}
+
+\spellRange
 
 \end{multicols}
 
