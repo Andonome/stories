@@ -126,14 +126,26 @@ If the caster misjudges the range while weaving a spell, the spell will find som
 Spells targeting the \gls{ainumar} result in the caster's instant death from a responding spell.
 Nobody knows why, but they assume a god or gods are responsible.
 
-\settoggle{distant}{true}
-\setcounter{spelllevel}{1}
+\subsubsection{Duplicated}
 
-\spellRange
+Most spells have a single target, but by making a spell \textit{duplicated}, the spell goes up to level 2, and affects double the usual targets.
+Earth spells might affect double the usual \gls{weight}, Mind spells affect two minds instead of one, and duplicated Fire spells can target a multitude of nearby torches, candles, and anything else currently alight.
+If the caster can employ another Enhancement, then the spell multiplies \emph{again} by 3, and then by 4, and so on.
 
-\stepcounter{spelllevel}
+\sidebox[2]{
+  \begin{boxtable}[YY]
+    \textbf{Level} & \textbf{Targets} \\
+    \hline
+    2 & 2 \\
+    3 & 6 \\
+    4 & 24 \\
+    5 & 120 \\
+  \end{boxtable}
+}
 
-\spellRange
+With enough Enhancements pushing a spell's level up, spells can affect huge numbers of targets.
+The incredible force of a caster with a strong stock of magical items has serious implications for warfare across \gls{fenestra}.
+While armies can fall prey to a single enchanter's song, a small, strong-willed group of veterans can push through and succeed.
 
 \end{multicols}
 
