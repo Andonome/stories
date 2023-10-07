@@ -86,7 +86,7 @@ They can power high spheres with any combination of mana.
     * Detailed: 
     * Duplicated: 
 ## Mind
-- Wax: Target is focused on thir current task, resists with Wits + Academics. Task has to be summed up in a single word.
+- Wax: Target is focused on their current task, resists with Wits + Academics. Task has to be summed up in a single word.
     * Detailed: the obsession takes on a voice, which has an accent. It takes gains an Intelligence Bonus equal to AP.
     * Duplicated: X^3 targets.
 - Wane: Forgetfulness, confusion, fear. -X penalty to all actions using Mental Attributes, and a -X AP penalty during combat.
@@ -99,9 +99,6 @@ They can power high spheres with any combination of mana.
     * Detailed: 
     * Duplicated: 
 ## Force
-- Wax: Increase momentum (+X Damage, +X AP to use )
-    * Detailed: +X to hit, +x AP to use.
-    * Duplicated: X^2 steps covered (but targeting so many arrows or swords makes a challenge)
 - Wane: Target loses all current momentum, and gravity is permanently ignored. Target remains completely motionless until something moves it. Living creatures, and anything that moves of its own volition can break free by spending 1 AP.
     * Detailed: The effect takes shape of a force field, absorbing more momentum. X^2 damage to break.
     * Duplicated: X^2 steps covered (but targeting so many arrows or swords makes a challenge)
