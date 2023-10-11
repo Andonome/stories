@@ -9,7 +9,7 @@ Casters create a spell's foundation by deciding what \emph{action} to perform on
 Fire casters may \textit{Wax Fire}, causing it to roar and explode.
 Water casters can \textit{Wane the River}, making it evaporate.
 \textit{Witness Fate} spells allow the caster to know if fate has plans for someone nearby.
-So each of the five spheres allows the caster to create four basic spells - wax, wane, warp, and witness.
+So each of the five spheres allows the caster to create four basic spells -- wax, wane, warp, and witness.
 
 More advanced casters can add enhancements, though they come with complications and costs.
 The `duplicated' enhancement lets spells affect a wider area, or more targets, but the caster may inadvertently target allies.
@@ -265,6 +265,64 @@ If someone can cast both of the lower spheres they need, then they can also cast
   If they gain the Earth sphere at level 2, they could then combine Water and Earth magic to make Life magic, also at level 2.
 \end{exampletext}
 
+\subsubsection{Death}
+\hint{rot, health, souls, fatigue, regeration}
+
+\textbf{Elements:}
+\roll{Air}{Fate}
+
+\begin{description}
+  \item[Wax]
+  spells increase any deathly effects, inflicting \glspl{fatigue} equal to the spell's level.
+    \begin{description}
+      \item[Detailed]
+        versions can remove \glspl{hp} instead of adding \glspl{fatigue}.
+    \end{description}
+  \item[Wane]
+    spells remove degradation.
+    The target ignores a number penalties from \glspl{fatigue} equal to the spell's level.
+
+    These spells always cause problems in the long-run.
+    Each interval the target engages in any physical activity whatsoever, the spell weakens a little, and after a number of \glspl{interval} equal to the spell's level, it ends, crushing the target with \gls{fatigue} penalties.
+    \begin{description}
+      \item[Detailed]
+        spells focus this slowing of \glspl{fatigue} onto a single problem, so the target ignores \gls{fatigue} penalties gained through hiking, poison, fighting, or any other source, equal to double the spell's level.
+        For example, a level 3 spell would allow the target to ignore up to a -6 \gls{fatigue} penalty.
+      \item[Objects]
+        targeted by this spell rot more slowly.
+        \footnote{Some use the spell to preserve food, though it always loses its flavour.
+        This has resulted in the nickname `death rations' for any food affected by the spell.}
+      \item[Undead corpses,]
+        animated by angry spirits, cannot move properly in their dead shell.
+        This spell allows a corpse to become supple enough to move, although the body continues to rot whenever the creature moves.%
+        \footnote{For more on the duration of death magic, see \autopageref{deathDuration}.}
+        This leaves mindless undead falling apart after they spend long enough searching for souls, but sentient undead always feel aware of this slow degradation and guard their ability to sleep viciously.
+        Many spend centuries standing perfectly still, fearing any situation which might make them move, and bring them closer to the afterlife which still awaits them.
+    \end{description}
+  \item[Warp]
+    spells pull pull people into a kind of limbo between life and death.
+    Their heart slows, but they keep moving just as fast.
+    People so affected bleed less, and gain an unnatural \gls{dr} of 2, just like the undead.
+
+    The target also becomes detached from the world around them, and begin to treat the world like a kind of strategy game.
+    The uncaring mindset, glazed eyes, and strange conversation reduces their Charisma bonus by a number equal to the spell's level.
+    \begin{description}
+      \item[Detailed]
+        spells allow \ldots a redesign. What do they do?
+    \end{description}
+  \item[Witness]
+    spells track dead spirits who somehow cling to this realm, evading their proper afterlife.%
+    \exRef{judgement}{Judgement}{godsOfDeath}
+    These spells allow mages to target spirits with other spells, but only a moment before the spirit moves.
+    \begin{description}
+      \item[Detailed]
+        Witness spells allow the caster to receive more specific information, such as the location of a relative who passed away, and then (if that spell succeeds) to ask if that spirit wants to express something about a particular subject.
+
+        As usual, only `yes' or `no' answers return.
+        The caster cannot simply ask a spirit to divulge information, because they cannot hear the spirit -- they can only confirm or dis confirm guesses about what the spirit might want to say.
+    \end{description}
+\end{description}
+
 \subsubsection{Force}
 \hint{momentum, portals, teleportation}
 
@@ -306,6 +364,7 @@ If someone can cast both of the lower spheres they need, then they can also cast
   \item[Witness]
   of force allows the caster to know where any heavy forces act (flying arrows, heavy falling objects, or magical rifts).
 \end{description}
+
 \end{multicols}
 
 \section{Building spells}
@@ -359,6 +418,7 @@ All spells last forever, or perhaps they vanish instantly but leave the world ch
     \item
     Waning effects, which reduce the rate of death, dissipate with movement.
     Each \gls{interval} in which the target engages in exercise, they reduce any effects by a single point.
+    \label{deathDuration}
   \end{itemize}
   \item[Force]
   \begin{itemize}
