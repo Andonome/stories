@@ -64,27 +64,6 @@ They can power high spheres with any combination of mana.
 
 # Spheres
 
-## Life
-- Wax: (Dam/ HP), Metabolism+ (AP) (removes all ground nutrients)
-    * Detailed: appearance changes.
-    * Duplicated: X^2 targets.
-- Wane: -Attributes
-    * Detailed: twisted limbs take on unnatural appearance.
-    * Duplicated: X^2 targets.
-- Warp: Wings/ teeth/ gills (remove FP?).
-            1. Teeth
-            2. Wings
-            3. DR
-            4. Quadruped
-    * Detailed: bat-wings, shark-teeth, et c.
-            2. Venom
-            3. Tentacles
-            4. Stench
-            5. Magical ability
-    * Duplicated: X^2 targets.
-- Witness: 
-    * Detailed: 
-    * Duplicated: 
 ## Mind
 - Wax: Target is focused on their current task, resists with Wits + Academics. Task has to be summed up in a single word.
     * Detailed: the obsession takes on a voice, which has an accent. It takes gains an Intelligence Bonus equal to AP.
