@@ -99,20 +99,6 @@ They can power high spheres with any combination of mana.
 - Witness: 
     * Detailed: 
     * Duplicated: 
-## Light
-* Wax: Makes target light brighter.
-    * Detailed: create shining shape, such as square, or griffin.
-    * Duplicated: '(5 + X)!' steps covered (but who's counting?).
-* Wane: Creates a shadow - cover X steps.
-    * Detailed: shadow which looks like a particular thing.
-    * Duplicated: X^3 steps covered.
-* Warp: Makes target appear larger or smaller. Ranged attacks (including spells) have -1 penalty per every 5 steps.
-    * Detailed: persistent size-illusion.
-    * Duplicated: X^3 steps covered.
-- Witness: 
-    * Detailed: 
-    * Duplicated: 
-
 
 # Further Details
 
