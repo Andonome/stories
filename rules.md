@@ -62,44 +62,6 @@ The TN for spells is 6 + challenges + MP spent.
 Casters can spend a number of MP equal to the highest sphere they are using.
 They can power high spheres with any combination of mana.
 
-# Spheres
-
-## Mind
-- Wax: Target is focused on their current task, resists with Wits + Academics. Task has to be summed up in a single word.
-    * Detailed: the obsession takes on a voice, which has an accent. It takes gains an Intelligence Bonus equal to AP.
-    * Duplicated: X^3 targets.
-- Wane: Forgetfulness, confusion, fear. -X penalty to all actions using Mental Attributes, and a -X AP penalty during combat.
-    * Detailed: target becomes confused about particular events.
-    * Duplicated: X^3 targets.
-- Warp: replace X Code rewards with another.
-    * Detailed: replace X Code rewards with anything.
-    * Duplicated: X^3 targets.
-- Witness: 
-    * Detailed: 
-    * Duplicated: 
-## Force
-- Wane: Target loses all current momentum, and gravity is permanently ignored. Target remains completely motionless until something moves it. Living creatures, and anything that moves of its own volition can break free by spending 1 AP.
-    * Detailed: The effect takes shape of a force field, absorbing more momentum. X^2 damage to break.
-    * Duplicated: X^2 steps covered (but targeting so many arrows or swords makes a challenge)
-- Warp: Teleportation, maximum Weight of X^2. Energy can be redirected, but the TN increases by the weapon's Damage.
-    * Detailed: Doorway opens in a solid surface. Maximum Weight which can fit through is X.
-    * Duplicated: maximum Weight increases to X^2.
-- Witness: 
-    * Detailed: 
-## Death
-- Wax: inflict X Fatigue (1D6-3).
-    * Detailed: target suffers X HP Damage instead of Fatigue.
-    * Duplicated: X^3 targets.
-- Wane: Slows natural entropy; fatigue, diseases, poisons.  Taget doesn't suffer any penalties from Fatigue.
-    * Detailed: Fatigue, diseases, poisons and rot are completely stopped.
-    * Duplicated: X^3 targets.
-- Warp: Torpor. Target gains +1DR, and doesn't bleed.
-    * Detailed: sight of the dead, normal vision is swapped out for the vision of the dead. Cannot regenerate Fatigue Points, MP, or HP.
-    * Duplicated: X^3 targets.
-- Witness: 
-    * Detailed: 
-    * Duplicated: 
-
 # Further Details
 
 ## Mind
