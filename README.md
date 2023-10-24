@@ -24,17 +24,4 @@ Broadly, it should work like this:
 - A Fast-Casting Knack will be available to use Wits to cast even faster spells, allowing uncharismatic casters to exist.
 - A Ritual-Casting Knack knack will allow casters to use Intelligence, and to gain larger amounts of Mana.
 
-## Nura
-
-The new magic system cannot have nura as humanoids transformed and twisted.
-Instead, the nura will simply be their own people, who come from another realm.
-
-# Structure
-
-The book will be formatted after spells, items, et c. each have clear definitions.
-For now, we have
-
-- [The basic rules](rules.md)
-- [A list of spells](spell_list.md)
-
 [download]: https://gitlab.com/bindrpg/magic/-/jobs/artifacts/master/raw/magic.pdf?job=build
