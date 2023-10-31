@@ -77,13 +77,22 @@ Dwarven names show to their position in society, and generally relate to their m
 
 \begin{nametable}[l|XYY]{Dwarf Names}
 
-\textbf{Roll} & \textbf{Prefix} & \textbf{Suffix (M)} & \textbf{Suffix (F)} \\\hline
-\dicef{1} & Th   & --alin   & --oshell    \\
-\dicef{2} & D    & --urg    & --ragsi     \\
-\dicef{3} & M    & --eel    & --well      \\
-\dicef{4} & G    & --imlen  & --itten     \\
-\dicef{5} & B    & --enlak  & --lot       \\
-\dicef{6} & K    & --rindal & --lasi      \\
+\textbf{Roll} & \textbf{Male} & \textbf{Female} & \textbf{Mother} \\\hline
+\ifodd\value{r3}
+  \dicef{1}   & Strand        & Bornhardt       & Col      \\
+\else
+  \dicef{1}   & Bight         & Tor             & Drumlin  \\
+\fi
+\dicef{2}     & Dale          & Drumlin         & Esker    \\
+\ifodd\value{r4}
+  \dicef{3}   & Thalweg       & Glen            & Gulch    \\
+  \dicef{4}   & Turlough      & Hogback         & Karst    \\
+\else
+  \dicef{3}   & Dell          & Maar            & Magote   \\
+  \dicef{4}   & Foiba         & Mamelon         & Scree    \\
+\fi
+\dicef{5}     & Graben        & Morgaine        & Ridge    \\
+\dicef{6}     & Sandur        & Scarp           & Strath   \\
 
 \end{nametable}
 
