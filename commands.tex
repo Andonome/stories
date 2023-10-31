@@ -21,7 +21,11 @@
   \else
     \dicef{5} & Keel   & --frak  \\
   \fi
-  \dicef{6} & Moc    & --drag  \\
+  \ifodd\value{r2}
+    \dicef{6} & Moc    & --drag  \\
+  \else
+    \dicef{6} & Gout    & --blathe  \\
+  \fi
   \end{nametable}
 }
 
