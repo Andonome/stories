@@ -32,11 +32,12 @@
 \newcommand\poshNames{
   \begin{nametable}[c|Y]{Aristocratic Names}
     \textbf{Roll} & \textbf{Prefix} \\\hline
-    \dicef{1} & Maelstr(a/um) \\
     \ifodd\value{r3}
+      \dicef{1} & Maelstr(a/um) \\
       \dicef{2} & Topaz \\
       \dicef{3} & Coreolis \\
     \else
+      \dicef{1} & Vex \\
       \dicef{2} & Fractious \\
       \dicef{3} & Ethel \\
     \fi
