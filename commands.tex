@@ -44,7 +44,11 @@
     \ifodd\value{r4}
       \dicef{4} & Clandestin(a/e) \\
       \dicef{5} & Maledict(a/us) \\
-      \dicef{6} & Artix \\
+      \ifodd\value{r3}
+        \dicef{6} & Artix \\
+      \else
+        \dicef{6} & Aspid \\
+      \fi
     \else
       \dicef{4} & Constr(a/um) \\
       \dicef{5} & Melod(a/us) \\
