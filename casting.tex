@@ -1,6 +1,6 @@
 \chapter{Spell Weaving}
 
-Magic does not exactly create.
+Magic cannot create.
 It warps, waxes, and wanes.
 It gives information.
 But nothing in the world comes from nothing, so spellcasters have to work with the environment, but they can only change what their spheres govern.
@@ -96,7 +96,7 @@ Casters who want to give someone magical wings cannot make wings -- they will en
 
 Detailed spells let the caster select how the spell appears.
 Instead of making a bonfire simply explode, the caster can make it explode while looking like a mythical bird, or ice can melt into water while taking on the form of humans writing in pain.
-The caster can also make spells more particular about targets, so that fire spell attacks only enemies, or a Mind spell might make someone forget what they wanted to do about that one things\ldots{} what was it again?
+The caster can also make spells more particular about targets, so that fire spell attacks only enemies, or a Mind spell might make someone forget what they wanted to do about that one things\ldots what was it again?
 
 Detailed spells always betray something of the caster -- perhaps the writing on an illusion looks like their handwriting, or maybe the winds they summon always looks like their screaming face.
 A successful \roll{Wits}{Empathy} roll at \tn[7], plus the spell's level, indicates that anyone who knows the caster can identify their hand at play.
@@ -142,9 +142,12 @@ Nobody knows why, but they assume a god or gods are responsible.
 
 \subsubsection{Duplicated}
 
-Most spells have a single target, but by making a spell \textit{duplicated}, the spell goes up to level 2, and affects double the usual targets.
-Earth spells might affect double the usual \gls{weight}, Mind spells affect two minds instead of one, and duplicated Fire spells can target a multitude of nearby torches, candles, and anything else currently alight.
-If the caster can employ another Enhancement, then the spell multiplies \emph{again} by 3, and then by 4, and so on.
+Most spells have a single target, but by making a spell \textit{Duplicated}, it forks like lightning, jumping to the nearest available target, and from there on, until it burns out.
+Duplicated spells spread out to a number of targets equal to the spell's level, squared.
+Each copy can jump the same range as the original spell.
+
+The caster has no ability to select any target beyond the first.
+The spell always moves like lightning, into the nearest matching element.
 
 \sidebox[2]{
   \begin{boxtable}[YY]
@@ -156,6 +159,19 @@ If the caster can employ another Enhancement, then the spell multiplies \emph{ag
     5 & 120 \\
   \end{boxtable}
 }
+
+\begin{exampletext}
+  A spell which targets air, will simply target all the nearest air.
+  So a third level Air spell will target 9 \glspl{step}' worth of air.
+  This may affect nine people, or more in a crowded tavern, or less in a travelling group.
+
+  \textit{Duplicated Mind} spells must `jump' in order to spread across all targets.
+  In some small sense, people become vectors of a spell, just like they can become vectors of a disease.
+
+  Water spells can take both forms.
+  Casting a fourth level \textit{Duplicated Water} spell could affect 16 \glspl{step} (or 16 barrels' worth of wine), or purify all the water in an area.
+  However, casting a spell on the sea always results in a spell which extends through a little section of the sea.
+\end{exampletext}
 
 With enough Enhancements pushing a spell's level up, spells can affect huge numbers of targets.
 The incredible force of a caster with a strong stock of magical items has serious implications for warfare across \gls{fenestra}.
@@ -419,7 +435,7 @@ If someone can cast both of the lower spheres they need, then they can also cast
           This penalty affects \glspl{fp} as usual.
           \item
           Dexterity also suffers a penalty equal to the spell's level, but this subsides after the target grows accustomed to the new form.
-          Each day spent practising with the new body allows a \roll{Wits}{Athletics} roll to reduce the penalty by 1.
+          Each day spent practising with the new body allows a \roll{Wits}{Athletics} roll to reduce the penalty by~1.
         \end{itemize}
       \item[Detailed]
         spells allow more control over the changes in body; they do not make anyone clumsy, but instead \emph{fast}.
