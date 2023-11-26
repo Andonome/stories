@@ -292,52 +292,82 @@ The \gls{gm} should use these as soon as possible (but not if a player wants to 
 fate spells inflict \emph{encounters} on a target.
 For each level, the target receives another encounter.
 Each encounter takes place after $1D6$ \glspl{interval}, so for a \gls{lv} 3 spell, roll $3D6$, and place an encounter for each \gls{interval} which comes up.
-Targeting a group means that each member of the group receives their own encounters, but only if they split up.
-\iftoggle{judgement}{
+Spells targeting many people inflict the same fate on each of them, so if they split up, they each receive encounters.
+\iftoggle{judgement}{%
   \footnote{\Glspl{gm} looking for encounter ideas can find a system in \textit{Judgement}: \nameref{encounters}, \autopageref{encounters}.}%
   These encounters ignore all Civilization Ratings 
 }{}
+
+\paragraph{Detailed}
+spells allow the caster to specify what kind of encounter they might have -- a standard encounter with creatures, or with a trader.
+The encounter must fit wherever the target happens to be at the time, or nothing happens.
 
 \subsubsection{Witness}
 spells tell a caster if someone has \glspl{fp}.
 Witches once informed people when they had found `the chosen one', but so many fated for great things end up eaten by the forest that nowadays nobody puts much stock in someone with an aura of luck.
 
+\paragraph{Detailed}
+spells show what type of encounter the target can expect.
+
 \subsection{Fire}
 \paragraph{Domain:}
 flame, lightning, heat, furnaces
 
-
 \subsubsection{Wax}
-spells make fires flare up and burn through their fuel in an explosive instance.
+spells make fires flare up and burn through their fuel in an explosive instant.
+Anyone next to the fire suffers \gls{lv} + 2 Damage (so a 2nd level spell would inflict $1D6$ Damage.)
+
+\paragraph{Duplicated}
+explosions cover many fires, each of which explode to cover a radius equal to the spell's level.
+
+\paragraph{Detailed}
+explosions can take the form of a fiery hand, or leap outwards in a single direction, to hit a specific target.
 
 \subsubsection{Wane}
 spells put fires out.
-Miracle workers who truly understand fire can often do more damage through darkness than damage.
+Miracle workers who truly understand fire can often do more damage through darkness than burns.
+
+\paragraph{Detailed}
+spells let the caster select which fires go out.
 
 \subsubsection{Warp}
 spells can remove a fire's light, make them flicker downwards rather than up, or alter the colours.
+
+\paragraph{Detailed}
+transmutations of fire can create stunning, and strange displays, where the fire forms burning letters, or takes on the form of a short-lived map.
 
 \subsection{Water}
 \paragraph{Domain:}
 rivers, rain, ale, magma
 
-
 \subsubsection{Wax}
 spells make rivers flow faster, rain fall harder and purify any liquid, from ales to straight-up poisons.
+When cast on a body of moving water, such as a loch, the turbulent motions interfere with anyone inside or next to them.
+The exact effect varies, but the standard penalty to actions equals the \gls{lv} +2.
+
+\paragraph{Detailed}
+disturbances might leap up while taking on the form of a horse.
 
 \subsubsection{Wane}
 encourages water's natural evaporation.
-Small-scale spells might encourage a cup of water to evaporate, while greater magics could turn a river into steam.
+Lower-level spells will slowly encourage some cups of water to evaporate, while higher level spells will push evaporation on a full barrel's worth of water.
+
+\paragraph{Detailed}
+banishments encourage the vapours produced to take on specific shapes -- either hanging around like low-hanging clouds, flying into the air, or taking the form of a dragon (as clouds often do).
 
 \subsubsection{Warp}
 spells freeze liquids, or encourage any mildly impure substance to become putrid, or even acidic.
+They won't do much Damage with a light touch, but anyone submerged in the liquid takes Damage equal to the \gls{lv}.
+
+\paragraph{Detailed}
+putrid transformations hide their true nature, becoming poisonous, but without much taste of bitterness.
+They inflict a number of \glspl{fatigue} equal to the \gls{lv} + 2, on the \gls{interval} after someone drinks them.
 
 \subsubsection{Witness}
+spells let the caster detect bodies of water.
 
-%\newcommand\blob[2]{\draw[fill,rounded corners=#1*3mm] (#2) +($(0:#1*2+#1*rnd)$)
-%\foreach \a in {20,40,...,350} {  -- +($(\a: #1*2+#1*rnd)$) } -- cycle;}
-
-Filler
+\paragraph{Detailed}
+castings let the caster restrict the type of water, e.g. `good wine', or `blood'.
 
 \end{multicols}
 
