@@ -215,12 +215,27 @@ wind, smoke, steam, fog, mist, cloud
 spells increase the air's motion, making even stagnant air fast enough to push someone off their feet.
 Anyone caught by the wind loses \gls{lv} +2 \glspl{ap}.
 
+\paragraph{Detailed}
+gusts of wind can focus in a particular direction, which only impedes those trying to move, attack, or cast spells in a particular direction.
+
 \subsubsection{Wane}
-spells make air putrid enough to make people choke and retch.
+spells make air putrid and thick enough to make people choke and retch.
 Breathing the smoke in inflicts \gls{lv} +2 \glspl{fatigue}.
+
+\paragraph{Detailed}
+putrid air takes on a form, such as the face of the caster, or body of a dragon.
 
 \subsubsection{Warp}
 spells can reshape air into a more solid `bubble'.
+This bubble can let someone breath while underwater for \pgls{interval}.
+The bubble has delicate sides, and pull burst when receiving even a single point of Damage.
+
+\paragraph{Duplicated}
+bubble-making spells have enough good air for a number of \glspl{interval} equal to the number of targets.
+
+\paragraph{Detailed}
+bubbles take on strange shapes, and more easily resist pressures placed on them so they do not need to `pop' when pushed.
+They can withstand a number of attacks equal to the spell's level (regardless of Damage).
 
 \subsubsection{Witness}
 air spells let the caster the caster detect a coming storm.
@@ -234,29 +249,53 @@ dirt, ice, snow, sand, ash
 
 \subsubsection{Wax}
 spells harden sand into stone, or bind snow into ice.
+
+\paragraph{Detailed}
+creations can take on the form of stone-statues, ice-daggers, or (if large enough) even labyrinths of clay.
+
 \subsubsection{Wane}
 softens earth, melts ice, turns dirt to mud, and cracks rocks.
+
+\paragraph{Detailed}
+spells can form runes in the cracked earth, or force ice to melt to form a slide, to send enemies falling down a hill.
+
 \subsubsection{Warp}
 spells twist earth in unnatural ways, making it brittle.
 These spells can increase the \gls{tn} to damage a wall or door, but if they receive a single point of Damage, the brittle mass may shatter.
+
+\paragraph{Detailed}
+structures, created by warping, can form sharp edges, and often gain a metallic shine.
 
 \subsection{Fate}
 \paragraph{Domain:}
 luck, curses, prophecy
 
-
 \subsubsection{Wax}
 fate spells grant 2 \glspl{fp} plus the spell's level.
 The \glspl{fp} convert to dice, just like Damage, so a level 1 \textit{Wax Fate} spell would grant $1D6-1$ \glspl{fp}.
 
+\paragraph{Detailed}
+blessings grant +1 to rolls to use a particular Skill.
+Each level grants another blessing, but only one can be used on a particular roll.
+
+The blessings must be used within the session.
+
 \subsubsection{Wane}
-spells inflict curses, removing the same number of \glspl{fp}.
+spells inflict curses, removing the same number of \glspl{fp} as above.
+
+\paragraph{Detailed}
+curses inflict a -1 penalty to a particular Skill.
+Only one curse applies per use of a Skill.
+The \gls{gm} should use these as soon as possible (but not if a player wants to use a Skill `to get rid of the curse').
 
 \subsubsection{Warp}
 fate spells inflict \emph{encounters} on a target.
-Each level adds one encounter per interval.%
-\iftoggle{judgement}{%
+For each level, the target receives another encounter.
+Each encounter takes place after $1D6$ \glspl{interval}, so for a \gls{lv} 3 spell, roll $3D6$, and place an encounter for each \gls{interval} which comes up.
+Targeting a group means that each member of the group receives their own encounters, but only if they split up.
+\iftoggle{judgement}{
   \footnote{\Glspl{gm} looking for encounter ideas can find a system in \textit{Judgement}: \nameref{encounters}, \autopageref{encounters}.}%
+  These encounters ignore all Civilization Ratings 
 }{}
 
 \subsubsection{Witness}
