@@ -16,7 +16,7 @@ The `duplicated' enhancement lets spells affect a wider area, or more targets, b
 `Distant' spells can affect anyone far away, but not someone close by.
 Each enhancement added increases the spell's potency, at the potential cost of unwanted complications.
 
-On top of the basic five low spheres, casters can employ high spheres by combining two of the low spheres together.
+On top of the basic five low spheres, casters can employ high spheres by combining two of the Low Spheres together.
 Air and Fate create Death magic, while Water and Earth create Life magic.
 
 \section{The Rules}
@@ -28,12 +28,11 @@ Air and Fate create Death magic, while Water and Earth create Life magic.
   Select an elemental Sphere.
   \begin{itemize}
     \item
-    The element's resistance may raise or lower the \gls{tn}.
+    If you have a Sphere, you can target that element directly.
     \item
-    Breaking hard earth is difficult, but snow is easy.
-    Blasting wind in a house is difficult, but redirecting a storm is not.
+    Each of the Low Sphere can combine with two others to make a High Sphere, equal to the lowest of the two elements creating it.
     \item
-    If the effects target a person, then the person can \emph{also} resist the effects.
+    For example, a witch with Fire 1 and with Air 2 could cast \textit{Light} magic at level 1.
   \end{itemize}
   \item
   Select one of the four Weaves:
@@ -54,12 +53,54 @@ Air and Fate create Death magic, while Water and Earth create Life magic.
     \item
     You can spend \glspl{mp} up to your level in the Sphere.
     \item
-    The spell's level is equal to the \glspl{mp} spent.
+    The spell's level equals the \gls{mp} cost.
+    \item
+    If you have 0 \glspl{mp}, each extra levels inflicts \pgls{fatigue}.
   \end{itemize}
   \item
   For each \gls{mp} spent beyond the first, you \emph{must} select another Enhancement.
+  \begin{description}
+    \item[Detailed]
+    spells let you control the appearance and minute properties of a spell, or let you specify details of an element with \textit{Witness} spells. 
+    \item[Distant]
+    spells throw your magic far into the distance.
+
+    \begin{boxtable}[cLL]
+      \textbf{\Glsentrytext{lv}} & Standard Distance & Enhanced Distance       \\
+      \hline
+                  1              & 20 \glspl{step} &                   \\
+                  2              & 15 \glspl{step} & throwing distance \\
+                  3              & 10 \glspl{step} & shouting distance \\
+                  4              &  5 \glspl{step} & horizon           \\
+                  5              &                 & line of sight     \\
+    \end{boxtable}
+    \item[Divergent]
+    spells select an opposing element, and add the same Modes and Enhancements to produce a secondary effect.
+    \begin{itemize}
+      \item
+      A \textit{Divergent Wax Fire} spell could add \textit{Water}, and encourage a nearby stream to suddenly overflow, while a lantern consumes all its fuel in a fiery burst.
+    \end{itemize}
+    \item[Duplicated]
+    spells fork like lightning, affecting every available target nearby.
+    The caster does not select the remaining targets.
+    \begin{itemize}
+      \item
+      Fire spells target all nearby fires.
+      \item
+      Earth spells usually target a large patch of rock or ice, as all the substance around makes for other viable targets.
+    \end{itemize}
+  \end{description}
   \item
-  Roll to resolve!
+  Roll to resolve, with \roll{Charisma}{Sphere}, while stating your intention!
+  \begin{itemize}
+    \item
+    The element's resistance may raise or lower the \gls{tn}.
+    \item
+    Breaking hard earth is difficult, but snow is easy.
+    Blasting wind in a house is difficult, but redirecting a storm is not.
+    \item
+    If the effects target a person, then the person can \emph{also} resist the effects with any appropriate combination of Traits.
+  \end{itemize}
   \item
   Apply effects.
   \begin{itemize}
