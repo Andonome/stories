@@ -38,7 +38,12 @@ Well, not `lips'.
   Even Toldea has plenty to eat if you know where to look!
   And all this means the forest has laid another trap for us.
   Thieves, cut-throats, and hags who want to escape the law come into the forest, and she treats them well.
-  They live here, tax-free, robbing villages over the cold seasons.
+  They live here, tax-free,
+  \ifnum\value{temperature}>0
+    and right now they're cold and desperate, and ready to watch where you sleep on the road.
+  \else
+    robbing villages over the cold seasons.
+  \fi
 
   And obviously it's \emph{our} job to come out here and route them out, by fire and sword.
 
@@ -225,4 +230,3 @@ Well, not `lips'.
 \end{exampletext}
 
 \end{multicols}
-
