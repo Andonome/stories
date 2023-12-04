@@ -19,6 +19,55 @@ Each enhancement added increases the spell's potency, at the potential cost of u
 On top of the basic five low spheres, casters can employ high spheres by combining two of the Low Spheres together.
 Air and Fate create Death magic, while Water and Earth create Life magic.
 
+\vspace{2em}
+\newlength{\magicCircle}
+\setlength{\magicCircle}{.32\textwidth}
+\newlength{\sphereBack}
+\setlength{\sphereBack}{18pt}
+
+\begin{centering}
+\setcounter{track}{161}
+\begin{tikzpicture}[very thick]
+
+  \foreach \x in {1,...,5} {
+    \node (\x) at (\arabic{track}:\magicCircle) {};
+    \addtocounter{track}{72}
+  }
+
+  \foreach \x in {1,...,5} {
+    \setcounter{enc}{\x}
+    \addtocounter{enc}{2}
+    \ifnum\value{enc}>5
+      \addtocounter{enc}{-5}
+    \fi
+    \draw[fill=\pageSideColor] (\x) -- (\arabic{enc});
+  }
+
+  \foreach \x in {1,...,5} {
+    \draw[fill=\pageSideColor] (\x) circle(\sphereBack){};
+    \addtocounter{track}{72}
+  }
+
+  \addtocounter{track}{36}
+  \foreach \x in {6,...,10} {
+    \node (\x) at (\arabic{track}:.38\magicCircle) {};
+    \draw[fill=\pageSideColor] (\x) circle(\sphereBack){};
+    \addtocounter{track}{72}
+  }
+
+  \node (X) at  (6) {\Large\outline{\textgoth{Earth}}};
+  \node (X) at  (7) {\Large\outline{\textgoth{Water}}};
+  \node (X) at  (8) {\Large\outline{\textgoth{Fate}}};
+  \node (X) at  (9) {\Large\outline{\textgoth{Air}}};
+  \node (X) at (10) {\Large\outline{\textgoth{Fire}}};
+  \node (X) at  (1) {\huge\outline{\textgoth{Force}}};
+  \node (X) at  (2) {\huge\outline{\textgoth{Life}}};
+  \node (X) at  (3) {\huge\outline{\textgoth{Mind}}};
+  \node (X) at  (4) {\huge\outline{\textgoth{Death}}};
+  \node (X) at  (5) {\huge\outline{\textgoth{Light}}};
+\end{tikzpicture}
+\end{centering}
+
 \section{The Rules}
 
 \begin{multicols}{2}
