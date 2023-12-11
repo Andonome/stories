@@ -6,12 +6,14 @@ The same system also lets those who understand the world craft \glspl{talisman},
 {
   \centering
   \speltagram
+  \label{speltagram}
 }
 
 \section{The Rules}
 
 \begin{multicols}{2}
 
+\noindent
 Magic cannot create.
 It warps, waxes, and wanes.
 It gives information.
@@ -36,8 +38,6 @@ Air and Fate create Death magic, while Water and Earth create Life magic.
   Select an elemental Sphere.
   \begin{itemize}
     \item
-    If you have a Sphere, you can target that element directly.
-    \item
     Each of the Low Spheres can combine with two others to make a High Sphere, equal to the lowest of the two elements creating it.
     \item
     For example, a witch with Fire 1 and with Air 2 could cast \textit{Light} magic at level 1.
@@ -46,9 +46,11 @@ Air and Fate create Death magic, while Water and Earth create Life magic.
   Select one of the four Weaves:
   \begin{description}
     \item[Waxing]
-    spells encourage the element, making it \emph{more} like what it is.
+    spells encourage the element to express its basic nature.
+    Stone hardens, water rushes, et c.
     \item[Waning]
     magic does the opposite -- it reduces the element's nature, and often destroys the target.
+    Water evaporates, and Light turns to darkness.
     \item[Warping]
     an element alters some fundamental aspect, promoting strange behaviour and effects from the target.
     \item[Witnessing]
@@ -56,10 +58,8 @@ Air and Fate create Death magic, while Water and Earth create Life magic.
     They always come in the form of `yes/ no' answers.
   \end{description}
   \item
-  Spend \glspl{mp} to power your spell.
+  Spend \glspl{mp} to power your spell, up to your level in the Sphere.
   \begin{itemize}
-    \item
-    You can spend \glspl{mp} up to your level in the Sphere.
     \item
     The spell's level equals the \gls{mp} cost.
     \item
@@ -77,11 +77,11 @@ Air and Fate create Death magic, while Water and Earth create Life magic.
     \begin{boxtable}[cLL]
       \textbf{\Glsentrytext{lv}} & Standard Distance & Enhanced Distance       \\
       \hline
-                  1              & 20 \glspl{step} &                   \\
+                  1              & 20 \glspl{step} & ---               \\
                   2              & 15 \glspl{step} & throwing distance \\
                   3              & 10 \glspl{step} & shouting distance \\
                   4              &  5 \glspl{step} & horizon           \\
-                  5              &                 & line of sight     \\
+                  5              &  ---            & line of sight     \\
     \end{boxtable}
     \item[Divergent]
     spells select an opposing element, and add the same Modes and Enhancements to produce a secondary effect.
@@ -126,14 +126,34 @@ Air and Fate create Death magic, while Water and Earth create Life magic.
 
 \end{multicols}
 
-\section{\Glsfmttext{talisman} Workshop}
+\section{\Glsfmttext{ingredient} Workshop}
 
 \begin{multicols}{2}
 
 \noindent
-With the right \glspl{ingredient}, one can create \pgls{talisman}, which stores a spell, and releases it once the conditions have been met.
+`\Glspl{ingredient}' means anything which can help with arcane practices, and each \gls{ingredient} aligns to one of the Low Spheres.
+Most \glspl{ingredient} come from the bodies of beasts, such as a basilisk's gullet, or griffin feathers.
 
-\subsubsection{Creating \Glsfmttext{talisman}}
+\subsubsection{\Glsfmttext{boon} Creation}
+
+Casters can add a little extra power to their spells by taking raw \glspl{ingredient}, and crafting them into \glspl{boon}.
+\Glspl{boon} come in the form of powders or liquids, to be thrown in the air at the point of casting, and add +1 to any Sphere.
+
+\begin{itemize}
+  \item
+  \Glspl{boon} demand at least 1 \gls{ap} to use from the caster's hand, as usual.
+  \item
+  \Glspl{boon} remain suffused in the air until someone (anyone) consumes the energy by casting a spell.
+  \item
+  \Glspl{boon} can increase multiple Spheres by combining multiple \glspl{ingredient}, but only by 1 level each.
+\end{itemize}
+
+\noindent
+With the help of a Fire \gls{boon}, someone without any magical ability could cast a level 1 Fire spell, or a caster with Fire 2, Earth 3 could cast a level 3 Light spell.
+
+\subsubsection{\Glsfmttext{talisman} Creation}
+
+With the right \glspl{ingredient}, one can create \pgls{talisman}, which stores a spell, and releases it once the conditions have been met.
 
 \Glspl{talisman} require \glspl{ingredient}, rather than magical Spheres to cast.
 Anyone can make one, with the right knowledge, and the ability to coax a little life into the material world with the right words.
