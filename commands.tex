@@ -10,14 +10,22 @@
   \fi
   \dicef{2} & Steer  & --kuff  \\
   \ifodd\value{r3}
-    \dicef{3} & Glum  & --nail  \\
+    \ifodd\value{temperature}
+      \dicef{3} & Stoat  & --fen  \\
+    \else
+      \dicef{3} & Glum  & --nail  \\
+    \fi
     \dicef{4} & Flic   & --rash   \\
   \else
-    \dicef{3} & Pros   & --flay  \\
+    \ifodd\value{temperature}
+      \dicef{3} & Dug   & --flay  \\
+    \else
+      \dicef{3} & Nettle   & --broil  \\
+    \fi
     \dicef{4} & Cart   & --pike  \\
   \fi
-  \ifodd\value{page}
-    \dicef{5} & Gors  &  --filch \\
+  \ifodd\value{season}
+    \dicef{5} & Gourse  &  --filch \\
   \else
     \dicef{5} & Keel   & --frak  \\
   \fi
