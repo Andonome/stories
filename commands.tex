@@ -4,15 +4,16 @@
   \begin{nametable}[c|YY]{Human Names}
   \textbf{Roll} & \textbf{Prefix} & \textbf{Suffix} \\\hline
   \ifodd\value{r4}
-    \dicef{1} & Rex    & --head \\
+    \dicef{1} & Rex    & --ditch \\
   \else
-    \dicef{1} & Scour    & --dun   \\
+    \dicef{1} & Scour    & --snag   \\
   \fi
-  \dicef{2} & Steer  & --kuff  \\
   \ifodd\value{r3}
     \ifodd\value{temperature}
+      \dicef{2} & Steer  & --kuff  \\
       \dicef{3} & Stoat  & --fen  \\
     \else
+      \dicef{2} & Court  & --nash  \\
       \dicef{3} & Glum  & --nail  \\
     \fi
     \dicef{4} & Flic   & --rash   \\
@@ -25,12 +26,20 @@
     \dicef{4} & Cart   & --pike  \\
   \fi
   \ifodd\value{season}
-    \dicef{5} & Gourse  &  --filch \\
+    \ifodd\value{r4}
+      \dicef{5} & Gourse  &  --filch \\
+    \else
+      \dicef{5} & Cinder  &  --snatch \\
+    \fi
   \else
-    \dicef{5} & Keel   & --frak  \\
+    \ifodd\value{r4}
+      \dicef{5} & Soot   & --grit  \\
+    \else
+      \dicef{5} & Moc    & --frak  \\
+    \fi
   \fi
   \ifodd\value{r2}
-    \dicef{6} & Moc    & --drag  \\
+    \dicef{6} &  Keel   & --drag  \\
   \else
     \dicef{6} & Gout    & --blathe  \\
   \fi
