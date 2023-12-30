@@ -10,16 +10,24 @@
   \fi
   \ifodd\value{r3}
     \ifodd\value{temperature}
-      \dicef{2} & Steer  & --kuff  \\
+      \ifodd\value{r12}
+        \dicef{2} & Steer  & --kuff  \\
+      \else
+        \dicef{2} & Mush  & --groat  \\
+      \fi
       \dicef{3} & Stoat  & --fen  \\
     \else
       \dicef{2} & Court  & --nash  \\
       \dicef{3} & Glum  & --nail  \\
     \fi
-    \dicef{4} & Flic   & --rash   \\
+    \ifodd\value{r3}
+      \dicef{4} & Flic   & --rash   \\
+    \else
+      \dicef{3} & Dug   & --flay  \\
+    \fi
   \else
     \ifodd\value{temperature}
-      \dicef{3} & Dug   & --flay  \\
+      \dicef{3} & Needle   & --cane   \\
     \else
       \dicef{3} & Nettle   & --broil  \\
     \fi
