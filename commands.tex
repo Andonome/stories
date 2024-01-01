@@ -4,14 +4,14 @@
   \begin{nametable}[c|YY]{Human Names}
   \textbf{Roll} & \textbf{Prefix} & \textbf{Suffix} \\\hline
   \ifodd\value{r4}
-    \dicef{1} & Rex    & --ditch \\
+    \dicef{1} & Grit    & --ditch \\
   \else
     \dicef{1} & Scour    & --snag   \\
   \fi
   \ifodd\value{r3}
     \ifodd\value{temperature}
       \ifodd\value{r12}
-        \dicef{2} & Steer  & --kuff  \\
+        \dicef{2} & Steer  & --peel  \\
       \else
         \dicef{2} & Mush  & --groat  \\
       \fi
@@ -27,7 +27,7 @@
     \fi
   \else
     \ifodd\value{temperature}
-      \dicef{3} & Needle   & --cane   \\
+      \dicef{3} & Nark   & --boak   \\
     \else
       \dicef{3} & Nettle   & --broil  \\
     \fi
@@ -41,9 +41,9 @@
     \fi
   \else
     \ifodd\value{r4}
-      \dicef{5} & Soot   & --grit  \\
+      \dicef{5} & Soot   & --flea  \\
     \else
-      \dicef{5} & Moc    & --frak  \\
+      \dicef{5} & Moc    & --fray  \\
     \fi
   \fi
   \ifodd\value{r2}
