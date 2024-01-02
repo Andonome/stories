@@ -25,6 +25,18 @@ Keywords={TTRPG,RPG,roleplaying}
 
 \include{fenintro.tex}
 
+\printglossary[
+  style=mcolindexspannav,
+]
+
+\printglossary[type=symbols]
+
+\printglossary[
+  type=\acronymtype,
+  title=Abbreviations,
+  nonumberlist,
+  ]
+
 \mainmatter
 
 \input{cc.tex}
@@ -47,18 +59,6 @@ Keywords={TTRPG,RPG,roleplaying}
 
   \include{rules.tex}
 }
-
-\begin{minipage}{\textwidth}
-  \printglossary[
-    type=\acronymtype,
-    title=Abbreviations,
-    nonumberlist,
-    ]
-
-  \printglossary[type=symbols]
-\end{minipage}
-
-\printglossary
 
 \printindex
 
