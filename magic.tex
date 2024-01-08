@@ -95,11 +95,22 @@ Air and Fate create Death magic, while Water and Earth create Life magic.
     \item[Duplicated]
     spells fork like lightning, affecting every available target nearby.
     The caster does not select the remaining targets.
+    The total number of targets equals $Level + 2$.
     \begin{itemize}
       \item
       Fire spells target all nearby fires.
       \item
       Earth spells usually target a large patch of rock or ice, as all the substance around makes for other viable targets.
+      \item
+      \begin{boxtable}[YY]
+        \textbf{Level} & Targets \\
+        \hline
+                    1              & 1 \\
+                    2              & 2 \\
+                    3              & 6 \\
+                    4              & 24 \\
+                    5              & 96 \\
+      \end{boxtable}
     \end{itemize}
   \end{description}
   \item
