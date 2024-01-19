@@ -63,7 +63,11 @@
     \textbf{Roll} & \textbf{Prefix} \\\hline
     \ifodd\value{r3}
       \dicef{1} & Maelstr(a/um) \\
-      \dicef{2} & Topaz \\
+      \ifodd\value{r3}
+        \dicef{2} & Topaz \\
+      \else
+        \dicef{2} & Cuspadore \\
+      \fi
       \dicef{3} & Coreolis \\
     \else
       \dicef{1} & Vex \\
@@ -79,8 +83,8 @@
         \dicef{6} & Aspid \\
       \fi
     \else
-      \dicef{4} & Constr(a/um) \\
-      \dicef{5} & Melod(a/us) \\
+      \dicef{4} & Calyx \\
+      \dicef{5} & Fextol \\
       \dicef{6} & Seance \\
     \fi
   \end{nametable}
