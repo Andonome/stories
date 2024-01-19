@@ -3,8 +3,12 @@
 \newcommand\namesOfHumans{
   \begin{nametable}[c|YY]{Human Names}
   \textbf{Roll} & \textbf{Prefix} & \textbf{Suffix} \\\hline
-  \ifodd\value{r4}
-    \dicef{1} & Grit    & --itch \\
+  \ifodd\value{r3}
+    \ifodd\value{r4}
+      \dicef{1} & Grit    & --itch \\
+    \else
+      \dicef{1} & Rank    & --vore \\
+    \fi
   \else
     \dicef{1} & Scour    & --snag   \\
   \fi
@@ -31,7 +35,7 @@
     \else
       \dicef{3} & Nettle   & --broil  \\
     \fi
-    \dicef{4} & Cart   & --pike  \\
+    \dicef{4} & Slate   & --pike  \\
   \fi
   \ifodd\value{season}
     \ifodd\value{r4}
