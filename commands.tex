@@ -63,7 +63,7 @@
     \textbf{Roll} & \textbf{Prefix} \\\hline
     \ifodd\value{r3}
       \dicef{1} & Maelstr(a/um) \\
-      \ifodd\value{r3}
+      \ifodd\value{r4}
         \dicef{2} & Topaz \\
       \else
         \dicef{2} & Cuspadore \\
@@ -75,7 +75,7 @@
       \dicef{3} & Ethel \\
     \fi
     \ifodd\value{r4}
-      \dicef{4} & Tepal \\
+      \dicef{4} & Caligin \\
       \dicef{5} & Maledict \\
       \ifodd\value{r3}
         \dicef{6} & Artix \\
@@ -84,8 +84,13 @@
       \fi
     \else
       \dicef{4} & Calyx \\
-      \dicef{5} & Fextol \\
-      \dicef{6} & Seance \\
+      \ifodd\value{r3}
+        \dicef{5} & Fextol \\
+        \dicef{6} & Seance \\
+      \else
+        \dicef{5} & Tepal \\
+        \dicef{6} & Elegiac \\
+      \fi
     \fi
   \end{nametable}
 }
