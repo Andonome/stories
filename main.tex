@@ -21,6 +21,8 @@ Keywords={TTRPG,RPG,roleplaying}
 \frontpage%
   {A Players' Guide}%
 
+\glsunsetall
+
 \include{intro.tex}
 
 \include{fenintro.tex}
@@ -34,10 +36,11 @@ Keywords={TTRPG,RPG,roleplaying}
 \printglossary[
   type=\acronymtype,
   title=Abbreviations,
-  nonumberlist,
   ]
 
 \mainmatter
+
+\glsresetall
 
 \input{cc.tex}
 
