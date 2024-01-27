@@ -178,23 +178,19 @@
   \end{nametable}
 }
 
-\renewcommand\csComments{
-    \setcounter{track}{0}
-
-    \commentary{[xshift=-10em,yshift=-2em]TCBPOSTER@title.north}{-2em,-0.5em}{{\LARGE \arabic{track}: }Roll a random race (\vpageref{raceRoll}), then use that to select a name (\vpageref{randomNames}).}
-
-    \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@attributes.north}{0em,0em}{{\LARGE \arabic{track}: }Roll to determine each of your Attributes, then apply the racial modifier.}
-
-    \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-10em,3em}{}
-    \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-18em,-33em}{}
-    \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-4em,-11em}{{\LARGE \arabic{track}: }Your lowest and highest Attributes determine your Concept and Code (see \nameref{enlistment}, \vpageref{enlistment}).  Write down the Skills, equipment, and weapons.}
-
-    \commentary{[xshift=3em,yshift=-7em]TCBPOSTER@gumption}{2em,23em}{}
-    \commentary{[xshift=3em,yshift=-7em]TCBPOSTER@gumption}{-2em,8em}{{\LARGE \arabic{track}: }Place coins in the circles to keep track of the current scores, then fill in the derived score for combat.}
-
-}
 
 \newcommand\exampleRandomCharacter{
+  \renewcommand\csComments{
+      \setcounter{track}{0}
+
+      \commentary{[xshift=-10em,yshift=-2em]TCBPOSTER@title.north}{-2em,-0.5em}{{\LARGE \arabic{track}: }Roll a random race (\vpageref{raceRoll}), then use that to select a name (\vpageref{randomNames}).}
+      \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@attributes.north}{0em,0em}{{\LARGE \arabic{track}: }Roll to determine each of your Attributes, then apply the racial modifier.}
+      \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-10em,3em}{}
+      \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-18em,-33em}{}
+      \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-4em,-11em}{{\LARGE \arabic{track}: }Your lowest and highest Attributes determine your Concept and Code (see \nameref{enlistment}, \vpageref{enlistment}).  Write down the Skills, equipment, and weapons.}
+      \commentary{[xshift=3em,yshift=-7em]TCBPOSTER@gumption}{2em,23em}{}
+      \commentary{[xshift=3em,yshift=-7em]TCBPOSTER@gumption}{-2em,8em}{{\LARGE \arabic{track}: }Place coins in the circles to keep track of the current scores, then fill in the derived score for combat.}
+  }
   \setcounter{Strength}{0}
   \setcounter{Dexterity}{-1}
   \setcounter{Speed}{0}
