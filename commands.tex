@@ -62,7 +62,7 @@
   \begin{nametable}[c|Y]{Aristocratic Names}
     \textbf{Roll} & \textbf{Prefix} \\\hline
     \ifodd\value{r3}
-      \dicef{1} & Maelstr(a/um) \\
+      \dicef{1} & Grawlix \\
       \ifodd\value{r4}
         \dicef{2} & Topaz \\
       \else
@@ -71,7 +71,11 @@
       \dicef{3} & Coreolis \\
     \else
       \dicef{1} & Vex \\
-      \dicef{2} & Fractious \\
+        \ifodd\value{r4}
+        \dicef{2} & Carnyx \\
+      \else
+        \dicef{2} & Fractious \\
+      \fi
       \dicef{3} & Ethel \\
     \fi
     \ifodd\value{r4}
