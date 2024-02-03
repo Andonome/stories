@@ -40,8 +40,12 @@ Keywords={TTRPG,RPG,roleplaying}
 
 \mainmatter
 
+\setcounter{track}{1}
+\handout{cs}
+
 \glsresetall
 
+\setcounter{page}{1}
 \input{cc.tex}
 
 \input{self_made.tex}
@@ -69,8 +73,9 @@ Keywords={TTRPG,RPG,roleplaying}
 
 \include{config/reset_cs.tex}
 
-\include{config/CS.tex}
-
-\include{config/backpage.tex}
+\iftoggle{core}{
+  \setcounter{track}{6}
+}{}
+\handout{cs}
 
 \end{document}
