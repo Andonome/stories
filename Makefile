@@ -11,9 +11,9 @@ qr.tex: README.md
 config/bind.sty:
 	@git submodule update --init
 
-svg-inkscape: | config/bind.sty
+svg-inkscape: | config/bind.sty qr.tex
 	@pdflatex -shell-escape -jobname $(BOOK) main.tex
-$(BOOK).pdf: svg-inkscape $(wildcard *.tex) $(wildcard config/*.sty) qr.tex
+$(BOOK).pdf: svg-inkscape $(wildcard *.tex) $(wildcard config/*.sty)
 	@pdflatex -jobname $(BOOK) main.tex
 
 all: $(BOOK).pdf 
@@ -31,6 +31,7 @@ clean:
 	*.ind \
 	svg-inkscape \
 	*.fdb_latexmk \
+	qr.tex \
 	*.fls
 
 .PHONY: clean all
