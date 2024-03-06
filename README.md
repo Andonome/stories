@@ -35,4 +35,4 @@ Inside, players can find:
 
 [core]: https://gitlab.com/bindrpg/core
 [download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/stories.pdf?job=build
-[issues email]: contact-project+bindrpg-stories-47773063-issue-@incoming.gitlab.com
+[issues email]: mailto:contact-project+bindrpg-stories-47773063-issue-@incoming.gitlab.com
