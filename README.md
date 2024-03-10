@@ -1,8 +1,8 @@
-|        Downloads               |
-|:------------------------------:|
-| [Download][download]           |
-| [Core Rules][core]             |
-| [Email an issue][issues email] |
+|        Downloads               |         Resources             |
+|:------------------------------:|:------------------------------|
+| [Download][download]           | [Wiki][wiki]                  | 
+| [Core Rules][core]             | [Email an idea][issues email] |
+|                                | [Issues Board][board]         |
 
 *The Book of Stories* contains all the procedures a player might need for the BIND tabletop RPG.
 
@@ -36,3 +36,4 @@ Inside, players can find:
 [core]: https://gitlab.com/bindrpg/core
 [download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/stories.pdf?job=build
 [issues email]: mailto:contact-project+bindrpg-stories-47773063-issue-@incoming.gitlab.com
+[board]: https://gitlab.com/bindrpg/stories/-/issues
