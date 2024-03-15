@@ -59,43 +59,20 @@
 }
 
 \newcommand\poshNames{
-  \begin{nametable}[c|Y]{Aristocratic Names}
-    \textbf{Roll} & \textbf{Prefix} \\\hline
+  \begin{nametable}[c|Y|Y]{Aristocratic Names}
+    \textbf{Roll} & \textbf{Name} & \textbf{Name} \\\hline
     \ifodd\value{r3}
-      \dicef{1} & Grawlix \\
-      \ifodd\value{r4}
-        \dicef{2} & Topaz \\
-      \else
-        \dicef{2} & Cuspadore \\
-      \fi
-      \dicef{3} & Coreolis \\
+      \dicef{1} & Grawlix & Vex \\
+      \dicef{2} & Topaz & Cuspadore \\
+      \dicef{3} & Coreolis & Carnyx \\
     \else
-      \dicef{1} & Vex \\
-        \ifodd\value{r4}
-        \dicef{2} & Carnyx \\
-      \else
-        \dicef{2} & Fractious \\
-      \fi
-      \dicef{3} & Ethel \\
+      \dicef{1} & Fractious & Ethel \\
+      \dicef{2} & Calyx & Fextol \\
+      \dicef{3} & Seance & Tepal \\
     \fi
-    \ifodd\value{r4}
-      \dicef{4} & Caligin \\
-      \dicef{5} & Maledict \\
-      \ifodd\value{r3}
-        \dicef{6} & Artix \\
-      \else
-        \dicef{6} & Aspid \\
-      \fi
-    \else
-      \dicef{4} & Calyx \\
-      \ifodd\value{r3}
-        \dicef{5} & Fextol \\
-        \dicef{6} & Seance \\
-      \else
-        \dicef{5} & Tepal \\
-        \dicef{6} & Elegiac \\
-      \fi
-    \fi
+    \dicef{4} & Caligin & Maledict \\
+    \dicef{5} & Artix & Aspid \\
+    \dicef{6} & Elegiac & Wardrid \\
   \end{nametable}
 }
 
