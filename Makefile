@@ -9,6 +9,8 @@ config/vars:
 
 qr.tex: README.md config/vars .switch-gls
 	@printf '\qrcode[height=.2\\textwidth]{$(QR_TARGET)}' > qr.tex
+.switch-gls:
+	@touch .switch-gls
 
 $(BOOK).pdf: $(wildcard *.tex) $(wildcard config/*.sty) | qr.tex
 	@$(COMPILER) main.tex
