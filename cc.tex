@@ -72,30 +72,32 @@ Note the name of your ability on your character sheet.
 \index{Names}
 \label{randomNames}
 
-Roll a die twice -- once for the prefix, and once for the suffix.
+Whether you want to name your own character or roll randomly, start by looking at the conventions.
 
 \subsubsection[Dwarven Names]{\Dw}
 \index{Dwarves!Names}
-Dwarven names show to their position in society, and generally relate to their mother's occupation.
+Dwarven surnames come from their mother's occupation, although anything with more than two syllables reduces to two (dwarves are busy people).
+So the surname `Spector' comes from `inspector', and if that dwarf's mother later finds a job as a cave surveyor, he would change his surname to `Veyor'.
 
 \begin{nametable}[l|XYY]{Dwarf Names}
 
 \textbf{Roll} & \textbf{Male} & \textbf{Female} & \textbf{Mother} \\\hline
 \ifodd\value{r3}
-  \dicef{1}   & Strand        & Bornhardt       & Col      \\
+  \dicef{1}   & Bight         & Tor             & Spector     \\
+  \dicef{2}   & Dale          & Drumlin         & Llector     \\
 \else
-  \dicef{1}   & Bight         & Tor             & Drumlin  \\
+  \dicef{1}   & Strand        & Bornhardt       & Binder      \\
+  \dicef{2}   & Thalweg       & Morgaine        & Chanter     \\
 \fi
-\dicef{2}     & Dale          & Drumlin         & Esker    \\
 \ifodd\value{r4}
-  \dicef{3}   & \ifodd\value{r3} Ben\else Thalweg\fi      & Glen            & Gulch    \\
-  \dicef{4}   & Turlough      & Hogback         & Karst    \\
+  \dicef{3}   & Ben           & Glen            & Jeweller    \\
+  \dicef{4}   & Turlough      & Hogback         & Carver      \\
 \else
-  \dicef{3}   & Dell          & Maar            & Magote   \\
-  \dicef{4}   & Foiba         & Mamelon         & Scree    \\
+  \dicef{3}   & Dell          & Maar            & Tographer   \\
+  \dicef{4}   & Foiba         & Mamelon         & Veyor       \\
 \fi
-\dicef{5}     & Graben        & Morgaine        & Ridge    \\
-\dicef{6}     & Sandur        & Scarp           & Strath   \\
+\dicef{5}     & Graben        & Morgaine        & Chef        \\
+\dicef{6}     & Sandur        & Scarp           & Chitect   \\
 
 \end{nametable}
 
