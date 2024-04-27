@@ -63,7 +63,7 @@ Keywords={TTRPG,RPG,roleplaying}
 \printindex
 
 \iftoggle{core}{}{
-
+  \cleardoublepage
   \include{config/rules_body.tex}
 }
 
@@ -72,6 +72,7 @@ Keywords={TTRPG,RPG,roleplaying}
 \iftoggle{core}{
   \setcounter{track}{6}
 }{}
+
 \handout{cs}
 
 \end{document}
