@@ -162,22 +162,45 @@ However, as the spells gain more detail, they become restricted to the caster's 
 A couple of \glspl{mp} spent to observe with \textit{Detailed Witness} allow a witch to ascertain if an \textit{oak} fire burns inside a building, or if a casket contains wine.
 As before, all questions will only receive a `yes/ no' answer.
 
+\paragraph{Distant}
+magics can strike across any amount of space, reaching the anterior side of a town, over mountains, or even past the range of any eye.
+Even the caster cannot limit or contain these spells; a \textit{Detailed,  Distant, Wax Air} begins at `shouting distance'.
+Not `up to a maximum of ``shouting distance'', if you please', but at that minimum and maximum.
+Spells all have some leeway in their range (as the vague descriptor of distance ought to imply), but they cannot be expanded and later limited.
+
+\begin{boxtable}[cLL]
+  \textbf{Level} & \textbf{Standard Distance} & \textbf{Enhanced Distance}        \\
+  \hline
+    \setcounter{spellCost}{1}
+    \arabic{spellCost}
+      & \setRange\spellRange & ---                  \\
+    \stepcounter{spellCost}
+    \arabic{spellCost}
+      & \setRange\spellRange & \toggletrue{distant}\setRange\spellRange \\
+    \stepcounter{spellCost}
+    \arabic{spellCost}
+      & \setRange\spellRange & \toggletrue{distant}\setRange\spellRange \\
+    \stepcounter{spellCost}
+    \arabic{spellCost}
+      & \setRange\spellRange & \toggletrue{distant}\setRange\spellRange \\
+    \stepcounter{spellCost}
+    \arabic{spellCost}
+      & \setRange\spellRange & \toggletrue{distant}\setRange\spellRange \\
+    \stepcounter{spellCost}
+    \arabic{spellCost}
+      & ---                  & \toggletrue{distant}\setRange\spellRange \\
+\end{boxtable}
+
+Of course, casters must clearly perceive something in order to cast upon it, so anything outside of clear vision demands a \textit{Distant Witness} precursor.
+Once casters can \textit{Witness} someone, they can cast upon them, for the short moment when while the awareness lasts.
+Of course, guessing where rivers and houses in the distance might be does not have a high success rate, so setting up these \textit{Distant} spells requires patience, planning, and a way to keep precise records about trajectories.
+
+These \textit{Distant Witness} deductions and maps can take weeks or years of planning for targets far beyond sight.%
+\footnote{Two witches having a duel to the death looks less like a spark-filled inferno of spell-slinging, and more like a protracted game of battleship, with plenty of involvement for bystanders any time one guesses wrong.}
+
 \begin{enumerate}
   \item
   \begin{description}
-    \item[Distant]
-    spells throw your magic far into the distance, and no less.
-    These spells cannot target shorter distances.
-
-    \begin{boxtable}[cLL]
-      \textbf{Level} & Standard Distance & Enhanced Distance       \\
-      \hline
-                  1              & 20 \glspl{step} & ---               \\
-                  2              & 15 \glspl{step} & throwing distance \\
-                  3              & 10 \glspl{step} & shouting distance \\
-                  4              &  5 \glspl{step} & horizon           \\
-                  5              &  ---            & line of sight     \\
-    \end{boxtable}
     \item[Divergent]
     spells produce two effects from opposing Spheres, at the same time.
     \begin{itemize}
