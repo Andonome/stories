@@ -1,42 +1,47 @@
 \chapter{Witchcraft}
+\label{witchcraft}
 
 The spells from the \textit{Core Rules} each express a single formula, and spellcasters can use that formula to craft their own spells, or create \glspl{talisman}.
-Those with the knack for it can craft spells on the fly, while others require weeks of practice and focus to create their own spells.
-
-A spell's heart comes from a primitive sentence, usually left implied rather than spoken.
+A spell's heart comes from a primitive sentence, never spoken but heavily implied.
 The actual language could express the spell as chatter, sign-language, theatre or song.
 
 \vspace{\baselineskip}
 
-\begin{wideTable}[|l|>{\scshape\raggedright\arraybackslash}p{.15\linewidth}>{\scshape\arraybackslash}l>{\scshape\arraybackslash}l|>{\small\arraybackslash}X|]%
+\begin{wideTable}[|l|>{\scshape\raggedright\arraybackslash}p{.12\linewidth}>{\scshape\arraybackslash}l>{\scshape\arraybackslash}l|>{\small\arraybackslash}X|]%
   {The Anatomy of Magic}
   & \textbf{Descriptors} & \textbf{Action} & \textbf{Target} & \normalsize\scshape\textbf{Result} \\
   \hline
   \hint{1} & ---       &  Wax            & Air             &
                        A sharp breeze tugs. \\
-  \hint{2} & Detailed  &  Wane           & Air             &
+  \hint{2} & Detailed  &  Wax           & Air             &
                        Mist scatters away from the caster, as a feint vortex follows them, and pushes a dog-shaped impression into the chalky air. \\
   \hint{2} & Duplicated&  Wane           & Earth           &
                        Snow melts all around, forming a small river on a bed of ice. \\
   \hint{3} & Duplicated, Detailed
                        &  Wane           & Fate            &
-                       Two-dozen men lose their luck with archery.  They don't know it, but some suspect, while others argue that the issue is simply aptitude. \\
+                       Two-dozen men lose their luck with archery.  \\
   \hint{4} & Detailed, Distant, Duplicated
                        &  Warp           & Fate            &
-                       The target was destined to have an upcoming encounter with a chitincrawler, the next day.  But now their destiny is twisted into a loop -- they will encounter another chitincrawler each day for a week. \\
-  \hint{2} & Detailed  &  Warp           & Fate, Water &
-                       The shepherd dreams of herding sheep and banal conversations all night, but by daylight he will think he can fly, then lives in a castle which is also his bedroom. \\
-  \hint{2} & Divergent &  Warp           & Fire, Water     &
-                       The hearth-fire spills out, and the floods across the floor; the soup in the cauldron above it swirls like a slow whirlwind, and dances over the cauldron's rim, flashing liquid fans straight up like a flame.  The house begins to burn, as nobody knows how to kill a fire that move like liquid.  \\
+                       The target was destined to have an upcoming encounter with a chitincrawler, the next day.  But once they hear that foreboding song, their destiny is twisted into a loop -- they will encounter another chitincrawler each day for a week. \\
+  \hint{2} & Detailed  &  Warp           & Mind &
+                       The shepherd dreams of banal conversations and herding sheep all night, but by daylight he will think he can fly, then lives in a castle which is also his bedroom. \\
+  \hint{2} & Divergent &  Warp           & Fire \& Water     &
+                       The hearth-fire spills out, and the floods across the floor; the soup in the cauldron above it swirls like a slow whirlwind, and dances over the cauldron's rim, flashing liquid fans straight up like a flame.  The house begins to burn, and nobody knows how to kill a fire that moves like liquid.  \\
   \hint{1} & ---       &  Witness        & Water       &
-                       Her ear to the ground, the witch confirms that water lies a few steps below the house.  The \gls{village} will build a well right here, once they move the house.  Or perhaps the witch will say nothing.  \\
+                       Her ear to the ground, the witch confirms that water lies a few steps below the house.  The \gls{village} will build a well right here, once they move the house.  Or perhaps the witch will say nothing, if they like the homeowner.  \\
 
 \end{wideTable}
 
 \section{Weaving Spells}
+\label{spellWeaving}
 
 \begin{multicols}{2}
 \index{Spheres}
+
+These are the conceptual steps you can use to create spells during \gls{downtime}.
+\iftoggle{core}{%
+  Once you have a spell on-paper, check the \textit{Core Rules}, \autopageref{make_spell}, to see if your character can manage the task, or what might happen if they fail.
+}{}
 
 \subsection{Step by Step}
 
@@ -56,9 +61,9 @@ spells encourage the element to express its basic nature.
   \item
   streams rush faster down hill, and even ale in a mug may begin to swirl and froth gently in an effort to escape to the ground;
   \item
-  fate wraps its attentions on someone, increasing their \glspl{fp};
+  fate wraps its attentions around someone, giving them good luck;
   \item
-  air rushes round and up, violently;
+  air rushes violently;
   \item
   and fire burns.
 \end{itemize}
@@ -72,7 +77,7 @@ magic does the opposite -- it stifles, scatters, or reverses the element's essen
   Stone puts up far more resistance, but skill and patience may soften slate to the consistency of thick, wet, clay (\gls{tn}~12-14).
   Metals provide far more resistance, and may prove impenetrable to casters without plenty of preparation and \pgls{boon} (\gls{tn} 16-20).
 
-  More complex stuff, like wood, or flesh, does not respond to Earth mages -- true, elemental Earth has only one form, running through it.
+  More complex stuff, like wood, or flesh, does not respond to Earth magic -- pure, elemental Earth has a pure consistency.
   Even a metal alloy can raise a spell's \gls{tn} significantly.
   \item
   Water stagnates and evaporates.
@@ -84,13 +89,13 @@ magic does the opposite -- it stifles, scatters, or reverses the element's essen
   Those lucky enough to have luck to lose usually resist with \roll{Charisma}{Deceit}.
   \item
   Dead air stands still and milky, blocking vision (\tn[7]);
-  and once smokey enough it begins to choke people.
-  Underground, these spells can blind or kill (\tn[9]), but on a stormy mountain, casters will need to create a full cyclone%
-  \footnote{See step \vref{magic:duplicated}.}
+  and once smokey enough it begins to choke people (\tn[9]).
+  Underground, these spells can blind or kill, but on a stormy mountain, casters will need to create a full cyclone%
+  \footnote{See step \vref{duplicatedDesc}.}
   of thick smoke or simply fail altogether (\tn[16]).
   \item
-  Spells cannot destroy, but once a candle shrinks and scatters its energy, the fire dies a natural death (\gls{tn} 7).
-  Hearth fires put up more of a fight (\gls{tn} 10), and torches made of pitch may grow dim.
+  Spells cannot destroy, but once a candle's flame shrinks and scatters its energy, the fire dies a natural death (\gls{tn}~7).
+  Hearth fires put up more of a fight (\gls{tn}~10), and torches made of pitch may grow dim.
 \end{itemize}
 
 \paragraph{Warping}
@@ -114,21 +119,21 @@ an element alters one of its fundamental aspects.
 \paragraph{Witnessing}
 work differently to the other actions -- the caster stops speaking, and starts to listen.
 No spell is cast, but a receptive attitude must be adopted throughout the entire body, and mind.
-And despite no `casting' occurring, mana must flow out, in order to form a bond with an element which might lie in that direction.
+And despite no `casting' occurring, mana must flow out, in order to form a bond with any target which might lie in that direction.
 
 When \pgls{pc} wants to Witness an element, the player must ask a `yes/no' question, which indicates what the \gls{pc} has attuned to.
 
-Walls go a long way towards blocking anyone from Witnessing an element, which makes the activity close to pointless, at least with the spell's basic form.
-The observer can look at a fire, and confirm that it is fire.
-These spells become rather more useful once combined with spell `Descriptions'.
+Far-removed targets, or targets behind a wall receive a higher \gls{tn}, which makes a basic Witnessing close to useless (since the witch effectively has a `Detect Fire' or `Detect Air' spell).
+However, with a couple of Descriptors (vref{descriptors}), a witch can Witness many secrets.
 
 \mapentry{Descriptors}
+\label{spellDescriptors}
 
 Descriptors increase a spell's properties, giving it a longer range, or copying the spell across \pgls{area}.
 Each Descriptor makes the effects more powerful, and makes every other Descriptor more powerful.
 
 Pour a little more mana into a spell, and it blossoms quickly in one direction.
-Give a little more to some other part of the spell, and both areas swell up even more.
+Give a little more to some other part of the spell, and both properties swell up even more.
 
 The spell-patterns outlined above each cost 1~\gls{mp}.
 Characters can spend a number of \glspl{mp} equal to their rating in a Sphere, so someone with Earth~2 can span \pgls{mp} to cast a \textit{Wax Air} spell (and push someone back with a blast of wind), or spend 2~\glspl{mp} to cast a \textit{Duplicated Wax Air} spell (and push many people back, with a more powerful blast of wind).
@@ -149,17 +154,19 @@ Where most spells have no more definition than one might expect of a gust of win
 \end{boxtable}
 
 As the spells gain more detail, they become restricted to the caster's most vivid memories, and eventually cannot represent anything but people or places they love or hate.%
-\footnote{Spellcasters who end a close relationship abruptly often haunt themselves for decades through their own spells.}
+\footnote{Spellcasters who end a close relationship abruptly often haunt themselves for decades through their own spells.  Every storm looks like their hair, when they want to warp light to create the appearance of a dragon, the dragon looks all too human, and always like the same human.}
 This restricts the possible forms of the spell to people and places the caster knows intimately, and provides a strong clue about the caster's identity, making it difficult to cast spells secretly.
 
 A couple of \glspl{mp} spent on a \textit{Detailed Witness} allow a witch to ascertain if an \textit{oak} fire burns inside a building, or if a casket contains wine.
 As before, all questions will only receive a `yes/ no' answer.
 
 \paragraph{Distant}
-magics can strike across any amount of space, reaching the anterior side of a town, over mountains, or even past the range of any eye.
-Even the caster cannot limit or contain these spells; a \textit{Detailed,  Distant, Wax Air} spell begins at `shouting distance'.
-Not `up to a maximum of ``shouting distance'', if you please', but at that minimum and maximum.
+magics can strike across vast distances, beyond where even the best archers can reach, and even beyond vision.
+\set{spellCost}{3}\setRange\toggletrue{distant}%
+However, the caster cannot limit or contain these spells; a \textit{Detailed,  Distant, Wax Air} spell begins at `\spellRange'.
+Not `up to a maximum of ``\spellRange'', if you please', but at that minimum and maximum.
 Spells all have some leeway in their range (as the vague descriptor of distance ought to imply), but they cannot be expanded and later limited.
+\togglefalse{distant}
 
 \begin{boxtable}[cLL]
   \textbf{Level} & \textbf{Standard Distance} & \textbf{Enhanced Distance}        \\
@@ -193,7 +200,7 @@ These \textit{Distant Witness} deductions and maps can take weeks or years of pl
 \begin{exampletext}
   The ability to gain knowledge from a distance allows \glspl{doula} and elves to produce excellent maps.
   Combining this \textit{Descriptor} with \textit{Distant} and \textit{Duplicated}, allows them to inquire about a large area, and then narrow down the space they want to know about.
-  Of course, this process requires a lot of skill -- simply locating \pgls{village} from a distance might require listening for something \textit{Detailed} (for the rock), \textit{Distant}, and \textit{Duplicated}.
+  Of course, this process requires a lot of skill -- simply locating \pgls{village} from a distance might require listening for something \textit{Detailed} (for the specific type of rock), \textit{Distant}, and \textit{Duplicated}.
   One might then discover the location of a particular person by seeking out the sapphire pendant they wear, using \textit{Detailed Witness Earth}.
 
   These spells also make long-ranged warfare possible, as casters can send storms, bad luck, or poisoned water after each other.
@@ -208,12 +215,12 @@ These \textit{Distant Witness} deductions and maps can take weeks or years of pl
 \end{figure*}
 
 \paragraph{Divergent}
-channel mana through opposing spheres to create two parallel, but divergent, spells at the same time.
-Check the Speltogram \vpageref{speltogram}, and notice that each Sphere has two neighbouring Spheres, and two opposing Spheres.
+spells channel mana through opposing Spheres to create two parallel, but divergent, effects at the same time.
+Check the chart \vpageref{speltogram}, and notice that each Sphere has two neighbouring Spheres, and two opposing Spheres.
 Divergent spells construct a single spell-sentence to be used by two opposing Spheres at the same time.
 
 For example, Water sits between its neighbours Earth and Fate, but opposes Air and Fire.
-So a caster with Water 2 and Air 2 could create a \textit{Divergent, Wax Water \& Air} spell, which would make surrounding waters jump and thrash, along with gusts of wind.
+So a caster with Water 2 and Air 2 could create a \textit{Divergent, Wax Water \& Air} spell, which would make surrounding waters jump and thrash, while wind rages.
 
 These two spells will affect different substances, and the caster can direct them at different targets.
 
@@ -234,21 +241,21 @@ A \textit{Divergent, Distant, Wane Earth \& Fate} spell may require a roll of \t
 If the caster rolls a total of 13, they would inflict the bad luck, but not make the rock-face crumble.
 
 \paragraph{Duplicated}
-\label{magic:duplicated}
+\label{duplicatedDesc}
 spells fork like lightning, affecting every available target nearby.
-The caster selects only where the spell begins, nothing more.
+The caster selects where the spell begins, but cannot decide on the remaining targets, nor can they limit the number.%
+\footnote{Each number is simply $n^n$, rounded up.  So spending 3~\glsfmtplural{mp} means $3^3 = 3\times 3\times 3 = 27$ targets, which rounds to 30.}% This avoids the number `46656', which can scare people, apparently.
 
-\sidebox{
+\sidebox[17]{
   \begin{boxtable}[cX]
-    \textbf{Level} & \textbf{Targets}%
-    \footnote{Each number is simply $n^n$, so at level 3, a spell has $3^3$ targets, or $3\times 3\times 3$.}\\
+    \textbf{Level} & \textbf{Targets} \\
     \hline
-           1       & 1     \\
-           2       & 4     \\
-           3       & 27    \\
-           4       & 256   \\
-           5       & 3125  \\
-           6       & 46656 \\
+           1       & 1      \\
+           2       & 4      \\
+           3       & 30     \\
+           4       & 300    \\
+           5       & 3,000  \\
+           6       & 50,000 \\
   \end{boxtable}
 }
 
@@ -257,14 +264,12 @@ Conversely, Fate spells can only target people (outside of rare and strange situ
 So any Fate spell duplicated to four copies would affect the first target, and the nearest three.
 
 Each copy of the spell can jump the same range as the original spell's range, so they can spread far.
-This can present problems; if a caster makes three enemy torches explode in their faces, but the spell requires four targets, then the spell may return to unleash itself on a torch held by the caster's own troupe.
-
+This can present problems; if a caster makes three enemy torches explode in their faces, but the spell requires four targets, then the spell may return to unleash itself on the caster's torch.
 Spells which cannot find an appropriate target within range just fizzle and die, without effect.
 
 \begin{exampletext}
-  The incredible range and power of high-level spells holds deep implications for \gls{fenestra}.
-  Any attempt at wide-scale wars runs the risk of a skilled caster targeting one, or both, armies with a crippling spell.
-  This simple fact poses a dire risk to anyone attempting to start a war.
+  The incredible range and power of high-level spells means that any attempt at wide-scale wars runs the risk of a skilled caster targeting one, or both, armies with a crippling spell.
+  This simple fact has stopped a number of wars before they began.
 
   However, someone who can fight on, despite blinding fog, a snowstorm, or their torches and camp-fire suddenly going out, will not be more troubled by a spell simply because it affects a thousand more people.
   As a result, a few specialist trackers, or veteran \glspl{guard}, can often fare better against powerful spell-casters than an army of field-workers with swords.
@@ -274,7 +279,7 @@ Spells which cannot find an appropriate target within range just fizzle and die,
 
 The spells described so far may sound very open-ended, or even badly-defined, and they are!
 However, the results are not.
-The five elemental Spheres have a numerical, mechanical result equal to the number of \glspl{mp} spent~+2.
+The five elemental Spheres have a mechanical, numerical result equal to the number of \glspl{mp} spent~+2.
 
 \begin{itemize}
   \item
@@ -301,7 +306,7 @@ For example:
 \begin{boxtable}[XX]
   \textbf{Elemental Spheres} & \textbf{High Spheres} \\
   \hline
-  Casters with these:
+  {\normalfont Casters with these:}
   \begin{itemize}
     \item
     Air~3
@@ -311,7 +316,7 @@ For example:
     Earth~1
   \end{itemize}
   &
-  can also use these:
+  {\normalfont can also use these:}
   \begin{itemize}
     \item
     Light~2
@@ -337,6 +342,41 @@ Where elemental Spheres can remove someone's \glspl{fp}, and use blasts of wind 
 
 \subsection{Principles of Magic}
 
+\subsubsection{Bodies in Motion}
+
+Spells have no set `duration'.
+Fires burn until their fuel runs out.
+The undead burn through the spell which animates them every time they move.
+Life spells which bolster a target's Bonuses often demand the target burn through calories in order to keep the spell going, and then fade to nothing once the spell ends.
+
+If you need to track a spell's duration, assume it has a number of points equal to the \glsentrylongpl{mp} used to cast it,%
+\footnote{Duplicated spells would divide their initial \glspl{mp} among every copy, but each copy can still rejuvenate itself as if it had been created alone.}
+then remove a point every \gls{interval} in which it exerts some force or performs some action.
+
+\subsubsection{Bodies at Rest}
+
+Spells which sit motionless never die.
+Life spells which make tentacles grow out of someone's back will require food to keep the tentacles moving, but if the target simply grows horns, then the horns require no maintenance (although their \gls{weight} will still create a burden).
+
+A castle full of deadly Light and Force spells will remain deadly until someone dies.
+
+\subsubsection{Spells Stack as Usual}
+
+Stacking spell effects should work exactly like any other Stacking.%
+\exRef{core}{Core Rules}{stacking}
+Casting two Light spells, which both inflict a -2 Penalty to someone's vision, results in a -2~Penalty, because these spells do the same thing.
+However, if the caster adds an Air spell which blinds them with mist, creating another -2 Penalty, the total Penalty would be -3.
+
+The same principle applies to casters who use Life magic to increase their \gls{dr} -- the second-highest Bonus only counts for half (rounded up).
+
+\subsubsection{Potent, Yet Barren}
+
+Magic cannot create.
+It warps, waxes, and wanes.
+It gives information.
+But nothing in the world comes from nothing, so spellcasters make the world pulse, or transform, but cannot remove or add the sum of all that is the case.
+Witches may control fire, but only a fire striker can \textit{make} it.
+
 \subsubsection{Think before You Cast!}
 
 Sooner or later someone will fail to see a spell's natural consequences.
@@ -347,35 +387,6 @@ Magic creates unintended side-effects, but these side-effects don't fall out of 
 They come from players (including the \gls{gm}) misusing magic.
 
 So be forewarned: magic is dangerous.
-
-\subsubsection{Potent, Yet Barren}
-
-Magic cannot create.
-It warps, waxes, and wanes.
-It gives information.
-But nothing in the world comes from nothing, so spellcasters make the world pulse, or transform, but cannot remove or add the sum of all that is the case.
-Witches may control fire, but only a fire striker can \textit{make} it.
-
-\subsubsection{Spells Live Until They Die}
-
-Spells have no set `duration'.
-Fires burn until their fuel runs out.
-The undead burn through the spell which animates them every time they move.
-Life spells which bolster a target's Bonuses often demand the target burn through calories in order to keep the spell going, and then fade to nothing once the spell ends.
-
-The first principle here is that if something seems like it could stop the effects of a spell, it stops the spell.
-The second principle is that spells can last forever, but they do not \emph{produce} anything forever.
-If a witch fills a castle with sentient illusions, they can remain for a millennium, but a lightning storm cannot crack and blow forever, because it burns through itself a little more with every motion.
-
-\subsubsection{Spells Stack as Usual}
-
-Stacking spell effects should work exactly like any other Stacking.
-Casting two Life spells, which both inflict a -2 Penalty to someone's Speed results in a -2~Penalty, because these spells do the same thing.
-However, two different Spheres which create a Speed Penalty would Stack as usual.
-
-So spell Stacking works exactly like armour -- wearing chainmail on top of plate will not work well, but a character could gain \gls{dr} by hardening their own skin with a Life spell, and then add armour.
-The lowest of the two armour-types would only count for half, as usual.%
-\exRef{core}{Core Rules}{stacking}
 
 \end{multicols}
 
@@ -437,7 +448,7 @@ However, many casters add a \textit{Witness} activity to the \gls{talisman}, to 
   Fire spells will, by default, target the nearest fire they can; Air spells will almost certainly target surrounding air.
   \begin{itemize}
     \item
-    The \gls{talisman} casts its spell with a bonus equal to the spell's level, so a level 3 Air spell with a cost of 3 \glspl{mp}, made into \pgls{talisman}, casts its spell with a +3 bonus, rather than the normal roll of \roll{Charisma}{Air}.
+    The \gls{talisman} casts its spell with a bonus equal to the spell's level, so a level 3 Air spell with a cost of 3~\glspl{mp}, made into \pgls{talisman}, casts its spell with a +3 bonus, rather than the normal roll of \roll{Charisma}{Air}.
     \item
     The creator may include a \textit{Witness} action which the \gls{talisman} will use to detect the target.
     It will then target the nearest thing the \textit{Witnessing} finds.
