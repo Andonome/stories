@@ -1,8 +1,8 @@
 \makeindex[name=spells,title={Spell Summaries},columns=2]
 
 \newcommand\namesOfHumans{
-  \begin{nametable}[c|YY]{Human Names}
-  \textbf{Roll} & \textbf{Prefix} & \textbf{Suffix} \\\hline
+  \begin{boxtable}[c|YY]
+  \Hu & \textbf{Prefix} & \textbf{Suffix} \\\hline
   \ifodd\value{r3}
     \ifodd\value{r4}
       \dicef{1} & Grit    & --itch \\
@@ -55,7 +55,7 @@
   \else
     \dicef{6} & Gout    & --blathe  \\
   \fi
-  \end{nametable}
+  \end{boxtable}
 }
 
 \newcommand\poshNames{

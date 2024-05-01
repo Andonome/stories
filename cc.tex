@@ -4,11 +4,12 @@
 \label{character_rolls}
 
 It's time you build some character.
-Specifically, you will build \pgls{pc}.
+Specifically, \pgls{pc}.
 Take a blade and slice out the character sheet.
 
 \setglossarypreamble[symbols]{
   \begin{multicols}{2}
+  \noindent
   Grab $2D6$.
   You will need to roll them eight times to create this character.
 
@@ -16,6 +17,7 @@ Take a blade and slice out the character sheet.
 
   Roll $2D6$ for each Attribute in order, and mark each result on your character sheet.
   \begin{exampletext}
+  \noindent
   If you roll `3, 8, 9', then you have `Strength -2, Dexterity +0, Speed +1'.
   \end{exampletext}
 
@@ -23,15 +25,23 @@ Take a blade and slice out the character sheet.
   \attributeChart
 
   Note the pictograms below -- people in \gls{fenestra} make heavy use of them, to ease communication across distance cultures and centuries.
-  Now you can roll to find our the character's race with the chart \vpageref{Roch_Hercka/five_races}.
-
+  Now you can roll to find out what type of creature this character is by the images \vpageref{Roch_Hercka/five_races}.
   \end{multicols}
+  \bigLine
 }
 
+\renewcommand{\glsmcols}{3}
 \printglossary[
   type=symbols,
   title=Inheritance,
+  style=mcolindex,
 ]
+\renewcommand{\glsmcols}{2}
+\setglossarypreamble[symbols]{}
+
+\bigLine
+
+\begin{multicols}{2}
 
 \mapPic[\Large]{t}{Roch_Hercka/five_races}{
   {\Huge\Gn}/08/99,
@@ -60,29 +70,33 @@ Take a blade and slice out the character sheet.
   {$-2$ Charisma}/82/08,
 }
 
-\begin{multicols}{2}
-
-\subsection{Cultures}
+\subsubsection{Your First Name}
 \label{raceRoll}%
 A million cultures may inhabit little pockets in these dark, green, hunting-grounds, but we can only see the settlements within walking distance.
 Traders, \glspl{warden}, and \glspl{seeker} walk along the tapestry of human roads which bridge the forest.
 They tell stories of other lands, but the latter only wants to tell you to sell you, and the former don't speak to your type.
 
 You can find out more about your character's home and customs in \autoref{races}, but for now, you need a name.
+Whether you want to name your own character or roll randomly, start by looking at the conventions.
+
+\end{multicols}
+
+\newpage
+
+\begin{multicols}{3}
 
 \index{Names}%
 \label{randomNames}%
 
-Whether you want to name your own character or roll randomly, start by looking at the conventions.
-
-\subsubsection[Dwarven Names]{\Dw}
+\paragraph{Dwarven Names}
 \index{Dwarves!Names}
-Dwarven surnames come from their mother's occupation, although anything with more than two syllables reduces to two (dwarves are busy people).
-So the surname `Spector' comes from `inspector', and if that dwarf's mother later finds a job as a cave surveyor, he would change his surname to `Veyor'.
+come from landscape features, while their surname indicates their mother's occupation.
+Occupations with more than two syllables take a short-form (dwarves are busy people).
+So the surname `Spector' comes from `inspector', and if that dwarf's mother later finds a job as a cave surveyor, they would change his surname to `Veyor' (and would expect companions to supply a congratulatory drink).
 
-\begin{nametable}[l|XYY]{Dwarf Names}
+\begin{boxtable}[l|>{\small}Y>{\small}Y>{\footnotesize}r]
 
-\textbf{Roll} & \textbf{Male} & \textbf{Female} & \textbf{Mother} \\\hline
+\Dw & \textbf{\M} & \textbf{\F} & \textbf{Mother} \\\hline
 \ifodd\value{r3}
   \dicef{1}   & Bight         & Tor             & Spector     \\
   \dicef{2}   & Dale          & Drumlin         & Llector     \\
@@ -102,18 +116,32 @@ So the surname `Spector' comes from `inspector', and if that dwarf's mother late
   \dicef{6}   & Sandur        & Scarp           & Chitect   \\
 \fi
 
-\end{nametable}
+\end{boxtable}
 
-\subsubsection[Elven Names]{\El}
+\paragraph{Gnollish Names}
+\index{Gnolls!Names}
+are short, to-the-point, and never require difficult lip-movements (assuming you have canine lips).
+The meanings generally relate to the gnoll's primary joy, such as `hunting', or `biscuits'.
+
+\begin{boxtable}[c|lY]
+\Nl & \textbf{Prefix} & \textbf{Suffix} \\\hline
+\dicef{1}  & Ksha & --dz  \\
+\dicef{2}  & Ko   & --g   \\
+\dicef{3}  & Sya  & --h   \\
+\dicef{4}  & Tso  & --d   \\
+\dicef{5}  & Yo   & --sh  \\
+\dicef{6}  & Riye & --tse \\
+\end{boxtable}
+
+\paragraph{Elven Names}
 \index{Elves!Names}
-Elven names represent long stretches of their lives -- generally as long as the language survives.
-
+represent long stretches of their lives -- generally as long as the language survives.
 Roll once for the prefix, and again for a female or male suffix.
 
 The `\"e' symbol means you should pronounce the sound fully, as in `f\textbf{ai}rie', or `sel\textbf{e}ct'.
 
-\begin{nametable}[l|lYY]{Elf Names}
-  & \textbf{Prefix} & \textbf{Suffix (F)}   & \textbf{Suffix (M)} \\\hline
+\begin{boxtable}[l|l|YY]
+ \El & \textbf{\E\glsadd{E} Prefix} & \textbf{\F\glsadd{F} Suffix}   & \textbf{\M\glsadd{M} Suffix} \\\hline
 \dicef{1} & Sind    & --\"e    & --on      \\
 \dicef{2} & Atar    & --ink\"e & --inkon   \\
 \dicef{3} & Ciry    & --inw\"e & --iel     \\
@@ -124,73 +152,46 @@ The `\"e' symbol means you should pronounce the sound fully, as in `f\textbf{ai}
 \else
   \dicef{6} & Itar    & --il     & --ill\"e  \\
 \fi
-\end{nametable}
+\end{boxtable}
 
-\begin{multicols}{2}
-
-\subsubsection[Gnomish Names]{\Gn}
-\index{Gnomes!Names}
-
-Roll $1D6 \times 1D6$, and re-roll on doubles to add another part to the name.
-
-Gnomes receive names from everyone around them, so their name depends on context.
-Reflexively, this therefore means they give others a name rather than asking.
-However, if the gnome feels generous, and does not want to trouble any of the `big folk' with the task of creating two or three syllables, they may provide a name.
-
-\begin{nametable}[c|Y]{Gnome Names}
-\textbf{Result} & \textbf{Syllable} \\\hline
-1  & ni    \\
-2  & lawa  \\
-3  & noka  \\
-4  & en    \\
-5  & ante  \\
-6  & alasa \\
-8  & yan   \\
-9  & mu    \\
-10 & kala  \\
-12 & yelo  \\
-15 & musi  \\
-16 & ma    \\
-18 & leta  \\
-20 & nanpa \\
-24 & mute  \\
-25 & wan   \\
-30 & open  \\
-36 & tu    \\
-
-\end{nametable}
-
-\end{multicols}
-
-\begin{multicols}{2}
-\subsubsection[Gnollish Names]{\Nl}
-\index{Gnolls!Names}
-Gnoll names are short, to-the-point, and never require difficult lip-movements (assuming you have canine lips).
-The meanings generally relate to the gnoll's primary joy, such as `hunting', or `biscuits'.
-
-\begin{nametable}[c|lY]{Gnoll Names}
-\textbf{Roll} & \textbf{Prefix} & \textbf{Suffix} \\\hline
-\dicef{1}  & Ksha & --dz  \\
-\dicef{2}  & Ko   & --g   \\
-\dicef{3}  & Sya  & --h   \\
-\dicef{4}  & Tso  & --d   \\
-\dicef{5}  & Yo   & --sh  \\
-\dicef{6}  & Riye & --tse \\
-\end{nametable}
-
-\end{multicols}
-
-\subsubsection[Human Names]{\Hu}
+\paragraph{Human Names}
 \index{Humans!Names}
-Human names remain static throughout their lives, so they never have any relation to the person, or their accomplishments.
+remain static throughout their lives, so they never have any relation to the person, or their accomplishments.
 Humans believe that the forest takes the best part of everything, so they avoid giving their children any names which imply anything wonderful, or even positive.
 
 \namesOfHumans
 
-\subsection{Inbuilt Capacity}
+\paragraph{Gnomish Names}
+\index{Gnomes!Names}
+are given, not taken, so every gnome in a community will have another name from every other member of the community.
+However, if the gnome feels generous, and does not want to trouble any of the `big folk' with the task of creating two or three syllables, they may provide a name.
+Roll $1D6 \times 1D6$, and re-roll on doubles to add another part to the name.
 
-Each race inherits an ability.
-Note the name of your ability on your character sheet.
+\begin{boxtable}[rY|rY]
+  \Gn & \textbf{Syllable} & \Gn & \textbf{Syllable} \\
+  \hline
+  1  & ni    & 12 & yelo  \\
+  2  & lawa  & 15 & musi  \\
+  3  & noka  & 16 & ma    \\
+  4  & en    & 18 & leta  \\
+  5  & ante  & 20 & nanpa \\
+  6  & alasa & 24 & mute  \\
+  8  & yan   & 25 & wan   \\
+  9  & mu    & 30 & open  \\
+  10 & kala  & 36 & tu    \\
+\end{boxtable}
+
+\end{multicols}
+
+\pagebreak[3]
+
+\begin{multicols}{2}
+
+\subsection{Gifts}
+
+The biggest difference that makes a difference between dwarves and gnolls isn't teeth, or beards -- it's the dwarven ability to live without Sunlight, and comfortably eat the things that live underground.
+
+These small difference can threaten to divide a group of different people working together, so whatever aptitudes you have, best not to make too much of it around the others; just make a quiet note of your ability on your character sheet.
 
 \begin{boxtable}[lL]
   Dwarves & \nameref{dwarvenInheritance}, \autopageref{dwarvenInheritance} \\
@@ -200,37 +201,41 @@ Note the name of your ability on your character sheet.
   Humans & \nameref{humanInheritance}, \autopageref{humanInheritance} \\
 \end{boxtable}
 
-\subsection{Rank}
-\label{ngRank}
-\index{Rank in the \glsentrytext{guard}}
-New characters start with a rank equal to the highest ranking member of the troupe, because life's not fair.
-If everyone's new, then everyone begins as `fodder'.
-
 \end{multicols}
+
+\setglossarypreamble[\acronymtype]{
+  Now you have a character, you should check it for suspicious abbreviations and empty boxes.
+  Most of these terms have found interplaner adoption; but best make sure before you go.
+
+  To find more on a rule, check the rules summary at the end.
+  And if you have any spellcasting-Spheres, pick up three spells from the \textit{Core Rules}.
+}
+
+\printglossary[
+  type=\acronymtype,
+  style=mcolindex,
+  title=Gnomenclature,
+  nonumberlist,
+]
+\setglossarypreamble[\acronymtype]{}
+
+
 \exampleRandomCharacter % in commands.tex
 
-\commonWeaponsChart %from config/rules/charts.tex
-\label{commonWeapons}
-\index{Weapons Chart}
-
-\begin{multicols}{2}
-
-\subsection{Enlistment}
+\section{Enlistment}
 \index{Enlistment}
 \index{Concept!Random}
 \label{enlistment}
 
+\begin{multicols}{2}
+
+\noindent
 Why has this character joined the \gls{guard}?
 First check your `failure' -- the lowest Attribute you've rolled, and under that section check your highest Attribute.
 If multiple Attributes compete for lowest or highest, stop at the first.
 
 Write down the concept, code, stats and equipment.
 
-\begin{figure*}[b!]
-  \commonArmourChart
-\end{figure*}
-
-\needspace{10em}
 \subsubsection{Strength Failure}
 
 \begin{itemize}
@@ -610,4 +615,11 @@ Write down the concept, code, stats and equipment.
 
 \end{itemize}
 
+\commonArmourChart
+
+\commonWeaponsChart %from config/rules/charts.tex
+\label{commonWeapons}
+\index{Weapons Chart}
+
 \end{multicols}
+
