@@ -1,9 +1,39 @@
-\chapter[Welcome Inn]{Character Creation}
+\chapter{Interpreted Characters}
 \index{Traits}
 \index{Character Creation}
 \label{character_rolls}
 
-\mapPic[\Large]{b}{Roch_Hercka/five_races}{
+It's time you build some character.
+Specifically, you will build \pgls{pc}.
+Take a blade and slice out the character sheet.
+
+\setglossarypreamble[symbols]{
+  \begin{multicols}{2}
+  Grab $2D6$.
+  You will need to roll them eight times to create this character.
+
+  \input{config/rules/attributes.tex}
+
+  Roll $2D6$ for each Attribute in order, and mark each result on your character sheet.
+  \begin{exampletext}
+  If you roll `3, 8, 9', then you have `Strength -2, Dexterity +0, Speed +1'.
+  \end{exampletext}
+
+  \label{randomCharacterCreation}
+  \attributeChart
+
+  Note the pictograms below -- people in \gls{fenestra} make heavy use of them, to ease communication across distance cultures and centuries.
+  Now you can roll to find our the character's race with the chart \vpageref{Roch_Hercka/five_races}.
+
+  \end{multicols}
+}
+
+\printglossary[
+  type=symbols,
+  title=Inheritance,
+]
+
+\mapPic[\Large]{t}{Roch_Hercka/five_races}{
   {\Huge\Gn}/08/99,
   2-3/08/83,
   {$+1$ Dexterity}/02/24,
@@ -30,47 +60,18 @@
   {$-2$ Charisma}/82/08,
 }
 
-\section{Unlikely Characters}
-\label{raceRoll}
-\label{randomCharacterCreation}
-
 \begin{multicols}{2}
 
-\noindent
-Grab $2D6$.
-It's time you build some character.
-Specifically, you will build your \gls{pc}.
-Get a blade and slice your character sheet out.
+\subsection{Cultures}
+\label{raceRoll}%
+A million cultures may inhabit little pockets in these dark, green, hunting-grounds, but we can only see the settlements within walking distance.
+Traders, \glspl{warden}, and \glspl{seeker} walk along the tapestry of human roads which bridge the forest.
+They tell stories of other lands, but the latter only wants to tell you to sell you, and the former don't speak to your type.
 
-\attributeChart
+You can find out more about your character's home and customs in \autoref{races}, but for now, you need a name.
 
-\noindent
-Roll $2D6$ to determine your character's race.
-
-Whichever race you've landed on, go and have a look at \autoref{races} to find out about them, then come back here, and adjust your Attributes with the racial bonuses and penalties.
-
-Next, roll $2D6$ six times -- once for each Attribute -- and write down your result on the character sheet.
-If you roll `3, 8, 9', then you have `Strength -2, Dexterity +0, Speed +1'.
-Roll the dice thrice more for the Mental Attributes.
-
-\input{config/rules/attributes.tex}
-
-\subsection{Inheritance}
-
-Each race inherits an ability.
-Note the name of your ability on your character sheet.
-
-\begin{boxtable}[lL]
-  Dwarves & \nameref{dwarvenInheritance}, \autopageref{dwarvenInheritance} \\
-  Elves & \nameref{elvenInheritance}, \autopageref{elvenInheritance} \\
-  Gnolls & \nameref{gnollishInheritance}, \autopageref{gnollishInheritance} \\
-  Gnomes & \nameref{gnomishInheritance}, \autopageref{gnomishInheritance} \\
-  Humans & \nameref{humanInheritance}, \autopageref{humanInheritance} \\
-\end{boxtable}
-
-\subsection{Names}
-\index{Names}
-\label{randomNames}
+\index{Names}%
+\label{randomNames}%
 
 Whether you want to name your own character or roll randomly, start by looking at the conventions.
 
@@ -185,6 +186,19 @@ Human names remain static throughout their lives, so they never have any relatio
 Humans believe that the forest takes the best part of everything, so they avoid giving their children any names which imply anything wonderful, or even positive.
 
 \namesOfHumans
+
+\subsection{Inbuilt Capacity}
+
+Each race inherits an ability.
+Note the name of your ability on your character sheet.
+
+\begin{boxtable}[lL]
+  Dwarves & \nameref{dwarvenInheritance}, \autopageref{dwarvenInheritance} \\
+  Elves & \nameref{elvenInheritance}, \autopageref{elvenInheritance} \\
+  Gnolls & \nameref{gnollishInheritance}, \autopageref{gnollishInheritance} \\
+  Gnomes & \nameref{gnomishInheritance}, \autopageref{gnomishInheritance} \\
+  Humans & \nameref{humanInheritance}, \autopageref{humanInheritance} \\
+\end{boxtable}
 
 \subsection{Rank}
 \label{ngRank}
