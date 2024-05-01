@@ -258,27 +258,56 @@ Higher levels become increasingly expensive, so having a specialized character w
   Increasing a negative Attribute costs 5~\glspl{xp}.
   After that, the price increases sharply.
   \item
-  Each Knack costs 5 \glspl{xp} more than the last.
+  Martial Skills also increase sharply, so learning a little of everything comes easier than mastering a single Skill.
   \item
-  Standard Skills far less than the Martial Skills, like Projectiles, Combat, Brawl, and the Spheres.
+  Standard Skills cost half as much as Attributes, so characters can pick up a few before long.
+  \item
+  The first Knack is cheap, at 5~\glspl{xp}, but each Knack costs 5 more \glspl{xp} than the last.
 \end{itemize}
 
-Each character's total \glspl{fp} equals their total \glspl{xp} divided by ten, so players should always take care to record how many \glspl{xp} they have earned in total, including the default 50~\glspl{xp} (even if you didn't spend the first 50 yourself).
+All characters begin with 50 \textit{spent} \glspl{xp}
+(self-made characters get to spend theirs, standard characters don't).
+These spent \glspl{xp} make a difference as each character's total \glspl{fp} equals their total \glspl{xp} divided by ten.
+Players should always take care to record how many \glspl{xp} they have earned in total.
 
-In the early sessions, most \glspl{xp} will come from \glspl{storypoint}, as the players start with 5, worth 25~\glspl{xp} in total.
-
-\sidepic{Roch_Hercka/xp-2}
+\subsubsection{Progression}
 
 Players can earn a maximum of 7 \glspl{xp} per mission from following their Codes, but will most often earn less.
 Purchasing a +3 Attribute Bonus takes many sessions to build up the \glspl{xp}.
 
+\sidepic{Roch_Hercka/xp-2}
+
 \label{racial_limits}
 \index{Attribute Limitations}
-\Glspl{pc} cannot raise any Attribute above 3, plus the racial modifiers.
+\Glspl{pc} cannot raise any Attribute above 3 (plus the racial modifiers).
 So gnolls could raise their maximum Speed Bonus to +4, but gnomes cannot raise their Speed Bonus above +2, due to their natural -1 penalty.
 No matter how much a gnome practices, they will never outrun another biped twice their size.
 
-\vspace{4em}
+Once a player spends all 5~\glspl{storypoint}, they gain 25~\glspl{xp}, so any \gls{pc} can quickly shoot up to 75~spent \glspl{xp} in total, giving them 8~\glspl{fp} (plus the Charisma Bonus).
+
+Most \glspl{pc} will die after a few sessions, but if one survives, it might go like this.
+
+\newcommand\describeFullSeason[1]{%
+  \addtocounter{season}{#1}%
+  \ifnum\value{season}>12%
+    \setcounter{season}{1}%
+  \fi%
+  \setTemperature\showTemperature\ \showSeason%
+}
+
+\begin{boxtable}[cLL]
+  \textbf{Real Time} & \textbf{\Gls{fenestra} Time}       & \textbf{\glspl{xp}} \\
+  \hline
+          0          & \describeFullSeason{0}             &    50    \\
+     1 month         & \describeFullSeason{1}             &    87    \\
+     2 months        & \describeFullSeason{1}             &    99    \\
+     3 months        & \describeFullSeason{1}             &   111    \\
+     \ldots          & \ldots                             &   \ldots \\
+     6 months        & \describeFullSeason{3}             &   147    \\
+     9 months        & \describeFullSeason{6}             &    87    \\
+\end{boxtable}
+
+The chart assumes the player spends all \glspl{storypoint} within the first four sessions, and then gains an average of 3~\glspl{xp} per session.
 
 \end{multicols}
 
