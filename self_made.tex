@@ -5,32 +5,35 @@
 
 \noindent
 Introduce your character to the group, and describe what they look like.
-The standard \gls{guard} uniform is more of `look' than an actual uniform, with some common elements.
+The \gls{guard} have no uniform exactly, but they do have a standard `look', due to commonalities:
 
 \begin{itemize}
   \item
-  Darkened leather (or a black tabard), helps hide them in the dark.
+  Darkened leather (or a black tabard), hides them in the dark.
   \item
-  A special scabbard with a `v-split' along one side, allows the \glspl{guard} to carry, and draw, a sword on their back.
+  A special scabbard with a `v-split' along one side, allows the \glspl{guard} to carry a sword on their back, and comfortably draw it.
   \item
   Long hair means they can pull out a strand, to be used as a suture.
   \item
   Large, black, backpack with side-pouches.
 \end{itemize}
 
+\subsubsection{Rank}
+\label{ngRank}
+\index{Rank in the \glsentrytext{guard}}
+New characters start with a rank equal to the highest ranking member of the troupe, because life's not fair.
+If everyone's new, then everyone begins as `fodder'.
+
+Welcome to the \gls{guard}!
+
 \subsubsection{First Words}
 
-\begin{exampletext}
-  You have arrived in \pgls{broch}, ready for your first mission.
-  It's time for introductions, and to ask the \gls{jotter} if you can have one more piece of equipment\ldots
-\end{exampletext}
-
-\noindent
-Ask the \gls{jotter} for an additional piece of equipment from the \nameref{start_equipment}, \vpageref{start_equipment}.
+You have arrived in \pgls{broch}, ready for your first mission.
+It's time for introductions, and to ask the \gls{jotter} if you can have one more piece of equipment from the \nameref{start_equipment}, \vpageref{start_equipment}.
 Roll \roll{Charisma}{Empathy} at \tn[7].
 
 \paragraph{If you succeed,}
-think of how your character would do well in a social situation, and describe the result before taking the item.
+think of how your character would do well in a social situation, and describe the result before writing the item on your character sheet.
 
 \paragraph{If you fail,}
 describe how your character might fumble the request.
@@ -45,16 +48,60 @@ Just roll, and use the result as a guide to your character's reaction.%
 \exRef{core}{Core Rules}{rollForRoles}
 Of course, the \gls{gm} may give you a rather different \gls{tn}\ldots
 
-\subsubsection{Rank}
-\label{ngRank}
-\index{Rank in the \glsentrytext{guard}}
-New characters start with a rank equal to the highest ranking member of the troupe, because life's not fair.
-If everyone's new, then everyone begins as `fodder'.
+\subsubsection{Mission Equipment}
+\label{start_equipment}
+\index{Equipment, Standard}
+\index{Mission Equipment}
 
-Welcome to the \gls{guard}!
+Most \glspl{broch} hold most of these items, most of the time, but wandering monsters make supply-lines difficult to maintain.
+
+\begin{multicols}{2}
+\begin{itemize}
+\raggedright
+  \item
+  Longsword
+  \item
+  Maul
+  \item
+  Shortsword
+  \item
+  Partial leather armour
+  \item
+  Partial chain armour
+  \item
+  Chalk
+  \item
+  Lock picking set
+  \item
+  Medical equipment
+  \item
+  Mirror
+  \item
+  Rations for a day
+  \item
+  Rope
+  \item
+  Tinder box
+  \item
+  Torch
+  \item
+  Wine
+  \item
+  Writing equipment
+  \item
+  Bag pipes
+\end{itemize}
+\end{multicols}
+
+\commonArmourChart
+
+\commonWeaponsChart %from config/rules/charts.tex
+\label{commonWeapons}
+\index{Weapons Chart}
 
 \end{multicols}
 
+\pagebreak[3]
 \section{Self Made Characters}
 
 \glsresetall
@@ -138,60 +185,17 @@ Take your character's history, and condense it into two words.
 \end{multicols}
 
 \subsection{Starting Equipment}
-\label{start_equipment}
-
-\index{Starting Equipment}
 
 Characters each start with one items per Skill level.
-If your character has Combat 1, and Caving 2, they can select 3 items from standard Mission Equipment:
-
-Note the stats \vpageref{commonWeapons}.
-
-\begin{multicols}{2}
-\begin{itemize}
-\raggedright
-
-  \item
-  Longsword
-  \item
-  Maul
-  \item
-  Shortsword
-  \item
-  Partial leather armour
-  \item
-  Partial chain armour
-  \item
-  Chalk
-  \item
-  Lock picking set
-  \item
-  Medical equipment
-  \item
-  Mirror
-  \item
-  Rations for a day
-  \item
-  Rope
-  \item
-  Tinder box
-  \item
-  Torch
-  \item
-  Wine
-  \item
-  Writing equipment
-
-\end{itemize}
-\end{multicols}
+If your character has Combat 1, and Caving 2, they can select 3 items from standard \nameref{start_equipment}, \vpageref{start_equipment}.
 
 \subsubsection{Starting Money}
 
 The amount of bare money a character starts out with depends upon their Skills.
-Starting money is $3D6-5$ \glspl{cp}, which doubles for every level the characters has in a Skill.
+Starting money is $3D6-5$~\glspl{cp}, which doubles for every level the characters has in any Skill.
 
-For example, a character with Empathy 1 and Tactics 2 might roll a total of 7.
-$7\times2\times3 = 42$, so the character starts out with 42 \glspl{cp}.
+For example, a character with Empathy~1 and Tactics~2 might roll a total of~7.
+$7\times2\times3 = 42$, so the character starts out with 42~\glspl{cp}.
 
 \end{multicols}
 
