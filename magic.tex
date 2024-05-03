@@ -1,7 +1,7 @@
 \chapter{Witchcraft}
 \label{witchcraft}
 
-The spells from the \textit{Core Rules} each express a single formula, and spellcasters can use that formula to craft their own spells, or create \glspl{talisman}.
+The spells from the \textit{Core Rules} each express a single formula, and spellcasters can use that formula to craft their own \glspl{invocation}, or create \glspl{talisman}.
 A spell's heart comes from a primitive sentence, never spoken but heavily implied.
 The actual language could express the spell as chatter, sign-language, theatre or song.
 
@@ -162,11 +162,11 @@ As before, all questions will only receive a `yes/ no' answer.
 
 \paragraph{Distant}
 magics can strike across vast distances, beyond where even the best archers can reach, and even beyond vision.
-\set{spellCost}{3}\setRange\toggletrue{distant}%
+\set{spellCost}{3}\setRange\toggletrue{Distant}%
 However, the caster cannot limit or contain these spells; a \textit{Detailed,  Distant, Wax Air} spell begins at `\spellRange'.
 Not `up to a maximum of ``\spellRange'', if you please', but at that minimum and maximum.
 Spells all have some leeway in their range (as the vague descriptor of distance ought to imply), but they cannot be expanded and later limited.
-\togglefalse{distant}
+\togglefalse{Distant}
 
 \begin{boxtable}[cLL]
   \textbf{Level} & \textbf{Standard Distance} & \textbf{Enhanced Distance}        \\
@@ -176,19 +176,19 @@ Spells all have some leeway in their range (as the vague descriptor of distance 
       & \setRange\spellRange & ---                  \\
     \stepcounter{spellCost}
     \arabic{spellCost}
-      & \setRange\spellRange & \toggletrue{distant}\setRange\spellRange \\
+      & \setRange\spellRange & \toggletrue{Distant}\setRange\spellRange \\
     \stepcounter{spellCost}
     \arabic{spellCost}
-      & \setRange\spellRange & \toggletrue{distant}\setRange\spellRange \\
+      & \setRange\spellRange & \toggletrue{Distant}\setRange\spellRange \\
     \stepcounter{spellCost}
     \arabic{spellCost}
-      & \setRange\spellRange & \toggletrue{distant}\setRange\spellRange \\
+      & \setRange\spellRange & \toggletrue{Distant}\setRange\spellRange \\
     \stepcounter{spellCost}
     \arabic{spellCost}
-      & \setRange\spellRange & \toggletrue{distant}\setRange\spellRange \\
+      & \setRange\spellRange & \toggletrue{Distant}\setRange\spellRange \\
     \stepcounter{spellCost}
     \arabic{spellCost}
-      & ---                  & \toggletrue{distant}\setRange\spellRange \\
+      & ---                  & \toggletrue{Distant}\setRange\spellRange \\
 \end{boxtable}
 
 Of course, casters must clearly perceive something in order to cast upon it, so anything outside of clear vision demands a \textit{Distant Witness} precursor.
