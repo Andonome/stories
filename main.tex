@@ -55,10 +55,9 @@ Keywords={TTRPG,RPG,roleplaying}
 
 \printindex
 
-\iftoggle{core}{}{
-  \cleardoublepage
-  \input{config/rules_body.tex}
-}
+\newpage
+\label{rulesSummary}
+\input{config/rules_body.tex}
 
 \input{config/reset_cs.tex}
 
