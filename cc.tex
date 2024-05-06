@@ -7,41 +7,25 @@ It's time you build some character.
 Specifically, \pgls{pc}.
 Take a blade and slice out the character sheet.
 
-\setglossarypreamble[symbols]{
-  \begin{multicols}{2}
-  \noindent
-  Grab $2D6$.
-  You will need to roll them eight times to create this character.
+\section{Inheritance}
+\begin{multicols}{2}
+\noindent
+Grab $2D6$.
+You will need to roll them eight times to create this character.
 
-  \input{config/rules/attributes.tex}
+\input{config/rules/attributes.tex}
 
-  Roll $2D6$ for each Attribute in order, and mark each result on your character sheet.
-  \begin{exampletext}
+Roll $2D6$ for each Attribute in order, and mark each result on your character sheet.
+
+\begin{exampletext}
   \noindent
   If you roll `3, 8, 9', then you have `Strength -2, Dexterity +0, Speed +1'.
-  \end{exampletext}
+\end{exampletext}
 
-  \label{randomCharacterCreation}
-  \attributeChart
+\label{randomCharacterCreation}
+\attributeChart
 
-  Note the pictograms below -- people in \gls{fenestra} make heavy use of them, to ease communication across distance cultures and centuries.
-  Now you can roll to find out what type of creature this character is by the images \vpageref{Roch_Hercka/five_races}.
-  \end{multicols}
-  \bigLine
-}
-
-\renewcommand{\glsmcols}{3}
-\printglossary[
-  type=symbols,
-  title=Inheritance,
-  style=mcolindex,
-]
-\renewcommand{\glsmcols}{2}
-\setglossarypreamble[symbols]{}
-
-\bigLine
-
-\begin{multicols}{2}
+The penultimate roll shows your race, results \vpageref{Roch_Hercka/five_races}.
 
 \mapPic[\Large]{t}{Roch_Hercka/five_races}{
   {\Huge\Gn}/08/99,
@@ -69,6 +53,21 @@ Take a blade and slice out the character sheet.
   {$-1$ Intelligence}/82/0,
   {$-2$ Charisma}/82/08,
 }
+
+\subsubsection{Gifts}
+
+The biggest difference that makes a difference between dwarves and gnolls isn't teeth, or beards -- it's the dwarven ability to live without Sunlight, and comfortably eat the things that live underground.
+
+These small difference can threaten to divide a group of different people working together, so whatever aptitudes you have, best not to make too much of it around the others; just make a quiet note of your ability on your character sheet.
+
+\begin{boxtable}[lL]
+  Dwarves & \nameref{dwarvenInheritance}, \autopageref{dwarvenInheritance} \\
+  Elves & \nameref{elvenInheritance}, \autopageref{elvenInheritance} \\
+  Gnolls & \nameref{gnollishInheritance}, \autopageref{gnollishInheritance} \\
+  Gnomes & \nameref{gnomishInheritance}, \autopageref{gnomishInheritance} \\
+  Humans & \nameref{humanInheritance}, \autopageref{humanInheritance} \\
+\end{boxtable}
+
 
 \subsubsection{Your First Name}
 \label{raceRoll}%
@@ -183,42 +182,7 @@ Roll $1D6 \times 1D6$, and re-roll on doubles to add another part to the name.
 
 \end{multicols}
 
-\pagebreak[3]
-
-\begin{multicols}{2}
-
-\subsection{Gifts}
-
-The biggest difference that makes a difference between dwarves and gnolls isn't teeth, or beards -- it's the dwarven ability to live without Sunlight, and comfortably eat the things that live underground.
-
-These small difference can threaten to divide a group of different people working together, so whatever aptitudes you have, best not to make too much of it around the others; just make a quiet note of your ability on your character sheet.
-
-\begin{boxtable}[lL]
-  Dwarves & \nameref{dwarvenInheritance}, \autopageref{dwarvenInheritance} \\
-  Elves & \nameref{elvenInheritance}, \autopageref{elvenInheritance} \\
-  Gnolls & \nameref{gnollishInheritance}, \autopageref{gnollishInheritance} \\
-  Gnomes & \nameref{gnomishInheritance}, \autopageref{gnomishInheritance} \\
-  Humans & \nameref{humanInheritance}, \autopageref{humanInheritance} \\
-\end{boxtable}
-
-\end{multicols}
-
-\setglossarypreamble[\acronymtype]{
-  Now you have a character, you should check it for suspicious abbreviations and empty boxes.
-  Most of these terms have found interplaner adoption; but best make sure before you go.
-
-  To find more on a rule, check the rules summary at the end.
-  And if you have any spellcasting-Spheres, pick up three spells from the \textit{Core Rules}.
-}
-
-\printglossary[
-  type=\acronymtype,
-  style=mcolindex,
-  title=Gnomenclature,
-  nonumberlist,
-]
-\setglossarypreamble[\acronymtype]{}
-
+%\pagebreak[3]
 
 \exampleRandomCharacter % in commands.tex
 

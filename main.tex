@@ -25,9 +25,24 @@ Keywords={TTRPG,RPG,roleplaying}
 
 \include{intro.tex}
 
-\glsresetall
-
 \include{fenintro.tex}
+
+\printglossary[
+  style=mcolindexspannav,
+]
+
+\printglossary[
+  type=symbols,
+  style=mcolindex,
+]
+
+\printglossary[
+  type=\acronymtype,
+  style=mcolindex,
+  nonumberlist,
+]
+
+\glsresetall
 
 \mainmatter
 
@@ -48,10 +63,6 @@ Keywords={TTRPG,RPG,roleplaying}
 \include{magic.tex}
 
 \startappendix
-
-\printglossary[
-  style=mcolindexspannav,
-]
 
 \printindex
 
