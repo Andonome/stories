@@ -396,17 +396,31 @@ So be forewarned: magic is dangerous.
 \begin{multicols}{2}
 
 \noindent
-`\Glspl{ingredient}' let spell-casters an alchemists alike infuse mana into items.
+`\Glspl{ingredient}' let spell-casters and alchemists alike infuse mana into items.
 The items cure diseases, boost spells, and even lock a spell into an item, so that anyone can use it.
 
 \Glspl{ingredient} include griffin feathers, auroch hooves, and marching mushrooms.
 Nobody acquires them easily.
 
+Preparation needs a clear kitchen, and clear mind, but never a second set of hands to manage.
+Characters cannot use \glspl{restingaction} or Banding actions.
+
+A good kitchen, or even full laboratory, helps a lot.
+
+\begin{boxtable}[Lr]
+  \textbf{Area} & \textbf{Bonus} \\
+  \hline
+  Campfire with a pot & +0       \\
+  Clean kitchen with a cookery book and larder       & +1       \\
+  Grand workshop with three fires, an assortment of pots, and a well-indexed grimoire & +2       \\
+  Castle wing with library, glass-blowing room, and a dozen small crushing devices & +3       \\
+\end{boxtable}
+
 \subsubsection{Creating \Glsfmtplural{boon}}
-requires reducing an \gls{ingredient} into a powder or liquid, slowly, then sealing it quickly; many use cheese-cloth or a phial.
+requires reducing an \gls{ingredient} into a powder or liquid, slowly, then sealing it quickly to avoid rot; many use cheese-cloth or a phial.
 
 After \pgls{interval}, the character rolls \roll{Intelligence}{Crafts}, at \tn[10].
-Success means that the \gls{boon} can boost anyone's rating in an elemental Sphere by 1.
+Success means that the \gls{boon} can boost anyone's rating in the appropriate elemental Sphere by 1.
 A tie indicates that the \gls{boon} emerges useable, but rank.
 It will go rotten within $1D6$ days.
 
@@ -416,82 +430,76 @@ It will go rotten within $1D6$ days.
   \item
   \Glspl{boon} remain suffused in the air until someone (anyone) consumes the energy by casting a spell, or until the wind blows the energy away.
   \item
-  \Glspl{boon} can increase multiple Spheres by combining multiple \glspl{ingredient}, but only by 1 level each.
 \end{itemize}
 
 \noindent
 With the help of a Fire \gls{boon}, someone without any magical ability could cast a level 1 Fire spell, or a caster with Fire 2, Earth 3 could cast a level 3 Force spell.
 
-\subsubsection{\Glsfmttext{talisman} Creation}
+A single container might mix multiple \glspl{boon} together, so one container might infuse the air with Fire and Earth.
+Someone could use this to boost their Fire Skill, then their Earth Skill; or they might use it in a single Force spell.
 
-With the right \glspl{ingredient}, one can create \pgls{talisman}, which stores a spell, and releases it once the conditions have been met.
+\paragraph{Failure}
+to make \pgls{boon} properly means the energy releases instantly, resulting in a spell from that Sphere.
+The type of spell depends on the Failure Margin.
 
-\Glspl{talisman} require \glspl{ingredient}, rather than magical Spheres to cast.
-Anyone can make one, with the right knowledge, and the ability to coax a little life into the material world with the right words.
+\label{randomSpellFailure}
+\begin{enumerate}
+  \item
+  Warps the element; perhaps nearby fires glow blue.
+  \item
+  Wanes the element; water evaporates, or luck turns bad.
+  \item
+  Waxes the element; fire-place ash turns solid, or air blows all the windows open.
+\end{enumerate}
 
-By default, \pgls{talisman} will target the nearest thing it can.
-However, many casters add a \textit{Witness} activity to the \gls{talisman}, to let it target something else.
+\subsubsection{\Glsfmttext{alchemy}}
+\label{alchemicalSpells}
+\index{Spells!Alchemical}
+only needs \glspl{ingredient} and knowledge to craft spells; it does not need any magical Skill.
+Once the alchemist has a `recipe' for the spell, it works like this:
 
 \begin{enumerate}
   \item
-  The creator starts by arranging their \glspl{ingredient} -- these will give effective access to spell Spheres.
-  Casting with Fire 2, Earth 2 would require 2 Earth \glspl{ingredient} and 2 Fire \glspl{ingredient}.
+  The alchemist gathers a number of \glspl{ingredient} equal to a spell's Sphere requirement.
+
+  If a spell requires Fate 3, and Water 3, the alchemists needs 3 Fate \glspl{ingredient} and 3 Water \glspl{ingredient}.
   \item
-  Crafters must make \glspl{talisman} from materials aligned to the Spheres in use.
-  \begin{description}
-    \item[Air]
-    uses contained gasses, often held in a phial.
-    \item[Earth]
-    requires any solid materials dug from the ground.
-    \item[Fate]
-    talismans require the remains of someone who had \glspl{fp} in life (at least 1 per \gls{ingredient} used in the spell).
-    \item[Fire]
-    requires flammable material.
-    \item[Water]
-    can use any liquid.
-  \end{description}
+  The player rolls \roll{Intelligence}{Academics}.
+  The \gls{tn} starts at 6, and each spell level adds 3.
+  Rolling a tie means the spell succeeds, but it casts with a +0 Bonus.
   \item
-  Next, the \gls{talisman} needs a spell to cast, once it detects something.
-  Fire spells will, by default, target the nearest fire they can; Air spells will almost certainly target surrounding air.
+  The spell affects the nearest viable target the moment it goes off.
   \begin{itemize}
     \item
-    The \gls{talisman} casts its spell with a bonus equal to the spell's level, so a level 3 Air spell with a cost of 3~\glspl{mp}, made into \pgls{talisman}, casts its spell with a +3 bonus, rather than the normal roll of \roll{Charisma}{Air}.
+    The spell rolls with a Bonus equal to its level, so level 1 spells have a +1~Bonus, and resisting a level 2 spell would require a roll at \tn[9].
     \item
-    The creator may include a \textit{Witness} action which the \gls{talisman} will use to detect the target.
-    It will then target the nearest thing the \textit{Witnessing} finds.
+    The alchemist can try to flee a moment before the spell is completed, but this increases the \gls{tn} by 1.
     \item
-    This ability to \textit{Witness} requires further \glspl{ingredient}, but it does not require another roll to construct.
+    Players can spend \pgls{storypoint} to automatically pass, using the `Random Fact' story (\autopageref{randomFact}).
   \end{itemize}
-  \item
-  The creator then decides upon the talisman's activation conditions -- will it activate once it sees starlight?
-  Or awaken to any loud noises?
-  Or activate when someone solves a riddle, engraved on its surface?
-  \item
-  The alchemical process requires an \roll{Charisma}{Academics} check, \tn[10] plus double the spell's cost.
 \end{enumerate}
 
-\subsubsection*{Examples}
+\paragraph{Failure}
+means the spell's energies recombine in the wrong way, producing some random effect, just like \glspl{boon} (\vpageref{randomSpellFailure}).
+The \gls{gm} selects the Descriptors, and selects something completely unintended by the original spell.
 
-\begin{exampletext}
-Courtblight wants to make \pgls{talisman} to help her companions flee when they're in trouble.
+\subsubsection{Creating \Glsfmtplural{talisman}}
+works as above, but adds sentience to the mixture, to give the spell a goal.
+All spells translate intention into change -- \pgls{talisman} blossoms that intention into a full intelligence with a \textit{Detailed Wax Mind} spell stuffed into the mixture.
 
-\begin{itemize}
+The system works as above, with another step:
+
+\begin{enumerate}
   \item
-  She can't cast Force spells herself, but she has two Earth \glspl{ingredient} and two Fire \glspl{ingredient}, so that can make \pgls{talisman} with a level 2 \textit{Wax Duplicate Force} spell.
+  The alchemist needs two Fate \glspl{ingredient}, and two Water \glspl{ingredient} to encourage the spark of mind into rudimentary sentience.
   \item
-  She takes the \glspl{ingredient} (two woodspy eyes, and a lot of basilisk hide) and boils both for several days, reducing them to an inky paste.
-  \item
-  She takes her materials (paper for the Fire, crushed amethyst for Earth) and works the dust into the paper, then writes across it with the inky paste from her pot.
-  \item
-  Finally, she whispers the activation words, `let me fly', into the scroll, over and over, with some doodles of griffins around the margins.
+  A second roll, at \tn[9] must succeed, or the spell casts instantly.
+\end{enumerate}
 
-  With this, the player rolls \roll{Charisma}{Academics} at \tn[14].
-\end{itemize}
-
-Once done, she casts a spell to detect the mana locked in the scroll, and finds nothing\ldots the ritual awoke nothing, the item will remain fruitless, and the \glspl{ingredient} wasted.
-
-She decides that next time, she will ask for help creating the item.
-
-\end{exampletext}
+The mind created within \pgls{talisman} does not work like a regular person.
+It has extremely limited value and interests.
+It will not usually consider its own survival to be interesting -- it only wants to achieve the one thing its creator pushed into it when creating it.
+If someone somehow communicates with it, it will not necessarily want to respond, or may only respond by talking about its special interest.
+They do not understand deals, and if they did, would have no reason to trust them.
 
 \end{multicols}
