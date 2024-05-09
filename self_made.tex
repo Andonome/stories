@@ -75,7 +75,11 @@ Most \glspl{broch} hold most of these items, most of the time, but wandering mon
   \item
   Mirror
   \item
-  Rations for a day
+  \rations
+  \item
+  \rations
+  \item
+  \rations
   \item
   Rope
   \item
@@ -104,7 +108,7 @@ Remember that you begin with 50~\glspl{xp} `spent' already, which gives you 5~\g
 
 \end{multicols}
 
-\section{Self Made Characters}
+\section{Forging Allies}
 
 \glsresetall
 
@@ -113,25 +117,29 @@ Remember that you begin with 50~\glspl{xp} `spent' already, which gives you 5~\g
 \label{playerchosen}
 
 \noindent
-If players prefer, they can design their own characters by simply setting all Attributes to 0, then applying the racial modifiers.
+Over \pgls{campaign} you can add a characters to your \gls{characterPool} by spending \pgls{storypoint},
+(covered in \autoref{stories})
+or spend two \glspl{storypoint} and design your own character.%
+\footnote{Covered \vpageref{designCharacter}.}
 
 \begin{enumerate}
   \item\label{sumCCrace}
-  Select a race.
+  Select a race, and note your \nameref{racialAbility} (\vpageref{racialAbility}).
   \item\label{sumCCatt}
   Set each of your Attributes to 0, then apply the racial bonuses and penalties (\autopageref{raceRoll}).
   \item\label{sumCCconcept}
-  Write down a concept and background culture from your campaign.
+  Write down a concept.
+  Is this character in the \gls{guard}, or from another temple?
   \item\label{sumCCcode}
   Select a Code to follow, so you can gain \glspl{xp} (\autopageref{codes}).
   \item\label{sumCCxp}
   Spend 50 \gls{xp} on Attributes, Skills, and Knacks (see \autopageref{xpCosts} for the costs).
   \item\label{sumCCequip}
-  Take 1 item per Skill level your character has from the list of starting equipment.
+  Take 1 item per Skill level your character has from the list of \nameref{start_equipment} (\vpageref{start_equipment}).
   \item\label{sumCCcoin}
-  Starting money is $(3D6-5)\times 2^S$\gls{cp}, where S = combined levels in all Skills.
+  Starting money is $(3D6-5)\times 2^N$\gls{cp}, where N = combined levels in all Skills.
   \item\label{sumCCder}
-  Fill in the derived stats, like \gls{dr} (0 if you have no armour), \glspl{ap}, \glspl{hp}, et c.
+  Fill in the derived stats, like \glspl{ap}, \glspl{hp}, and (if you have armour) \gls{dr}.
   \begin{itemize}
     \item
     \glspl{hp} are equal to 6 plus your Strength.
@@ -145,19 +153,22 @@ If players prefer, they can design their own characters by simply setting all At
 \subsection{Concept}
 \index{Concept}
 
-Have a look at your character's Attributes and consider what kind of person they are.
+\subsubsection{\Glsfmtplural{attribute}}
+indicate your past.
 Strength might indicate working on a farm.
-A good Charisma may indicate a creative past, such as poetry, or working with the public, trading or selling items.
+A high Charisma Bonus may indicate a creative past, such as poetry, or working with the public, trading or selling items.
 Intelligent characters may have required to plan a lot -- perhaps working as a seneschal for a town \gls{warden}, or planning a safe route for a travelling circus.
-Low intelligence means never having to think, so they may come from \pgls{warden} family, or always worked in a stonemason's guild, where someone else could plan their day for them.
+Low intelligence means never having to think, so they may come from \pgls{warden} family, or started as a high-ranking \gls{server}, with someone else doing the book-keeping.
 Dexterous characters could have been an expert weaver, before joining the \gls{guard}; or perhaps they lived in a major city and stole money from others.
 
-How did you end up in the \gls{guard}?
+\subsubsection{Joining the \glsfmttext{guard}}
+happens for all number of reasons.
 Did you naively sign up for a thrilling adventure, and now regret it?
-What happened to your farm?
-Torched by goblins, or did too many men leave the \gls{village}?
-Most join simply because they did not inherit their parents' land, so they hope to make some money, and perhaps be rewarded with land.
-Some stole or robbed from people, and managed to plead to a judge to let them join the \gls{guard} instead of hanging.
+Or are you another, standard, criminal, in the only place without standards?
+
+\subsubsection{Other Temples}
+sometimes send people out beyond the \gls{edge}, but be careful with these concepts.
+Such a character must have a reason to routinely join \gls{guard} missions, and listen to \glspl{jotter}.
 
 Take your character's history, and condense it into two words.
 
@@ -185,19 +196,6 @@ Take your character's history, and condense it into two words.
   \Gls{warden}'s bastard
 \end{itemize}
 \end{multicols}
-
-\subsection{Starting Equipment}
-
-Characters each start with one items per Skill level.
-If your character has Combat 1, and Caving 2, they can select 3 items from standard \nameref{start_equipment}, \vpageref{start_equipment}.
-
-\subsubsection{Starting Money}
-
-The amount of bare money a character starts out with depends upon their Skills.
-Starting money is $3D6-5$~\glspl{cp}, which doubles for every level the characters has in any Skill.
-
-For example, a character with Empathy~1 and Tactics~2 might roll a total of~7.
-$7\times2\times3 = 42$, so the character starts out with 42~\glspl{cp}.
 
 \end{multicols}
 
