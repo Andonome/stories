@@ -4,7 +4,7 @@
 \noindent
 The spells from the \textit{Core Rules} each express a single formula, and spellcasters can use that formula to craft their own \glspl{invocation}, or create \glspl{talisman}.
 A spell's heart comes from a primitive sentence, never spoken but heavily implied.
-The actual language could express the spell as chatter, sign-language, theatre or song.
+The actual language could express the spell as chatter, humming, sign-language, theatre or song.
 
 \vspace{\baselineskip}
 
@@ -28,8 +28,8 @@ The actual language could express the spell as chatter, sign-language, theatre o
                        The shepherd dreams of banal conversations and herding sheep all night, but by daylight he will think he can fly, then lives in a castle which is also his bedroom. \\
   \hint{2} & Divergent &  Warp           & Fire \& Water     &
                        The hearth-fire spills out, and the floods across the floor; the soup in the cauldron above it swirls like a slow whirlwind, and dances over the cauldron's rim, flashing liquid fans straight up like a flame.  The house begins to burn, and nobody knows how to kill a fire that moves like liquid.  \\
-  \hint{1} & ---       &  Witness        & Water       &
-                       Her ear to the ground, the witch confirms that water lies a few steps below the house.  The \gls{village} will build a well right here, once they move the house.  Or perhaps the witch will say nothing, if they like the homeowner.  \\
+  %\hint{1} & ---       &  Witness        & Water       &
+  %                     Her ear to the ground, the witch confirms that water lies a few steps below the house.  The \gls{village} will build a well right here, once they move the house.  Or perhaps the witch will say nothing, if they like the homeowner.  \\
 
 \end{wideTable}
 
@@ -37,19 +37,18 @@ The actual language could express the spell as chatter, sign-language, theatre o
 \label{spellWeaving}
 
 \begin{multicols}{2}
-\index{Spheres}
+
+\subsection{Step by Step}
 
 These are the conceptual steps you can use to create spells during \gls{downtime}.
 \iftoggle{core}{%
   Once you have a spell on-paper, check the \textit{Core Rules}, \autopageref{make_spell}, to see if your character can manage the task, or what might happen if they fail.
 }{}
 
-\subsection{Step by Step}
-
 \mapentry{Elemental Mana}
-
-Every spell starts with an elemental Sphere -- Earth, Water, Fate, Air, and Fire.
-Casters can pour a number of \glsentrylongpl{mp} into a spell, up to their level in that Sphere, and every \gls{mp} goes a long way.
+determines the target.
+Every spell starts with an elemental \gls{sphere} -- Earth, Water, Fate, Air, and Fire.
+Casters can pour a number of \glsentrylongpl{mp} into a spell, up to their level in that \gls{sphere}, and every \gls{mp} goes a long way.
 
 Spellcasters have precisely four way to agitate the world.
 
@@ -129,15 +128,14 @@ However, with a couple of Descriptors (vref{descriptors}), a witch can Witness m
 
 \mapentry{Descriptors}
 \label{spellDescriptors}
-
-Descriptors increase a spell's properties, giving it a longer range, or copying the spell across \pgls{area}.
+increase a spell's properties, giving it a longer range, or copying the spell across \pgls{area}.
 Each Descriptor makes the effects more powerful, and makes every other Descriptor more powerful.
 
 Pour a little more mana into a spell, and it blossoms quickly in one direction.
 Give a little more to some other part of the spell, and both properties swell up even more.
 
 The spell-patterns outlined above each cost 1~\gls{mp}.
-Characters can spend a number of \glspl{mp} equal to their rating in a Sphere, so someone with Earth~2 can span \pgls{mp} to cast a \textit{Wax Air} spell (and push someone back with a blast of wind), or spend 2~\glspl{mp} to cast a \textit{Duplicated Wax Air} spell (and push many people back, with a more powerful blast of wind).
+Characters can spend a number of \glspl{mp} equal to their rating in \pgls{sphere}, so someone with Earth~2 can span \pgls{mp} to cast a \textit{Wax Air} spell (and push someone back with a blast of wind), or spend 2~\glspl{mp} to cast a \textit{Duplicated Wax Air} spell (and push many people back, with a more powerful blast of wind).
 
 \paragraph{Detailed}
 spells let you control the appearance and distinctions of a spell.
@@ -240,9 +238,9 @@ These \textit{Distant Witness} deductions and maps can take weeks or years of pl
 \end{figure*}
 
 \paragraph{Divergent}
-spells channel mana through opposing Spheres to create two parallel, but divergent, effects at the same time.
-Check the chart \vpageref{speltogram}, and notice that each Sphere has two neighbouring Spheres, and two opposing Spheres.
-Divergent spells construct a single spell-sentence to be used by two opposing Spheres at the same time.
+spells channel mana through opposing \glspl{sphere} to create two parallel, but divergent, effects at the same time.
+Check the chart \vpageref{speltogram}, and notice that each \gls{sphere} has two neighbouring \glspl{sphere}, and two opposing \glspl{sphere}.
+Divergent spells construct a single spell-sentence to be used by two opposing \glspl{sphere} at the same time.
 
 For example, Water sits between its neighbours Earth and Fate, but opposes Air and Fire.
 So a caster with Water 2 and Air 2 could create a \textit{Divergent, Wax Water \& Air} spell, which would make surrounding waters jump and thrash, while wind rages.
@@ -271,6 +269,10 @@ spells fork like lightning, affecting every available target nearby.
 The caster selects where the spell begins, but cannot decide on the remaining targets, nor can they limit the number.%
 \footnote{Each number is simply $n^n$.  So spending 3~\glsfmtplural{mp} means $3^3 = 3\times 3\times 3 = 27$ targets.}
 
+When \textit{Duplicated} spells seek out discrete targets (like Fate spells increasing people's \glspl{fp}, or a Fire spell suffocating many candles) each copy of the spell can jump the same range as the original spell's range.
+This can present problems; if a caster makes three enemy torches explode in their faces, but the spell requires four targets, then the spell may return to unleash itself on the caster's torch.
+Spells which cannot find an appropriate target within range just fizzle and die, without effect.
+
 \sidebox[17]{
   \begin{boxtable}[cX]
     \textbf{Level} & \textbf{Targets} \\
@@ -283,10 +285,6 @@ The caster selects where the spell begins, but cannot decide on the remaining ta
            6       & 46,656 \\
   \end{boxtable}
 }
-
-When \textit{Duplicated} spells seek out discrete targets (like Fate spells increasing people's \glspl{fp}, or a Fire spell suffocating many candles) each copy of the spell can jump the same range as the original spell's range.
-This can present problems; if a caster makes three enemy torches explode in their faces, but the spell requires four targets, then the spell may return to unleash itself on the caster's torch.
-Spells which cannot find an appropriate target within range just fizzle and die, without effect.
 
 When \textit{Duplicated} spells seek out contiguous targets, they simply affect a wider area
 (Water spells can target large sections of a loch, and Earth spells might collapse a cavern).
@@ -305,7 +303,7 @@ Casters often try to predict whether a spell will treat a target as discrete or 
 
 The spells described so far may sound very open-ended, or even badly-defined, and they are!
 However, the results are not.
-The five elemental Spheres have a mechanical, numerical result equal to the number of \glspl{mp} spent~+2.
+The five elemental \glspl{sphere} have a mechanical, numerical result equal to the number of \glspl{mp} spent~+2.
 
 \begin{itemize}
   \item
@@ -321,16 +319,16 @@ The five elemental Spheres have a mechanical, numerical result equal to the numb
 The final part of the spell is the resistance -- the \gls{gm} stipulates some standard force which stands in the way of the spell.
 Sometimes spells have obvious forces acting against them (such as the strength of a rock, when one wants it to crumble), while other spells have less obvious barriers (good-luck spells often have trouble taking effect when the recipients are not paying attention).
 
-\subsection{The High Spheres}
+\subsection{The High \glspl{sphere}}
 
-As you'll see on the chart (\vpageref{speltogram}), casters can access five `high Spheres' by combining two elemental Spheres.
-Using the high Spheres doesn't require a new Skill -- casters simply combine their the elemental Spheres, and have an effective level equal to the lowest of the two.
+As you'll see on the chart (\vpageref{speltogram}), casters can access five `high \glspl{sphere}' by combining two elemental \glspl{sphere}.
+Using the high \glspl{sphere} doesn't require a new Skill -- casters simply combine their the elemental \glspl{sphere}, and have an effective level equal to the lowest of the two.
 
 \begin{exampletext}
 For example:
 
 \begin{boxtable}[XX]
-  \textbf{Elemental Spheres} & \textbf{High Spheres} \\
+  \textbf{Elemental \glspl{sphere}} & \textbf{High \Gls{sphere}} \\
   \hline
   {\normalfont Casters with these:} & {\normalfont can also use these:} \\
   \begin{itemize}
@@ -355,15 +353,15 @@ If this caster later learned Fate~1, they would also gain Death~1.
 
 \end{exampletext}
 
-The spells listed across the \textit{Core Rules} don't list the high Spheres, so that players can simply look at the spell's requirements and note whether or not they have the right Skills.
+The spells listed across the \textit{Core Rules} don't list the high \glspl{sphere}, so that players can simply look at the spell's requirements and note whether or not they have the right Skills.
 
 \subsubsection{Resolution \& Effects}
 \label{highResolution}
 
-High Sphere effects produce a mechanical result equal to the \glspl{mp} spent +1 (not `+2', like the elemental Spheres).
+High \gls{sphere} effects produce a mechanical result equal to the \glspl{mp} spent +1 (not `+2', like the elemental \glspl{sphere}).
 They have less raw power, but generally target people more directly.
-Instead of relying on targets being in water, or under a crumbling cliff-face, a witch can combine Water + Earth to use the Life Sphere, and twist targets' bodies directly.
-Where elemental Spheres can remove someone's \glspl{fp}, and use blasts of wind to knock them back, a caster with both could combine the effects into the Death Sphere, and make the targets die.
+Instead of relying on targets being in water, or under a crumbling cliff-face, a witch can combine Water + Earth to use the Life \gls{sphere}, and twist targets' bodies directly.
+Where elemental \glspl{sphere} can remove someone's \glspl{fp}, and use blasts of wind to knock them back, a caster with both could combine the effects into the Death \gls{sphere}, and make the targets die.
 
 \subsection{Principles of Magic}
 
@@ -447,7 +445,7 @@ A good space for preparing \glspl{ingredient} grants a Bonus to any roll.
 requires reducing an \gls{ingredient} into a powder or liquid, slowly, then sealing it quickly to avoid rot; many use cheese-cloth or a phial.
 
 After \pgls{interval}, the character rolls \roll{Intelligence}{Crafts}, at \tn[10].
-Success means that the \gls{boon} can boost anyone's rating in the appropriate elemental Sphere by 1.
+Success means that the \gls{boon} can boost anyone's rating in the appropriate elemental \gls{sphere} by 1.
 A tie indicates that the \gls{boon} emerges useable, but rank.
 It will go rotten within $1D6$ days.
 
@@ -458,7 +456,7 @@ A single container might mix multiple \glspl{boon} together, so one container mi
 Someone could use this to boost their Fire Skill, then their Earth Skill; or they might use it in a single Force spell.
 
 \paragraph{Failure}
-to make \pgls{boon} properly means the energy releases instantly, resulting in a spell from that Sphere.
+to make \pgls{boon} properly means the energy releases instantly, resulting in a spell from that \gls{sphere}.
 The type of spell depends on the Failure Margin.
 
 \label{randomSpellFailure}
@@ -478,7 +476,7 @@ Once the alchemist has a `recipe' for the spell, it works like this:
 
 \begin{enumerate}
   \item
-  The alchemist gathers a number of \glspl{ingredient} equal to a spell's Sphere requirement.
+  The alchemist gathers a number of \glspl{ingredient} equal to a spell's \gls{sphere} requirement.
 
   If a spell requires Fate 3, and Water 3, the alchemists needs 3 Fate \glspl{ingredient} and 3 Water \glspl{ingredient}.
   \item
@@ -505,6 +503,7 @@ The Descriptors are always selected in this order:
 
 \begin{multicols}{2}
   \begin{enumerate}
+  \raggedright
     \item
     Divergent (when~possible)
     \item
