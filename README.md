@@ -37,3 +37,4 @@ Inside, players can find:
 [download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/stories.pdf?job=build
 [issues email]: mailto:contact-project+bindrpg-stories-47773063-issue-@incoming.gitlab.com
 [board]: https://gitlab.com/bindrpg/stories/-/issues
+[wiki]: https://gitlab.com/bindrpg/core/-/wikis/home
