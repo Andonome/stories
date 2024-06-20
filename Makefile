@@ -12,8 +12,13 @@ qr.tex: README.md config/vars .switch-gls
 .switch-gls:
 	@touch .switch-gls
 
-$(BOOK).pdf: $(DEPS) | qr.tex
+config/booklet.pdf:
+	make -C config booklet.pdf
+
+$(BOOK).pdf: $(DEPS) | qr.tex config/booklet.pdf
 	@$(COMPILER) main.tex
+	@pdfunite $(BOOK).pdf config/booklet.pdf /tmp/out.pdf
+	@mv /tmp/out.pdf $(BOOK).pdf
 
 .PHONY: all
 all: $(BOOK).pdf
