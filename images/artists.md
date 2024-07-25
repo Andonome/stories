@@ -1,8 +1,5 @@
-![The Storyteller, by Boris
-Pecikozic](Boris_Pecikozic/the_storyteller.jpg)
+![Leonard](Leonard/next_day.jpg)
 
-![Vitals Shot by Roch Hercka](Roch_Hercka/vitals_shot.jpg)
+![Roch Hercka](Roch_Hercka/five_races.jpg)
 
-![Escape by Vladimir Arabadzhi](Vladimir_Arabadzhi/escape.svg)
-
-![Studio DA](Studio_DA/fire_form.svg)
+![Studio DA](Studio_DA/elf_stalker.svg)
