@@ -3,58 +3,12 @@
 \newcommand\namesOfHumans{
   \begin{boxtable}[c|YY]
   \Hu & \textbf{Prefix} & \textbf{Suffix} \\\hline
-  \ifodd\value{r3}
-    \ifodd\value{r4}
-      \dicef{1} & Grit    & --itch \\
-    \else
-      \dicef{1} & Rank    & --vore \\
-    \fi
-  \else
-    \dicef{1} & Scour    & --snag   \\
-  \fi
-  \ifodd\value{r3}
-    \ifodd\value{temperature}
-      \ifodd\value{r12}
-        \dicef{2} & Steer  & --peel  \\
-      \else
-        \dicef{2} & Mush  & --groat  \\
-      \fi
-      \dicef{3} & Stoat  & --fen  \\
-    \else
-      \dicef{2} & Court  & --nash  \\
-      \dicef{3} & Glum  & --nail  \\
-    \fi
-    \ifodd\value{r3}
-      \dicef{4} & Flic   & --rash   \\
-    \else
-      \dicef{3} & Dug   & --flay  \\
-    \fi
-  \else
-    \ifodd\value{temperature}
-      \dicef{3} & Nark   & --boak   \\
-    \else
-      \dicef{3} & Nettle   & --broil  \\
-    \fi
-    \dicef{4} & Slate   & --pike  \\
-  \fi
-  \ifodd\value{season}
-    \ifodd\value{r4}
-      \dicef{5} & Gourse  &  --filch \\
-    \else
-      \dicef{5} & Cinder  &  --snatch \\
-    \fi
-  \else
-    \ifodd\value{r4}
-      \dicef{5} & Soot   & --flea  \\
-    \else
-      \dicef{5} & Moc    & --fray  \\
-    \fi
-  \fi
-  \ifodd\value{r2}
-    \dicef{6} &  Keel   & --rag  \\
-  \else
-    \dicef{6} & Gout    & --blathe  \\
-  \fi
+  \dicef{1} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{2} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{3} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{4} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{5} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{6} & \humanNamePrefix & --\humanNameSuffix \\
   \end{boxtable}
 }
 
