@@ -21,7 +21,7 @@ Reading two-columns of blinding-white PDF on a monitor will only give you a head
     * For Void Linux: `inkscape`, `make`, `texlive-full`, `git-lfs`, and `texlive-latexmk`.
 1. Enter the repo, and do `make all`.
 
-For full setup instructions, see the [wiki](https://gitlab.com/bindrpg/core/-/wikis/dev/startup).
+For full setup instructions, see the [wiki][compiling].
 
 ## Contents
 
@@ -33,6 +33,7 @@ Inside, players can find:
 - Gaining and spending XP.
 - Details on each race's cultural norms.
 
+[compiling]: https://gitlab.com/bindrpg/core/-/wikis/dev/Compiling
 [core]: https://gitlab.com/bindrpg/core
 [download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/stories.pdf?job=build
 [issues email]: mailto:contact-project+bindrpg-stories-47773063-issue-@incoming.gitlab.com
