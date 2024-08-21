@@ -2,7 +2,7 @@
 
 |        Downloads               |         Resources             |
 |:------------------------------:|:------------------------------|
-| [Download][download]           | [Wiki][wiki]                  | 
+| [Download][stories]            | [Wiki][wiki]                  | 
 | [Core Rules][core]             | [Email an idea][issues email] |
 |                                | [Issues Board][board]         |
 
@@ -36,8 +36,9 @@ Inside, players can find:
 - Details on each race's cultural norms.
 
 [compiling]: https://gitlab.com/bindrpg/core/-/wikis/dev/Compiling
-[core]: https://gitlab.com/bindrpg/core
-[download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/Stories.pdf?job=build
 [issues email]: mailto:contact-project+bindrpg-stories-47773063-issue-@incoming.gitlab.com
 [board]: https://gitlab.com/bindrpg/stories/-/issues
 [wiki]: https://gitlab.com/bindrpg/core/-/wikis/home
+
+[core]: https://gitlab.com/bindrpg/core
+[stories]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/Stories.pdf?job=build
