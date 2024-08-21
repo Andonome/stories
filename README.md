@@ -1,3 +1,5 @@
+# Stories
+
 |        Downloads               |         Resources             |
 |:------------------------------:|:------------------------------|
 | [Download][download]           | [Wiki][wiki]                  | 
@@ -35,7 +37,7 @@ Inside, players can find:
 
 [compiling]: https://gitlab.com/bindrpg/core/-/wikis/dev/Compiling
 [core]: https://gitlab.com/bindrpg/core
-[download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/stories.pdf?job=build
+[download]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/Stories.pdf?job=build
 [issues email]: mailto:contact-project+bindrpg-stories-47773063-issue-@incoming.gitlab.com
 [board]: https://gitlab.com/bindrpg/stories/-/issues
 [wiki]: https://gitlab.com/bindrpg/core/-/wikis/home
