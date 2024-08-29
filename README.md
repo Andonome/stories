@@ -40,5 +40,6 @@ Inside, players can find:
 [board]: https://gitlab.com/bindrpg/stories/-/issues
 [wiki]: https://gitlab.com/bindrpg/core/-/wikis/home
 
-[core]: https://gitlab.com/bindrpg/core
-[stories]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/Stories.pdf?job=build
+[core]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/Core_Rules.pdf?job=build
+[stories]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/Stories.pdf?job=build
+[resources]: https://gitlab.com/bindrpg/config/-/jobs/artifacts/master/raw/resources.pdf?job=build
