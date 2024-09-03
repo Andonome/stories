@@ -294,7 +294,7 @@ Most \glspl{pc} will die after a few sessions, but if one survives, it might go 
   \ifnum\value{cycle}>5%
     \setcounter{cycle}{0}%
   \fi%
-  \setTemperature\showTemperature\ \showCycle%
+  \setTemperature\showTemperature~\showCycle%
 }
 
 \setcounter{xp}{0}
@@ -306,17 +306,26 @@ Most \glspl{pc} will die after a few sessions, but if one survives, it might go 
   \arabic{xp}
 }
 
+\setcounter{track}{\month}
+\newcommand\realMonth[1]{%
+  \addtocounter{track}{#1}%
+  \ifnum\value{track}>12%
+    \addtocounter{track}{-12}%
+  \fi%
+  \trackMonth%
+}
+
 \begin{boxtable}[YLcc]
-  \textbf{Real Time} & \textbf{\Glsfmttext{fenestra} Time} & \textbf{\Glsfmttext{xp}} & \textbf{\Glsfmttext{fp}} \\
+  \textbf{Mundane Month} & \textbf{\Glsfmttext{cycle}} & \textbf{\Glsfmttext{xp}} & \textbf{\Glsfmttext{fp}} \\
   \hline
-          0          & \describeFullCycle{0}             &   \runningXPtotal{50}  &   \arabic{fp}  \\
-     1 month         & \describeFullCycle{2}             &   \runningXPtotal{37}  &   \arabic{fp}  \\
-     2 months        & \describeFullCycle{2}             &   \runningXPtotal{12}  &   \arabic{fp}  \\
-     3 months        & \describeFullCycle{2}             &   \runningXPtotal{12}  &   \arabic{fp} \\
-     \ldots          & \ldots                            &   \ldots               &   \ldots \\
-     6 months        & \describeFullCycle{6}             &   \runningXPtotal{36}  &   \arabic{fp} \\
-     \ldots          & \ldots                            &   \ldots               &   \ldots \\
-     9 months        & \describeFullCycle{6}             &   \runningXPtotal{36}  &   \arabic{fp} \\
+     \realMonth{0}       & \describeFullCycle{0}       &   \runningXPtotal{50}  &   \arabic{fp}  \\
+     \realMonth{1}       & \describeFullCycle{2}       &   \runningXPtotal{37}  &   \arabic{fp}  \\
+     \realMonth{1}       & \describeFullCycle{2}       &   \runningXPtotal{12}  &   \arabic{fp}  \\
+     \realMonth{1}       & \describeFullCycle{2}       &   \runningXPtotal{12}  &   \arabic{fp} \\
+     \ldots              & \ldots                      &   \ldots               &   \ldots \\
+     \realMonth{3}       & \describeFullCycle{6}       &   \runningXPtotal{36}  &   \arabic{fp} \\
+     \ldots              & \ldots                      &   \ldots               &   \ldots \\
+     \realMonth{3}       & \describeFullCycle{6}       &   \runningXPtotal{36}  &   \arabic{fp} \\
 \end{boxtable}
 
 The chart assumes the player spends all \glspl{storypoint} within the first four sessions, and then gains an average of 3~\glspl{xp} per session.
