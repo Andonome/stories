@@ -297,17 +297,26 @@ Most \glspl{pc} will die after a few sessions, but if one survives, it might go 
   \setTemperature\showTemperature\ \showCycle%
 }
 
+\setcounter{xp}{0}
+\newcommand\runningXPtotal[1]{%
+  \addtocounter{xp}{#1}%
+  \setcounter{fp}{\value{xp}}%
+  \divide\value{fp} by 10%
+  \addtocounter{fp}{0}%
+  \arabic{xp}
+}
+
 \begin{boxtable}[YLcc]
   \textbf{Real Time} & \textbf{\Glsfmttext{fenestra} Time} & \textbf{\Glsfmttext{xp}} & \textbf{\Glsfmttext{fp}} \\
   \hline
-          0          & \describeFullCycle{0}             &    50               &   5  \\
-     1 month         & \describeFullCycle{2}             &    87               &   8  \\
-     2 months        & \describeFullCycle{2}             &    99               &   9  \\
-     3 months        & \describeFullCycle{2}             &   111               &   11 \\
-     \ldots          & \ldots                            &   \ldots            &   \ldots \\
-     6 months        & \describeFullCycle{6}             &   147               &   15 \\
-     \ldots          & \ldots                            &   \ldots            &   \ldots \\
-     9 months        & \describeFullCycle{6}             &   183               &   18 \\
+          0          & \describeFullCycle{0}             &   \runningXPtotal{50}  &   \arabic{fp}  \\
+     1 month         & \describeFullCycle{2}             &   \runningXPtotal{37}  &   \arabic{fp}  \\
+     2 months        & \describeFullCycle{2}             &   \runningXPtotal{12}  &   \arabic{fp}  \\
+     3 months        & \describeFullCycle{2}             &   \runningXPtotal{12}  &   \arabic{fp} \\
+     \ldots          & \ldots                            &   \ldots               &   \ldots \\
+     6 months        & \describeFullCycle{6}             &   \runningXPtotal{36}  &   \arabic{fp} \\
+     \ldots          & \ldots                            &   \ldots               &   \ldots \\
+     9 months        & \describeFullCycle{6}             &   \runningXPtotal{36}  &   \arabic{fp} \\
 \end{boxtable}
 
 The chart assumes the player spends all \glspl{storypoint} within the first four sessions, and then gains an average of 3~\glspl{xp} per session.
