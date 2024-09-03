@@ -289,25 +289,25 @@ Once a player spends all 5~\glspl{storypoint}, they gain 25~\glspl{xp}, so any \
 
 Most \glspl{pc} will die after a few sessions, but if one survives, it might go like this.
 
-\newcommand\describeFullSeason[1]{%
-  \addtocounter{season}{#1}%
-  \ifnum\value{season}>12%
-    \setcounter{season}{1}%
+\newcommand\describeFullCycle[1]{%
+  \addtocounter{cycle}{#1}%
+  \ifnum\value{cycle}>5%
+    \setcounter{cycle}{0}%
   \fi%
-  \setTemperature\showTemperature\ \showSeason%
+  \setTemperature\showTemperature\ \showCycle%
 }
 
 \begin{boxtable}[YLcc]
   \textbf{Real Time} & \textbf{\Glsfmttext{fenestra} Time} & \textbf{\Glsfmttext{xp}} & \textbf{\Glsfmttext{fp}} \\
   \hline
-          0          & \describeFullSeason{0}             &    50               &   5  \\
-     1 month         & \describeFullSeason{1}             &    87               &   8  \\
-     2 months        & \describeFullSeason{1}             &    99               &   9  \\
-     3 months        & \describeFullSeason{1}             &   111               &   11 \\
-     \ldots          & \ldots                             &   \ldots            &   \ldots \\
-     6 months        & \describeFullSeason{3}             &   147               &   15 \\
-     \ldots          & \ldots                             &   \ldots            &   \ldots \\
-     9 months        & \describeFullSeason{6}             &   183               &   18 \\
+          0          & \describeFullCycle{0}             &    50               &   5  \\
+     1 month         & \describeFullCycle{2}             &    87               &   8  \\
+     2 months        & \describeFullCycle{2}             &    99               &   9  \\
+     3 months        & \describeFullCycle{2}             &   111               &   11 \\
+     \ldots          & \ldots                            &   \ldots            &   \ldots \\
+     6 months        & \describeFullCycle{6}             &   147               &   15 \\
+     \ldots          & \ldots                            &   \ldots            &   \ldots \\
+     9 months        & \describeFullCycle{6}             &   183               &   18 \\
 \end{boxtable}
 
 The chart assumes the player spends all \glspl{storypoint} within the first four sessions, and then gains an average of 3~\glspl{xp} per session.
