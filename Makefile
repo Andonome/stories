@@ -1,7 +1,7 @@
 include config/vars
 
 .PHONY: all
-all: $(DBOOK)
+all: check $(RELEASE)
 
 config/vars:
 	@git submodule update --init
