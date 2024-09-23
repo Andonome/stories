@@ -6,12 +6,12 @@ all: check $(RELEASE)
 config/vars:
 	@git submodule update --init
 
-config/booklet.pdf:
-	make -C config booklet.pdf
+config/rules.pdf:
+	make -C config rules.pdf
 
-$(DBOOK): LOCTEX HANDOUTS STYLE_FILES EXTERNAL config/booklet.pdf | qr.tex
+$(DBOOK): config/rules.pdf | LOCTEX HANDOUTS STYLE_FILES EXTERNAL qr.tex
 	@$(COMPILER) main.tex
-	@pdfunite $@ config/booklet.pdf /tmp/out.pdf
+	@pdfunite $@ config/rules.pdf /tmp/out.pdf
 	@mv /tmp/out.pdf $@
 
 .PHONY: clean
