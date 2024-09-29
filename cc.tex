@@ -3,70 +3,43 @@
 \index{Traits}
 \index{Character Creation}
 \label{character_rolls}
+\label{randomCharacterCreation}
 
 It's time you build some character.
 Specifically, \pgls{pc}.
 Take a blade and slice out the character sheet.
 
+\raceChart
+
 \section{The Body}
 \begin{multicols}{2}
 \noindent
-Grab $2D6$.
-You will need to roll them eight times to create this character.
-Start by rolling $2D6$ for each \gls{attribute} in order, and mark each result on your character sheet.
+Grab $2D6$ and roll them eight times to create this character.
 
-\begin{exampletext}
-  \noindent
-  If you roll `3, 8, 9', then you have `Strength -2, Dexterity +0, Speed +1'.
-\end{exampletext}
-
-\label{randomCharacterCreation}
-\attributeChart
-
-The penultimate roll \vpageref{Roch_Hercka/five_races} shows your race.
-
-\mapPic[\Large]{t}{Roch_Hercka/five_races}{
-  {\Huge\Gn}/08/99,
-  2-3/08/83,
-  {$+1$ Dexterity}/02/24,
-  {$+1$ Intelligence}/02/16,
-  {$-2$ Strength}/02/08,
-  {$-1$ Speed}/02/0,
-  {\Huge\Dw}/25/99,
-  4-5/25/86,
-  {$+1$ Dexterity}/25/36,
-  {$-1$ Speed}/25/26,
-  {\Huge\Hu}/43/99,
-  6-8/41/91,
-  {$+1$ Strength}/49/34,
-  {$-1$ Wits}/49/27,
-  {\Huge\El}/64/99,
-  9-10/57/92,
-  {$+1$ Wits}/65/36,
-  {$-1$ Strength}/65/26,
-  {\Huge\Nl}/77/99,
-  11-12/84/92,
-  {$+1$ Strength}/82/24,
-  {$+1$ Speed}/82/16,
-  {$-1$ Intelligence}/82/0,
-  {$-2$ Charisma}/82/08,
-}
-
-\subsubsection{Inheritance}
-\label{racialAbility}
-
-The biggest difference that makes a difference between dwarves and gnolls isn't teeth, or beards -- it's the dwarven ability to live without Sunlight, and comfortably eat the things that live underground.
-
-These small difference can threaten to divide a group of different people working together, so whatever aptitudes you have, best not to make too much of it around the others; just make a quiet note of your ability on your character sheet.
-
-\begin{boxtable}[lL]
-  Dwarves & \nameref{dwarvenInheritance}, \autopageref{dwarvenInheritance} \\
-  Elves & \nameref{elvenInheritance}, \autopageref{elvenInheritance} \\
-  Gnolls & \nameref{gnollishInheritance}, \autopageref{gnollishInheritance} \\
-  Gnomes & \nameref{gnomishInheritance}, \autopageref{gnomishInheritance} \\
-  Humans & \nameref{humanInheritance}, \autopageref{humanInheritance} \\
-\end{boxtable}
-
+\begin{enumerate}
+  \item
+  Roll $2D6$ to find your race.
+  \label{ccRaceRoll}
+  \begin{itemize}
+    \item
+    Use it to roll a name.
+  \end{itemize}
+  \item
+  Roll $2D6$ to determine each \gls{attribute}.
+  \label{ccAttributeRoll}
+  \begin{itemize}
+    \item
+    Your race modifies these \glspl{attribute}, to represent the fact that gnomes are shorter than humans, and therefore have less Strength.
+  \end{itemize}
+  \item
+  The lowest and highest \glspl{attribute} indicate why this \gls{pc} ended up in the \gls{guard}.
+  Look up the concept \vpageref{enlistment}, \autoref{enlistment}; this concept determines the character's \glspl{skill} and starting equipment.
+  \label{ccConcept}
+  \item
+  Finally, fill in the derived \glspl{trait} on your character sheet, such as the total \gls{weight} carried.
+  \label{ccDerived}
+\end{enumerate}
+\label{raceRoll}
 
 \subsubsection{The Name}
 depends on the local culture.
@@ -74,9 +47,6 @@ You can find out more about your character's home and customs in \autoref{races}
 Roll on the charts below, and keep rolling until you find a name you can live with.
 
 \end{multicols}
-
-\newpage
-\label{raceRoll}%
 
 \begin{multicols}{3}
 
@@ -179,11 +149,30 @@ Roll $1D6 \times 1D6$, and re-roll on doubles to add another part to the name.
 
 \end{multicols}
 
-%\pagebreak[3]
+\begin{multicols}{2}
+
+\subsubsection{\Glsfmtplural{attribute}}
+need six rolls of $2D6$.
+The \gls{pc} can raise their \glspl{attribute} later -- nothing remains set.
+However, low \gls{attribute} rolls can make for a real challenge, as the character may struggle to survive their first \gls{cycle}.
+
+\attributeChart
+
+Modify each result with the racial adjustments.
+This includes the meaning, so a Strength Penalty of -1 is `normal' for elves.
+
+\subsubsection{Inheritance}
+\label{racialAbility}
+provides a unique ability, and sometimes costs.
+Take a note of the ability on the character sheet's space for `Abilities \& Conditions'.
+
+\raceAbilitiesChart
+
+\end{multicols}
 
 \exampleRandomCharacter % in commands.tex
 
-\section{Enlistment}
+\section{The Past}
 \index{Enlistment}
 \index{Concept!Random}
 \label{enlistment}

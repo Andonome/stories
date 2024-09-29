@@ -12,6 +12,45 @@
   \end{boxtable}
 }
 
+\newcommand\raceChart{
+  \mapPic[\Large]{b}{Roch_Hercka/five_races}{
+    {\Huge\Gn}/08/99,
+    2-3/08/83,
+    {$+1$ Dexterity}/02/24,
+    {$+1$ Intelligence}/02/16,
+    {$-2$ Strength}/02/08,
+    {$-1$ Speed}/02/0,
+    {\Huge\Dw}/25/99,
+    4-5/25/86,
+    {$+1$ Dexterity}/25/36,
+    {$-1$ Speed}/25/26,
+    {\Huge\Hu}/43/99,
+    6-8/41/91,
+    {$+1$ Strength}/49/34,
+    {$-1$ Wits}/49/27,
+    {\Huge\El}/64/99,
+    9-10/57/92,
+    {$+1$ Wits}/65/36,
+    {$-1$ Strength}/65/26,
+    {\Huge\Nl}/77/99,
+    11-12/84/92,
+    {$+1$ Strength}/82/24,
+    {$+1$ Speed}/82/16,
+    {$-1$ Intelligence}/82/0,
+    {$-2$ Charisma}/82/08,
+  }
+}
+
+\newcommand\raceAbilitiesChart{
+  \begin{boxtable}[lL]
+    Dwarves & \nameref{dwarvenInheritance}, \autopageref{dwarvenInheritance} \\
+    Elves & \nameref{elvenInheritance}, \autopageref{elvenInheritance} \\
+    Gnolls & \nameref{gnollishInheritance}, \autopageref{gnollishInheritance} \\
+    Gnomes & \nameref{gnomishInheritance}, \autopageref{gnomishInheritance} \\
+    Humans & \nameref{humanInheritance}, \autopageref{humanInheritance} \\
+  \end{boxtable}
+}
+
 \newcommand\poshNames{
   \begin{nametable}[c|Y|Y]{Aristocratic Names}
     \textbf{Roll} & \textbf{Name} & \textbf{Name} \\\hline
@@ -122,13 +161,13 @@
   \renewcommand\csComments{
       \setcounter{track}{0}
 
-      \commentary{[xshift=0em,yshift=-2em]TCBPOSTER@attributes.north}{0em,0em}{{\LARGE \arabic{track}: }Roll to determine each of your \glsfmtplural{attribute} \vpageref{randomCharacterCreation}.}
-      \commentary{[xshift=-11em,yshift=-4em]TCBPOSTER@title.north}{-2em,-0.5em}{{\LARGE \arabic{track}: }Roll a random race (\vpageref{raceRoll}), then apply \glsentrytext{attribute} modifiers and roll a name (\vpageref{randomNames}).}
+      \commentary{[xshift=-11em,yshift=-4em]TCBPOSTER@title.north}{-2em,-0.5em}{{\LARGE \ref{ccRaceRoll}: }Roll a random race (\vpageref{raceRoll}) and a name (\vpageref{randomNames}).}
+      \commentary{[xshift=0em,yshift=-2em]TCBPOSTER@attributes.north}{0em,0em}{{\LARGE \ref{ccAttributeRoll}: }Roll to determine each of your \glsfmtplural{attribute} \vpageref{randomCharacterCreation}, applying modifiers for race.}
       \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-10em,3em}{}
       \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-18em,-33em}{}
-      \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-4em,-11em}{{\LARGE \arabic{track}: }Your lowest and highest Attributes determine your Concept and Code (see \nameref{enlistment}, \vpageref{enlistment}).  Write down the Skills, equipment, and weapons.}
+      \commentary{[xshift=0em,yshift=-1em]TCBPOSTER@skills.north east}{-4em,-11em}{{\LARGE \ref{ccConcept}: }Your lowest and highest Attributes determine your Concept and Code (see \nameref{enlistment}, \vpageref{enlistment}).  Write down the Skills, equipment, and weapons.}
       \commentary{[xshift=3em,yshift=-7em]TCBPOSTER@gumption}{2em,23em}{}
-      \commentary{[xshift=3em,yshift=-7em]TCBPOSTER@gumption}{-2em,8em}{{\LARGE \arabic{track}: }Place coins in the circles to keep track of the current scores, then fill in the derived score for combat.}
+      \commentary{[xshift=3em,yshift=-7em]TCBPOSTER@gumption}{-2em,8em}{{\LARGE \ref{ccDerived}: }Place coins in the circles to keep track of the current scores, then fill in the derived score for combat.}
   }
   \setcounter{Strength}{0}
   \setcounter{Dexterity}{-1}

@@ -1,7 +1,7 @@
 include config/vars
 
 .PHONY: all
-all: check $(RELEASE) cover.pdf
+all: check $(TITLE).pdf cover.pdf
 
 config/vars:
 	@git submodule update --init
@@ -9,10 +9,10 @@ config/vars:
 config/rules.pdf:
 	make -C config rules.pdf
 
-$(DBOOK): config/rules.pdf | LOCTEX HANDOUTS STYLE_FILES EXTERNAL qr.tex
+$(DBOOK): LOCTEX HANDOUTS STYLE_FILES EXTERNAL | qr.tex .switch-gls
 	@$(COMPILER) main.tex
-	@pdfunite $@ config/rules.pdf /tmp/out.pdf
-	@mv /tmp/out.pdf $@
+$(TITLE).pdf: $(DBOOK) config/rules.pdf
+	@pdfunite $^ $@
 
 images/extracted/cover.jpg: images/Roch_Hercka/illusion_trogdor.jpg images/extracted/inclusion.tex
 	$(CP) $< $@
