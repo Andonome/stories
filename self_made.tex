@@ -241,48 +241,25 @@ Take your character's history, and condense it into two words.
     \commentary{[xshift=5em,yshift=5em]TCBPOSTER@armoury.south west}{4em,.5em}{{\huge\ref{sumCCequip}:} Take a number of items equal to your total Skills, then fill in any stats for weapons and armour (\autopageref{commonWeapons}).}
 }
 
-\resetCS
+\begin{filledCS}%
+  {Keelfrak}% NAME
+  {Human}% RACE
+  {Lockpicking Proteg\'e}% CONCEPT
+  {Chronicler}% CODE
+  {{1}{0}{0}}% BODY
+  {{1}{-1}{0}}% MIND
+  {%
+    \togglefalse{allyCharacter}
+    \setcounter{Academics}{1}
+    \setcounter{Crafts}{2}
+    \setcounter{Larceny}{1}
+    \setcounter{Melee}{1}
+    \longsword
+  }% SKILLS
+  {\specialist{locks}}% KNACKS
+  {Lock picking set, torch, tinder box, writing equipment}% EQUIPMENT
 
-\setcounter{Strength}{1}
-\setcounter{Wits}{-1}
-\setcounter{Intelligence}{1}
+\end{filledCS}
 
-\renewcommand\concept{Lockpicking Proteg\'e}
-\renewcommand\race{Human}
-\renewcommand\rank{Guildsman}
-\renewcommand\name{Keelfrak}
-\renewcommand\code{Chronicler}
-
-\setcounter{Academics}{1}
-\setcounter{Athletics}{0}
-\setcounter{Caving}{0}
-\setcounter{Crafts}{2}
-\setcounter{Cultivation}{0}
-\setcounter{Deceit}{0}
-\setcounter{Empathy}{0}
-\setcounter{Medicine}{0}
-\setcounter{Performance}{0}
-\setcounter{Larceny}{1}
-\setcounter{Seafaring}{0}
-\setcounter{Stealth}{0}
-\setcounter{Vigilance}{0}
-\setcounter{Survival}{0}
-\setcounter{Melee}{1}
-\setcounter{Projectiles}{0}
-
-\renewcommand\knackOne{\specialist{locks}}
-
-\setcounter{fp}{5}
-
-\renewcommand\characterWeapon{\longsword}
-\renewcommand\characterArmour{\partialchain}
-\renewcommand\characterEquipment{Lock picking set, torch, tinder box}
-\setcounter{gold}{288}
-
-\settoggle{examplecharacter}{true}
-\settoggle{genExamples}{true}
-\input{config/CS.tex}
-\settoggle{genExamples}{false}
-\settoggle{examplecharacter}{false}
 \renewcommand\csComments{}
 
