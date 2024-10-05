@@ -169,52 +169,29 @@
       \commentary{[xshift=3em,yshift=-7em]TCBPOSTER@gumption}{2em,23em}{}
       \commentary{[xshift=3em,yshift=-7em]TCBPOSTER@gumption}{-2em,8em}{{\LARGE \ref{ccDerived}: }Place coins in the circles to keep track of the current scores, then fill in the derived score for combat.}
   }
-  \setcounter{Strength}{0}
-  \setcounter{Dexterity}{-1}
-  \setcounter{Speed}{0}
-  \setcounter{Intelligence}{1}
-  \setcounter{Wits}{0}
-  \setcounter{Charisma}{1}
 
-  \renewcommand\concept{Loner}
-  \renewcommand\race{Human}
-  \renewcommand\rank{Fodder}
-  \renewcommand\name{Proskuff}
-  \renewcommand\code{Conqueror}
+  \begin{filledCS}%
+    {Proskuff}% NAME
+    {Human}% RACE
+    {Loner}% CONCEPT
+    {Conqueror}% CODE
+    {{0}{-1}{0}}% BODY
+    {{1}{0}{1}}% MIND
+    {%
+      \renewcommand\characterDebt{100~\glsfmtplural{sp}}
+      \renewcommand\rank{Fodder}
+      \setcounter{Academics}{2}
+      \setcounter{Cultivation}{1}
+      \setcounter{Air}{2}
+      \shortsword
+    }% SKILLS
+    {\specialist{locks}}% KNACKS
+    {a bag of flour, a bag of chalk, a dagger, and an unopened letter from home.}% EQUIPMENT
 
-  \setcounter{Academics}{2}
-  \setcounter{Athletics}{0}
-  \setcounter{Caving}{0}
-  \setcounter{Crafts}{0}
-  \setcounter{Deceit}{0}
-  \setcounter{Empathy}{0}
-  \setcounter{Medicine}{0}
-  \setcounter{Performance}{0}
-  \setcounter{Larceny}{0}
-  \setcounter{Seafaring}{0}
-  \setcounter{Stealth}{0}
-  \setcounter{Vigilance}{0}
-  \setcounter{Survival}{0}
+  \end{filledCS}
 
-  \setcounter{Air}{2}
-  \setcounter{Melee}{0}
-  \setcounter{Projectiles}{0}
-  \renewcommand\characterDebt{100~\glsfmtplural{sp}}
-
-  \setcounter{fp}{5}
-
-  \renewcommand\characterWeapon{\shortsword}
-  \renewcommand\characterArmour{}
-  \renewcommand\characterEquipment{Bag of flour, bag of chalk, dagger, unopened letter}
-  \setcounter{gold}{0}
-
-  \settoggle{examplecharacter}{true}
-  \settoggle{genExamples}{true}
-  \input{config/CS.tex}
-  \settoggle{genExamples}{false}
-  \settoggle{examplecharacter}{false}
   \renewcommand\csComments{}
-  \clearpage
+
 }
 
 \newlength{\magicCircle}
