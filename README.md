@@ -10,7 +10,7 @@
 
 # Getting the Book
 
-Download it from the [link][download], then take it to your local, friendly, print-shop.
+Download the [pdf][stories] then take it to your local, friendly, print-shop.
 Everything in the book has been optimized for reading on paper.
 Reading two-columns of blinding-white PDF on a monitor will only give you a headache.
 
