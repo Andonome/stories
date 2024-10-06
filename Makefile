@@ -9,9 +9,11 @@ config/vars:
 config/rules.pdf:
 	make -C config rules.pdf
 
+config/character_sheets.pdf: | config/vars
+	make -C config character_sheets.pdf
 $(DBOOK): LOCTEX HANDOUTS STYLE_FILES EXTERNAL | qr.tex .switch-gls
 	@$(COMPILER) main.tex
-$(TITLE).pdf: $(DBOOK) config/rules.pdf
+$(TITLE).pdf: $(DBOOK) config/rules.pdf config/character_sheets.pdf
 	@pdfunite $^ $@
 
 images/extracted/cover.jpg: images/Roch_Hercka/illusion_trogdor.jpg images/extracted/inclusion.tex
