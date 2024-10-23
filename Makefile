@@ -14,7 +14,10 @@ config/character_sheets.pdf: | config/vars
 $(DBOOK): LOCTEX HANDOUTS STYLE_FILES EXTERNAL | qr.tex .switch-gls
 	@$(COMPILER) main.tex
 $(TITLE).pdf: $(DBOOK) config/rules.pdf config/character_sheets.pdf
-	@pdfunite $^ $@
+	pdfjam --pdftitle $(TITLE) --pdfsubject "BIND RPG" \
+	--pdfkeywords "RPG,TTRPG,roleplaying" \
+	$^ \
+	--outfile $@
 
 images/extracted/cover.jpg: images/Roch_Hercka/illusion_trogdor.jpg images/extracted/inclusion.tex
 	$(CP) $< $@
