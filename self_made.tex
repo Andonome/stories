@@ -140,13 +140,12 @@ Of course, you can decide to use this method for your first character, but that 
 \begin{enumerate}
   \item\label{sumCCrace}
   Select a race, and note your \nameref{racialAbility} (\vpageref{racialAbility}).
-  \item\label{sumCCatt}
-  Set each of your Attributes to 0, then apply the racial bonuses and penalties (\autopageref{raceRoll}).
   \item\label{sumCCconcept}
   Write down a concept.
   Is this character in the \gls{guard}, or from another temple?
   \item\label{sumCCcode}
   Select a Code to follow, so you can gain \glspl{xp} (\autopageref{codes}).
+  Write the Code on the back page.
   \item\label{sumCCxp}
   Spend 50 \gls{xp} on Attributes, Skills, and Knacks (see \autopageref{xpCosts} for the costs).
   \item\label{sumCCequip}
@@ -165,6 +164,8 @@ Of course, you can decide to use this method for your first character, but that 
     \item
     \Glspl{storypoint} are equal to the number of \glspl{fp} your last character had.
   \end{itemize}
+  \item\label{sumCCatt}
+  Apply the racial Bonuses and Penalties after spending all \glspl{xp} (\autopageref{raceRoll}).
 \end{enumerate}
 
 \columnbreak
@@ -224,24 +225,25 @@ Take your character's history, and condense it into two words.
 \end{multicols}
 
 \renewcommand\csComments{
-    \commentary{[xshift=22,yshift=-9em]TCBPOSTER@title.north}{-2em,2em}{{\huge\ref{sumCCconcept}:} Select a two-word concept.}
+    \commentary{[xshift=7em,yshift=-1em]TCBPOSTER@title.south west}{0em,0em}{{\huge\ref{sumCCconcept}:} Select a two-word concept.}
 
     \commentary{[xshift=3em,yshift=0em]TCBPOSTER@attributes.south east}{-3em,2.8em}{{\huge\ref{sumCCatt}:} Adjust Attributes with the racial bonuses (\autopageref{raceRoll}).}
 
-    \commentary{[xshift=15em,yshift=-6em]TCBPOSTER@title.west}{-2em,2em}{{\huge\ref{sumCCrace}:} Write a name and race.}
+    \commentary{[xshift=-3em,yshift=-3em]TCBPOSTER@title.north}{0em,0em}{{\huge\ref{sumCCrace}:} Write a name and race.}
 
-    \commentary{[xshift=-4em,yshift=-1em]TCBPOSTER@armoury.north east}{-18em,10em}{}
-    \commentary{[xshift=-4em,yshift=0em]TCBPOSTER@armoury.north east}{1em,-23em}{}
-    \commentary{[xshift=-4em,yshift=0em]TCBPOSTER@armoury.north east}{-4em,6.5em}{{\huge\ref{sumCCxp}:} Spend 50 \glspl{xp} to purchase Attributes, Skills, and Knacks.}
+    \commentary{[xshift=0em,yshift=2em]TCBPOSTER@skills.south}{0em,0em}{{\huge\ref{sumCCxp}:} Spend 50 \glspl{xp} to purchase Attributes, Skills, and Knacks.}
 
-    \commentary{[xshift=0em,yshift=1em]TCBPOSTER@equipment.south}{0em,0em}{{\huge\ref{sumCCcoin}:} Note starting money, if any.}
+    \commentary{[xshift=-6em,yshift=2em]TCBPOSTER@knacks.north east}{0em,0em}{{\huge\ref{sumCCcoin}:} Note starting money, if any.}
 
-    \commentary{[xshift=-7em,yshift=-4em]TCBPOSTER@title.east}{-2em,1em}{{\huge\ref{sumCCcode}:} Select a Code (\autopageref{codes}) and culture.}
+    \ifodd\thepage
+      \commentary{[xshift=-7em,yshift=-4em]TCBPOSTER@title.east}{3em,0em}{{\huge\ref{sumCCcode}:} Select a Code and place it on the next page (\autopageref{codes}).}
+    \else
+      \commentary{[xshift=-4em,yshift=0em]TCBPOSTER@attributes.south}{-3em,0em}{{\huge\ref{sumCCcode}:} Select a Code and place it on the next page (\autopageref{codes}).}
+    \fi
 
-    \commentary{[xshift=3em,yshift=2em]TCBPOSTER@derived.south}{0em,0em}{{\huge\ref{sumCCder}:} Fill in the derived stats.}
+    \commentary{[xshift=-3em,yshift=0em]TCBPOSTER@Armour.south}{0em,0em}{{\huge\ref{sumCCder}:} Fill in the derived stats.}
 
-    \commentary{[xshift=5em,yshift=5em]TCBPOSTER@armoury.south west}{4em,-22em}{}
-    \commentary{[xshift=5em,yshift=5em]TCBPOSTER@armoury.south west}{4em,.5em}{{\huge\ref{sumCCequip}:} Take a number of items equal to your total Skills, then fill in any stats for weapons and armour (\autopageref{commonWeapons}).}
+    \commentary{[xshift=-6em,yshift=12em]TCBPOSTER@knacks.north east}{0em,.0em}{{\huge\ref{sumCCequip}:} Take a number of items equal to your total Skills, then fill in any stats for weapons and armour (\autopageref{commonWeapons}).}
 }
 
 \begin{filledCS}%
