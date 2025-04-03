@@ -1,3 +1,5 @@
+EXTERNAL_REFERENTS = core
+
 include config/vars
 
 config/vars:
@@ -8,7 +10,7 @@ config/rules.pdf:
 
 config/character_sheets.pdf: | config/vars
 	make -C config character_sheets.pdf
-$(DBOOK): LOCTEX HANDOUTS STYLE_FILES EXTERNAL | qr.tex .switch-gls
+$(DBOOK): $(DEPS) LOCTEX HANDOUTS STYLE_FILES | qr.tex .switch-gls
 	@$(COMPILER) main.tex
 $(TITLE).pdf: $(DBOOK) config/rules.pdf config/character_sheets.pdf
 	pdfjam --pdftitle $(TITLE) --pdfsubject "BIND RPG" \
