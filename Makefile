@@ -5,7 +5,7 @@ include config/vars
 config/vars:
 	@git submodule update --init
 
-config/rules.pdf:
+config/rules.pdf: config/character_sheets.pdf
 	make -C config rules.pdf
 
 config/character_sheets.pdf: | config/vars

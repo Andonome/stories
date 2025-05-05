@@ -9,9 +9,9 @@ The \gls{guard} have no uniform exactly, but they do have a standard `look', due
 
 \begin{itemize}
   \item
-  Darkened leather (or a black tabard), hides them in the dark.
+  Darkened leather (or a black tabard), helps hiding in the shadows on the roads (+1~Bonus).
   \item
-  A special scabbard with a `v-split' along one side, allows the \glspl{guard} to carry a sword on their back, and comfortably draw it.
+  Standard swords come with a special scabbard with a `v-split' along one side, which allows the \glspl{guard} to carry the sword on their back, and comfortably draw it.
   \item
   Long hair (or beard) means each strand can function as a suture.
   \item
@@ -31,7 +31,7 @@ Only the \gls{templeOfBeasts} has the privilege of selling the bodies of \glspl{
 
 \subsubsection{Requesting Equipment}
 is your first task.
-You have arrived at \pgls{broch}, ready for your first mission.
+You have arrived at \pgls{broch} with nothing but a standard black tabard, ready for your first mission.
 It's time to ask the \gls{jotter} if you can have one more piece of equipment from the \nameref{start_equipment}, \vpageref{start_equipment}.
 Roll \roll{Charisma}{Empathy} at \tn[7].
 
@@ -241,7 +241,7 @@ Take your character's history, and condense it into two words.
       \commentary{[xshift=-4em,yshift=0em]TCBPOSTER@attributes.south}{-3em,0em}{{\huge\ref{sumCCcode}:} Select a Code and place it on the next page (\autopageref{codes}).}
     \fi
 
-    \commentary{[xshift=-3em,yshift=0em]TCBPOSTER@Armour.south}{0em,0em}{{\huge\ref{sumCCder}:} Fill in the derived stats.}
+    \commentary{[xshift=-3em,yshift=0em]TCBPOSTER@Derstats.south}{0em,0em}{{\huge\ref{sumCCder}:} Fill in the derived stats.}
 
     \commentary{[xshift=-6em,yshift=12em]TCBPOSTER@knacks.north east}{0em,.0em}{{\huge\ref{sumCCequip}:} Take a number of items equal to your total Skills, then fill in any stats for weapons and armour (\autopageref{commonWeapons}).}
 }
@@ -254,6 +254,8 @@ Take your character's history, and condense it into two words.
   {{1}{0}{0}}% BODY
   {{1}{-1}{0}}% MIND
   {%
+    \renewcommand\rank{Digger}
+
     \setcounter{Academics}{1}
     \setcounter{Crafts}{2}
     \setcounter{Larceny}{1}
