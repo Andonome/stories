@@ -310,6 +310,7 @@ At the same time, Dexterity would be no cheaper for them than anyone else, which
 starts quickly as \glspl{storypoint} each give \gls{pc} 5~\glspl{xp} once spent, so \glspl{pc} effectively begin with 25~\glspl{xp} waiting to be spent.
 
 \sidepic{Roch_Hercka/xp-2}
+
 After the growth-spurt, progress slows considerably, as \glspl{pc} will only gain 3 to 5 \glspl{xp} per session.
 
 \label{racial_limits}
@@ -319,14 +320,14 @@ Progress also comes with natural limitations, as \glspl{attribute} cannot go abo
 This is adjusted by the racial modifiers, so gnomes (with a -2 Strength modifier) cannot gain Strength +3; their maximum is +1.
 However, with an Intelligence Bonus of +1, they can raise their Intelligence Bonus up to +4.
 
-Most \glspl{pc} will die after a few sessions, but if one survives, and earns 3~\glspl{xp} per session, it might go like this:
+For example, \pgls{pc} might begin with 50~\glspl{xp}, then spend all 5~\glspl{storypoint} in the second session, then start earning 4~\glspl{xp} each session for following their code.
+Earning those \glspl{xp} often becomes more difficult, so they fall down to 3~\glspl{xp} per session, then die.
 
-\newcommand\describeFullCycle[1]{%
-  \addtocounter{cycle}{#1}%
-  \ifnum\value{cycle}>5%
-    \setcounter{cycle}{0}%
+\newcommand\describeFullCycle{%
+  \showCycle~\arabic{fenestraDay}%
+  \ifnum\value{fenestraDay}<26%
+    ~(\showTemperature)%
   \fi%
-  \setTemperature\showTemperature~\showCycle%
 }
 
 \setcounter{xp}{0}
@@ -338,27 +339,36 @@ Most \glspl{pc} will die after a few sessions, but if one survives, and earns 3~
   \arabic{xp}
 }
 
-\setcounter{track}{\month}
-\newcommand\realMonth[1]{%
+\setcounter{r12}{\month}
+\setcounter{track}{\day}
+\addtocounter{track}{20}
+
+\newcommand\realMonth[1][7]{%
   \addtocounter{track}{#1}%
-  \ifnum\value{track}>12%
-    \addtocounter{track}{-12}%
+  \ifnum\value{track}>30%
+    \addtocounter{track}{-30}%
+    \stepcounter{r12}%
   \fi%
-  \trackMonth%
+  \trackMonth[r12]~\arabic{track}%
+  \setCycle{\value{r12}}{\value{track}}%
 }
 
 \begin{boxtable}[YLcc]
-  \textbf{Mundane Month} & \textbf{\Glsfmttext{cycle}} & \textbf{\Glsfmttext{xp}} & \textbf{\Glsfmttext{fp}} \\
+  \textbf{Mundane Date} & \textbf{\Glsfmttext{fenestra} Date} & \textbf{\Glsfmttext{xp}} & \textbf{\Glsfmttext{fp}} \\
   \hline
-     \realMonth{0}       & \describeFullCycle{0}       &   \runningXPtotal{50}  &   \arabic{fp}  \\
-     \realMonth{1}       & \describeFullCycle{2}       &   \runningXPtotal{37}  &   \arabic{fp}  \\
-     \realMonth{1}       & \describeFullCycle{2}       &   \runningXPtotal{12}  &   \arabic{fp}  \\
-     \realMonth{1}       & \describeFullCycle{2}       &   \runningXPtotal{12}  &   \arabic{fp} \\
-     \ldots              & \ldots                      &   \ldots               &   \ldots \\
-     \realMonth{3}       & \describeFullCycle{6}       &   \runningXPtotal{36}  &   \arabic{fp} \\
-     \ldots              & \ldots                      &   \ldots               &   \ldots \\
-     \realMonth{3}       & \describeFullCycle{6}       &   \runningXPtotal{36}  &   \arabic{fp} \\
+     \realMonth       & \describeFullCycle       &   \runningXPtotal{50}  &   \arabic{fp}  \\
+     \realMonth       & \describeFullCycle       &   \runningXPtotal{25}  &   \arabic{fp}  \\
+     \Repeat{2}{ \realMonth       & \describeFullCycle       &   \runningXPtotal{4}  &   \arabic{fp}  \\ }
+     \Repeat{2}{ \realMonth       & \describeFullCycle       &   \runningXPtotal{3}  &   \arabic{fp}  \\ }
+     \hline
+     \setcounter{xp}{50}
+     \realMonth       & \describeFullCycle       &   \runningXPtotal{0}  &   \arabic{fp}  \\
+     \realMonth       & \describeFullCycle       &   \runningXPtotal{28}  &   \arabic{fp}  \\
+     \realMonth       & \describeFullCycle       &   \runningXPtotal{19}  &   \arabic{fp}  \\
+     \Repeat{2}{ \realMonth       & \describeFullCycle       &   \runningXPtotal{3}  &   \arabic{fp}  \\ }
 \end{boxtable}
+
+Once \pgls{pc} dies, the next returns with \glspl{storypoint} equal to the previous character's \glspl{fp}.
 
 \subsubsection{Racial Adjustments}
 apply after the \gls{xp}-cost, not before.
