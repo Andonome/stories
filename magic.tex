@@ -39,8 +39,6 @@ The actual \gls{casting} could express the spell as chatter, humming, sign-langu
 
 \begin{multicols}{2}
 
-\subsection{Step by Step}
-
 These are the conceptual steps you can use to create spells during \gls{downtime}.
 \iftoggle{core}{%
   Once you have a spell on-paper, check the \textit{Core Rules}, \autopageref{make_spell}, to see if your character can manage the task, or what might happen if they fail.
@@ -124,7 +122,7 @@ And despite no `casting' occurring, mana must flow out, in order to form a bond 
 When \pgls{pc} wants to Witness an element, the player must ask a `yes/no' question, which indicates what the \gls{pc} has attuned to.
 
 Far-removed targets, or targets behind a wall receive a higher \gls{tn}, which makes a basic Witnessing close to useless (since the witch effectively has a `Detect Fire' or `Detect Air' spell).
-However, with a couple of \glspl{descriptor} (vref{descriptors}), a witch can Witness many secrets.
+However, with a couple of \glspl{descriptor} (\vref{spellDescriptors}), \pgls{witch} can Witness many secrets.
 
 \mapentry{\Glsfmtplural{descriptor}}
 \label{spellDescriptors}
@@ -263,16 +261,6 @@ As usual, casters make a single roll to resolve the spell, and apply the result 
 A \textit{Divergent, Distant, Wane Earth \& Fate} spell may require a roll of \tn[7] to give someone bad luck, and \tn[14] to make the rock-face above them crumble.
 If the caster rolls a total of 13, they would inflict the bad luck, but not make the rock-face crumble.
 
-\paragraph{Duplicated}
-\label{duplicatedDesc}
-spells fork like lightning, affecting every available target nearby.
-The caster selects where the spell begins, but cannot decide on the remaining targets, nor can they limit the number.%
-\footnote{Each number is simply $n^n$.  So spending 3~\glsfmtplural{mp} means $3^3 = 3\times 3\times 3 = 27$ targets.}
-
-When \textit{Duplicated} spells seek out discrete targets (like Fate spells increasing people's \glspl{fp}, or a Fire spell suffocating many candles) each copy of the spell can jump the same range as the original spell's range.
-This can present problems; if a caster makes three enemy \glspl{torch} explode in their faces, but the spell requires four targets, then the spell may return to unleash itself on the caster's \gls{torch}.
-Spells which cannot find an appropriate target within range just fizzle and die, without effect.
-
 \sidebox[17]{
   \begin{boxtable}[cX]
     \textbf{Level} & \textbf{Targets} \\
@@ -285,6 +273,15 @@ Spells which cannot find an appropriate target within range just fizzle and die,
            6       & 46,656 \\
   \end{boxtable}
 }
+\paragraph{Duplicated}
+\label{duplicatedDesc}
+spells fork like lightning, affecting every available target nearby.
+The caster selects where the spell begins, but cannot decide on the remaining targets, nor can they limit the number.%
+\footnote{Each number is simply $n^n$.  So spending 3~\glsfmtplural{mp} means $3^3 = 3\times 3\times 3 = 27$ targets.}
+
+When \textit{Duplicated} spells seek out discrete targets (like Fate spells increasing people's \glspl{fp}, or a Fire spell suffocating many candles) each copy of the spell can jump the same range as the original spell's range.
+This can present problems; if a caster makes three enemy \glspl{torch} explode in their faces, but the spell requires four targets, then the spell may return to unleash itself on the caster's \gls{torch}.
+Spells which cannot find an appropriate target within range just fizzle and die, without effect.
 
 When \textit{Duplicated} spells seek out contiguous targets, they simply affect a wider area
 (Water spells can target large sections of a loch, and Earth spells might collapse a cavern).%
@@ -294,8 +291,7 @@ When \textit{Duplicated} spells seek out contiguous targets, they simply affect 
   However, someone who can fight on, despite blinding fog, a snowstorm, or their \glspl{torch} and camp-fire suddenly going out, will not be more troubled by a spell simply because it affects a thousand more people.
   As a result, a few specialist trackers, or veteran \glspl{guard}, can often fare better against powerful spell-casters than an army of field-workers with swords.}
 
-
-Casters often try to predict whether a spell will treat a target as discrete or contiguous, but they have no control over the result.
+Casters can often predict whether \pgls{spell} will treat a target as discrete or contiguous, but they have no control over the result.
 
 \subsubsection{Resolution \& Effects}
 may sound very open-ended, or even badly-defined, and they are!
