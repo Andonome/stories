@@ -8,7 +8,7 @@ config/vars:
 config/rules.pdf: config/character_sheets.pdf
 	make -C config rules.pdf
 
-config/character_sheets.pdf: | config/vars
+config/character_sheets.pdf: config/vars config/CS.tex
 	make -C config character_sheets.pdf
 $(DBOOK): $(DEPS) LOCTEX HANDOUTS STYLE_FILES | qr.tex .switch-gls
 	@$(COMPILER) main.tex
