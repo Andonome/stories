@@ -291,10 +291,47 @@ Higher levels become increasingly expensive, so having a specialized character w
   The first Knack is cheap, at 5~\glspl{xp}, but each Knack costs 5 more \glspl{xp} than the last.
 \end{itemize}
 
-All characters begin with 50 \textit{spent} \glspl{xp}
-(self-made characters get to spend theirs, standard characters don't).
-These spent \glspl{xp} make a difference as each character's total \glspl{fp} equals their total \glspl{xp} divided by ten.
-Players should always take care to record how many \glspl{xp} they have earned in total.
+\subsubsection{On the Character Sheet}
+\pgls{xp} is marked on the lower boxes (`I').
+Once you have five, empty the lower boxes, and mark another five slot (`V') as available.
+This middle row show the \glspl{xp} for spending.
+You can mark \glspl{xp} as available with~`\XPboxEarned', the spend with~`\XPboxSpent'.
+
+\begin{nametable}[rcccccccccc]{+7 \Glsfmtplural{xp}}
+  X: \Repeat{5}{&\Diamondblack }
+  \Repeat{5}{&\glsentrysymbol{fp}}%
+  \\
+  V: \Repeat{0}{&\XPboxSpent}%
+  \Repeat{1}{&\XPboxEarned}%
+  \Repeat{9}{&\XPboxEmpty}%
+  \\
+  I: & \Repeat{2}{ & \CIRCLE &} \Repeat{2}{ & \Circle &} &
+  \\
+\end{nametable}
+
+\begin{exampletext}
+  This character has earned 7~\glspl{xp}, so they have a single mid-row box to spend.
+\end{exampletext}
+
+Every two mid-boxes can be replaced with one from the top row (`X'), representing ten~\glspl{xp}.
+Every ten \glspl{xp} means \pgls{fp}, because your \glspl{fp} equal $\frac{\glsentrytext{xp}}{10} + Charisma$.
+
+\begin{nametable}[rcccccccccc]{+14 \Glsfmtplural{xp}}
+  X: \Repeat{6}{&\Diamondblack }
+  \Repeat{4}{&\glsentrysymbol{fp}}%
+  \\
+  V: \Repeat{1}{&\XPboxSpent}%
+  \Repeat{0}{&\XPboxEarned}%
+  \Repeat{9}{&\XPboxEmpty}%
+  \\
+  I: & \Repeat{1}{ & \CIRCLE &} \Repeat{3}{ & \Circle &} &
+  \\
+\end{nametable}
+
+\begin{exampletext}
+  After gaining another 14~\glspl{xp}, the player spends 10~\glspl{xp} to buy the first level of Projectiles; two mid-row dots can be removed and one added to the top.
+  Using the last spare 5~\glspl{xp}, the player adds the first level in the Survival \gls{skill}.
+\end{exampletext}
 
 \subsubsection{Racial Adjustments}
 apply after the \gls{xp}-cost, not before.
@@ -365,7 +402,7 @@ Earning those \glspl{xp} often becomes more difficult, so they fall down to 3~\g
 
 \setCycle{\month}{\day}%
 
-\needspace{4\baselineskip}
+%\needspace{4\baselineskip}
 Once the \gls{pc} dies, the next returns with \glspl{storypoint} equal to the previous character's \glspl{fp}.
 With 8~\glspl{storypoint}, they gain \glspl{xp} quickly.
 
