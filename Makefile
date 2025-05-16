@@ -6,12 +6,12 @@ config/vars:
 	@git submodule update --init
 
 config/rules.pdf: config/character_sheets.pdf
-	make -C config rules.pdf
+	make -C $(@D) $(@F)
 
-config/character_sheets.pdf: config/vars config/CS.tex
-	make -C config character_sheets.pdf
-$(DBOOK): $(DEPS) LOCTEX HANDOUTS STYLE_FILES | qr.tex .switch-gls
-	@$(COMPILER) main.tex
+config/character_sheets.pdf: config/vars
+	make -C $(@D) $(@F)
+$(DBOOK): $(DEPS) qr.tex .switch-gls
+
 $(TITLE).pdf: $(DBOOK) config/rules.pdf config/character_sheets.pdf
 	pdfjam --pdftitle $(TITLE) --pdfsubject "BIND RPG" \
 	--pdfkeywords "RPG,TTRPG,roleplaying" \
