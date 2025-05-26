@@ -1,5 +1,7 @@
 EXTERNAL_REFERENTS = core
 
+DEPS += $(wildcard *.tex)
+
 include config/vars
 
 config/vars:
