@@ -66,19 +66,27 @@
 \newcommand\poshNames{
   \begin{nametable}[c|Y|Y]{Aristocratic Names}
     \textbf{Roll} & \M & \F \\\hline
-    \ifodd\value{r3}
-      \dicef{1} & Grawlix & Vex \\
-      \dicef{2} & Topaz & Cuspadore \\
+    \ifcase\value{r3}\relax
+    \or%
+      \dicef{1} & Cuffmain   & Anodyne     \\
+      \dicef{2} & Narcos     & Detritus    \\
+      \dicef{3} & Lambatives & Soporific   \\
+      \dicef{4} & Lincture   & Throng      \\
+      \dicef{5} & Dispen     & Disring     \\
+      \dicef{6} & Acrostic   & Endema      \\
+    \or%
+      \dicef{1} & Grawlix & Senofage \\
+      \dicef{2} & Topiary & Cuspadore \\
       \dicef{3} & Coreolis & Carnyx \\
       \dicef{4} & Caligin & Maledict \\
-      \dicef{5} & Artix & Aspid \\
-      \dicef{6} & Elegiac & Wardrid \\
+      \dicef{5} & Artix & Unctious \\
+      \dicef{6} & Elegiac & Carntol \\
     \else
       \dicef{1} & Fractious & Ethel \\
       \dicef{2} & Calyx & Fextol \\
       \dicef{3} & Seance & Tepal \\
       \dicef{4} & Voynich & Sefal \\
-      \dicef{5} & Unctious & Suetin \\
+      \dicef{5} & Aspid & Suetin \\
       \dicef{6} & Perspic & Auspic \\
     \fi
   \end{nametable}
