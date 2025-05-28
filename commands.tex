@@ -101,15 +101,16 @@
 
 \newcommand\showConcept[6]{
   \filbreak
-  \setcounter{knacks}{0}
+  \setcounter{knacks}{1}
+  \setcounter{Athletics}{1}
   \randomize
   \item
   \textbf{#1:} % Attribute
   \underline{%
-  \textit{#2!}% Concept
+    \textit{#2!}% Concept
   }
   #3% Description
-  \begin{itemize}
+  \begin{itemize}\raggedright
     \item[\textbf{Code:}] #4
 
     \item[\textbf{Skills:}] #5

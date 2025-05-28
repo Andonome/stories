@@ -127,6 +127,7 @@ The following is a suggested list of Stories the players can tell and their cost
 The players are strongly encouraged to suggest more to the \gls{gm} who will either veto them or give them an appropriate cost.
 
 \story{1}{Second Language}
+\label{secondLanguage}
 \index{Languages|textbf}
 You have spent a significant amount of time in another culture.
 You know their language and enough of their background to transfer over basic Skill knowledge.
@@ -159,18 +160,33 @@ However, if you have never needed to swim, then you could declare that you have 
   You reveal you have the Knack `Guardian'.
 \end{itemize}
 
-\story{1}{Guild Ties}
-You declare ties to one of the guilds.
-Perhaps you served in one, or know a good friend who can pull some strings.
-Always check with the \gls{gm} if you can accomplish what you want to with this favour before spending \pgls{storypoint}.
+\story{1}{Respectable Contact}
+\label{designCharacter}
+\index{Allies}
+You have social ties to someone important.
+Perhaps they have a high rank in \pgls{temple}.
+If you have already used the Second Language story (\vpageref{secondLanguage}), then the ally might come from that culture.
 
 \begin{itemize}
   \item
-  You never could make it in the \gls{paperGuild}, but your old friends there will provide you with a free map of the labyrinth, in return for exclusive access to any information about the place\ldots assuming you return.
+  You have some serious dirt on \pgls{tender} in the \gls{templeOfPoison}.
+  They'll do you one massive favour, as long as they never have to see your face again.
   \item
-  The \gls{armourHall} taught you everything you know, and you still know nothing.
-  Still, they can get the troupe some leather armour for half price, as long as nobody's particular about the colour\ldots
+  People consider family in the \gls{sunGuard} an embarrassment, but that changes when they need something.
+  Just make sure it's a small favour, and nobody will get in trouble.
+  \item
+  You never could make it in the \gls{paperGuild}, but an old friend has risen to the rank of \gls{scrivener}.
+  She can provide you with a free map of the local \gls{deep}, in return for exclusive access to any information about the place\ldots assuming you return.
+  \item
+  Before you joined the \gls{guard}, your master at the \gls{armourHall} taught you everything you know (and you still know nothing).
+  He might let you buy some leather armour for half price, as long as nobody's particular about the colour\ldots
+  \item
+  Your ability to spot someone's track in nothing but a bent blade of grass came from the year of living past the \gls{edge} with a group of gnolls.
+  They come through here every few \glspl{cycle}, and might know how to find the \glspl{ingredient} the troupe needs.
 \end{itemize}
+
+If you want to add some detail, you use the steps \vpageref{playerchosen} `\nameref{playerchosen}' to craft the character with 50~\glspl{xp}.
+However, the character will not join you on any missions, or join your \gls{characterPool}, unless you expand on the shared history with the \nameref{returnFriend} Story, \vpageref{returnFriend}.
 
 \story{1}{Random Fact}
 \label{randomFact}
@@ -197,18 +213,16 @@ They may not be exactly the right person for the job, but they're willing to joi
 
 \begin{enumerate}
   \item
-  If you want to introduce a blood-relative, then set the character's race to the same as your current \gls{pc}'s.
-  Otherwise, roll on the chart \vpageref{randomCharacterCreation}.
+  If you've already used the Second Language story (\vpageref{secondLanguage}), consider someone from a matching culture.
   \item
-  Roll random \glspl{attribute} \vpageref{randomAttributes}.
+  Roll random \glspl{attribute} with the chart \vpageref{randomAttributes}.
   \item
   Write down a two-word concept, and spend 50~\glspl{xp} on the character's \glspl{trait}.
 \end{enumerate}
 
 This new character joins the group, just like a regular \gls{pc}, for this one session.
-
 After the session, they join your \gls{characterPool}, so you can select this character at the start of a session.
-However, only the primary character can spend \glspl{storypoint}.
+However, they have no \glspl{storypoint} to spend unless your first character dies, and you select them as your primary \gls{pc}.
 
 \begin{itemize}
   \item
@@ -222,30 +236,13 @@ However, only the primary character can spend \glspl{storypoint}.
 
 \story{1}{Return Friend}
 \label{returnFriend}
-You reintroduce a character from your \gls{characterPool}, with an additional anecdote about your shared histories.
+\index{Henchmen|see {Allies}}
+
+You reintroduce a friend or ally with an additional anecdote about your shared histories.
+If you introduced the character through the `\nameref{designCharacter}' Story (\vpageref{designCharacter}), they will join for this session as a second \gls{pc}, and become part of your \gls{characterPool}.
+
 This can be a useful Story to tell if you've rolled up a random character with excellent \glspl{trait}.
 But on the other hand, it comes with the cost of having a smaller \gls{characterPool}.
-
-\story{2}{Old Ally}
-\label{designCharacter}
-\index{Allies}
-\index{Henchmen|see {Allies}}
-Someone has precisely the skills you're looking for, and they're coming along for the ride, until the end of the session.
-
-Create a custom character, as per `\nameref{playerchosen}', \autopageref{playerchosen}.
-They then enter your \gls{characterPool}.
-
-\begin{itemize}
-  \item
-  With no idea how to talk to the local \gls{warden}, you suddenly find your old friend, working as \pgls{sunGuard} by the \gls{warden}'s gate.
-  \item
-  Everyone wants to buy expensive chainmail, and your dwarvish friend just so happens to have retired here, selling top-quality armours of all types.
-  \item
-  The troupe need an expert tracker, and on the road you meet your brother.
-  He never liked people, so once he got out of the \gls{templeOfPoison}, he began working independently as a bounty hunter.
-\end{itemize}
-
-As before, this character enters the \gls{characterPool}, and may become the player's primary character if their \gls{pc} ever dies.
 
 \story{2}{Resting Spot}
 You know of a secluded and secret location where you will be safe.
@@ -254,14 +251,18 @@ You know of a secluded and secret location where you will be safe.
   \item
   The guards may be chasing after you, but the Mincing Pig is nearby.  It's famous for some nasty customers and a deep cellar where even the town guard don't want to enter.
   It's been your regular bar since you were twelve years old, and you're sure they'll put you up.
-  \item
-  The goblins have found your tracks, and they'll catch up soon.
-  However, you recall a nearby cave in the forest where you stayed safe during one nasty \gls{storm} at the start of \gls{cTwo}.
-  It's hidden, and very defensible.
-  \item
-  The bandits are catching up soon, but you recall \pgls{village} nearby where you grandfather helped stop a feud between two \glspl{keeper}.
-  Everyone knew about his work in the \gls{templeOfHate} when he was alive.
-  You're hoping the guards still remember you, despite your new beard.
+  % Not enough room on the page, so I'm cutting a paragraph here.
+  \ifodd\value{r4}%
+    \item
+    The goblins have found your tracks, and they'll catch up soon.
+    However, you recall a nearby cave in the forest where you stayed safe during one nasty \gls{storm} at the start of \gls{cTwo}.
+    It's hidden, and very defensible.
+  \else%
+    \item
+    The bandits are catching up soon, but you recall \pgls{village} nearby where you grandfather helped stop a feud between two \glspl{keeper}.
+    Everyone knew about his work in the \gls{templeOfHate} when he was alive.
+    You're hoping the guards still remember you, despite your new beard.
+  \fi%
 \end{itemize}
 
 \story{2}{Surname}
@@ -279,7 +280,7 @@ And whether human or not, everyone in the vicinity of their home-town gains a +4
 \begin{itemize}
   \item
   As you approach the \gls{village} `Nettlevale', you decide that's going to be your character's surname.
-  The troupe are in dire need of a weaponsmith (which few \glspl{village} have), so you tell the `the Old Ally' Story (spending another \gls{storypoint}) and start designing your mother, the weaponsmith, who will surely give the troupe some excellent discounts.
+  The troupe are in dire need of a weaponsmith (which few \glspl{village} have), so you tell the the `\nameref{designCharacter}' Story (spending another \gls{storypoint}) and start designing your mother, the weaponsmith, who will surely give the troupe some excellent discounts.
 
   On the next visit, you mention ties to the local guild (gained through important family connections), and on the third visit, you introduce a cousin, as per `the Random Friend'.
   \item
