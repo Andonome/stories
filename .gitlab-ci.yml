@@ -6,9 +6,9 @@ build:
   image: $LATEX_IMAGE
   script:
     - make all
-  only:
-    - master
-    - run
+  rules:
+    - if: $CI_COMMIT_BRANCH == "master"
+    - if: $CI_COMMIT_BRANCH == "run"
   artifacts:
     paths:
       - "*.pdf"
