@@ -10,10 +10,10 @@ include config/vars
 config/vars:
 	@git submodule update --init
 
-config/rules.pdf: config/character_sheets.pdf
+config/rules.pdf: | config/vars
 	make -C $(@D) $(@F)
 
-config/character_sheets.pdf: config/vars
+config/character_sheets.pdf: | config/vars
 	make -C $(@D) $(@F)
 $(DBOOK): $(DEPS) qr.tex .switch-gls
 
@@ -34,8 +34,6 @@ targets += cover.pdf
 
 ##########
 
-# minizine.pdf: a7_minizine/main.tex
-
 number_of_parts != ls cyoa/pt_* | wc -l
 
 zine_batch_one != seq 1 3 $(number_of_parts) | sort -R | tr '\n' ' '
@@ -47,3 +45,5 @@ zine_part_names = $(patsubst %, cyoa/pt_%.tex, $(zine_part_nums))
 a7_minizine/main.tex: cyoa/head.tex $(zine_part_names) | a7_minizine/
 	cat $^ > $@
 	printf '%s\n' '\end{document}' >> $@
+
+a7_minizine.pdf: ## Make a screen-readable minizine.
