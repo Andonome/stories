@@ -39,7 +39,7 @@
         text centered,
         text=black,
         font=\titleFont,
-      ] {\thepage};
+      ] {\small\thepage};
   \end{tikzpicture}%
 }%
 
@@ -59,6 +59,8 @@
 
 \begin{document}
 
+\small
+
 \frontmatter
 \pagenumbering{gobble}
 
@@ -72,8 +74,6 @@
 \end{center}
 
 \clearpage
-
-\small
 
 \noindent
 Grab a pencil, a fistful of dice, and \pgls{pc}.
