@@ -30,8 +30,6 @@ $(DROSS)/$(BOOK)_cover.pdf: config/cover.tex cover.tex images/extracted/cover.jp
 cover.pdf: $(DROSS)/$(BOOK)_cover.pdf
 	$(CP) $< $@
 
-targets += cover.pdf
-
 ##########
 
 number_of_parts != ls cyoa/pt_* | wc -l

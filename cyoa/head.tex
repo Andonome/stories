@@ -2,6 +2,9 @@
 
 \usepackage{config/bind}
 
+\hfuzz=5.002pt 
+\emergencystretch 2em
+
 \geometry{%
   includefoot,
   %showframe,
@@ -40,6 +43,20 @@
   \end{tikzpicture}%
 }%
 
+\newenvironment{selectPath}%
+  {%
+    \begin{description}%
+    \setlength\itemsep{.2em}
+    \raggedright
+  }%
+  { \end{description} }
+
+\newcommand\willYe[3]{%
+  \item[#1]
+  #2
+  \ifstrequal{#3}{}{}{({\scshape\ifnum\value{list}<3 turn to \fi part~\vref{#3}})}
+}
+
 \begin{document}
 
 \frontmatter
@@ -54,20 +71,22 @@
   \ast\tiny Incorrect choices mean death.
 \end{center}
 
-\pagebreak
+\clearpage
 
-\pagenumbering{arabic}
-
-\setcounter{page}{1}
-\pagestyle{plain}
 \small
 
 \noindent
-Grab a pencil, a fistful of dice, and \pgls{pc} for \gls{bind}.
+Grab a pencil, a fistful of dice, and \pgls{pc}.
 
 Remove any equipment (because the \glspl{sunGuard} took it), then note the derived stats.
 You start with a number of \glspl{hp} equal to \roll{Strength}{6}.
 You have 5~\glspl{fp} plus your Charisma Bonus.
+
+\clearpage
+
+\pagenumbering{arabic}
+\setcounter{page}{1}
+\pagestyle{plain}
 
 \mapentry[startCell]{The cell stinks of shit}
 
@@ -75,8 +94,11 @@ You map the walls with your fingers, for the third time, out of boredom.
 This time, with tired, lowered hands, you find a crack.
 A whispering voice says something too quiet to make out.
 
-\paragraph{Sleep in the straw:}
-part \vref{morning}.
-
-\paragraph{Kneel and listen close:}
-part \vref{whispers}.
+\begin{selectPath}
+  \willYe{Sleep in the straw.}%
+  {}%
+  {morning}
+  \willYe{Kneel and listen close.}%
+  {}%
+  {whispers}.
+\end{selectPath}

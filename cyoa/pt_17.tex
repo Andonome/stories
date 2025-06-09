@@ -1,0 +1,28 @@
+\mapentry[crawler]{The left gate rises}
+as the crowd cheer, and eight legs stampede from that dark hole.
+
+Some people say the the head looks like a wolf.
+Others think it almost looks human.
+Either way, the smile is just a shape.
+They cannot feel, they just do.
+
+Roll \roll{Dexterity}{Brawl}.
+
+\begin{selectPath}
+  \willYe{If you hit \glsfmttext{tn}~10+}%
+  {you can punch it in the smile for \dmg{0} $ - 4$ Damages, plus your Strength Bonus.}%
+  {}
+  \willYe{At \glsfmttext{tn}~15}%
+  {you dig your nails into the eyes for \dmg{0} Damage.}%
+  {}
+  \willYe{Below \glsfmttext{tn}~10}%
+  {it grabs you.}%
+  {crawlGrab}
+  \willYe{At \glsfmttext{tn}~10}%
+  {it grabs you while you kick for \dmg{0} $ - 4$ Damage.}%
+  {crawlGrab}
+  \willYe{If you deal 10~Damage}%
+  {the creature falls dead.}%
+  {moreCrawlers}
+\end{selectPath}
+

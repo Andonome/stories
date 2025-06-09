@@ -1,17 +1,18 @@
 \mapentry[pushGuard]{Out of my way!}
 you shout, throwing your entire body-weight into him.
-Roll \roll{Dexterity}{Brawl} at \tn[7].
+Roll $2D6$, and add \roll{Dexterity}{Brawl}.
 
-\begin{description}
-  \item[Roll over 7]
-  and you push him back, and keep pushing into the far wall.
-  His candle goes out.
-  Jump to part \vref{darkHall}.
-  \item[Roll under 7]
-  and the \gls{sunGuard} holds you down while calling for reinforcements.
-  Two more arrive, and immediately throw you into the \gls{court}, in part \vref{trialStarts}.
-  \item[Roll 7 exactly]
-  and you hold onto his neck while he grabs your waist.
-  Roll again, with a +1~Bonus.
-\end{description}
-
+\begin{selectPath}
+  \willYe{Roll over 7}%
+  {and you push him back, and keep pushing into the far wall.
+  His candle goes out.}%
+  {darkHall}
+  \willYe{Roll under 7}%
+  {and the \gls{sunGuard} holds you down while calling for reinforcements.
+  Two more arrive, and immediately throw you into the \gls{court}.}%
+  {trialStarts}
+  \willYe{Roll 7 exactly}%
+  {and you hold onto his neck while he grabs your waist.
+  Roll again, with a +1~Bonus.}%
+  {}
+\end{selectPath}

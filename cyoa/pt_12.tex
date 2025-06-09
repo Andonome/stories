@@ -1,0 +1,22 @@
+\mapentry[accuserEnters]{The Right Gate Opens}
+and \pgls{sunGuard} leads him out -- \composeHumanName\ -- the man so foolish, he thought he could win something in the \gls{court}.
+He steps out, confused, but confident as ever, longsword in hand.
+The \gls{sunGuard} walks over to hand you a longsword.
+
+Make \pgls{combat} roll: $2D6$ plus \roll{Dexterity}{Melee} at \tn[11].
+Add another +2~Bonus for having a longsword.
+
+\begin{selectPath}
+  \willYe{Roll under 11}%
+  {and take \dmg{3}~Damage.
+  You can spend \glspl{fp} to reduce the Damage, but after the \glspl{fp}, that blade parts your flesh.}%
+  {}
+  \willYe{Roll 11}%
+  {and you can decide to deal and receive Damage, or neither.}%
+  {}
+  \willYe{Roll over 11}%
+  {and you cut him, dealing \dmg{0}~Damage plus your Strength~Bonus, plus 2 for the longsword.
+  Once you deal 7 Damage, you win.}%
+  {intoTheGuard}
+\end{selectPath}
+
