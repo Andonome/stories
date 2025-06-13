@@ -34,10 +34,11 @@ cover.pdf: $(DROSS)/$(BOOK)_cover.pdf
 
 number_of_parts != ls cyoa/pt_* | wc -l
 
-zine_batch_one != seq 1 3 $(number_of_parts) | sort -R | tr '\n' ' '
-zine_batch_two != seq 2 3 $(number_of_parts) | sort -R | tr '\n' ' '
-zine_batch_three != seq 3 3 $(number_of_parts) | sort -R | tr '\n' ' '
-zine_part_nums = $(zine_batch_three) $(zine_batch_two) $(zine_batch_one)
+zine_batch_one != seq 1 4 $(number_of_parts) | sort -R | tr '\n' ' '
+zine_batch_two != seq 2 4 $(number_of_parts) | sort -R | tr '\n' ' '
+zine_batch_three != seq 3 4 $(number_of_parts) | sort -R | tr '\n' ' '
+zine_batch_four != seq 4 4 $(number_of_parts) | sort -R | tr '\n' ' '
+zine_part_nums = $(zine_batch_three) $(zine_batch_one) $(zine_batch_two) $(zine_batch_four)
 zine_part_names = $(patsubst %, cyoa/pt_%.tex, $(zine_part_nums))
 
 a7_minizine/main.tex: cyoa/head.tex $(zine_part_names) | a7_minizine/
