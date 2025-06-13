@@ -57,6 +57,10 @@
   \ifstrequal{#3}{}{}{({\scshape\ifnum\value{list}<3 turn to \fi part~\vref{#3}})}
 }
 
+\newcommand\goTo[1]{
+  ({Turn to part~\vref{#1}})
+}
+
 \begin{document}
 
 \small
