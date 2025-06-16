@@ -1,83 +1,17 @@
 \documentclass[10pt,twoside]{book}
 
 \usepackage{config/bind}
-
-\hfuzz=5.002pt 
-\emergencystretch 2em
-
-\geometry{%
-  includefoot,
-  %showframe,
-  margin=5mm,
-  marginparsep=10pt,
-  marginparwidth=10pt,
-  paperwidth=74mm,
-  paperheight=105mm,
-  footskip=3mm,
-}
-
-\AddToHook{shipout/background}{%
-  \ifodd\value{page}
-    \def\BGpageanchor{current page.south east}
-    \def\BGadjust{-5mm, 5mm}
-  \else
-    \def\BGpageanchor{current page.south west}
-    \def\BGadjust{5mm, 5mm}
-  \fi
-  \begin{tikzpicture}[overlay,remember picture]
-    \ifnum\value{page}=10
-      \draw[gray, dotted] (-0.15,0) -- (-0.15,-10);
-    \fi
-    \ifnum\value{page}=14
-      \draw[gray, dotted] (-0.15,0) -- (-0.15,-10);
-      \draw[gray, dotted] (0,0) -- (5,0);
-    \fi
-    \path 
-      ++(\BGpageanchor)
-      +(\BGadjust)
-      node[
-        text centered,
-        text=black,
-        font=\titleFont,
-      ] {\small\thepage};
-  \end{tikzpicture}%
-}%
-
-\newenvironment{selectPath}%
-  {%
-    \begin{description}%
-    \setlength\itemsep{.2em}
-    \raggedright
-  }%
-  { \end{description} }
-
-\newcommand\willYe[3]{%
-  \item[#1]
-  #2
-  \ifstrequal{#3}{}{}{({\scshape\ifnum\value{list}<3 turn to \fi part~\vref{#3}})}
-}
-
-\newcommand\goTo[1]{
-  ({Turn to part~\vref{#1}})
-}
+\usepackage{config/booklet}
 
 \begin{document}
 
-\small
+\miniCover{A Choose$^{*}$-Your-Own Adventure Zine}%
+  {%
+    \vfill\null%
+    \ast\tiny Incorrect choices mean death.%
+  }
 
-\frontmatter
-\pagenumbering{gobble}
-
-\begin{center}
-  \includesvg[width=.8\textwidth]{config/logo}
-  \par
-  \vspace{3\baselineskip}
-  {\Large\scshape A Choose-Your-Own Adventure Zine$^{*}$}
-  \vfill\null
-  \ast\tiny Incorrect choices mean death.
-\end{center}
-
-\clearpage
+\pagebreak
 
 \noindent
 Grab a pencil, a fistful of dice, and \pgls{pc}.
@@ -86,11 +20,9 @@ Remove any equipment (because the \glspl{sunGuard} took it), then note the deriv
 You start with a number of \glspl{hp} equal to \roll{Strength}{6}.
 You have 5~\glspl{fp} plus your Charisma Bonus.
 
-\clearpage
+\pagebreak
 
-\pagenumbering{arabic}
-\setcounter{page}{1}
-\pagestyle{plain}
+\pagestyle{minizine}
 
 \mapentry[startCell]{The cell stinks of shit}
 
