@@ -3,7 +3,7 @@ EXTERNAL_REFERENTS = core
 DEPS += $(wildcard *.tex)
 
 targets += minizine.pdf
-output += minizine
+output += a7_minizine
 
 include config/vars
 
