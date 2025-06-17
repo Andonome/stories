@@ -13,7 +13,7 @@ config/vars:
 config/rules.pdf: | config/vars
 	make -C $(@D) $(@F)
 
-config/character_sheets.pdf: | config/vars
+config/character_sheets.pdf: config/rubbish/.count.tex | config/vars
 	make -C $(@D) $(@F)
 $(DBOOK): $(DEPS) qr.tex .switch-gls
 
