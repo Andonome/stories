@@ -178,6 +178,53 @@
   \end{wideTable}
 }
 
+\newcommand{\commonWeaponsChart}{
+  \begin{boxtable}[lYYY]
+
+  \textbf{\small Name} & \textbf{\small Att Bonus} & \textbf{\small Dam Bonus} & \textbf{\Gls{weight}} \\\hline
+
+  \showWeapon{\Dagger} \\
+
+  \ifodd\value{r4}
+    \showWeapon{\longsword} \\
+  \else
+    \showWeapon{\javelin} \\
+  \fi
+
+  \showWeapon{\maul} \\
+
+  \showWeapon{\quarterstaff} \\
+
+  \showWeapon{\shortsword} \\
+
+  \showWeapon{\spear} \\
+
+  \showWeapon{\roundshield} \\
+
+  \ifodd\value{r4}
+    \showWeapon{\crapGlaive} \\
+  \else
+    \showWeapon{\crapRapier} \\
+  \fi
+
+  \end{boxtable}
+}
+
+\newcommand\commonArmourChart{
+
+  \begin{boxtable}[Xccc]
+
+  \textbf{Armour} & \textbf{\Glsentrytext{dr}} & \textbf{\Glsentrytext{covering}} & \textbf{Weight} \\\hline
+
+  \showArmour{\partialleather} \\
+                                                                             
+  \showArmour{\partialchain} \\
+                                                                             
+  \showArmour{\completeleather} \\
+                                                                             
+  \end{boxtable}
+}
+
 
 \newcommand\exampleRandomCharacter{
   \renewcommand\csComments{
