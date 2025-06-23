@@ -35,5 +35,5 @@ Inside, players can find:
 
 [core]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/Core_Rules.pdf?job=build
 [stories]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/Stories.pdf?job=build
-[zine]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/minizine.pdf?job=build
+[zine]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/cyoa_pit.pdf?job=build
 [cs]: https://gitlab.com/bindrpg/config/-/jobs/artifacts/master/raw/character_sheets.pdf?job=build

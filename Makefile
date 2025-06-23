@@ -2,8 +2,8 @@ EXTERNAL_REFERENTS = core
 
 DEPS += $(wildcard *.tex)
 
-targets += minizine.pdf
-output += a7_minizine
+targets += cyoa_pit.pdf
+output += booklets
 
 include config/common.mk
 
@@ -41,8 +41,8 @@ zine_batch_four != seq 4 4 $(number_of_parts) | sort -R | tr '\n' ' '
 zine_part_nums = $(zine_batch_three) $(zine_batch_one) $(zine_batch_two) $(zine_batch_four)
 zine_part_names = $(patsubst %, cyoa/pt_%.tex, $(zine_part_nums))
 
-a7_minizine/main.tex: cyoa/head.tex $(zine_part_names) | a7_minizine/
+booklets/a7_cyoa_pit.tex: cyoa/head.tex $(zine_part_names) | booklets/
 	cat $^ > $@
 	printf '%s\n' '\end{document}' >> $@
 
-a7_minizine.pdf: ## Make a screen-readable minizine.
+a7_cyoa_pit.pdf: ## Make a screen-readable minizine.
