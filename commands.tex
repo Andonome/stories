@@ -1,17 +1,5 @@
 \makeindex[name=spells,title={Spell Summaries},columns=2]
 
-\newcommand\namesOfHumans{
-  \begin{boxtable}[c|YY]
-  \Hu & \textbf{Prefix} & \textbf{Suffix} \\\hline
-  \dicef{1} & \humanNamePrefix & --\humanNameSuffix \\
-  \dicef{2} & \humanNamePrefix & --\humanNameSuffix \\
-  \dicef{3} & \humanNamePrefix & --\humanNameSuffix \\
-  \dicef{4} & \humanNamePrefix & --\humanNameSuffix \\
-  \dicef{5} & \humanNamePrefix & --\humanNameSuffix \\
-  \dicef{6} & \humanNamePrefix & --\humanNameSuffix \\
-  \end{boxtable}
-}
-
 \newcommand\raceChart{
   \mapPic[\Large]{b}{Roch_Hercka/five_races}{
     {\Huge\Gn}/07/83,
@@ -39,6 +27,87 @@
     {$-1$ Intelligence}/82/08,
     {$-2$ Charisma}/82/00,
   }
+}
+
+\newcommand\namesforhumans{
+  \begin{boxtable}[c|YY]
+  \Hu & \textbf{Prefix} & \textbf{Suffix} \\\hline
+  \dicef{1} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{2} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{3} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{4} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{5} & \humanNamePrefix & --\humanNameSuffix \\
+  \dicef{6} & \humanNamePrefix & --\humanNameSuffix \\
+  \end{boxtable}
+}
+
+\newcommand\namesfordwarves{
+  \begin{boxtable}[l|>{\small}Y>{\small}Y>{\footnotesize}r]
+
+  \Dw & \textbf{\M} & \textbf{\F} & \textbf{Mother} \\\hline
+  \ifodd\value{r3}
+    \dicef{1}   & Bight         & Tor             & Spector     \\
+    \dicef{2}   & Dale          & Drumlin         & Llector     \\
+    \dicef{3}   & Ben           & Glen            & Jeweller    \\
+  \else
+    \dicef{1}   & Strand        & Bornhardt       & Binder      \\
+    \dicef{2}   & Thalweg       & Morgaine        & Chanter     \\
+    \dicef{3}   & Dell          & Maar            & Tographer   \\
+  \fi
+  \ifodd\value{r4}
+    \dicef{4}   & Turlough      & Hogback         & Carver      \\
+    \dicef{5}   & Graben        & Morgaine        & Chef        \\
+    \dicef{6}   & Riffle        & Scree           & Dener     \\
+  \else
+    \dicef{4}   & Foiba         & Mamelon         & Veyor       \\
+    \dicef{5}   & Horst         & Karst           & Brewer      \\
+    \dicef{6}   & Sandur        & Scarp           & Chitect   \\
+  \fi
+  \end{boxtable}
+}
+
+\newcommand\namesforelves{
+  \begin{boxtable}[l|l|YY]
+   \El & \textbf{\E\glsadd{E} Prefix} & \textbf{\F\glsadd{F} Suffix}   & \textbf{\M\glsadd{M} Suffix} \\\hline
+  \dicef{1} & Sind    & --\"e    & --on      \\
+  \dicef{2} & Atar    & --ink\"e & --inkon   \\
+  \dicef{3} & Ciry    & --inw\"e & --iel     \\
+  \dicef{4} & Tarin   & --\'ote  & --or      \\
+  \dicef{5} & Fin     & --uin    & --acil    \\
+  \ifodd\value{r3}
+    \dicef{6} & It\'ar    & --w\"e   & --il      \\
+  \else
+    \dicef{6} & Itar    & --il     & --ill\"e  \\
+  \fi
+  \end{boxtable}
+}
+
+\newcommand\namesforgnolls{
+  \begin{boxtable}[c|lY]
+  \Nl & \textbf{Prefix} & \textbf{Suffix} \\\hline
+  \dicef{1}  & Ksha & --dz  \\
+  \dicef{2}  & Ko   & --g   \\
+  \dicef{3}  & Sya  & --h   \\
+  \dicef{4}  & Tso  & --d   \\
+  \dicef{5}  & Yo   & --sh  \\
+  \dicef{6}  & Riye & --tse \\
+  \end{boxtable}
+}
+
+\newcommand\namesforgnomes{
+  \begin{boxtable}[rY|rY]
+    \Gn & \textbf{Syllable} & \Gn & \textbf{Syllable} \\
+    \hline
+    1  & ni    & 12 & yelo  \\
+    2  & lawa  & 15 & musi  \\
+    3  & noka  & 16 & ma    \\
+    4  & en    & 18 & leta  \\
+    5  & ante  & 20 & nanpa \\
+    6  & alasa & 24 & mute  \\
+    8  & yan   & 25 & wan   \\
+    9  & mu    & 30 & open  \\
+    10 & kala  & 36 & tu    \\
+  \end{boxtable}
 }
 
 \newcommand\raceAbilitiesChart{

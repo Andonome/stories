@@ -4,7 +4,11 @@ vpath a7_%.tex booklets
 
 DEPS += $(wildcard *.tex)
 
-targets += cyoa_pit.pdf
+base_files = $(wildcard races/*.tex)
+booklets = $(patsubst races/%.tex, booklets/a7_%.tex, $(base_files) )
+guides = $(patsubst races/%.tex, %.pdf, $(base_files) )
+
+targets += $(guides)
 output += booklets
 
 include config/common.mk
@@ -49,21 +53,18 @@ booklets/a7_cyoa_pit.tex: cyoa/head.tex $(zine_part_names) | booklets/
 
 a7_cyoa_pit.pdf: ## Make a screen-readable minizine.
 
-base_files = $(wildcard races/*.tex)
-booklets = $(patsubst races/%.tex, booklets/a7_%.tex, $(base_files) )
-
 booklets/%.tex: races/%.tex images/extracted/%.jpg | booklets/
 	printf '%s\n' '\documentclass[10pt,twoside]{book}' > $@
 	printf '%s\n' '\usepackage{config/bind}' >> $@
 	printf '%s\n' '\usepackage{config/booklet}' >> $@
 	printf '%s\n' '\externalReferent{core}' >> $@
+	printf '%s\n' '\input{commands.tex}' >> $@
 	printf '%s\n' '\begin{document}' >> $@
 	printf '%s\n' '\miniCover{\MakeUppercase $(basename $(@F))}{\begin{minipage}{.3\linewidth}\pic{extracted/$(basename $(@F))}\end{minipage}}%' >> $@
-	printf '%s\n' '\pagebreak\null\pagebreak' >> $@
+	printf '%s\n' '\pagebreak\namesfor$(basename $(@F))\pagebreak' >> $@
 	printf '%s\n' '\pagestyle{minizine}' >> $@
 	printf '%s\n' '\input{$<}' >> $@
 	printf '%s\n' '\end{document}' >> $@
-
 
 images/extracted/gnomes.jpg: images/Roch_Hercka/five_races.jpg | images/extracted/
 	magick $< -crop 460x1000+55+300 -bordercolor black -border 20x20 - > $@
@@ -80,5 +81,10 @@ images/extracted/elves.jpg: images/Roch_Hercka/five_races.jpg | images/extracted
 images/extracted/gnolls.jpg: images/Roch_Hercka/five_races.jpg | images/extracted/
 	magick $< -crop 640x1400+2230+90 -bordercolor black -border 20x20 - > $@
 
+
 $(booklets): booklets/a7_%.tex: booklets/%.tex
 	$(CP) $< $@
+
+.PHONY: guides
+guides: $(guides) ## Minizine guides to each race
+
