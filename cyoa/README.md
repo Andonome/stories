@@ -1,3 +1,5 @@
+# CYOA
+
 An experimental 'Choose your own adventure' mini-zine, designed to show people Fenestra, and the BIND system.
 
 Compiling starts with `cyoa/head.tex`, and the first part.
@@ -10,3 +12,7 @@ They're split into groups of three:
 
 Each group is then shuffled in order to minimize how often you see 'if X, go to part N' and then see part N printed on the same page fold.
 The problem will still occur, but it should occur less with this separate-and-shuffle approach.
+
+# Induction Booklet
+
+The `cyoa/temple_intro.tex` file is simply the introduction to Fenestra (`fenintro.tex`) wrapped in a booklet.

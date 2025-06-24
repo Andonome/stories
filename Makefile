@@ -7,6 +7,7 @@ DEPS += $(wildcard *.tex)
 base_files = $(wildcard races/*.tex)
 booklets = $(patsubst races/%.tex, booklets/a7_%.tex, $(base_files) )
 guides = $(patsubst races/%.tex, %.pdf, $(base_files) )
+guides += temple_intro.pdf
 
 targets += $(guides)
 output += booklets
@@ -82,6 +83,8 @@ images/extracted/elves.jpg: images/Roch_Hercka/five_races.jpg | images/extracted
 images/extracted/gnolls.jpg: images/Roch_Hercka/five_races.jpg | images/extracted/
 	magick $< -crop 640x1400+2230+90 -bordercolor black -border 20x20 - > $@
 
+booklets/a7_temple_intro.tex: cyoa/temple_intro.tex | booklets/
+	$(CP) $< $@
 
 $(booklets): booklets/a7_%.tex: booklets/%.tex
 	$(CP) $< $@
