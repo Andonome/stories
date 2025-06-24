@@ -9,4 +9,4 @@ They're split into groups of three:
 - Group 3: `3, 6, 9,...`
 
 Each group is then shuffled in order to minimize how often you see 'if X, go to part N' and then see part N printed on the same page fold.
-The problem will still occur, but it should occur with a separate-and-shuffle.
+The problem will still occur, but it should occur less with this separate-and-shuffle approach.
