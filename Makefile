@@ -10,6 +10,7 @@ guides = $(patsubst races/%.tex, %.pdf, $(base_files) )
 guides += temple_intro.pdf
 
 targets += $(guides)
+targets += cyoa_pit.pdf
 output += booklets
 
 include config/common.mk
