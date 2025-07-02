@@ -55,7 +55,7 @@ booklets/a7_cyoa_pit.tex: cyoa/head.tex $(zine_part_names) | booklets/
 
 a7_cyoa_pit.pdf: ## Make a screen-readable minizine.
 
-booklets/%.tex: races/%.tex images/extracted/%.jpg | booklets/
+booklets/%.tex: races/%.tex images/extracted/%.jpg commands.tex | booklets/
 	printf '%s\n' '\documentclass[10pt,twoside]{book}' > $@
 	printf '%s\n' '\usepackage{config/bind}' >> $@
 	printf '%s\n' '\usepackage{config/booklet}' >> $@
@@ -64,7 +64,7 @@ booklets/%.tex: races/%.tex images/extracted/%.jpg | booklets/
 	printf '%s\n' '\begin{document}' >> $@
 	printf '%s\n' '\miniCover{\Huge\MakeUppercase $(basename $(@F))}{\begin{minipage}{.3\linewidth}\pic{extracted/$(basename $(@F))}\end{minipage}}%' >> $@
 	printf '%s\n' '\par\namesfor$(basename $(@F))\pagebreak' >> $@
-	printf '%s\n' '\normalsize' >> $@
+	printf '%s\n' '\large' >> $@
 	printf '%s\n' '\pagestyle{minizine}' >> $@
 	printf '%s\n' '\input{$<}' >> $@
 	printf '%s\n' '\end{document}' >> $@
