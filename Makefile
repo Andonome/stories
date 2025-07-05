@@ -64,8 +64,8 @@ booklets/%.tex: races/%.tex images/extracted/%.jpg commands.tex | booklets/
 	printf '%s\n' '\begin{document}' >> $@
 	printf '%s\n' '\miniCover{\Huge\MakeUppercase $(basename $(@F))}{\begin{minipage}{.3\linewidth}\pic{extracted/$(basename $(@F))}\end{minipage}}%' >> $@
 	printf '%s\n' '\par\namesfor$(basename $(@F))\pagebreak' >> $@
-	printf '%s\n' '\large' >> $@
 	printf '%s\n' '\pagestyle{minizine}' >> $@
+	printf '%s\n' '\normalsize' >> $@
 	printf '%s\n' '\input{$<}' >> $@
 	printf '%s\n' '\end{document}' >> $@
 
