@@ -67,6 +67,7 @@ booklets/%.tex: races/%.tex images/extracted/%.jpg commands.tex | booklets/
 	printf '%s\n' '\pagestyle{minizine}' >> $@
 	printf '%s\n' '\normalsize' >> $@
 	printf '%s\n' '\input{$<}' >> $@
+	printf '%s\n' '\ifnum\thepage=13\pagebreak\null\fi' >> $@
 	printf '%s\n' '\end{document}' >> $@
 
 images/extracted/gnomes.jpg: images/Roch_Hercka/five_races.jpg | images/extracted/
