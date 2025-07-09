@@ -3,6 +3,7 @@ EXTERNAL_REFERENTS = core
 vpath a7_%.tex booklets
 
 DEPS += $(wildcard *.tex)
+DEPS += $(wildcard races/*.tex)
 
 base_files = $(wildcard races/*.tex)
 booklets = $(patsubst races/%.tex, booklets/a7_%.tex, $(base_files) )
