@@ -11,12 +11,30 @@
     \ast\tiny Incorrect choices mean death.%
   }
 
-\noindent
-Grab a pencil, a fistful of dice, and \pgls{pc}.
+\settoggle{allyCharacter}{true}
 
-Remove any equipment (because the \glspl{sunGuard} took it), then note the derived stats.
-You start with a number of \glspl{hp} equal to \roll{Strength}{6}.
-You have 5~\glspl{fp} plus your Charisma Bonus.
+\randomCYOAcharacter{}
+
+\noindent
+Grab a pencil, and a fistful of dice.
+Your \gls{pc} sits above.
+
+If the \gls{pc} takes Damage, mark off that many \glspl{fp}.
+If you run out of \glspl{fp}, mark off \glspl{hp}.
+When you run out of \glspl{hp}, the character dies.
+
+\begin{description}
+  \item[\Glspl{fp}]
+  \fpStat
+  \item[\Glspl{hp}]
+  \hpStat
+  \item[Cause of Death I:]
+  \bigLine
+  \item[Cause of Death II:]
+  \bigLine
+  \item[Cause of Death III:]
+  \bigLine
+\end{description}
 
 \pagebreak
 
