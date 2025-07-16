@@ -22,7 +22,7 @@ config/common.mk:
 config/rules.pdf: | config/common.mk
 	make -C $(@D) $(@F)
 
-config/character_sheets.pdf: config/rubbish/.count.tex | config/common.mk
+config/character_sheets.pdf: config/rules.pdf
 	make -C $(@D) $(@F)
 $(DBOOK): $(DEPS) qr.tex .switch-gls
 
