@@ -52,6 +52,7 @@ zine_part_names = $(patsubst %, cyoa/pt_%.tex, $(zine_part_nums))
 
 booklets/a7_cyoa_pit.tex: cyoa/head.tex $(zine_part_names) | booklets/
 	cat $^ > $@
+	printf '%s\n' '\ifnum\thepage=13\pagebreak\null\fi' >> $@
 	printf '%s\n' '\end{document}' >> $@
 
 a7_cyoa_pit.pdf: ## Make a screen-readable minizine.
