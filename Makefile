@@ -7,10 +7,10 @@ DEPS += $(wildcard races/*.tex)
 
 base_files = $(wildcard races/*.tex)
 booklets = $(patsubst races/%.tex, booklets/a7_%.tex, $(base_files) )
-guides = $(patsubst races/%.tex, %.pdf, $(base_files) )
-guides += temple_intro.pdf
+zines = $(patsubst races/%.tex, %.pdf, $(base_files) )
+zines += temple_intro.pdf
 
-targets += $(guides)
+targets += $(zines)
 targets += cyoa_pit.pdf
 output += booklets
 
@@ -94,5 +94,5 @@ $(booklets): booklets/a7_%.tex: booklets/%.tex
 	$(CP) $< $@
 
 .PHONY: guides
-guides: $(guides) ## Minizine guides to each race
+guides: $(zines) ## Minizine guides to each race
 
