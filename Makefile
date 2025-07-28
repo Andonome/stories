@@ -63,6 +63,7 @@ booklets/%.tex: races/%.tex images/extracted/%.jpg commands.tex | booklets/
 	printf '%s\n' '\usepackage{config/booklet}' >> $@
 	printf '%s\n' '\externalReferent{core}' >> $@
 	printf '%s\n' '\input{commands.tex}' >> $@
+	printf '%s\n' '\setcounter{bookLevel}{2}' >> $@
 	printf '%s\n' '\begin{document}' >> $@
 	printf '%s\n' '\miniCover{\Huge\MakeUppercase $(basename $(@F))}{\begin{minipage}{.3\linewidth}\pic{extracted/$(basename $(@F))}\end{minipage}}%' >> $@
 	printf '%s\n' '\par\namesfor$(basename $(@F))\pagebreak' >> $@
