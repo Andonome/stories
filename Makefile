@@ -9,6 +9,7 @@ base_files = $(wildcard races/*.tex)
 booklets = $(patsubst races/%.tex, booklets/a7_%.tex, $(base_files) )
 zines = $(patsubst races/%.tex, %.pdf, $(base_files) )
 zines += temple_intro.pdf
+zines += cyoa_pit.pdf
 
 targets += $(zines)
 targets += cyoa_pit.pdf
