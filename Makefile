@@ -58,21 +58,18 @@ booklets/a7_cyoa_pit.tex: cyoa/head.tex $(zine_part_names) | booklets/
 
 a7_cyoa_pit.pdf: ## Make a screen-readable minizine.
 
-booklets/%.tex: races/%.tex images/extracted/%.jpg commands.tex | booklets/
-	printf '%s\n' '\documentclass[10pt,twoside]{book}' > $@
-	printf '%s\n' '\usepackage{config/bind}' >> $@
-	printf '%s\n' '\usepackage{config/booklet}' >> $@
-	printf '%s\n' '\externalReferent{core}' >> $@
-	printf '%s\n' '\input{commands.tex}' >> $@
-	printf '%s\n' '\setcounter{bookLevel}{2}' >> $@
-	printf '%s\n' '\begin{document}' >> $@
-	printf '%s\n' '\miniCover{\Huge\MakeUppercase $(basename $(@F))}{\begin{minipage}{.3\linewidth}\pic{extracted/$(basename $(@F))}\end{minipage}}%' >> $@
-	printf '%s\n' '\par\namesfor$(basename $(@F))\pagebreak' >> $@
-	printf '%s\n' '\pagestyle{minizine}' >> $@
-	printf '%s\n' '\normalsize' >> $@
-	printf '%s\n' '\input{$<}' >> $@
-	printf '%s\n' '\ifnum\thepage=13\pagebreak\null\fi' >> $@
-	printf '%s\n' '\end{document}' >> $@
+booklets/%.tex: races/%.tex images/extracted/%.jpg commands.tex $(DBOOK) | booklets/
+	$(info Making $(notdir $<) )
+	$(file > $@, $(zineheader) )
+	@sed -i '/begin{document}/ i \\\setcounter{bookLevel}{2}' $@
+	@sed -i '/begin{document}/ i \\\input{commands.tex}' $@
+	@printf '%s\n' '\miniCover{\Huge\MakeUppercase $(basename $(@F))}{\begin{minipage}{.3\linewidth}\pic{extracted/$(basename $(@F))}\end{minipage}}%' >> $@
+	@printf '%s\n' '\par\namesfor$(basename $(@F))\pagebreak' >> $@
+	@printf '%s\n' '\pagestyle{minizine}' >> $@
+	@printf '%s\n' '\normalsize' >> $@
+	@printf '%s\n' '\input{$<}' >> $@
+	@printf '%s\n' '\ifnum\thepage=13\pagebreak\null\fi' >> $@
+	@printf '%s\n' '\end{document}' >> $@
 
 images/extracted/gnomes.jpg: images/Roch_Hercka/five_races.jpg | images/extracted/
 	magick $< -crop 460x1000+55+300 -bordercolor black -border 20x20 - > $@
