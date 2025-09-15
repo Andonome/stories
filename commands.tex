@@ -377,18 +377,18 @@
       \ifnum\value{enc}>5
         \addtocounter{enc}{-5}
       \fi
-      \draw[fill=\pageSideColor] (\x) -- (\arabic{enc});
+      \draw[fill=background] (\x) -- (\arabic{enc});
     }
 
     \foreach \x in {1,...,5} {
-      \draw[fill=\pageSideColor] (\x) circle(\sphereBack){};
+      \draw[fill=background] (\x) circle(\sphereBack){};
       \addtocounter{track}{72}
     }
 
     \addtocounter{track}{36}
     \foreach \x in {6,...,10} {
       \node (\x) at (\arabic{track}:.38\magicCircle) {};
-      \draw[fill=\pageSideColor] (\x) circle(\sphereBack){};
+      \draw[fill=background] (\x) circle(\sphereBack){};
       \addtocounter{track}{72}
     }
 
