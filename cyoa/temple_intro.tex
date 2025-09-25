@@ -1,12 +1,50 @@
 \documentclass[10pt,twoside]{book}
-
 \usepackage{config/bind}
 \usepackage{config/booklet}
 
 \begin{document}
 
-\miniCover{The \Glsfmttext{templeOfBeasts}}%
-  {}
+\miniCover{The \Glsfmttext{templeOfBeasts}}{
+  \par
+  \begin{tikzpicture}[black]
+      \coordinate (town) at (1.2,-3.2);
+      \foreach \x/\y in {-1.8/-2.2, -0.5/0.7, 1.4/-0.8}%
+        {%
+          \randomize
+          \set{track}{r4}
+          \addtocounter{track}{5}
+          \draw [dotted] (\x,\y) circle (1.6em) ;
+          \draw [dotted] (\x,\y) circle (2.4em) ;
+          \draw [dotted] (\x,\y) circle (3.2em) ;
+          \draw [dotted] (\x,\y) circle (4.0em) ;
+          %%%%%%%%%%%%%%%%%%
+          \coordinate (road1) at ($ (\x,\y)+(1.2, -0.2) $);
+          \ifodd\value{r2}
+            \coordinate (bothy1) at ($ (\x,\y) + (0.8\arabic{r4t5},0.\arabic{track}) $) ;
+          \else
+            \coordinate (bothy1) at ($ (\x,\y) + (0.\arabic{r4t6},-0.\arabic{r4t5}) $) ;
+          \fi
+          \coordinate (bothy2) at ($ (\x,\y)+(-0.\arabic{r4t6},0.\arabic{track}) $) ;
+          \draw [dashed] (bothy1) -- (road1) -- (town);
+          \draw [dashed] (\x,\y) -- (bothy2) -- (road1) ;
+          \draw [fill=white] (bothy1) circle (0.8em) ;
+          \draw [fill=background] (bothy1) circle (0.6em) node {\small\Hu} ;
+          \draw [fill=white] (bothy2) circle (0.7em) ;
+          \draw [fill=background] (bothy2) circle (0.5em) node {\footnotesize\Hu} ;
+          %%%%%%%%%%%%%%%%%%
+          \draw [dotted, fill=white] (\x,\y) circle (0.8em)  node { \glsentrysymbol{sylf} } ;
+        }
+        \foreach \x in {0.5, 0.9}%
+          {%
+            \draw [fill=white] ($ (town) + (\x,\x) + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.4em) node { . } ;
+            \randomize
+            \draw [fill=white] ($ (town) + (-\x,\x)  + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.3em) node { . } ;
+            \draw [fill=white] ($ (town) + (\x,-\x)  + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.4em) node { . } ;
+            \draw [fill=white] ($ (town) + (-\x,-\x)  + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.3em) node { . } ;
+          }
+        \draw [fill=background] (town) circle (1.3em) node {\large\glsentrysymbol{paik}} ;
+  \end{tikzpicture}
+}
 
 \noindent
 \null
