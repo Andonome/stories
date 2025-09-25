@@ -8,42 +8,58 @@
 \miniCover{\Pgls{templeOfBeasts}}{
   \par
   \begin{tikzpicture}[black]
-      \coordinate (town) at (1.2,-3.2);
-      \foreach \x/\y in {-1.8/-2.2, -0.5/0.7, 1.4/-0.8}%
-        {%
-          \randomize
-          \set{track}{r4}
-          \addtocounter{track}{5}
-          \draw [dotted] (\x,\y) circle (1.6em) ;
-          \draw [dotted] (\x,\y) circle (2.4em) ;
-          \draw [dotted] (\x,\y) circle (3.2em) ;
-          \draw [dotted] (\x,\y) circle (4.0em) ;
-          %%%%%%%%%%%%%%%%%%
-          \coordinate (road1) at ($ (\x,\y)+(1.2, -0.2) $);
-          \ifodd\value{r2}
-            \coordinate (bothy1) at ($ (\x,\y) + (0.8\arabic{r4t5},0.\arabic{track}) $) ;
-          \else
-            \coordinate (bothy1) at ($ (\x,\y) + (0.\arabic{r4t6},-0.\arabic{r4t5}) $) ;
-          \fi
-          \coordinate (bothy2) at ($ (\x,\y)+(-0.\arabic{r4t6},0.\arabic{track}) $) ;
-          \draw [dashed] (bothy1) -- (road1) -- (town);
-          \draw [dashed] (\x,\y) -- (bothy2) -- (road1) ;
-          \draw [fill=white] (bothy1) circle (0.8em) ;
-          \draw [fill=background] (bothy1) circle (0.6em) node {\small\Hu} ;
-          \draw [fill=white] (bothy2) circle (0.7em) ;
-          \draw [fill=background] (bothy2) circle (0.5em) node {\footnotesize\Hu} ;
-          %%%%%%%%%%%%%%%%%%
-          \draw [dotted, fill=white] (\x,\y) circle (0.8em)  node { \glsentrysymbol{sylf} } ;
-        }
+      %\draw [fill=lightgray] (-3,2.0) -- ++(6,0) -- ++(0,-6) -- ++(-6,0) -- cycle ;
+      \begin{scope}
+        \path[clip] (-3,2) rectangle (3,-4);
+        \coordinate (town) at (0.4,-2.0);
+        \coordinate (crossing) at (0,-1);
+        %\draw [step=0.2, thin, lightgray] (-3,2) grid (3,-4);
+        \draw [opacity=0, fill opacity=0.92, inner color=white, outer color=white] (town) circle(10em);
+
+        \foreach \x/\y in {-2.6/-2.2, -0.9/0.6, 1.4/0.7, 3.8/-1.9, -0.8/-4.8}%
+          {%
+            \randomize
+            \set{track}{r4}
+            \addtocounter{track}{5}
+            \draw [very thick, background, dotted] (\x,\y) circle (1.4em) ;
+            \draw [very thick, background, dotted] (\x,\y) circle (2.1em) ;
+            \draw [very thick, background, dotted] (\x,\y) circle (2.8em) ;
+            \draw [very thick, background, dotted] (\x,\y) circle (3.5em) ;
+            \draw [very thick, background, dotted] (\x,\y) circle (4.2em) ;
+            %%%%%%%%%%%%%%%%%%
+            \coordinate (road1) at ($ (\x,\y)+(1.2, -0.2) $);
+            \ifodd\value{r2}
+              \coordinate (bothy1) at ($ (\x,\y) + (0.8\arabic{r4t5},0.\arabic{track}) $) ;
+            \else
+              \coordinate (bothy1) at ($ (\x,\y) + (0.\arabic{r4t6},-0.\arabic{r4t5}) $) ;
+            \fi
+            \coordinate (bothy2) at ($ (\x,\y)+(-0.\arabic{r4t6},0.\arabic{track}) $) ;
+            \draw [gray, dashed] (bothy1) to[bend right] (road1) to[bend left] (town);
+            \draw [gray, dashed] (\x,\y) to[bend right] (bothy2) to[bend left] (road1) ;
+            \ifodd\value{r3}%
+              %\draw [gray, dashed] (bothy2) to[bend right] (crossing) ;
+            \else%
+              \coordinate (crossing) at ($ (bothy1) + (town) $);
+            \fi%
+            \draw [fill=foreground] (bothy1) circle (0.8em) ;
+            \draw [fill=background] (bothy1) circle (0.6em) node {\small\Hu} ;
+            \draw [fill=foreground] (bothy2) circle (0.7em) ;
+            \draw [fill=background] (bothy2) circle (0.5em) node {\footnotesize\Hu} ;
+            %%%%%%%%%%%%%%%%%%
+            \draw [fill=background] (\x,\y) circle (0.6em)  node { \glsentrysymbol{sylf} } ;
+          }
         \foreach \x in {0.5, 0.9}%
           {%
-            \draw [fill=white] ($ (town) + (\x,\x) + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.4em) node { . } ;
+            \draw [white, fill=background] ($ (town) + (\x,\x) + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.\arabic{r4}em) node { . } ;
             \randomize
-            \draw [fill=white] ($ (town) + (-\x,\x)  + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.3em) node { . } ;
-            \draw [fill=white] ($ (town) + (\x,-\x)  + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.4em) node { . } ;
-            \draw [fill=white] ($ (town) + (-\x,-\x)  + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.3em) node { . } ;
+            \draw [white, fill=background] ($ (town) + (-\x,\x)  + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.\arabic{r4}em) node { . } ;
+            \randomize
+            \draw [white, fill=background] ($ (town) + (\x,-\x)  + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.\arabic{r4}em) node { . } ;
+            \randomize
+            \draw [white, fill=background] ($ (town) + (-\x,-\x)  + (0.\arabic{r3},0.\arabic{r2}) $) circle (0.\arabic{r4}em) node { . } ;
           }
-        \draw [fill=background] (town) circle (1.3em) node {\large\glsentrysymbol{paik}} ;
+        \draw [background, fill=background] (town) circle (1.3em) node {\color{foreground}\large\glsentrysymbol{paik}} ;
+      \end{scope}
   \end{tikzpicture}
 }
 
@@ -54,13 +70,5 @@
 \pagestyle{minizine}
 
 \input{fenintro.tex}
-
-\pagebreak
-\null
-
-\ifnum\thepage<14
-  \pagebreak
-  \null
-\fi
 
 \end{document}
