@@ -25,7 +25,8 @@ config/rules.pdf: | config/common.mk
 
 config/character_sheets.pdf: config/rules.pdf
 	make -C $(@D) $(@F)
-$(DBOOK): $(DEPS) qr.tex .switch-gls
+
+$(DBOOK): $(DEPS) qr.tex $(DROSS)/$(BOOK)-switch-gls
 
 $(TITLE).pdf: $(DBOOK) config/rules.pdf config/character_sheets.pdf
 	pdfjam --pdftitle $(TITLE) --pdfsubject "BIND RPG" \
