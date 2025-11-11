@@ -10,10 +10,14 @@
 Every \gls{pc} has a Code --- a broad set of values which drive them.
 Each one has a checklist of objectives which the player \pgls{xp}, but they can only be claimed once per session.
 
-\subsection{Chronicler}
-\renewcommand\code{Chronicler}
-\label{chronicler}
-\index{Chronicler (Code)}
+\newcommand\codeHeader[1]{
+  \subsection{#1}
+  \renewcommand\code{#1}
+  \label{#1}
+  \index{#1s (Code)}
+}
+
+\codeHeader{Chronicler}
 
 Chroniclers want information -- to have knowledge that others don't, and to uncover all they can about the world.
 
@@ -25,10 +29,7 @@ any number of players can gain \pgls{xp} if they all help with the recap.
 \paragraph{Spending money on information}
 may involve bribary, buying maps or encryption equipment, or paying for a tutor to improve \pgls{skill}.
 
-\subsection{Conqueror}
-\renewcommand\code{Conqueror}
-\label{conqueror}
-\index{Conqueror (Code)}
+\codeHeader{Conqueror}
 
 \begin{speechtext}
   We go beyond the \gls{edge}, not to drink or talk, but for the unending war with the forest.
@@ -39,10 +40,7 @@ The conqueror hears the call to adventure, and focusses on the mission.
 
 \showCodeValues
 
-\subsection{Jester}
-\renewcommand\code{Jester}
-\label{jester}
-\index{Jester (Code)}
+\codeHeader{Jester}
 
 \begin{speechtext}
   Life should be lived.
@@ -54,10 +52,7 @@ Whether having a drinking competition, or feeding the poor, they like seeing per
 
 \showCodeValues
 
-\subsection{Noble}
-\renewcommand\code{Noble}
-\label{noble}
-\index{Noble (Code)}
+\codeHeader{Noble}
 
 \begin{speechtext}
   A job well done deserves a reward.
@@ -70,10 +65,7 @@ Lavish items include sweet food, jewel-encrusted weapons, silk robes, and top-qu
 
 \showCodeValues
 
-\subsection{Paladin}
-\renewcommand\code{Paladin}
-\label{paladin}
-\index{Paladin (Code)}
+\codeHeader{Paladin}
 
 The best of the \gls{guard} exist to uphold the law and make sure the local populace can trust that civilization always wins in the end.
 
@@ -95,10 +87,7 @@ Declaring combat actions in this way does not cost \pgls{ap} unless the player a
   Instead of `I hit the goblin with my axe', say `\textit{let us see how this little goblin likes the taste of axe!}'.
 \end{itemize}
 
-\subsection{Rebel}
-\renewcommand\code{Rebel}
-\label{rebel}
-\index{Rebel (Code)}
+\codeHeader{Rebel}
 
 Rebels see those in power as harmful --- perhaps intrinsically.
 They want to support the underdogs, and smash the hierarchy which keeps them down.
@@ -107,20 +96,14 @@ Playing a true rebel requires tact and cunning, as obvious attacks on any establ
 
 \showCodeValues
 
-\subsection{Tribalist}
-\renewcommand\code{Tribalist}
-\label{tribalist}
-\index{Tribalist (Code)}
+\codeHeader{Tribalist}
 
 The tribalist supports the group, honours the dead, and leaves no one behind.
 Exactly who counts as `in the tribe' depends upon the player's interpretation, but it will generally include any \glspl{pc} who have been involved in three or more sessions with them, and anyone the player decides to spend \glspl{storypoint} on (see \autopageref{stories}).
 
 \showCodeValues
 
-\subsection{Wanderer}
-\renewcommand\code{Wanderer}
-\label{wanderer}
-\index{Wanderer (Code)}
+\codeHeader{Wanderer}
 
 Some just want to see the world, and everything it has to offer.
 
