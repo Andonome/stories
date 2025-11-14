@@ -13,6 +13,7 @@ zines += cyoa_pit.pdf
 
 targets += $(zines)
 targets += cyoa_pit.pdf
+targets += $(TITLE)_cover.pdf
 output += booklets
 
 backpages = config/rules.pdf config/character_sheets.pdf
@@ -30,11 +31,7 @@ config/character_sheets.pdf: config/rules.pdf
 
 $(DBOOK): $(DEPS) qr.tex $(DROSS)/$(BOOK)-switch-gls
 
-images/extracted/cover.jpg: images/Roch_Hercka/illusion_trogdor.jpg images/extracted/inclusion.tex
-	$(CP) $< $@
-$(DROSS)/$(BOOK)_cover.pdf: config/share/cover.tex cover.tex images/extracted/cover.jpg $(DBOOK)
-	$(RUN) -jobname $(BOOK)_cover $<
-cover.pdf: $(DROSS)/$(BOOK)_cover.pdf
+images/extracted/cover.jpg: images/Roch_Hercka/illusion_trogdor.jpg | images/extracted/
 	$(CP) $< $@
 
 ##########
