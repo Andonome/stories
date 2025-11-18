@@ -1,5 +1,10 @@
 \makeindex[name=spells,title={Spell Summaries},columns=2]
 
+\newcommand{\story}[1]{%
+  \subsubsection[#1]{The #1}%
+  \index{#1s (Story)}%
+}
+
 \newcommand\raceChart{
   \mapPic[\Large]{b}{Roch_Hercka/five_races}{
     {\Huge\Gn}/07/83,
