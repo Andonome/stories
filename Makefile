@@ -10,9 +10,9 @@ booklets = $(patsubst races/%.tex, booklets/a7_%.tex, $(base_files) )
 zines = $(patsubst races/%.tex, %.pdf, $(base_files) )
 zines += temple_intro.pdf
 zines += cyoa_pit.pdf
+zines += backstory.pdf
 
 targets += $(zines)
-targets += cyoa_pit.pdf
 targets += $(TITLE)_cover.pdf
 output += booklets
 
@@ -51,6 +51,21 @@ booklets/a7_cyoa_pit.tex: cyoa/head.tex $(zine_part_names) | booklets/
 	printf '%s\n' '\end{document}' >> $@
 
 a7_cyoa_pit.pdf: ## Make a screen-readable minizine.
+
+booklets/a7_backstory.tex: tales.tex $(DBOOK) | booklets/
+	$(info Making $(notdir $@) )
+	$(file > $@, $(zineheader) )
+	@sed -i '/begin{document}/ i \\\input{commands.tex}' $@
+	@sed -i '/begin{document}/ i \\\setcounter{bookLevel}{3}' $@
+	@printf '%s\n' '\miniCover{\Huge Stories}{}%' >> $@
+	@printf '%s\n' '\sidepic{Roch_Hercka/xp-1}{}' >> $@
+	@sed '/chapter/d; /multicols/d; s/\\section/\\subsection/' $< >> $@
+	@sed -i 's/\\autopageref/\\textit{the Book of Stories}, \\autopageref/' $@
+	@sed -i '/{How to Tell Stories}/ i \\\pagebreak\\pagestyle{minizine}\\small' $@
+	@sed -i '/{Sample Stories}/ i \\\pagebreak' $@
+	@sed -i '/The following is a sugg/ i \\\sidepic{Roch_Hercka/xp-2}{}' $@
+	@printf '%s\n' '\ifnum\thepage=13\pagebreak\null\fi' >> $@
+	@printf '%s\n' '\end{document}' >> $@
 
 booklets/%.tex: races/%.tex images/extracted/%.jpg commands.tex $(DBOOK) | booklets/
 	$(info Making $(notdir $<) )
