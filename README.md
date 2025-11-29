@@ -37,3 +37,9 @@ Inside, players can find:
 [stories]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/Stories.pdf?job=build
 [cyoa_pit]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/cyoa_pit.pdf?job=build
 [cs]: https://gitlab.com/bindrpg/config/-/jobs/artifacts/master/raw/character_sheets.pdf?job=build
+[gnomes]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/gnomes.pdf?job=build
+[gnomes_a7]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/a7_gnomes.pdf?job=build
+[elves]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/elves.pdf?job=build
+[elves_a7]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/a7_elves.pdf?job=build
+[dwarves]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/dwarves.pdf?job=build
+[dwarves_a7]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/a7_dwarves.pdf?job=build
