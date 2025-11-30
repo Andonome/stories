@@ -8,6 +8,14 @@
 
 *The Book of Stories* contains all the procedures a player might need for the BIND tabletop RPG.
 
+# Introductions of Races
+
+||||
+|-|-|-|
+| Gnomes    | [Paper][gnomes]   | [Screen][gnomes_a7]  |
+| Elves     | [Paper][elves]    | [Screen][elves_a7]   |
+| Dwarves   | [Paper][dwarves]  | [Screen][dwarves_a7] |
+
 # Getting the Book
 
 Download the [pdf][stories] then take it to your local, friendly, print-shop.
