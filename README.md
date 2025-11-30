@@ -35,6 +35,8 @@ Inside, players can find:
 
 [core]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/Core_Rules.pdf?job=build
 [stories]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/Stories.pdf?job=build
+[backstory]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/backstory.pdf?job=build
+[backstory_a7]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/a7_backstory.pdf?job=build
 [cyoa_pit]: https://gitlab.com/bindrpg/stories/-/jobs/artifacts/master/raw/cyoa_pit.pdf?job=build
 [cs]: https://gitlab.com/bindrpg/config/-/jobs/artifacts/master/raw/character_sheets.pdf?job=build
 [gnomes]: https://gitlab.com/bindrpg/metabind/-/jobs/artifacts/master/raw/complete/gnomes.pdf?job=build
