@@ -329,15 +329,16 @@ As before, all questions will only receive a `yes/ no' answer.
 spells are hinted and murmured, but don't require the same flashy gestures as the others, so people often cannot tell when someone casts them.
 However, they also take a long time to reach fruition.
 
+\setcounter{track}{1}
+\setcounter{spellCost}{1}
 \sidebox[20]{
   \begin{boxtable}
     \textbf{Level} & \textbf{Time} \\
     \hline
-      2            &  \Pgls{interval} \\
-      3            &  A day      \\
-      4            &  A week      \\
-      5            &  \Pgls{cycle} \\
-      6            &  A decade     \\
+      1            &  instant \\
+      \Repeat{5}{\stepcounter{track}%
+      \stepcounter{spellCost}%
+      \arabic{track} & \showOnset \\ }
   \end{boxtable}
 }
 The higher the level, the longer the spell will take to reach full power.
