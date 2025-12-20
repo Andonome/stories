@@ -236,6 +236,9 @@ Earning those \glspl{xp} often becomes more difficult, so they fall down to 3~\g
   \ifnum\value{track}>30%
     \addtocounter{track}{-30}%
     \stepcounter{r12}%
+    \ifnum\value{r12}>12%
+      \setcounter{r12}{1}%
+    \fi%
   \fi%
   \trackMonth[r12]~\arabic{track}%
   \setCycle{\value{r12}}{\value{track}}%
