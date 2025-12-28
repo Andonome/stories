@@ -233,11 +233,21 @@ Earning those \glspl{xp} often becomes more difficult, so they fall down to 3~\g
 
 \newcommand\realMonth[1][7]{%
   \addtocounter{track}{#1}%
-  \ifnum\value{track}>30%
-    \addtocounter{track}{-30}%
-    \stepcounter{r12}%
-    \ifnum\value{r12}>12%
-      \setcounter{r12}{1}%
+  \ifnum\value{r12}=2%
+    \ifnum\value{track}>28%
+      \addtocounter{track}{-28}%
+      \stepcounter{r12}%
+      \ifnum\value{r12}>12%
+        \setcounter{r12}{1}%
+      \fi%
+    \fi%
+  \else%
+    \ifnum\value{track}>31%
+      \addtocounter{track}{-31}%
+      \stepcounter{r12}%
+      \ifnum\value{r12}>12%
+        \setcounter{r12}{1}%
+      \fi%
     \fi%
   \fi%
   \trackMonth[r12]~\arabic{track}%
