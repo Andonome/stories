@@ -160,13 +160,12 @@ This does not help with later rolls -- it determines that your character knows o
     The troupe want to know how the magical item works.
     You've failed the roll, but then remember you've seen this magical item in your mother's book collection.
     She had extensive shelves full of bizarre tomes, and all the leafing through those tomes finally paid off.
-    \item
-    It was unclear if the \gls{warden} was telling the truth, but you recognise the dyes on his tunic; they're only made by the \gls{weaversGuild}, which can only mean one thing\ldots
-    \iftoggle{intro}{
-      \item
+    \item\ifodd\thecycle%
+      It was unclear if the \gls{warden} was telling the truth, but you recognise the dyes on his tunic; they're only made by the \gls{weaversGuild}, which can only mean one thing\ldots
+    \else%
       The troupe have no idea where they are, but you suddenly remember your uncle's maps.
       They were always plastered all over the walls of the \gls{paperGuild}, and you used to imagine walking in those distant lands.
-    }{}
+    \fi%
   \end{itemize}
 \end{exampletext}
 
@@ -210,20 +209,20 @@ If you have already used the Second Language story (\vpageref{secondLanguage}), 
 
 \begin{exampletext}
   \begin{itemize}
-    \item
-    You have some serious dirt on \pgls{tender} in the \gls{templeOfPoison}.
-    They'll do you one massive favour, as long as they never have to see your face again.
-    \item
-    People consider family in the \gls{sunGuard} an embarrassment, but that changes when they need something.
-    Just make sure it's a small favour, and nobody will get in trouble.
-    \iftoggle{intro}{
-      \item
+    \item\ifodd\thecycle%
+      You have some serious dirt on \pgls{tender} in the \gls{templeOfPoison}.
+      They'll do you one massive favour, as long as they never have to see your face again.
+    \else%
+      People consider family in the \gls{sunGuard} an embarrassment, but that changes when they need something.
+      Just make sure it's a small favour, and nobody will get in trouble.
+    \fi
+    \item\ifodd\thecycle%
       You never could make it in the \gls{paperGuild}, but an old friend has risen to the rank of \gls{scrivener}.
       She can provide you with a free map of the local \gls{deep}, in return for exclusive access to any information about the place\ldots assuming you return.
-      \item
+    \else%
       Before you joined the \gls{guard}, your master at the \gls{armourHall} taught you everything you know (and you still know nothing).
       He might let you buy some leather armour for half price, as long as nobody's particular about the colour\ldots
-    }{}
+    \fi
     \item
     Your ability to spot someone's track in nothing but a bent blade of grass came from the year of living past the \gls{edge} with a group of gnolls.
     They come through here every few \glspl{cycle}, and might know how to find the \glspl{ingredient} the troupe needs.
