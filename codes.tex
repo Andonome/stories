@@ -140,7 +140,6 @@ Higher levels become increasingly expensive, so having a specialized character w
 \pgls{xp} is marked on the lower boxes (`I').
 Once you have five, empty the lower boxes, and mark another five slot (`V') as available.
 This middle row show the \glspl{xp} for spending.
-You can mark \glspl{xp} as available with~`\XPboxEarned', the spend with~`\XPboxSpent'.
 
 \begin{nametable}[rcccccccccc]{+7 \Glsfmtplural{xp}}
   X: \Repeat{5}{&\Diamondblack }
@@ -162,20 +161,21 @@ Every two mid-boxes can be replaced with one from the top row (`X'), representin
 Every ten \glspl{xp} means \pgls{fp}, because your \glspl{fp} equal $\frac{\glsentrytext{xp}}{10} + Charisma$.
 
 \begin{nametable}[rcccccccccc]{+14 \Glsfmtplural{xp}}
-  X: \Repeat{6}{&\Diamondblack }
+  X: \Repeat{5}{&\Diamondblack }
+  \Repeat{1}{&\XPboxSpent}%
   \Repeat{4}{&\glsentrysymbol{fp}}%
   \\
-  V: \Repeat{1}{&\XPboxSpent}%
-  \Repeat{0}{&\XPboxEarned}%
+  V: \Repeat{1}{&\XPboxEarned}%
   \Repeat{9}{&\XPboxEmpty}%
   \\
-  I: & \Repeat{1}{ & \CIRCLE &} \Repeat{3}{ & \Circle &} & \Circle
+  I: & \Repeat{4}{ & \CIRCLE &} \Circle
   \\
 \end{nametable}
 
 \begin{exampletext}
-  After gaining another 14~\glspl{xp}, the player spends 10~\glspl{xp} to buy the first level of Projectiles; two mid-row dots can be removed and one added to the top.
-  Using the last spare 5~\glspl{xp}, the player adds the first level in the Survival \gls{skill}.
+  After gaining 14~\glspl{xp} in total, the player spends 5~\glspl{xp} to buy the first level of Survival; a mid-row dot fills half of a `X', shown as `\XPboxSpent'.
+
+  Once five more are spent, this will become `\Diamondblack', representing a full 10~\glspl{xp} spent.
 \end{exampletext}
 
 \subsubsection{Racial Adjustments}
