@@ -24,10 +24,10 @@ config/common.mk:
 	@git submodule update --init
 
 config/rules.pdf: | config/common.mk
-	make -C $(@D) $(@F)
+	$(MAKE) -C $(@D) $(@F)
 
 config/character_sheets.pdf: config/rules.pdf
-	make -C $(@D) $(@F)
+	$(MAKE) -C $(@D) $(@F)
 
 $(DBOOK): $(DEPS) qr.tex $(DROSS)/$(BOOK)-switch-gls
 
