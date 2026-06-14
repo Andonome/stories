@@ -10,11 +10,11 @@
 
 # Introductions of Races
 
-||||
-|-|-|-|
-| Gnomes    | [Paper][gnomes]   | [Screen][gnomes_a7]  |
-| Elves     | [Paper][elves]    | [Screen][elves_a7]   |
-| Dwarves   | [Paper][dwarves]  | [Screen][dwarves_a7] |
+| Race    | Booklet                               |
+|---------|---------------------------------------|
+| Elves   | [Paper][elves], [Screen][elves_a7]    |
+| Dwarves | [Paper][dwarves] [Screen][dwarves_a7] |
+| Gnomes  | [Paper][gnomes], [Screen][gnomes_a7]  |
 
 # Getting the Book
 
