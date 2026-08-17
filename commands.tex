@@ -65,20 +65,25 @@
   \ifodd\value{r3}
     \dicef{1}   & Bight         & Tor             & Spector     \\
     \dicef{2}   & Dale          & Drumlin         & Llector     \\
-    \dicef{3}   & Ben           & Glen            & Jeweller    \\
+    \dicef{3}   & Glen          & Ben             & Jeweller    \\
   \else
     \dicef{1}   & Strand        & Bornhardt       & Binder      \\
     \dicef{2}   & Thalweg       & Morgaine        & Chanter     \\
     \dicef{3}   & Dell          & Maar            & Tographer   \\
   \fi
-  \ifodd\value{r4}
+  \ifcase\value{r0t3}
     \dicef{4}   & Turlough      & Hogback         & Carver      \\
+  \or
+    \dicef{4}   & Ravine        & Mamelon         & Veyor       \\
+  \else
+    \dicef{4}   & Niche         & Range           & Wordsmith      \\
+  \fi
+  \ifodd\value{r4}
     \dicef{5}   & Graben        & Morgaine        & Chef        \\
     \dicef{6}   & Riffle        & Scree           & Dener     \\
   \else
-    \dicef{4}   & Foiba         & Mamelon         & Veyor       \\
-    \dicef{5}   & Horst         & Karst           & Brewer      \\
-    \dicef{6}   & Sandur        & Scarp           & Chitect   \\
+    \dicef{5}   & Karst         & Horst           & Brewer      \\
+    \dicef{6}   & Scarp         & Glacis          & Chitect   \\
   \fi
   \end{boxtable}
 }
