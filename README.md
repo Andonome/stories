@@ -36,7 +36,7 @@ Inside, players can find:
 - Gaining and spending XP.
 - Details on each race's cultural norms.
 
-[compiling]: https://gitlab.com/bindrpg/core/-/wikis/dev/Compiling
+[compiling]: https://gitlab.com/bindrpg/core/-/wikis/Development/Compiling
 [issues email]: mailto:contact-project+bindrpg-stories-47773063-issue-@incoming.gitlab.com
 [board]: https://gitlab.com/bindrpg/stories/-/issues
 [wiki]: https://gitlab.com/bindrpg/core/-/wikis/home
